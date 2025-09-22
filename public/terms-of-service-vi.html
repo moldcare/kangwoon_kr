@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Điều khoản Dịch vụ - KINFRI | Chuyên gia Giải pháp AI Sản xuất</title>
+    <meta name="description" content="Điều khoản Dịch vụ KINFRI - AI Agent, RAG, sLLM và các giải pháp AI chuyên nghiệp cho ngành sản xuất và doanh nghiệp vừa và nhỏ">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+KR:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon-apple.png">
+    
+    <style>
+        .legal-document {
+            background-color: var(--bg-primary);
+            padding: var(--space-20) 0;
+            min-height: calc(100vh - 80px);
+        }
+        
+        .legal-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 var(--space-6);
+        }
+        
+        .legal-header {
+            text-align: center;
+            margin-bottom: var(--space-12);
+            padding-bottom: var(--space-8);
+            border-bottom: 2px solid var(--neutral-200);
+        }
+        
+        .legal-title {
+            font-family: var(--font-heading);
+            font-size: var(--text-4xl);
+            font-weight: var(--weight-bold);
+            color: var(--text-primary);
+            margin-bottom: var(--space-4);
+        }
+        
+        .legal-updated {
+            color: var(--text-secondary);
+            font-size: var(--text-base);
+        }
+        
+        .legal-content {
+            line-height: 1.7;
+            color: var(--text-primary);
+        }
+        
+        .legal-section {
+            margin-bottom: var(--space-10);
+        }
+        
+        .legal-section h2 {
+            font-family: var(--font-heading);
+            font-size: var(--text-2xl);
+            font-weight: var(--weight-semibold);
+            color: var(--primary-blue);
+            margin-bottom: var(--space-6);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--neutral-200);
+        }
+        
+        .legal-section h3 {
+            font-size: var(--text-xl);
+            font-weight: var(--weight-medium);
+            color: var(--text-primary);
+            margin: var(--space-6) 0 var(--space-4) 0;
+        }
+        
+        .legal-section p {
+            margin-bottom: var(--space-4);
+            font-size: var(--text-base);
+        }
+        
+        .legal-section ul, .legal-section ol {
+            margin: var(--space-4) 0;
+            padding-left: var(--space-6);
+        }
+        
+        .legal-section li {
+            margin-bottom: var(--space-2);
+            font-size: var(--text-base);
+        }
+        
+        .legal-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: var(--space-6) 0;
+            background-color: var(--bg-primary);
+            border: 1px solid var(--neutral-200);
+        }
+        
+        .legal-table th,
+        .legal-table td {
+            padding: var(--space-4);
+            text-align: left;
+            border-bottom: 1px solid var(--neutral-200);
+            font-size: var(--text-sm);
+        }
+        
+        .legal-table th {
+            background-color: var(--bg-tertiary);
+            font-weight: var(--weight-semibold);
+            color: var(--text-primary);
+        }
+        
+        .contact-info {
+            background-color: var(--bg-secondary);
+            padding: var(--space-6);
+            border-radius: var(--radius-lg);
+            border-left: 4px solid var(--primary-blue);
+            margin: var(--space-6) 0;
+        }
+        
+        .contact-item {
+            font-size: var(--text-base);
+            line-height: 1.6;
+        }
+        
+        .contact-item a {
+            color: var(--primary-blue);
+            text-decoration: none;
+        }
+        
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+        
+        .back-to-home {
+            text-align: center;
+            margin-top: var(--space-12);
+            padding-top: var(--space-8);
+            border-top: 1px solid var(--neutral-200);
+        }
+        
+        .back-to-home .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            text-decoration: none;
+        }
+        
+        @media (max-width: 768px) {
+            .legal-container {
+                padding: 0 var(--space-4);
+            }
+            
+            .legal-title {
+                font-size: var(--text-3xl);
+            }
+            
+            .legal-section h2 {
+                font-size: var(--text-xl);
+            }
+            
+            .legal-table {
+                font-size: var(--text-xs);
+            }
+            
+            .legal-table th,
+            .legal-table td {
+                padding: var(--space-2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="/" class="brand-link">
+                        <img src="/images/logo.png" alt="KINFRI Logo" class="brand-logo">
+                    </a>
+                </div>
+                
+                <div class="navbar-content">
+                    <div class="navbar-menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="/" class="nav-link">Trang chủ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/#about" class="nav-link">Giới thiệu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/#solutions" class="nav-link">Giải pháp</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/#contact" class="nav-link">Liên hệ</a>
+                            </li>
+                        </ul>
+                        
+                        <div class="navbar-actions">
+                            <select class="language-select" id="languageSelect">
+                                <option value="ko">한국어</option>
+                                <option value="en">English</option>
+                                <option value="zh">中文</option>
+                                <option value="vi" selected>Tiếng Việt</option>
+                                <option value="ja">日本語</option>
+                                <option value="th">ไทย</option>
+                                <option value="id">Bahasa Indonesia</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="legal-document">
+            <div class="legal-container">
+                <a href="/" class="back-link">Quay về trang chủ</a>
+                
+                <div class="legal-header">
+                    <h1 class="legal-title">Điều khoản Dịch vụ</h1>
+                    <p class="legal-updated">Cập nhật lần cuối: Tháng 9, 2025</p>
+                </div>
+
+            <!-- Terms of Service Content -->
+            <div class="legal-content">
+                
+                <!-- Introduction -->
+                <div class="legal-section">
+                    <h2>1. Giới thiệu</h2>
+                    <p>Chào mừng bạn đến với KINFRI! Các Điều khoản Dịch vụ này ("Điều khoản") quy định việc sử dụng website <strong>kinfri.online</strong> và các dịch vụ AI của chúng tôi ("Dịch vụ") được cung cấp bởi KINFRI ("chúng tôi", "công ty chúng tôi", hoặc "của chúng tôi").</p>
+                    <p>Bằng cách truy cập hoặc sử dụng Dịch vụ của chúng tôi, bạn đồng ý bị ràng buộc bởi các Điều khoản này. Nếu bạn không đồng ý với bất kỳ phần nào của các điều khoản này, vui lòng không sử dụng Dịch vụ của chúng tôi.</p>
+                    <p>Các Điều khoản này tuân thủ <strong>Luật dân sự Việt Nam</strong> và các quy định pháp luật hiện hành tại Việt Nam.</p>
+                </div>
+
+                <!-- Definitions -->
+                <div class="legal-section">
+                    <h2>2. Định nghĩa</h2>
+                    <p>Trong các Điều khoản này, các thuật ngữ sau có ý nghĩa như được định nghĩa dưới đây:</p>
+                    <ul>
+                        <li><strong>"KINFRI"</strong> có nghĩa là công ty chúng tôi và các chi nhánh, công ty con của chúng tôi</li>
+                        <li><strong>"Dịch vụ"</strong> có nghĩa là tất cả các sản phẩm, dịch vụ AI và website được cung cấp bởi KINFRI</li>
+                        <li><strong>"Người dùng"</strong> hoặc <strong>"bạn"</strong> có nghĩa là cá nhân hoặc tổ chức sử dụng Dịch vụ của chúng tôi</li>
+                        <li><strong>"Nội dung"</strong> có nghĩa là văn bản, hình ảnh, video, âm thanh và các tài liệu khác</li>
+                        <li><strong>"Dữ liệu khách hàng"</strong> có nghĩa là dữ liệu được cung cấp bởi bạn để sử dụng với Dịch vụ</li>
+                    </ul>
+                </div>
+
+                <!-- Services Description -->
+                <div class="legal-section">
+                    <h2>3. Mô tả dịch vụ</h2>
+                    <p>KINFRI cung cấp các giải pháp AI chuyên nghiệp cho ngành sản xuất và doanh nghiệp vừa và nhỏ, bao gồm:</p>
+                    <ul>
+                        <li><strong>AI Agent:</strong> Giải pháp tự động hóa quy trình kinh doanh thông minh</li>
+                        <li><strong>RAG Application:</strong> Ứng dụng tìm kiếm và sinh văn bản tăng cường</li>
+                        <li><strong>Private sLLM:</strong> Mô hình ngôn ngữ lớn nhỏ gọn riêng tư</li>
+                        <li><strong>No-code Chatbot:</strong> Công cụ xây dựng chatbot không cần lập trình</li>
+                        <li><strong>STT/TTS:</strong> Công nghệ nhận dạng và tổng hợp giọng nói</li>
+                    </ul>
+                    <p>Chúng tôi có quyền sửa đổi, tạm dừng hoặc ngừng cung cấp bất kỳ phần nào của Dịch vụ mà không cần thông báo trước.</p>
+                </div>
+                <!-- User Obligations -->
+                <div class="legal-section">
+                    <h2>4. Nghĩa vụ của người dùng</h2>
+                    <p>Khi sử dụng Dịch vụ của chúng tôi, bạn đồng ý:</p>
+                    <ul>
+                        <li><strong>Sử dụng hợp pháp:</strong> Chỉ sử dụng Dịch vụ cho các mục đích hợp pháp và theo các điều khoản này</li>
+                        <li><strong>Thông tin chính xác:</strong> Cung cấp thông tin chính xác, đầy đủ và cập nhật</li>
+                        <li><strong>Bảo mật tài khoản:</strong> Bảo vệ thông tin đăng nhập và chịu trách nhiệm về mọi hoạt động trong tài khoản</li>
+                        <li><strong>Tuân thủ pháp luật:</strong> Tuân thủ tất cả các luật và quy định hiện hành</li>
+                        <li><strong>Không lạm dụng:</strong> Không sử dụng Dịch vụ để spam, phishing hoặc các hoạt động có hại khác</li>
+                    </ul>
+                    
+                    <h3>4.1 Hành vi bị cấm</h3>
+                    <p>Bạn cam kết không:</p>
+                    <ul>
+                        <li>Vi phạm quyền sở hữu trí tuệ của bất kỳ bên nào</li>
+                        <li>Tải lên hoặc truyền tải virus, malware hoặc mã độc hại</li>
+                        <li>Cố gắng truy cập trái phép vào hệ thống của chúng tôi</li>
+                        <li>Sử dụng Dịch vụ để tạo ra nội dung bất hợp pháp hoặc có hại</li>
+                        <li>Can thiệp vào hoạt động bình thường của Dịch vụ</li>
+                    </ul>
+                </div>
+
+                <!-- Intellectual Property -->
+                <div class="legal-section">
+                    <h2>5. Quyền sở hữu trí tuệ</h2>
+                    <p>Dịch vụ và tất cả nội dung, tính năng và chức năng liên quan (bao gồm nhưng không giới hạn ở thông tin, phần mềm, văn bản, hiển thị, hình ảnh, video và âm thanh, cũng như thiết kế, lựa chọn và sắp xếp của chúng) được sở hữu bởi KINFRI, các bên cấp phép hoặc các nhà cung cấp nội dung khác và được bảo vệ bởi luật bản quyền, nhãn hiệu thương mại, bằng sáng chế, bí mật thương mại và các luật sở hữu trí tuệ khác.</p>
+                    
+                    <h3>5.1 Giấy phép sử dụng</h3>
+                    <p>Chúng tôi cấp cho bạn giấy phép hạn chế, không độc quyền, không thể chuyển nhượng và có thể thu hồi để sử dụng Dịch vụ theo các điều khoản này.</p>
+                    
+                    <h3>5.2 Dữ liệu khách hàng</h3>
+                    <p>Bạn giữ quyền sở hữu đối với Dữ liệu khách hàng của mình. Bằng cách sử dụng Dịch vụ, bạn cấp cho chúng tôi giấy phép để xử lý Dữ liệu khách hàng nhằm cung cấp Dịch vụ cho bạn.</p>
+                </div>
+
+                <!-- Privacy and Data -->
+                <div class="legal-section">
+                    <h2>6. Quyền riêng tư và dữ liệu</h2>
+                    <p>Việc thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn được quy định trong <a href="/privacy-policy-vi.html">Chính sách Bảo mật</a> của chúng tôi, được coi là một phần của các Điều khoản này.</p>
+                    
+                    <h3>6.1 Bảo mật dữ liệu</h3>
+                    <p>Chúng tôi áp dụng các biện pháp bảo mật kỹ thuật và tổ chức phù hợp để bảo vệ dữ liệu của bạn. Tuy nhiên, không có phương thức truyền tải qua Internet hoặc phương pháp lưu trữ điện tử nào là 100% an toàn.</p>
+                    
+                    <h3>6.2 Dữ liệu AI</h3>
+                    <p>Đối với các dịch vụ AI, chúng tôi có thể sử dụng dữ liệu được ẩn danh để cải thiện mô hình và dịch vụ, nhưng sẽ không tiết lộ thông tin có thể nhận dạng cá nhân của bạn.</p>
+                </div>
+
+                <!-- Payment and Billing -->
+                <div class="legal-section">
+                    <h2>7. Thanh toán và tính phí</h2>
+                    <p>Một số Dịch vụ của chúng tôi có thể yêu cầu thanh toán. Các điều khoản thanh toán cụ thể sẽ được thỏa thuận riêng trong hợp đồng dịch vụ.</p>
+                    
+                    <h3>7.1 Phí dịch vụ</h3>
+                    <p>Phí dịch vụ sẽ được thông báo rõ ràng trước khi bạn đồng ý sử dụng. Chúng tôi có quyền thay đổi phí dịch vụ với thông báo trước ít nhất 30 ngày.</p>
+                    
+                    <h3>7.2 Chính sách hoàn tiền</h3>
+                    <p>Chính sách hoàn tiền sẽ được quy định cụ thể trong hợp đồng dịch vụ hoặc thỏa thuận riêng với từng khách hàng.</p>
+                </div>
+
+                <!-- Limitation of Liability -->
+                <div class="legal-section">
+                    <h2>8. Giới hạn trách nhiệm</h2>
+                    <p>Trong phạm vi tối đa được pháp luật cho phép:</p>
+                    <ul>
+                        <li>KINFRI không chịu trách nhiệm về các thiệt hại gián tiếp, ngẫu nhiên, đặc biệt hoặc hậu quả</li>
+                        <li>Tổng trách nhiệm của chúng tôi đối với bất kỳ khiếu nại nào sẽ không vượt quá số tiền bạn đã trả cho Dịch vụ trong 12 tháng trước đó</li>
+                        <li>Chúng tôi không đảm bảo Dịch vụ sẽ không bị gián đoạn hoặc không có lỗi</li>
+                    </ul>
+                    
+                    <h3>8.1 Tuyên bố miễn trách</h3>
+                    <p>Dịch vụ được cung cấp "như hiện tại" và "như có sẵn" mà không có bất kỳ bảo đảm nào, dù rõ ràng hay ngụ ý.</p>
+                </div>
+
+                <!-- Indemnification -->
+                <div class="legal-section">
+                    <h2>9. Bồi thường</h2>
+                    <p>Bạn đồng ý bảo vệ, bồi thường và giữ cho KINFRI, các giám đốc, nhân viên, đại lý và đối tác của chúng tôi được miễn trừ khỏi bất kỳ khiếu nại, thiệt hại, nghĩa vụ, tổn thất, trách nhiệm, chi phí hoặc nợ, và phí (bao gồm nhưng không giới hạn phí luật sư) phát sinh từ:</p>
+                    <ul>
+                        <li>Việc sử dụng và truy cập Dịch vụ của bạn</li>
+                        <li>Vi phạm các Điều khoản này</li>
+                        <li>Vi phạm quyền của bên thứ ba, bao gồm cả quyền sở hữu trí tuệ</li>
+                        <li>Bất kỳ nội dung nào do bạn cung cấp</li>
+                    </ul>
+                </div>
+
+                <!-- Service Availability -->
+                <div class="legal-section">
+                    <h2>10. Tính khả dụng của dịch vụ</h2>
+                    <p>Chúng tôi nỗ lực duy trì Dịch vụ khả dụng 24/7, nhưng có thể có những thời điểm gián đoạn do:</p>
+                    <ul>
+                        <li>Bảo trì định kỳ hoặc khẩn cấp</li>
+                        <li>Sự cố kỹ thuật không lường trước</li>
+                        <li>Các yếu tố bên ngoài ngoài tầm kiểm soát</li>
+                    </ul>
+                    <p>Chúng tôi sẽ cố gắng thông báo trước về việc bảo trì có kế hoạch khi có thể.</p>
+                </div>
+
+                <!-- Termination -->
+                <div class="legal-section">
+                    <h2>11. Chấm dứt</h2>
+                    <p>Các Điều khoản này có hiệu lực cho đến khi bị chấm dứt bởi bạn hoặc KINFRI.</p>
+                    
+                    <h3>11.1 Chấm dứt bởi người dùng</h3>
+                    <p>Bạn có thể chấm dứt việc sử dụng Dịch vụ bất cứ lúc nào bằng cách:</p>
+                    <ul>
+                        <li>Ngừng sử dụng Dịch vụ</li>
+                        <li>Thông báo cho chúng tôi về quyết định chấm dứt</li>
+                        <li>Xóa tài khoản của bạn (nếu có)</li>
+                    </ul>
+                    
+                    <h3>11.2 Chấm dứt bởi KINFRI</h3>
+                    <p>Chúng tôi có thể chấm dứt hoặc tạm dừng quyền truy cập của bạn vào Dịch vụ ngay lập tức, mà không cần thông báo trước, nếu bạn:</p>
+                    <ul>
+                        <li>Vi phạm các Điều khoản này</li>
+                        <li>Tham gia vào hoạt động gian lận hoặc bất hợp pháp</li>
+                        <li>Gây thiệt hại đến danh tiếng hoặc quyền lợi của chúng tôi</li>
+                    </ul>
+                </div>
+
+                <!-- Changes to Terms -->
+                <div class="legal-section">
+                    <h2>12. Thay đổi điều khoản</h2>
+                    <p>Chúng tôi có quyền sửa đổi các Điều khoản này bất cứ lúc nào. Khi có thay đổi quan trọng, chúng tôi sẽ:</p>
+                    <ul>
+                        <li>Thông báo cho bạn qua email (nếu có)</li>
+                        <li>Đăng thông báo nổi bật trên website</li>
+                        <li>Cung cấp thời gian hợp lý để bạn xem xét các thay đổi</li>
+                    </ul>
+                    <p>Việc tiếp tục sử dụng Dịch vụ sau khi thay đổi có hiệu lực được coi là sự chấp nhận các điều khoản mới.</p>
+                </div>
+
+                <!-- Dispute Resolution -->
+                <div class="legal-section">
+                    <h2>13. Giải quyết tranh chấp</h2>
+                    <p>Chúng tôi khuyến khích giải quyết tranh chấp thông qua thương lượng trực tiếp. Nếu không thể giải quyết được:</p>
+                    
+                    <h3>13.1 Hòa giải</h3>
+                    <p>Các bên sẽ cố gắng giải quyết tranh chấp thông qua hòa giải tại Việt Nam theo quy định của pháp luật Việt Nam.</p>
+                    
+                    <h3>13.2 Tố tụng</h3>
+                    <p>Nếu hòa giải không thành công, tranh chấp sẽ được giải quyết bởi Tòa án có thẩm quyền tại Việt Nam.</p>
+                </div>
+
+                <!-- Governing Law -->
+                <div class="legal-section">
+                    <h2>14. Luật áp dụng</h2>
+                    <p>Các Điều khoản này được điều chỉnh và giải thích theo pháp luật Việt Nam, bao gồm:</p>
+                    <ul>
+                        <li><strong>Bộ luật Dân sự</strong> số 91/2015/QH13</li>
+                        <li><strong>Luật Thương mại</strong> số 36/2005/QH11</li>
+                        <li><strong>Luật An ninh mạng</strong> số 24/2018/QH14</li>
+                        <li><strong>Các quy định pháp luật</strong> khác có liên quan</li>
+                    </ul>
+                </div>
+
+                <!-- Force Majeure -->
+                <div class="legal-section">
+                    <h2>15. Bất khả kháng</h2>
+                    <p>KINFRI sẽ không chịu trách nhiệm về việc chậm trễ hoặc không thực hiện được nghĩa vụ do các sự kiện bất khả kháng, bao gồm:</p>
+                    <ul>
+                        <li>Thiên tai, dịch bệnh, chiến tranh</li>
+                        <li>Hành động của chính phủ hoặc cơ quan có thẩm quyền</li>
+                        <li>Sự cố mạng Internet hoặc hạ tầng viễn thông</li>
+                        <li>Các sự kiện khác ngoài tầm kiểm soát hợp lý</li>
+                    </ul>
+                </div>
+
+                <!-- Severability -->
+                <div class="legal-section">
+                    <h2>16. Tính độc lập của các điều khoản</h2>
+                    <p>Nếu bất kỳ điều khoản nào trong các Điều khoản này được coi là không hợp lệ hoặc không thể thực thi, điều khoản đó sẽ được tách ra và các điều khoản còn lại sẽ vẫn có hiệu lực đầy đủ.</p>
+                </div>
+
+                <!-- Entire Agreement -->
+                <div class="legal-section">
+                    <h2>17. Toàn bộ thỏa thuận</h2>
+                    <p>Các Điều khoản này, cùng với Chính sách Bảo mật và bất kỳ thỏa thuận bổ sung nào, tạo thành toàn bộ thỏa thuận giữa bạn và KINFRI về việc sử dụng Dịch vụ.</p>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="legal-section">
+                    <h2>18. Thông tin liên hệ</h2>
+                    <p>Nếu bạn có bất kỳ câu hỏi hoặc thắc mắc nào về các Điều khoản này, vui lòng liên hệ với chúng tôi:</p>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <strong>KINFRI</strong><br>
+                            Người đại diện: CHOI HYUN WOO (최현우)<br>
+                            Email: <a href="mailto:thinkcare@naver.com">thinkcare@naver.com</a><br>
+                            Điện thoại: <a href="tel:+82-10-4063-9062">+82-10-4063-9062</a><br>
+                            Địa chỉ: 905, 20, Teheran-ro 25-gil, Gangnam-gu, Seoul, Republic of Korea
+                        </div>
+                    </div>
+                    
+                    <p>Chúng tôi sẽ phản hồi yêu cầu của bạn trong thời gian sớm nhất có thể.</p>
+                </div>
+
+            </div>
+
+            <!-- Back to Home -->
+            <div class="back-to-home">
+                <a href="/" class="btn btn-primary">
+                    ← Trở về trang chủ
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

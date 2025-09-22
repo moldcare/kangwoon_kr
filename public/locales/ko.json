@@ -1,0 +1,1110 @@
+{
+  "nav": {
+    "home": "홈",
+    "solutions": "솔루션",
+    "about": "회사 소개",
+    "cases": "성공 사례",
+    "simulation": "🎬 AI 시뮬레이션",
+    "contact": "문의",
+    "backHome": "메인 페이지로",
+    "freeConsult": "무료 상담 신청"
+  },
+  "buttons": {
+    "ctaConsult": "무료 AI 상담 받기",
+    "viewSolutions": "솔루션 살펴보기"
+  },
+  "hero": {
+    "title": "중소/중견기업의 <br><span class=\"highlight\">AI 전환</span>을<br>이끄는 맞춤 파트너",
+    "description": "KANGWOON은 RAG 기반 애플리케이션, Private sLLM 모델, AI Agent 자동화를 통해 생산성 향상과 비용 절감을 동시에 실현하는 맞춤형 AI 솔루션을 제공합니다.",
+    "statAccuracy": "음성인식 정확도",
+    "statCostReduction": "업무 효율 향상",
+    "statResponseTime": "무인 운영 시스템",
+    "cards": {
+      "aiAgent": "AI 에이전트",
+      "ragSearch": "RAG 검색",
+      "privateSllm": "프라이빗 sLLM"
+    },
+    "imageAlt": "KANGWOON AI 전환 플랫폼 개요 - RAG, sLLM, AI Agent"
+  },
+  "solutions": {
+    "title": "AI 혁신 솔루션",
+    "description": "제조 및 중소기업의 디지털 전환을 가속화하는 맞춤형 AI 솔루션",
+    "aeoQuickAnswers": {
+      "manufacturing": {
+        "question": "제조업에 가장 효과적인 AI 솔루션은?",
+        "answer": "<strong>RAG 기반 품질관리 시스템</strong>이 불량률 10% 감소와 검사시간 20% 단축 효과를 제공합니다."
+      },
+      "cost": {
+        "question": "중소기업 AI 도입 비용은?",
+        "answer": "<strong>노코드 챗봇 빌더</strong>로 개발비용 70% 절감하며, 월 17,000건 문의 자동처리가 가능합니다."
+      },
+      "security": {
+        "question": "AI 데이터 보안은 안전한가?",
+        "answer": "<strong>온프레미스 sLLM</strong>으로 100% 데이터 주권 보장하며, 외부 유출 위험이 전혀 없습니다."
+      }
+    },
+    "aiAgent": {
+      "title": "AI Agent 비즈니스 자동화",
+      "description": "생산 관리, 재고 최적화, 설비 모니터링을 자율적으로 수행하여 24/7 무인 운영 시스템을 구축합니다.",
+      "features": {
+        "autonomous": "자율적 태스크 설계 및 실행",
+        "realtime": "실시간 생산 공정 관리",
+        "predictive": "예측적 설비 유지보수"
+      },
+      "benefits": {
+        "costReduction": "운영비 절감",
+        "productivity": "생산성 향상"
+      }
+    },
+    "ragSolution": {
+      "title": "RAG 기반 맞춤형 애플리케이션",
+      "description": "기업 내부 매뉴얼과 문서를 활용하여 정확하고 신뢰도 높은 정보 검색 및 답변 시스템을 구축합니다.",
+      "features": {
+        "hallucination": "할루시네이션 현상 제어",
+        "knowledge": "사내 지식 관리 시스템",
+        "optimization": "실시간 문서 검색 최적화"
+      },
+      "benefits": {
+        "decision": "정확한 의사결정",
+        "efficiency": "업무 효율성"
+      }
+    },
+    "sllmSolution": {
+      "title": "Private Data 기반 sLLM 모델",
+      "description": "민감한 기업 데이터를 보호하면서 온프레미스 환경에서 맞춤형 소형 언어모델을 구축합니다.",
+      "features": {
+        "security": "데이터 유출 걱정 없는 보안",
+        "specialized": "도메인 특화 AI 모델",
+        "onPremise": "온프레미스 구축 지원"
+      },
+      "benefits": {
+        "sovereignty": "데이터 주권",
+        "securityBoost": "보안 강화"
+      }
+    },
+    "noCodeChatbot": {
+      "title": "노코드 AI 챗봇 빌더",
+      "description": "코딩 지식 없이도 직관적인 인터페이스로 사내 지원 및 고객 응대 챗봇을 구축할 수 있습니다.",
+      "features": {
+        "dragDrop": "드래그 앤 드롭 인터페이스",
+        "integration": "다양한 AI 모델 연동",
+        "realTimeLearning": "실시간 학습 및 개선"
+      },
+      "benefits": {
+        "developmentSpeed": "개발 속도",
+        "maintenance": "유지보수 간편"
+      }
+    },
+    "sttTtsSolution": {
+      "title": "STT/TTS 음성 인식 솔루션",
+      "description": "스마트 팩토리와 콜센터를 위한 고정밀 음성 인식 및 자연스러운 음성 합성 기술을 제공합니다.",
+      "features": {
+        "accuracy": "95% 이상 한국어 인식 정확도",
+        "emotional": "감정 표현 음성 합성",
+        "specialized": "제조업 전문 용어 학습"
+      },
+      "benefits": {
+        "controlEfficiency": "관제 효율성",
+        "customerExperience": "고객 경험"
+      }
+    }
+  },
+  "simulation": {
+    "airi": {
+      "navName": "아이리",
+      "title": "아이리 - IT 관리 AI",
+      "subtitle": "밤새 조용히 우리 회사 PC들을 관리하는 야근 전담 AI",
+      "pageTitle": "아이리(Airi) AI - IT 관리 실제 업무 시뮬레이션 | 강운",
+      "pageDescription": "강운의 AI 직원 아이리가 밤새 회사 PC를 관리하는 실제 업무 시뮬레이션을 체험해보세요.",
+      "scenarioTitle": "🌙 시나리오: 야근 없는 IT 관리",
+      "timeRange": "밤 9시 ~ 새벽 6시",
+      "situationLabel": "상황:",
+      "situationText": "직원들이 퇴근한 후 IT 시스템 점검이 필요한 시간",
+      "problemLabel": "문제:",
+      "problemText": "야근하며 수동으로 PC들을 하나씩 관리해야 함",
+      "roleLabel": "아이리의 역할:",
+      "roleText": "자동으로 모든 IT 업무를 완벽하게 처리",
+      "startButton": "▶️ 아이리 업무 시뮬레이션 시작",
+      "resultTitle": "🎯 시뮬레이션 완료!",
+      "resultText1": "아이리가 밤새 처리한 업무들을 확인했습니다!",
+      "resultText2": "실제로 강운의 AI Agent는 이런 방식으로 24시간 업무를 자동화합니다.",
+      "step1": {
+        "title": "🌙 아이리 업무 시작",
+        "message": "안녕하세요! 직원분들이 퇴근하셨네요. 이제 제가 밤새 PC들을 돌보겠습니다.",
+        "action1": "회사 내 12대 PC 연결 상태 확인",
+        "action2": "각 PC 시스템 로그 수집 시작",
+        "action3": "오늘 하루 업무 활동 데이터 분석 준비"
+      },
+      "step2": {
+        "title": "🔍 PC 상태 진단 중",
+        "message": "각 PC를 하나씩 점검하고 있습니다. 몇 가지 문제를 발견했네요.",
+        "action1": "PC-03: 메모리 사용률 95% (위험 수준)",
+        "action2": "PC-07: 임시파일 3.2GB 누적",
+        "action3": "PC-11: 백그라운드 프로세스 47개 실행 중",
+        "stat1": "점검 완료",
+        "stat2": "문제 발견",
+        "stat3": "정상 상태"
+      },
+      "step3": {
+        "title": "⚠️ 문제 상세 분석",
+        "message": "발견된 문제들을 자세히 분석하고 해결 방안을 수립하고 있습니다.",
+        "action1": "PC-03 메모리 누수 원인: 오래된 Chrome 탭 47개",
+        "action2": "PC-07 디스크 정리 필요: 캐시 파일과 로그 파일",
+        "action3": "PC-11 불필요한 시작 프로그램 12개 감지",
+        "alert": "🚨 긴급: PC-03에서 시스템 속도 저하 70% 확인"
+      },
+      "step4": {
+        "title": "🔧 자동 문제 해결 실행",
+        "message": "이제 문제들을 하나씩 해결해보겠습니다. 직원분들 업무에 방해되지 않도록 조심히 작업할게요.",
+        "action1": "PC-03: 불필요한 프로세스 종료 및 메모리 최적화 ✅",
+        "action2": "PC-07: 3.2GB 임시파일 안전 삭제 완료 ✅",
+        "action3": "PC-11: 시작 프로그램 12개 → 5개로 최적화 ✅"
+      },
+      "step5": {
+        "title": "💾 시스템 백업 실행",
+        "message": "문제 해결이 완료되었습니다. 이제 중요한 데이터들을 안전하게 백업하겠습니다.",
+        "action1": "각 PC 중요 문서 자동 백업 실행",
+        "action2": "시스템 복원 지점 생성",
+        "action3": "데이터베이스 파일 이중 백업",
+        "stat1": "백업 데이터",
+        "stat2": "복원 지점",
+        "stat3": "안전도"
+      },
+      "step6": {
+        "title": "🛡️ 보안 점검",
+        "message": "마지막으로 보안 상태를 점검하고, 이상 징후가 있는지 확인하겠습니다.",
+        "action1": "방화벽 로그 분석: 외부 접근 시도 0건",
+        "action2": "악성코드 검사: 위험 요소 발견되지 않음",
+        "action3": "시스템 취약점 스캔: 모든 PC 안전 상태 확인"
+      },
+      "final": {
+        "title": "📊 업무 완료 보고",
+        "message": "밤새 고생 많으셨습니다! 모든 PC가 최적 상태로 준비되었습니다.",
+        "action1": "직원분들이 쾌적한 환경에서 업무를 시작할 수 있습니다",
+        "action2": "예상 성능 향상: 평균 23% 개선",
+        "action3": "절약된 IT 관리 시간: 4시간 30분",
+        "stat1": "처리한 문제",
+        "stat2": "백업 완료",
+        "stat3": "성능 개선",
+        "stat4": "절약 시간"
+      }
+    },
+    "gyeonu": {
+      "navName": "견우",
+      "pageTitle": "견우(Gyeonu) AI - 견적 시스템 실제 업무 시뮬레이션 | 강운",
+      "pageDescription": "10분 만에 정확한 견적서를 만드는 견적 전문 AI",
+      "scenarioTitle": "💼 시나리오: 급한 견적 요청",
+      "timeRange": "오후 4:30",
+      "situationLabel": "상황:",
+      "situationText": "대형 고객사에서 내일까지 견적서가 필요하다고 연락",
+      "problemLabel": "문제:",
+      "problemText": "복잡한 제품 구성과 수량으로 정확한 계산이 어려움",
+      "roleLabel": "견우의 역할:",
+      "roleText": "10년치 데이터를 바탕으로 즉시 정확한 견적 제공",
+      "startButton": "💼 견적 시뮬레이션 시작",
+      "beforeMethod": "❌ 기존 방식 (3일 소요)",
+      "before1": "📞 고객 요청 접수",
+      "before2": "🔍 과거 견적서 수동 검색",
+      "before3": "📊 엑셀에서 수동 계산",
+      "before4": "📝 견적서 수동 작성",
+      "before5": "👀 검토 및 승인 대기",
+      "before6": "📧 이메일 전송",
+      "beforeTime": "소요시간: 3일",
+      "beforeAccuracy": "정확도: 85%",
+      "beforeStaff": "인력: 2명",
+      "running": "⏳ 시뮬레이션 진행 중...",
+      "restart": "🔄 다시 체험하기",
+      "afterMethod": "✅ 견우 AI 방식 (10분 소요)",
+      "after1": "⚡ 즉시 요청 분석",
+      "after2": "🤖 10년 데이터 자동 검색",
+      "after3": "🧠 AI 가격 예측",
+      "after4": "📄 견적서 자동 생성",
+      "after5": "📧 즉시 전송 가능",
+      "afterTime": "소요시간: 10분",
+      "afterAccuracy": "정확도: 96%",
+      "afterStaff": "인력: 0명 (자동)",
+      "step1": {
+        "title": "📧 1단계: 고객 견적 요청 접수",
+        "requestTitle": "📋 견적 요청 정보",
+        "customer": "고객사:",
+        "product": "제품:",
+        "productDesc": "정밀 가공 부품 500개",
+        "material": "재료:",
+        "spec": "규격:",
+        "surface": "표면처리:",
+        "surfaceDesc": "양극산화처리",
+        "tolerance": "정밀도:",
+        "delivery": "납기:",
+        "deliveryDesc": "2주 이내 희망",
+        "aiMessage": "견적 요청을 분석하고 있습니다. 잠시만 기다려 주세요..."
+      },
+      "step2": {
+        "title": "🔍 2단계: AI 데이터 검색",
+        "aiMessage": "과거 10년간의 견적 데이터를 검색하고 분석하고 있습니다...",
+        "progressText": "데이터 검색 중...",
+        "totalQuotes": "총 견적서",
+        "similarProjects": "유사 프로젝트",
+        "sameMaterial": "동일 재료",
+        "sameTolerance": "동일 정밀도"
+      },
+      "step3": {
+        "title": "🧠 3단계: AI 가격 분석",
+        "aiMessage": "수집된 데이터를 바탕으로 최적의 가격을 계산하고 있습니다...",
+        "progressText": "가격 분석 중...",
+        "factorsTitle": "🔍 주요 가격 결정 요소",
+        "factor1": "📊 재료비: SUS304 현재 시세 반영",
+        "factor2": "⚙️ 가공비: 정밀도 ±0.02mm 기준",
+        "factor3": "🎨 표면처리: 양극산화처리 비용",
+        "factor4": "📦 수량할인: 500개 대량생산 혜택",
+        "factor5": "🚚 운송비: 거리 및 무게 기준",
+        "factor6": "📅 납기: 2주 일정 반영"
+      },
+      "step4": {
+        "title": "💰 4단계: 최종 견적 완성",
+        "quoteTitle": "🎯 AI 예측 견적서",
+        "priceNote": "(부가세 별도, 납기 2주)",
+        "accuracy": "AI 예측 정확도: 96%",
+        "progressText": "견적서 생성 중...",
+        "accuracyLabel": "정확도",
+        "minuteUnit": "분",
+        "timeLabel": "소요시간",
+        "autoValue": "자동",
+        "methodLabel": "처리방식",
+        "immediateValue": "즉시",
+        "sendLabel": "전송가능"
+      },
+      "resultTitle": "🎯 견적 시뮬레이션 완료!",
+      "resultText1": "견우가 10분 만에 정확한 견적서를 완성했습니다!",
+      "resultText2": "실제로 강운의 AI Agent는 이런 방식으로 견적 업무를 자동화합니다."
+    },
+    "jisu": {
+      "navName": "지수",
+      "title": "지수 - 업무분석 AI",
+      "subtitle": "직원들의 업무를 분석하여 대표님께 인사이트 보고서를 생성하는 분석 전문 AI",
+      "aiName": "지수",
+      "pageTitle": "지수(Jisu) AI - 업무분석 실제 업무 시뮬레이션 | 강운",
+      "pageDescription": "강운의 AI 직원 지수가 직원들의 업무를 분석하여 인사이트 보고서를 생성하는 실제 업무 시뮬레이션을 체험해보세요.",
+      "scenarioTitle": "📊 시나리오: 월말 업무 분석 보고",
+      "timeRange": "오후 6:00",
+      "situationLabel": "상황:",
+      "situationText": "대표님이 직원들의 이번 달 업무 현황 분석을 요청",
+      "problemLabel": "문제:",
+      "problemText": "50명 직원의 업무 데이터를 수동으로 분석하기 어려움",
+      "roleLabel": "지수의 역할:",
+      "roleText": "모든 업무 데이터를 자동 분석하여 인사이트 도출",
+      "startButton": "📊 업무분석 시뮬레이션 시작",
+      "running": "⏳ 시뮬레이션 진행 중...",
+      "restart": "🔄 다시 체험하기",
+      "resultTitle": "🎯 업무분석 시뮬레이션 완료!",
+      "resultText1": "지수가 50명 직원의 업무를 자동 분석하고 인사이트 보고서를 완성했습니다!",
+      "resultText2": "실제로 강운의 AI Agent는 이런 방식으로 업무 분석을 자동화합니다.",
+      "step1": {
+        "title": "🌙 직원 퇴근 후 데이터 수집 시작",
+        "message": "안녕하세요, 대표님! 직원분들이 모두 퇴근하셨네요. 이제 오늘 하루 업무 활동을 분석해드리겠습니다.",
+        "progressText": "데이터 수집 중...",
+        "marketingTitle": "📊 마케팅팀 (4명)",
+        "marketingContent": "• 포토샵 5.2시간 사용<br>• 파워포인트 3.1시간<br>• 브로셔_최종.psd 수정<br>• SNS_계획안.xlsx 생성",
+        "devTitle": "💻 개발팀 (5명)",
+        "devContent": "• VS Code 7.5시간 사용<br>• 웹사이트 파일 247개 수정<br>• 버그_리포트.md 업데이트<br>• GitHub 커밋 23회",
+        "salesTitle": "📞 영업팀 (3명)",
+        "salesContent": "• 엑셀 4.3시간 사용<br>• 견적서_0918.xlsx 8개 생성<br>• 고객_연락처.xlsx 업데이트<br>• 이메일 47건 발송"
+      },
+      "step2": {
+        "title": "🧠 Llama 3 AI로 업무 패턴 분석",
+        "message": "수집된 데이터를 Llama 3 AI 모델로 분석하고 있습니다. 각 팀의 업무 효율성과 생산성을 계산 중이에요.",
+        "progressText": "AI 분석 중...",
+        "analysisTitle": "🔍 AI 분석 중 발견사항",
+        "recommendation1": "✅ 마케팅팀: 창의적 업무 시간 75% → 높은 생산성 확인",
+        "recommendation2": "✅ 개발팀: 코딩 시간 82%, 회의 시간 감소 → 효율성 향상",
+        "warning": "⚠️ 영업팀: 1명 부재로 업무 집중도 저하, 지원 필요"
+      },
+      "step3": {
+        "title": "📊 부서별 생산성 지표 계산",
+        "message": "각 부서의 생산성을 수치화하여 정확한 성과 지표를 계산했습니다.",
+        "progressText": "지표 계산 중...",
+        "marketingProductivity": "마케팅팀 생산성",
+        "devProductivity": "개발팀 생산성",
+        "salesProductivity": "영업팀 생산성",
+        "overallAverage": "전체 평균",
+        "marketingDetail": "• 신제품 브로셔 디자인 완료<br>• SNS 콘텐츠 주간 계획 수립<br>• 경쟁사 분석 보고서 작성 중<br><strong style=\"color: #16A34A;\">생산성: 92%</strong>",
+        "devDetail": "• 웹사이트 반응형 최적화 90%<br>• 버그 수정: 12건 중 10건 완료<br>• 새 기능 개발 계획 검토<br><strong style=\"color: #16A34A;\">생산성: 89%</strong>",
+        "salesDetail": "• 신규 고객 5곳 상담 진행<br>• 견적서 8건 발송 완료<br>• 기존 고객 관리 업무<br><strong style=\"color: #F97316;\">생산성: 75% (인력 부족)</strong>"
+      },
+      "step4": {
+        "title": "📋 대표님을 위한 최종 보고서 완성",
+        "message": "모든 분석이 완료되었습니다! 대표님께서 보시기 쉽도록 인사이트 보고서를 정리했습니다.",
+        "progressText": "보고서 생성 중...",
+        "projectTitle": "🚀 프로젝트 진행 상황",
+        "project1": "신제품 출시 프로젝트",
+        "project2": "웹사이트 리뉴얼",
+        "project3": "고객관리 시스템 구축",
+        "project4": "해외 마케팅 전략",
+        "status1": "진행 중 (85%)",
+        "status2": "진행 중 (90%)",
+        "status3": "완료",
+        "status4": "지연 (검토 필요)",
+        "insightTitle": "💡 AI 분석 결과 및 제안사항",
+        "insight1": "<strong>1. 영업팀 인력 보강 권장</strong> - 현재 업무량 대비 인력이 25% 부족합니다.",
+        "insight2": "<strong>2. 마케팅팀 우수 성과</strong> - 이번 주 생산성이 15% 향상되었습니다.",
+        "insight3": "<strong>3. 개발팀 야근 감소</strong> - 업무 효율화로 평균 퇴근시간이 1시간 앞당겨졌습니다.",
+        "insight4": "<strong>4. 전체적 권장사항</strong> - 영업팀 충원 시 전사 생산성 12% 추가 향상 예상됩니다."
+      }
+    },
+    "doyoung": {
+      "navName": "도영",
+      "title": "도영 - 스마트 매뉴얼 AI",
+      "subtitle": "RAG 기술로 10,000+ 페이지 매뉴얼을 완벽 학습한 현장 전문가",
+      "pageTitle": "도영 - 스마트 매뉴얼 AI | 강운",
+      "pageDescription": "강운의 AI 직원 도영이 RAG 기술로 방대한 매뉴얼에서 즉시 정확한 해결책을 찾는 실제 업무 시뮬레이션을 체험해보세요.",
+      "scenarioTitle": "📚 시나리오: 새벽 3시 현장 긴급상황",
+      "timeRange": "03:15 AM",
+      "situationLabel": "상황:",
+      "situationText": "생산라인 CNC 머신에서 알 수 없는 오류 발생",
+      "problemLabel": "문제:",
+      "problemText": "복잡한 매뉴얼 10,000+ 페이지에서 해결책을 찾아야 함",
+      "roleLabel": "도영의 역할:",
+      "roleText": "RAG 기술로 즉시 정확한 해결 가이드 제공",
+      "ragTitle": "🧠 RAG (검색 증강 생성) 기술이란?",
+      "ragStep1Title": "1. 검색 (Retrieval)",
+      "ragStep1Desc": "방대한 데이터베이스에서 관련 정보 검색",
+      "ragStep2Title": "2. 증강 (Augmented)",
+      "ragStep2Desc": "검색된 정보를 AI 모델에 연결",
+      "ragStep3Title": "3. 생성 (Generation)",
+      "ragStep3Desc": "정확한 정보 기반 답변 생성",
+      "ragBenefit": "핵심 장점: 할루시네이션(환각) 방지 + 실시간 정확한 정보 제공",
+      "startButton": "▶️ 도영이 시뮬레이션 시작",
+      "step1": {
+        "title": "🚨 긴급상황 발생",
+        "machineInfo": "생산라인 CNC-M200 머신",
+        "errorCode": "오류 코드: E4-7829",
+        "errorDesc": "스핀들 오버로드 감지 - 즉시 대응 필요",
+        "manualDesc": "현장 작업자가 매뉴얼을 찾고 있지만...",
+        "manual1": "CNC 머신 매뉴얼: 2,847페이지",
+        "manual2": "공구 사용 가이드: 1,523페이지",
+        "manual3": "안전 절차서: 892페이지",
+        "manual4": "CAD/CAM 소프트웨어: 5,832페이지",
+        "totalPages": "총 10,094페이지",
+        "totalPagesText": "에서 답을 찾아야 합니다!"
+      },
+      "step2": {
+        "title": "도영이 출동!",
+        "message1": "안녕하세요! 저는 도영입니다. E4-7829 오류를 분석해드릴게요.",
+        "message2": "RAG 기술로 모든 매뉴얼을 이미 학습했으니 걱정하지 마세요!"
+      },
+      "step3": {
+        "title": "🔍 RAG 기술 실시간 처리 과정",
+        "searchTitle": "1단계: 검색 (Retrieval)",
+        "searchItem1": "CNC 머신 오류 매뉴얼 검색...",
+        "searchResult1": "📄 27건 발견",
+        "searchItem2": "스핀들 오버로드 관련 문서...",
+        "searchResult2": "📄 15건 발견",
+        "searchItem3": "E4-7829 오류 해결책...",
+        "searchResult3": "📄 8건 발견",
+        "augmentTitle": "2단계: 증강 (Augmented)",
+        "augmentDesc": "🧠 검색된 정보를 AI 모델과 연결 중...",
+        "knowledgeSource1": "CNC 매뉴얼 p.1,247",
+        "knowledgeSource2": "안전 절차서 p.89",
+        "knowledgeSource3": "공구 가이드 p.334",
+        "generateTitle": "3단계: 생성 (Generation)",
+        "generateDesc": "📝 정확한 정보를 바탕으로 해결책 작성 중..."
+      },
+      "step4": {
+        "title": "도영의 완벽한 해결책",
+        "solutionTitle": "🎯 E4-7829 오류 해결 방법",
+        "solution1Title": "즉시 조치",
+        "solution1Desc": "🛑 긴급정지 버튼 활성화 후 스핀들 냉각 대기 (5분)",
+        "solution2Title": "원인 확인",
+        "solution2Desc": "🔧 공구 마모도 점검 - 절삭 저항 증가로 인한 오버로드",
+        "solution3Title": "해결책",
+        "solution3Desc": "⚙️ 공구 교체 + CAM 프로그램 절삭 속도 15% 감소",
+        "referenceTitle": "📚 참고 자료",
+        "ref1": "CNC 매뉴얼 p.1,247 \"스핀들 오버로드 대응법\"",
+        "ref2": "공구 가이드 p.334 \"절삭공구 마모 진단\"",
+        "ref3": "안전 절차서 p.89 \"긴급정지 프로토콜\"",
+        "noHallucination": "✅ 할루시네이션 방지: 매뉴얼에 명시된 정확한 정보만 제공"
+      },
+      "step5": {
+        "title": "💭 현장 작업자의 추가 질문",
+        "workerQuestion": "도영씨, CAM 프로그램에서 절삭 속도를 어떻게 변경하죠?<br>SolidCAM을 사용하고 있어요."
+      },
+      "step6": {
+        "title": "도영의 상세 소프트웨어 가이드",
+        "guideTitle": "🖥️ SolidCAM 절삭 속도 변경 방법",
+        "swStep1Title": "Operations Manager 열기",
+        "swStep1Desc": "메뉴: CAMWorks → Operations → Operations Manager",
+        "swStep2Title": "해당 Operation 선택",
+        "swStep2Desc": "문제된 절삭 경로 → 우클릭 → Edit Definition",
+        "swStep3Title": "속도 파라미터 수정",
+        "swStep3Desc1": "Speed/Feeds 탭 → Spindle Speed 15% 감소",
+        "swStep3Desc2": "현재: 2,000 RPM → 변경: 1,700 RPM",
+        "swStep4Title": "프로그램 재생성",
+        "swStep4Desc": "Generate Toolpath → Post Process → G-Code 업데이트",
+        "softwareRefTitle": "📖 참고 매뉴얼",
+        "softwareRef1": "SolidCAM User Guide p.2,847 \"Operations Management\"",
+        "softwareRef2": "CAMWorks Manual p.1,205 \"Speed & Feed Optimization\"",
+        "softwareRef3": "CNC Programming Guide p.445 \"RPM Calculation Methods\""
+      },
+      "step7": {
+        "title": "🎉 문제 해결 완료!",
+        "successTitle": "CNC 머신 정상 가동 재개",
+        "metric1Title": "문제 해결 시간",
+        "metric1Value": "10분",
+        "metric1Sub": "일반적 해결 시간: 2-4시간",
+        "metric2Title": "검색된 매뉴얼",
+        "metric2Value": "10,094페이지",
+        "metric2Sub": "0.3초 만에 정확한 답변",
+        "metric3Title": "생산 손실 방지",
+        "metric3Value": "₩2,400만원",
+        "metric3Sub": "4시간 생산중단 비용"
+      },
+      "step8": {
+        "title": "💎 RAG 기술이 제공하는 가치",
+        "value1Title": "정확성",
+        "value1Desc": "매뉴얼 기반 정확한 정보만 제공<br>할루시네이션 완전 차단",
+        "value2Title": "신속성",
+        "value2Desc": "10,000+ 페이지에서<br>0.3초 만에 답변",
+        "value3Title": "추적성",
+        "value3Desc": "모든 답변에 정확한<br>출처와 페이지 번호 제공",
+        "value4Title": "다양성",
+        "value4Desc": "CNC, CAD/CAM, 공구, 안전<br>모든 분야 동시 지원",
+        "comparisonTitle": "🆚 기존 방식 vs RAG 기술",
+        "oldMethodTitle": "기존 매뉴얼 검색",
+        "oldMethod1": "❌ 2-4시간 소요",
+        "oldMethod2": "❌ 여러 매뉴얼 병행 검색 어려움",
+        "oldMethod3": "❌ 인적 오류 가능성",
+        "oldMethod4": "❌ 경험 부족시 해석 어려움",
+        "newMethodTitle": "도영 RAG 시스템",
+        "newMethod1": "✅ 10분 내 완전 해결",
+        "newMethod2": "✅ 모든 매뉴얼 동시 활용",
+        "newMethod3": "✅ 100% 정확한 정보",
+        "newMethod4": "✅ 초보자도 전문가 수준 대응"
+      },
+      "resultTitle": "🎯 시뮬레이션 완료!",
+      "resultText1": "도영이 RAG 기술로 즉시 정확한 해결책을 제공했습니다!",
+      "resultText2": "실제로 강운의 RAG 시스템은 이런 방식으로 방대한 매뉴얼을 활용합니다."
+    },
+    "minseo": {
+      "navName": "민서",
+      "pageTitle": "민서 - 프라이빗 데이터 보안 AI | 강운",
+      "pageDescription": "sLLM 기술로 데이터 유출 걱정 없이 기밀 문서를 안전하게 분석하는 온프레미스 AI",
+      "title": "민서 - 프라이빗 데이터 보안 AI",
+      "subtitle": "sLLM 기술로 데이터 유출 걱정 없이 기밀 문서를 안전하게 분석",
+      "scenarioTitle": "🔒 시나리오: 기밀 데이터 분석 요청",
+      "timeRange": "14:30 PM",
+      "situationLabel": "상황:",
+      "situationText": "사장님이 중요한 계약서와 설계도 분석을 요청",
+      "problemLabel": "문제:",
+      "problemText": "외부 AI 서비스 사용 시 기밀 데이터 유출 위험",
+      "roleLabel": "민서의 역할:",
+      "roleText": "온프레미스 sLLM으로 100% 보안 유지하며 분석",
+      "startButton": "민서 보안 AI 시뮬레이션 시작",
+      "running": "⏳ 보안 시뮬레이션 실행 중...",
+      "restart": "🔄 다시 체험하기",
+      "warningTitle": "일반적인 AI 서비스의 위험",
+      "warning1": "📤 데이터가 외부 서버로 전송",
+      "warning2": "💰 토큰당 과금으로 비용 부담",
+      "warning3": "🌐 인터넷 연결 필수",
+      "warning4": "🔓 데이터 주권 상실",
+      "sllmTitle": "🏢 sLLM (소형 거대 언어 모델) 기술이란?",
+      "sllmStep1Title": "온프레미스 설치",
+      "sllmStep1Desc": "회사 서버에 직접 설치하여 데이터가 외부로 나가지 않음",
+      "sllmStep2Title": "경량화 모델",
+      "sllmStep2Desc": "필요한 기능만 남겨 빠르고 효율적인 처리",
+      "sllmStep3Title": "맞춤형 학습",
+      "sllmStep3Desc": "기업 도메인에 특화된 전문 AI 모델",
+      "sllmBenefitLabel": "🔑 핵심 장점:",
+      "sllmBenefitText": "데이터 주권 확보 + 토큰 비용 제로 + 무제한 사용",
+      "step1": {
+        "title": "📁 분석 대상 기밀 문서",
+        "doc1Title": "대형 프로젝트 계약서",
+        "doc1Detail": "250억원 규모 / 42페이지",
+        "doc1Security": "🔴 보안등급: 극비",
+        "doc2Title": "핵심 부품 설계도",
+        "doc2Detail": "특허 기술 포함 / 187개 도면",
+        "doc2Security": "🔴 보안등급: 극비",
+        "doc3Title": "직원 성과 데이터",
+        "doc3Detail": "개인정보 포함 / 324명",
+        "doc3Security": "🟡 보안등급: 대외비",
+        "riskTitle": "외부 AI 서비스 이용 시 위험",
+        "riskCost": "예상 토큰 비용: 월 ₩380만원",
+        "riskData": "데이터 외부 전송: 보안 위험 극대",
+        "riskInternet": "인터넷 의존: 업무 연속성 위험"
+      },
+      "step2": {
+        "title": "민서 보안 AI 활성화",
+        "message1": "안녕하세요! 민서입니다. 기밀 문서 분석을 도와드릴게요.",
+        "message2": "모든 처리는 사내 서버에서만 이뤄지니 안심하세요!",
+        "status1": "온프레미스 환경 확인됨",
+        "status2": "외부 인터넷 연결 차단",
+        "status3": "사내 서버 GPU 가동 중"
+      },
+      "step3": {
+        "title": "🔐 sLLM 보안 시스템 점검",
+        "isolationTitle": "1단계: 데이터 격리 확인",
+        "isolationLoc": "🏢 처리 위치: 사내 서버 (192.168.1.100)",
+        "isolationComm": "🌐 외부 통신: 완전 차단",
+        "isolationStorage": "💾 데이터 저장: 로컬 스토리지만 사용",
+        "costTitle": "2단계: 비용 절감 효과",
+        "costExternal": "외부 AI 서비스",
+        "costToken": "토큰 비용: ₩380만원/월",
+        "costApi": "API 호출료: ₩120만원/월",
+        "costTotalExt": "총 연간 비용: ₩6,000만원",
+        "costInternal": "민서 sLLM",
+        "costTokenFree": "토큰 비용: ₩0원",
+        "costApiFree": "API 호출료: ₩0원",
+        "costTotalInt": "총 연간 비용: ₩0원",
+        "costSaving": "💡 연간 절약 효과: ₩6,000만원",
+        "perfTitle": "3단계: 성능 최적화 확인",
+        "perfModel": "모델 크기: 3.8GB (GPT-4 대비 95% 경량화)",
+        "perfSpeed": "응답 속도: 0.8초 (API 서비스 대비 3배 빠름)",
+        "perfConcurrent": "동시 처리: 무제한 (API 제한 없음)"
+      },
+      "step4": {
+        "title": "민서가 기밀 문서를 분석합니다",
+        "message1": "이제 기밀 문서들을 안전하게 분석해보겠습니다.",
+        "message2": "모든 처리는 사내에서만 이뤄지며, 1초도 외부로 나가지 않아요!",
+        "contractTitle": "계약서 분석 중...",
+        "contractResult": "🎯 주요 발견사항",
+        "contract1": "계약 금액: 250억원 (VAT 별도)",
+        "contract2": "납기일: 2025년 12월 31일",
+        "contract3": "위험 조항: 지연 시 일 0.1% 위약금",
+        "contract4": "보너스 조항: 조기 완료 시 5% 인센티브",
+        "blueprintTitle": "설계도 분석 중...",
+        "blueprintResult": "🔧 기술적 분석",
+        "blueprint1": "특허 기술: 3건의 독점 기술 포함",
+        "blueprint2": "제조 난이도: 높음 (정밀도 ±0.01mm)",
+        "blueprint3": "예상 원가: 부품당 ₩128,000",
+        "blueprint4": "품질 위험: 열처리 공정에서 주의 필요",
+        "hrTitle": "인사 데이터 분석 중...",
+        "hrResult": "📊 성과 분석 요약",
+        "hr1": "우수 직원: 43명 (13.3%)",
+        "hr2": "평균 성과 점수: 78.2점",
+        "hr3": "이직 위험: 12명 (관리 필요)",
+        "hr4": "승진 후보: 18명 (검토 권장)",
+        "securityNote1": "이 정보는 사내 서버에서만 처리되었습니다",
+        "securityNote2": "설계 정보는 외부로 전송되지 않았습니다",
+        "securityNote3": "개인정보는 완벽하게 보호되었습니다"
+      },
+      "step5": {
+        "title": "민서의 종합 분석 보고서",
+        "reportTitle": "📋 경영진 보고서 (기밀 유지)",
+        "conclusionTitle": "🎯 핵심 결론",
+        "conclusionText": "프로젝트 성공 가능성: 87%",
+        "conclusionDetail": "계약 조건은 유리하며, 기술적 역량 충분. 단, 일정 관리와 핵심 인력 유지가 관건",
+        "recommendTitle": "💡 전략적 제언",
+        "recommend1Title": "일정 관리",
+        "recommend1Text": "조기 완료 보너스(12.5억원) 획득을 위해 2개월 앞당긴 일정 추진 권장",
+        "recommend2Title": "인력 관리",
+        "recommend2Text": "이직 위험 12명 중 핵심 기술자 3명 우선 면담 및 처우 개선 필요",
+        "recommend3Title": "기술 대응",
+        "recommend3Text": "열처리 공정 품질 향상을 위한 외부 전문업체 협력 검토",
+        "recommend4Title": "수익성 분석",
+        "recommend4Text": "현재 원가 기준 순이익율 23.7%, 목표 달성 시 28.2% 예상",
+        "securityTitle": "🔐 보안 보장",
+        "securityMainText": "이 모든 분석은 사내 sLLM으로만 처리되었습니다",
+        "security1": "✅ 외부 서버 전송: 0건",
+        "security2": "✅ 데이터 보관: 사내 암호화 저장소",
+        "security3": "✅ 처리 비용: ₩0원 (토큰 비용 없음)",
+        "security4": "✅ 접근 권한: 승인된 임직원만"
+      },
+      "step6": {
+        "title": "🎉 보안 분석 완료!",
+        "successMessage": "100% 보안 유지하며 완벽한 분석 완료",
+        "metric1Title": "데이터 보안",
+        "metric1Value": "100%",
+        "metric1Sub": "외부 유출 0건",
+        "metric2Title": "처리 비용",
+        "metric2Value": "₩0원",
+        "metric2Sub": "토큰 비용 없음",
+        "metric3Title": "분석 시간",
+        "metric3Value": "7분",
+        "metric3Sub": "외부 API 대비 3배 빠름",
+        "metric4Title": "분석 정확도",
+        "metric4Value": "94.8%",
+        "metric4Sub": "도메인 특화 학습 효과"
+      },
+      "step7": {
+        "title": "💎 sLLM 기술이 제공하는 가치",
+        "value1Title": "데이터 주권",
+        "value1Text": "모든 데이터가 사내에서만 처리되어 완전한 통제 가능",
+        "value2Title": "비용 제로",
+        "value2Text": "토큰 기반 과금 없이 무제한 사용 가능",
+        "value3Title": "맞춤 최적화",
+        "value3Text": "기업 도메인에 특화된 전용 AI 모델",
+        "value4Title": "높은 성능",
+        "value4Text": "경량화로 빠른 응답 동시 처리 무제한",
+        "comparisonTitle": "🆚 외부 AI 서비스 vs sLLM",
+        "externalTitle": "외부 AI 서비스",
+        "external1": "❌ 데이터 외부 전송 (보안 위험)",
+        "external2": "❌ 토큰당 과금 (월 수백만원)",
+        "external3": "❌ 인터넷 연결 필수",
+        "external4": "❌ API 호출 제한",
+        "external5": "❌ 데이터 주권 상실",
+        "sllmTitle": "강운 sLLM",
+        "sllm1": "✅ 온프레미스 처리 (100% 보안)",
+        "sllm2": "✅ 토큰 비용 없음 (무제한)",
+        "sllm3": "✅ 오프라인 동작 가능",
+        "sllm4": "✅ 호출 제한 없음",
+        "sllm5": "✅ 완전한 데이터 통제권",
+        "roiTitle": "📈 투자 수익률 (ROI) 계산",
+        "roiSaving": "연간 절약 비용: ₩6,000만원",
+        "roiSecurity": "보안 리스크 절감: 무가격",
+        "roiProductivity": "생산성 향상: 30%"
+      },
+      "resultTitle": "🎯 보안 AI 시뮬레이션 완료!",
+      "resultText1": "민서가 100% 보안을 유지하면서 기밀 데이터 분석을 완료했습니다!",
+      "resultText2": "실제로 강운의 sLLM 솔루션은 이런 방식으로 데이터 보안을 보장합니다.",
+      "cta": {
+        "titleHtml": "민서와 같은 <strong>프라이빗 데이터 보안 AI</strong>를 귀하의 기업에 구축하세요!",
+        "bullet1": "✅ 100% 온프레미스 설치",
+        "bullet2": "✅ 데이터 외부 유출 제로",
+        "bullet3": "✅ 토큰 비용 걱정 없음",
+        "bullet4": "✅ 기업 맞춤형 특화 모델"
+      }
+    },
+    "common": {
+      "progressLabel": "진행률",
+      "success": "✅ 작업이 성공적으로 완료되었습니다!",
+      "running": "⏳ 시뮬레이션 진행 중...",
+      "restart": "🔄 다시 체험하기",
+      "consultButton": "무료 상담 신청",
+      "progress": {
+        "preparing": "시뮬레이션 준비 중...",
+        "emergency": "긴급상황 발생...",
+        "doyoungStart": "도영이 출동!",
+        "ragProcessing": "RAG 기술 처리 중...",
+        "solutionGen": "해결책 생성 중...",
+        "additionalQ": "추가 질문 처리...",
+        "detailedGuide": "상세 가이드 제공...",
+        "resultAnalysis": "결과 분석 중...",
+        "completed": "시뮬레이션 완료!",
+        "processing": "처리 중..."
+      }
+    }
+  },
+  "about": {
+    "title": "AI 혁신의 파트너, 강운",
+    "description": "강운은 제조 및 중소기업의 디지털 전환을 선도하며, AI 기술을 통해 지속 가능한 성장을 지원합니다.",
+    "mission": "우리의 미션: 고객의 비즈니스를 AI로 혁신하여 경쟁력을 극대화합니다.",
+    "vision": "우리의 비전: 모든 중소기업이 AI의 혜택을 누리는 세상을 만듭니다.",
+    "badges": {
+      "certifiedPartner": "AI 인증 파트너",
+      "customerSatisfaction": "99% 고객 만족도",
+      "isoCompliance": "ISO 27001 준수"
+    },
+    "features": {
+      "e2e": {
+        "title": "E2E 프로세스 지원",
+        "description": "유스케이스 발굴부터 개발, 유지보수까지 전 과정을 원스톱으로 지원합니다."
+      },
+      "security": {
+        "title": "보안 중심 설계",
+        "description": "민감한 기업 데이터를 보호하는 온프레미스 AI 솔루션을 제공합니다."
+      },
+      "customized": {
+        "title": "현장 맞춤형 솔루션",
+        "description": "제조업 특성에 최적화된 도메인 특화 AI 기술을 제공합니다."
+      },
+      "expertTeam": {
+        "title": "전문가 팀",
+        "description": "생성형 AI 분야 최고의 전문가들이 고객의 성공을 보장합니다."
+      }
+    },
+    "stats": {
+      "founded": "설립연도",
+      "projects": "프로젝트 완료",
+      "satisfaction": "고객 만족도",
+      "support": "기술 지원"
+    },
+    "imageAlt": "강운 전문가 팀"
+  },
+  "credentials": {
+    "title": "검증된 전문성",
+    "aiTeam": {
+      "title": "AI 연구개발팀",
+      "description": "삼성전자, LG전자 출신<br>5년+ AI 엔지니어 경력",
+      "badges": ["석박사 학위", "AI 특허 등록"]
+    },
+    "consultingTeam": {
+      "title": "제조업 컨설팅팀",
+      "description": "현대중공업, 포스코 출신<br>10년+ 제조 혁신 경력",
+      "badges": ["PMP 인증", "6시그마 BB"]
+    },
+    "securityTeam": {
+      "title": "데이터 보안팀",
+      "description": "금융권 보안 전문가<br>15년+ 정보보안 경력",
+      "badges": ["CISSP 인증", "ISO 27001"]
+    },
+    "certBadges": {
+      "masterDegree": "석박사 학위",
+      "aiPatent": "AI 특허 등록",
+      "pmpCert": "PMP 인증",
+      "sixSigmaBB": "6시그마 BB",
+      "cisspCert": "CISSP 인증",
+      "iso27001": "ISO 27001"
+    }
+  },
+  "process": {
+    "title": "강운 AI 도입 과정 (3단계 완료)",
+    "step1": {
+      "title": "현장 분석 및 컨설팅 (1주)",
+      "description": "• 생산 공정 현황 분석<br>• AI 도입 가능 영역 식별<br>• ROI 예측 리포트 제공"
+    },
+    "step2": {
+      "title": "맞춤형 AI 솔루션 개발 (4주)",
+      "description": "• 기업 데이터 기반 모델 구축<br>• 기존 시스템과의 연동<br>• 파일럿 테스트 및 검증"
+    },
+    "step3": {
+      "title": "운영 및 지속 관리 (지속)",
+      "description": "• 24/7 모니터링 및 지원<br>• 성능 최적화 및 업데이트<br>• 직원 교육 및 기술 이전"
+    }
+  },
+  "cases": {
+    "title": "성공 사례",
+    "description": "강운 AI 솔루션으로 혁신을 달성한 기업들의 실제 성과",
+    "manufacturing": {
+      "category": "제조업",
+      "title": "AI로 불량률 10% 감소",
+      "description": "RAG 기반 품질관리 시스템으로 검사 시간 20% 단축 및 생산 효율성 향상",
+      "tech1": "RAG",
+      "tech2": "AI 비전",
+      "tech3": "품질관리",
+      "result1Value": "10%",
+      "result1Label": "불량률 감소",
+      "result2Value": "20%",
+      "result2Label": "검사시간 단축"
+    },
+    "corporate": {
+      "category": "일반기업",
+      "title": "직원 생산성 30% 향상",
+      "description": "프라이빗 sLLM으로 사내 업무 자동화 및 보안 강화",
+      "tech1": "sLLM",
+      "tech2": "노코드",
+      "tech3": "온프레미스",
+      "result1Value": "30%",
+      "result1Label": "업무 시간 절감",
+      "result2Value": "100%",
+      "result2Label": "데이터 보안"
+    },
+    "smartFactory": {
+      "category": "스마트팩토리",
+      "title": "음성으로 관제 효율 40% 향상",
+      "description": "95% 음성인식 정확도의 STT로 스마트 팩토리 관제 자동화",
+      "tech1": "STT",
+      "tech2": "TTS",
+      "tech3": "음성제어",
+      "result1Value": "95%",
+      "result1Label": "음성인식 정확도",
+      "result2Value": "40%",
+      "result2Label": "관제 효율 증대"
+    },
+    "customerService": {
+      "category": "고객서비스",
+      "title": "AI 챗봇으로 월 17,000건 문의 처리",
+      "description": "RAG 기반 고객응대 챗봇으로 24시간 자동 문의 처리 시스템을 구축했습니다.",
+      "tech1": "RAG",
+      "tech2": "챗봇",
+      "tech3": "24/7 서비스",
+      "result1Value": "17K",
+      "result1Label": "월 문의 처리",
+      "result2Value": "90%",
+      "result2Label": "고객 만족도"
+    },
+    "cta": {
+      "title": "귀하의 비즈니스도 혁신할 준비가 되셨나요?",
+      "description": "강운의 전문가와 함께 맞춤형 AI 솔루션을 계획해보세요.",
+      "button": "🤖 AI 무료 상담"
+    }
+  },
+  
+  "contact": {
+    "title": "문의하기",
+    "description": "귀사의 AI 혁신 여정을 함께 시작해보세요.<br>전문가가 맞춤형 솔루션을 제안해드립니다.",
+    "methods": {
+      "phone": {
+        "title": "전화 문의",
+        "number": "010-4063-9062",
+        "hours": "평일 9:00 - 18:00"
+      },
+      "email": {
+        "title": "이메일",
+        "address": "thinkcare@naver.com",
+        "availability": "24시간 접수 가능"
+      },
+      "address": {
+        "title": "주소",
+        "location": "경기 안양시 동안구 엘에스로 91번길 16-39, 안양IT밸리 303호",
+        "note": "방문 상담 예약제"
+      }
+    },
+    "form": {
+      "company": "회사명 *",
+      "name": "담당자명 *",
+      "phone": "연락처 *",
+      "email": "이메일 *",
+      "solution": "관심 솔루션",
+      "solutionPlaceholder": "선택해주세요",
+      "solutionOptions": {
+        "aiAgent": "AI Agent 비즈니스 자동화",
+        "rag": "RAG 기반 맞춤형 애플리케이션",
+        "sllm": "Private Data 기반 sLLM",
+        "chatbot": "노코드 AI 챗봇 빌더",
+        "voice": "STT/TTS 음성 솔루션",
+        "consulting": "AI 컨설팅"
+      },
+      "message": "문의 내용 *",
+      "messagePlaceholder": "프로젝트 규모, 도입 시기, 예산 등 상세한 요구사항을 작성해주세요.",
+      "privacyConsent": "개인정보 수집 및 이용에 동의합니다. *",
+      "submit": "📧 무료 상담 신청하기"
+    }
+  },
+  "footer": {
+    "brandText": "강운",
+    "description": "제조/중소기업의 AI 전환을 선도하며, 지속 가능한 성장을 위한 지능형 솔루션을 제공합니다.",
+    "solutions": {
+      "title": "솔루션",
+      "aiAgent": "AI Agent 자동화",
+      "rag": "RAG 애플리케이션",
+      "sllm": "Private sLLM",
+      "nocode": "노코드 챗봇",
+      "voice": "STT/TTS 음성인식"
+    },
+    "company": {
+      "title": "회사",
+      "about": "회사소개",
+      "cases": "성공사례",
+      "blog": "블로그",
+      "careers": "채용"
+    },
+    "support": {
+      "title": "지원",
+      "contact": "문의하기",
+      "techSupport": "기술지원",
+      "docs": "문서",
+      "faq": "FAQ"
+    },
+    "contactInfo": {
+      "title": "연락처",
+      "email": "이메일:",
+      "emailValue": "thinkcare@naver.com",
+      "phone": "전화:",
+      "phoneValue": "010-4063-9062",
+      "address": "주소:",
+      "addressValue": "경기 안양시 동안구 엘에스로 91번길 16-39, 안양IT밸리 303호"
+    },
+    "copyright": "© 2025 KANGWOON. All rights reserved.",
+    "links": {
+      "privacy": "개인정보처리방침",
+      "terms": "이용약관"
+    }
+  },
+  "aiModal": {
+    "title": "🤖 AI 무료 상담",
+    "subtitle": "맞춤형 AI 솔루션 추천을 받아보세요",
+    "closeButton": "×",
+    "progressText": "상담 진행률:",
+    "inputPlaceholder": "메시지를 입력하세요...",
+    "sendButton": "전송",
+    "recommendationTitle": "🎯 AI 맞춤 추천 결과",
+    "consultButton": "📞 전문 상담 신청",
+    "restartButton": "🔄 다시 상담받기",
+    "typingIndicator": "AI가 분석 중입니다"
+  },
+  "aiSimulation": {
+    "title": "🎬 AI 직원들이 실제로 일하는 모습",
+    "description": "시뮬레이션이지만, 강운 AI는 실제로 이런 일을 합니다!<br>클릭 한 번으로 AI 직원의 놀라운 능력을 직접 경험해보세요.",
+    "airi": {
+      "name": "아이리 (Airi)",
+      "role": "AI IT 관리 전문가",
+      "description": "밤새 조용히 회사 PC들을 돌보며 문제를 해결하고, 최적 상태로 관리하는 든든한 IT 직원입니다.",
+      "capability1": "자동 PC 최적화",
+      "capability2": "보안 모니터링",
+      "capability3": "데이터 백업",
+      "stat1Value": "20%",
+      "stat1Label": "IT 비용 절감",
+      "stat2Value": "15%",
+      "stat2Label": "생산성 향상",
+      "button": "🎬 아이리 실제 업무 체험하기"
+    },
+    "gyeonu": {
+      "name": "견우 (Gyeonu)",
+      "role": "AI 견적 전문가",
+      "description": "10년치 견적 데이터를 학습하여 10분 만에 정확하고 경쟁력 있는 견적서를 자동 생성합니다.",
+      "capability1": "빅데이터 분석",
+      "capability2": "즉시 견적 생성",
+      "capability3": "96% 정확도",
+      "stat1Value": "90%",
+      "stat1Label": "시간 단축",
+      "stat2Value": "3일→10분",
+      "stat2Label": "견적 처리",
+      "button": "💼 견우 견적 시스템 체험하기"
+    },
+    "jisu": {
+      "name": "지수 (Jisu)",
+      "role": "AI 업무분석 비서",
+      "description": "직원들의 업무 활동을 분석하여 핵심만 콕 집어 사장님께 데이터 기반 업무 보고서를 제공합니다.",
+      "capability1": "업무 패턴 분석",
+      "capability2": "Llama 3 AI 활용",
+      "capability3": "맞춤 보고서",
+      "stat1Value": "3.5시간",
+      "stat1Label": "보고 준비 절약",
+      "stat2Value": "100%",
+      "stat2Label": "데이터 정확도",
+      "button": "📊 지수 업무분석 체험하기"
+    },
+    "doyoung": {
+      "name": "도영 (Do-Young)",
+      "role": "AI 매뉴얼 전문가",
+      "description": "10,000+ 페이지 매뉴얼을 모두 학습하여 현장 문제를 즉시 해결하는 스마트한 기술지원 전문가입니다.",
+      "capability1": "RAG 검색 기술",
+      "capability2": "할루시네이션 방지",
+      "capability3": "CNC/CAD/CAM 전문",
+      "stat1Value": "95%",
+      "stat1Label": "문제해결 성공률",
+      "stat2Value": "4시간→10분",
+      "stat2Label": "해결시간 단축",
+      "button": "📚 도영 매뉴얼 AI 체험하기"
+    },
+    "minseo": {
+      "name": "민서 (Min-Seo)",
+      "role": "AI 보안 데이터 전문가",
+      "description": "온프레미스 sLLM으로 기밀 데이터를 외부 유출 없이 안전하게 분석하는 프라이빗 AI 전문가입니다.",
+      "capability1": "온프레미스 처리",
+      "capability2": "토큰 비용 제로",
+      "capability3": "데이터 주권 확보",
+      "stat1Value": "100%",
+      "stat1Label": "보안 유지",
+      "stat2Value": "₩6,000만원",
+      "stat2Label": "연간 절약",
+      "button": "🔒 민서 보안 AI 체험하기"
+    },
+    "cta": {
+      "title": "🎯 이건 시뮬레이션입니다",
+      "description": " 하지만 강운의 AI 직원들은 실제로 이런 일을 합니다!<br>궁금하시면 무료 상담으로 실제 구현 방법을 알아보세요.",
+      "button": "🤖 실제 구현 상담받기"
+    }
+  },
+  "ai_consultant": {
+    "questions": {
+      "greeting": {
+        "text": "안녕하세요! 강운 AI 상담에 오신 것을 환영합니다. 😊\n\n더 정확한 맞춤 상담을 위해 몇 가지 질문드릴게요. 준비되셨나요?",
+        "options": ["네, 시작하겠습니다", "잠깐만요"]
+      },
+      "business_problem": {
+        "text": "현재 귀사에서 가장 큰 비즈니스 문제나 해결하고 싶은 과제는 무엇인가요?",
+        "options": [
+          "인력 부족 및 업무 효율성",
+          "품질 관리 및 불량률 개선",
+          "고객 응대 및 서비스 개선",
+          "비용 절감 및 생산성 향상",
+          "데이터 관리 및 활용",
+          "기타"
+        ]
+      },
+      "company_size": {
+        "text": "귀사의 규모는 어떻게 되시나요?",
+        "options": [
+          "10명 미만 (소규모)",
+          "10-50명 (중소기업)",
+          "50-200명 (중견기업)",
+          "200명 이상 (대기업)"
+        ]
+      },
+      "budget_range": {
+        "text": "AI 솔루션 도입을 위한 예상 예산 범위는?",
+        "options": [
+          "500만원 미만",
+          "500만원 - 2,000만원",
+          "2,000만원 - 5,000만원",
+          "5,000만원 이상",
+          "예산은 효과에 따라 조정 가능"
+        ]
+      },
+      "timeline": {
+        "text": "언제까지 AI 솔루션 도입을 희망하시나요?",
+        "options": [
+          "1개월 이내",
+          "3개월 이내",
+          "6개월 이내",
+          "1년 이내",
+          "시기는 유연하게 조정 가능"
+        ]
+      },
+      "automation_interest": {
+        "text": "어떤 업무 영역의 자동화나 AI 도입에 가장 관심이 있으신가요?",
+        "options": [
+          "생산 공정 관리 및 모니터링",
+          "문서 검색 및 지식 관리",
+          "고객 상담 및 문의 응대",
+          "내부 업무 자동화",
+          "음성 인식 및 제어 시스템",
+          "전체적인 스마트화"
+        ]
+      }
+    },
+    "prompts": {
+      "recommendation_header": "고객 정보를 바탕으로 강운의 AI 솔루션 중 가장 적합한 것을 추천해주세요.",
+      "customer_summary": "**고객 정보 요약:**",
+      "solution_options": "**강운 솔루션 옵션:**",
+      "format_solution": "**🎯 추천 솔루션**",
+      "format_reason": "**💡 선택 이유**",
+      "format_effect": "**📈 예상 효과**",
+      "format_roi": "**💰 예상 투자 대비 효과**",
+      "format_implementation": "**🚀 도입 방안**",
+      "format_next_step": "**📞 다음 단계**",
+      "next_step_text": "무료 전문 상담을 통해 더 자세한 분석과 맞춤 제안을 받아보세요.",
+      "response_format": "다음 형식으로 응답해주세요:",
+      "effect_time": "업무 처리 시간 30-50% 단축",
+      "effect_cost": "인력 운영비 월 200-500만원 절감",
+      "effect_accuracy": "업무 정확도 95% 이상 향상",
+      "roi_short": "초기 투자비 대비 6개월 내 회수 가능, 연간 ROI 200% 이상 예상",
+      "roi_medium": "12개월 내 투자비 회수, 연간 ROI 150% 이상 예상",
+      "roi_long": "투자비 대비 우수한 ROI 달성 가능, 장기적 경쟁력 확보",
+      "step1": "1단계: 요구사항 분석 및 POC 진행 (2-4주)",
+      "step2": "2단계: 맞춤 솔루션 개발 (4-8주)",
+      "step3": "3단계: 테스트 및 배포 (2-4주)",
+      "step4": "4단계: 교육 및 안정화 (2주)",
+      "detailed_proposal": "구체적인 ROI 계산과 구현 계획을 제공해드립니다.",
+      "reason_template": "귀사의 주요 과제인 '{businessProblem}'를 해결하고, '{interest}' 영역의 효율성을 크게 개선할 수 있습니다."
+    },
+    "solutions": {
+      "ai_agent": "AI Agent (업무 자동화) - 생산 관리, 재고 관리, 설비 모니터링",
+      "rag_application": "RAG 애플리케이션 (문서 검색) - 품질 관리, 지식 관리",
+      "private_sllm": "Private sLLM (맞춤 AI) - 데이터 보안, 온프레미스",
+      "nocode_chatbot": "노코드 챗봇 빌더 - 고객 응대, 내부 문의 처리",
+      "stt_tts": "STT/TTS (음성 인식) - 스마트 팩토리, 관제 시스템"
+    },
+    "messages": {
+      "generation_error": "추천 생성 중 오류가 발생했습니다. 직접 상담을 신청해주세요.",
+      "consultation_complete": "🤖 AI 사전 상담 완료",
+      "timestamp": "상담 완료 시간:",
+      "expert_followup": "전문 상담사가 더 자세한 상담을 제공하겠습니다.",
+      "answer_prefix": "답변:"
+    },
+    "labels": {
+      "main_problem": "주요 문제:",
+      "company_size": "회사 규모:",
+      "budget_range": "예산 범위:",
+      "timeline": "도입 희망 시기:",
+      "interest_area": "관심 영역:",
+      "unspecified": "미지정"
+    }
+  },
+  "aria": {
+    "langSelect": "언어 선택"
+  },
+  "meta": {
+    "title": "강운 - AI 혁신의 파트너 | 제조/중소기업 AI 솔루션",
+    "description": "강운는 제조/중소기업을 위한 AI Agent, RAG, sLLM 등 맞춤형 AI 솔루션을 제공합니다. 생산성 향상과 비용 절감을 실현하세요.",
+    "keywords": "강운, AI 솔루션, 제조업 AI, 중소기업 디지털전환, AI Agent, RAG, sLLM, 강운 웹사이트",
+    "ogTitle": "강운 - 제조/중소기업 AI 전환의 파트너",
+    "ogDescription": "AI Agent, RAG, sLLM으로 제조업 생산성 혁신을 실현하는 강운의 맞춤형 AI 솔루션을 경험하세요.",
+    "ogImage": "/images/og-image-ko.jpg",
+    "twitterTitle": "강운 - AI 혁신의 파트너",
+    "twitterDescription": "제조/중소기업 맞춤형 AI 솔루션으로 생산성 향상과 비용 절감을 실현하세요.",
+    "canonical": "https://kinfri.online/",
+    "author": "강운(KANGWOON)",
+    "robots": "index, follow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  }
+}

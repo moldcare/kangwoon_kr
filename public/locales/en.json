@@ -1,0 +1,1110 @@
+{
+  "nav": {
+    "home": "Home",
+    "solutions": "Solutions",
+    "about": "About",
+    "cases": "Case Studies",
+    "simulation": "🎬 AI Simulation",
+    "contact": "Contact",
+    "backHome": "Back to Main",
+    "freeConsult": "Free Consultation"
+  },
+  "buttons": {
+    "ctaConsult": "Get Free AI Consultation",
+    "viewSolutions": "Explore Solutions"
+  },
+  "hero": {
+    "title": "Your partner for <span class=\"highlight\">AI transformation</span><br>across SMB operations",
+    "description": "KINFRI delivers RAG-powered applications, private sLLM models, and AI Agent automation to boost productivity while cutting operational costs for your business.",
+    "statAccuracy": "Recognition Accuracy",
+    "statCostReduction": "Efficiency Gains",
+    "statResponseTime": "24/7 Autonomous Operations",
+    "cards": {
+      "aiAgent": "AI Agent",
+      "ragSearch": "RAG Search",
+      "privateSllm": "Private sLLM"
+    },
+    "imageAlt": "KINFRI AI transformation platform overview - RAG, sLLM, AI Agent"
+  },
+  "solutions": {
+    "title": "AI Innovation Solutions",
+    "description": "Tailored AI solutions to accelerate digital transformation for manufacturing and SME businesses",
+    "aeoQuickAnswers": {
+      "manufacturing": {
+        "question": "What's the most effective AI solution for manufacturing?",
+        "answer": "<strong>RAG-based quality management systems</strong> deliver 10% defect reduction and 20% faster inspection times."
+      },
+      "cost": {
+        "question": "What are AI implementation costs for SMEs?",
+        "answer": "<strong>No-code chatbot builders</strong> reduce development costs by 70% while processing 17,000+ inquiries monthly."
+      },
+      "security": {
+        "question": "Is AI data security reliable?",
+        "answer": "<strong>On-premises sLLM</strong> ensures 100% data sovereignty with zero external leak risk."
+      }
+    },
+    "aiAgent": {
+      "title": "AI Agent Business Automation",
+      "description": "Autonomous execution of production management, inventory optimization, and equipment monitoring to build 24/7 unmanned operation systems.",
+      "features": {
+        "autonomous": "Autonomous task design and execution",
+        "realtime": "Real-time production process management",
+        "predictive": "Predictive equipment maintenance"
+      },
+      "benefits": {
+        "costReduction": "Cost Reduction",
+        "productivity": "Productivity Boost"
+      }
+    },
+    "ragSolution": {
+      "title": "RAG-based Custom Applications",
+      "description": "Build accurate and reliable information retrieval and response systems utilizing internal company manuals and documents.",
+      "features": {
+        "hallucination": "Hallucination control",
+        "knowledge": "Internal knowledge management system",
+        "optimization": "Real-time document search optimization"
+      },
+      "benefits": {
+        "decision": "Accurate Decision Making",
+        "efficiency": "Operational Efficiency"
+      }
+    },
+    "sllmSolution": {
+      "title": "Private Data-based sLLM Models",
+      "description": "Build customized small language models in on-premises environments while protecting sensitive corporate data.",
+      "features": {
+        "security": "Worry-free data security",
+        "specialized": "Domain-specific AI models",
+        "onPremise": "On-premises deployment support"
+      },
+      "benefits": {
+        "sovereignty": "Data Sovereignty",
+        "securityBoost": "Enhanced Security"
+      }
+    },
+    "noCodeChatbot": {
+      "title": "No-Code AI Chatbot Builder",
+      "description": "Build internal support and customer service chatbots with intuitive interfaces without coding knowledge.",
+      "features": {
+        "dragDrop": "Drag-and-drop interface",
+        "integration": "Multiple AI model integration",
+        "realTimeLearning": "Real-time learning and improvement"
+      },
+      "benefits": {
+        "developmentSpeed": "Development Speed",
+        "maintenance": "Easy Maintenance"
+      }
+    },
+    "sttTtsSolution": {
+      "title": "STT/TTS Voice Recognition Solutions",
+      "description": "Providing high-precision voice recognition and natural speech synthesis technology for smart factories and call centers.",
+      "features": {
+        "accuracy": "95%+ Korean recognition accuracy",
+        "emotional": "Emotional expression speech synthesis",
+        "specialized": "Manufacturing terminology learning"
+      },
+      "benefits": {
+        "controlEfficiency": "Control Efficiency",
+        "customerExperience": "Customer Experience"
+      }
+    }
+  },
+  "simulation": {
+    "airi": {
+      "navName": "Airi",
+      "title": "Airi - IT Management AI",
+      "subtitle": "Night shift AI specialist that quietly manages our company PCs overnight",
+      "pageTitle": "Airi AI - IT Management Real Work Simulation | KINFRI",
+      "pageDescription": "Experience KINFRI's AI employee Airi managing your company's PCs overnight in a real work simulation.",
+      "scenarioTitle": "🌙 Scenario: IT Management Without Overtime",
+      "timeRange": "9 PM ~ 6 AM",
+      "situationLabel": "Situation:",
+      "situationText": "IT system check required after employees leave work",
+      "problemLabel": "Problem:",
+      "problemText": "Need to work overtime and manually manage each PC one by one",
+      "roleLabel": "Airi's Role:",
+      "roleText": "Automatically handle all IT tasks perfectly",
+      "startButton": "▶️ Start Airi Work Simulation",
+      "resultTitle": "🎯 Simulation Complete!",
+      "resultText1": "We've confirmed the tasks Airi handled overnight!",
+      "resultText2": "KINFRI's AI Agent actually automates work 24/7 in this way.",
+      "step1": {
+        "title": "🌙 Airi Work Start",
+        "message": "Hello! The employees have left work. Now I'll take care of the PCs all night.",
+        "action1": "Check connection status of 12 company PCs",
+        "action2": "Start collecting system logs from each PC",
+        "action3": "Prepare to analyze today's work activity data"
+      },
+      "step2": {
+        "title": "🔍 PC Status Diagnosis",
+        "message": "I'm checking each PC one by one. I've found several issues.",
+        "action1": "PC-03: Memory usage 95% (dangerous level)",
+        "action2": "PC-07: 3.2GB temporary files accumulated",
+        "action3": "PC-11: 47 background processes running",
+        "stat1": "Check Complete",
+        "stat2": "Issues Found",
+        "stat3": "Normal Status"
+      },
+      "step3": {
+        "title": "⚠️ Detailed Problem Analysis",
+        "message": "I'm analyzing the discovered problems in detail and establishing solutions.",
+        "action1": "PC-03 memory leak cause: 47 old Chrome tabs",
+        "action2": "PC-07 disk cleanup needed: cache and log files",
+        "action3": "PC-11 detected 12 unnecessary startup programs",
+        "alert": "🚨 Urgent: PC-03 system slowdown 70% confirmed"
+      },
+      "step4": {
+        "title": "🔧 Automatic Problem Resolution",
+        "message": "Now I'll solve the problems one by one. I'll work carefully to not interfere with employee work.",
+        "action1": "PC-03: Terminated unnecessary processes and memory optimization ✅",
+        "action2": "PC-07: Safely deleted 3.2GB temporary files ✅",
+        "action3": "PC-11: Optimized startup programs from 12 → 5 ✅"
+      },
+      "step5": {
+        "title": "💾 System Backup Execution",
+        "message": "Problem resolution is complete. Now I'll safely backup important data.",
+        "action1": "Execute automatic backup of important documents from each PC",
+        "action2": "Create system restore points",
+        "action3": "Double backup database files",
+        "stat1": "Backup Data",
+        "stat2": "Restore Points",
+        "stat3": "Safety Level"
+      },
+      "step6": {
+        "title": "🛡️ Security Check",
+        "message": "Finally, I'll check the security status and see if there are any abnormal signs.",
+        "action1": "Firewall log analysis: 0 external access attempts",
+        "action2": "Malware scan: No risk factors found",
+        "action3": "System vulnerability scan: All PCs confirmed safe"
+      },
+      "final": {
+        "title": "📊 Work Completion Report",
+        "message": "Thank you for your hard work all night! All PCs are ready in optimal condition.",
+        "action1": "Employees can start work in a comfortable environment",
+        "action2": "Expected performance improvement: 23% average improvement",
+        "action3": "IT management time saved: 4 hours 30 minutes",
+        "stat1": "Problems Solved",
+        "stat2": "Backup Complete",
+        "stat3": "Performance Improved",
+        "stat4": "Time Saved"
+      }
+    },
+    "gyeonu": {
+      "navName": "Gyeonu",
+      "pageTitle": "Gyeonu AI - Quotation System Real Work Simulation | KINFRI",
+      "pageDescription": "Professional quotation AI that creates accurate quotes in 10 minutes",
+      "scenarioTitle": "💼 Scenario: Urgent Quotation Request",
+      "timeRange": "4:30 PM",
+      "situationLabel": "Situation:",
+      "situationText": "Large client called requesting quotation by tomorrow",
+      "problemLabel": "Problem:",
+      "problemText": "Complex product configuration and quantities make accurate calculation difficult",
+      "roleLabel": "Gyeonu's Role:",
+      "roleText": "Provide instant accurate quotes based on 10 years of data",
+      "startButton": "💼 Start Quotation Simulation",
+      "beforeMethod": "❌ Traditional Method (3 days required)",
+      "before1": "📞 Customer request received",
+      "before2": "🔍 Manual search of past quotes",
+      "before3": "📊 Manual calculation in Excel",
+      "before4": "📝 Manual quote writing",
+      "before5": "👀 Review and approval waiting",
+      "before6": "📧 Email sending",
+      "beforeTime": "Time required: 3 days",
+      "beforeAccuracy": "Accuracy: 85%",
+      "beforeStaff": "Staff: 2 people",
+      "running": "⏳ Simulation in progress...",
+      "restart": "🔄 Try Again",
+      "afterMethod": "✅ Gyeonu AI Method (10 minutes)",
+      "after1": "⚡ Instant request analysis",
+      "after2": "🤖 Automatic 10-year data search",
+      "after3": "🧠 AI price prediction",
+      "after4": "📄 Automatic quote generation",
+      "after5": "📧 Ready for immediate sending",
+      "afterTime": "Time required: 10 minutes",
+      "afterAccuracy": "Accuracy: 96%",
+      "afterStaff": "Staff: 0 (automatic)",
+      "step1": {
+        "title": "📧 Step 1: Customer Quote Request Received",
+        "requestTitle": "📋 Quote Request Information",
+        "customer": "Customer:",
+        "product": "Product:",
+        "productDesc": "500 precision machined parts",
+        "material": "Material:",
+        "spec": "Specifications:",
+        "surface": "Surface Treatment:",
+        "surfaceDesc": "Anodizing",
+        "tolerance": "Precision:",
+        "delivery": "Delivery:",
+        "deliveryDesc": "Within 2 weeks preferred",
+        "aiMessage": "Analyzing quote request. Please wait a moment..."
+      },
+      "step2": {
+        "title": "🔍 Step 2: AI Data Search",
+        "aiMessage": "Searching and analyzing 10 years of quotation data...",
+        "progressText": "Searching data...",
+        "totalQuotes": "Total Quotes",
+        "similarProjects": "Similar Projects",
+        "sameMaterial": "Same Material",
+        "sameTolerance": "Same Precision"
+      },
+      "step3": {
+        "title": "🧠 Step 3: AI Price Analysis",
+        "aiMessage": "Calculating optimal price based on collected data...",
+        "progressText": "Analyzing price...",
+        "factorsTitle": "🔍 Key Pricing Factors",
+        "factor1": "📊 Material Cost: Current SUS304 market price applied",
+        "factor2": "⚙️ Processing Cost: Based on ±0.02mm precision standard",
+        "factor3": "🎨 Surface Treatment: Anodizing process cost",
+        "factor4": "📦 Volume Discount: Mass production benefits for 500 units",
+        "factor5": "🚚 Shipping Cost: Based on distance and weight",
+        "factor6": "📅 Delivery: 2-week schedule consideration"
+      },
+      "step4": {
+        "title": "💰 Step 4: Final Quote Complete",
+        "quoteTitle": "🎯 AI Predicted Quotation",
+        "priceNote": "(VAT excluded, 2-week delivery)",
+        "accuracy": "AI Prediction Accuracy: 96%",
+        "progressText": "Generating quotation...",
+        "accuracyLabel": "Accuracy",
+        "minuteUnit": "min",
+        "timeLabel": "Time Required",
+        "autoValue": "Auto",
+        "methodLabel": "Processing Method",
+        "immediateValue": "Instant",
+        "sendLabel": "Send Available"
+      },
+      "resultTitle": "🎯 Quotation Simulation Complete!",
+      "resultText1": "Gyeonu completed an accurate quotation in 10 minutes!",
+      "resultText2": "This is how KINFRI's AI Agent automates quotation processes in real business."
+    },
+    "jisu": {
+      "navName": "Jisu",
+      "title": "Jisu - Work Analysis AI",
+      "subtitle": "Analysis specialist AI that analyzes employee work and generates insight reports for management",
+      "aiName": "Jisu",
+      "pageTitle": "Jisu AI - Work Analysis Simulation | KINFRI",
+      "pageDescription": "Experience KINFRI's AI employee Jisu analyzing employee work and generating insight reports in this real work simulation.",
+      "scenarioTitle": "📊 Scenario: Monthly Work Analysis Report",
+      "timeRange": "6:00 PM",
+      "situationLabel": "Situation:",
+      "situationText": "CEO requests analysis of employee work status for this month",
+      "problemLabel": "Problem:",
+      "problemText": "Difficult to manually analyze work data of 50 employees",
+      "roleLabel": "Jisu's Role:",
+      "roleText": "Automatically analyze all work data to derive insights",
+      "startButton": "📊 Start Work Analysis Simulation",
+      "running": "⏳ Simulation in progress...",
+      "restart": "🔄 Try Again",
+      "resultTitle": "🎯 Work Analysis Simulation Complete!",
+      "resultText1": "Jisu automatically analyzed 50 employees' work and completed an insight report!",
+      "resultText2": "This is how KINFRI's AI Agent automates work analysis in real business.",
+      "step1": {
+        "title": "🌙 Starting Data Collection After Employee Departure",
+        "message": "Hello, CEO! All employees have left for the day. I will now analyze today's work activities.",
+        "progressText": "Collecting data...",
+        "marketingTitle": "📊 Marketing Team (4 people)",
+        "marketingContent": "• Photoshop used for 5.2 hours<br>• PowerPoint for 3.1 hours<br>• Modified brochure_final.psd<br>• Created SNS_plan.xlsx",
+        "devTitle": "💻 Development Team (5 people)",
+        "devContent": "• VS Code used for 7.5 hours<br>• Modified 247 website files<br>• Updated bug_report.md<br>• 23 GitHub commits",
+        "salesTitle": "📞 Sales Team (3 people)",
+        "salesContent": "• Excel used for 4.3 hours<br>• Created 8 quotation_0918.xlsx<br>• Updated customer_contacts.xlsx<br>• Sent 47 emails"
+      },
+      "step2": {
+        "title": "🧠 Analyzing Work Patterns with Llama 3 AI",
+        "message": "Analyzing collected data with Llama 3 AI model. Calculating work efficiency and productivity for each team.",
+        "progressText": "AI analyzing...",
+        "analysisTitle": "🔍 Findings During AI Analysis",
+        "recommendation1": "✅ Marketing Team: 75% creative work time → High productivity confirmed",
+        "recommendation2": "✅ Development Team: 82% coding time, reduced meeting time → Improved efficiency",
+        "warning": "⚠️ Sales Team: Work concentration decreased due to 1 absent member, support needed"
+      },
+      "step3": {
+        "title": "📊 Calculating Departmental Productivity Metrics",
+        "message": "Quantified each department's productivity and calculated accurate performance indicators.",
+        "progressText": "Calculating metrics...",
+        "marketingProductivity": "Marketing Team Productivity",
+        "devProductivity": "Development Team Productivity",
+        "salesProductivity": "Sales Team Productivity",
+        "overallAverage": "Overall Average",
+        "marketingDetail": "• New product brochure design completed<br>• Weekly SNS content planning established<br>• Competitor analysis report in progress<br><strong style=\"color: #16A34A;\">Productivity: 92%</strong>",
+        "devDetail": "• Website responsive optimization 90%<br>• Bug fixes: 10 out of 12 completed<br>• New feature development plan review<br><strong style=\"color: #16A34A;\">Productivity: 89%</strong>",
+        "salesDetail": "• Consulting with 5 new customers in progress<br>• 8 quotations sent<br>• Existing customer management<br><strong style=\"color: #F97316;\">Productivity: 75% (staff shortage)</strong>"
+      },
+      "step4": {
+        "title": "📋 Completing Final Report for CEO",
+        "message": "All analysis completed! I've organized an insight report for easy viewing by the CEO.",
+        "progressText": "Generating report...",
+        "projectTitle": "🚀 Project Progress Status",
+        "project1": "New Product Launch Project",
+        "project2": "Website Renewal",
+        "project3": "Customer Management System Development",
+        "project4": "International Marketing Strategy",
+        "status1": "In Progress (85%)",
+        "status2": "In Progress (90%)",
+        "status3": "Completed",
+        "status4": "Delayed (Review Required)",
+        "insightTitle": "💡 AI Analysis Results and Recommendations",
+        "insight1": "<strong>1. Sales Team Reinforcement Recommended</strong> - Current workforce is 25% insufficient for workload.",
+        "insight2": "<strong>2. Marketing Team Excellent Performance</strong> - This week's productivity improved by 15%.",
+        "insight3": "<strong>3. Development Team Reduced Overtime</strong> - Work efficiency improved, average departure time advanced by 1 hour.",
+        "insight4": "<strong>4. Overall Recommendation</strong> - Adding sales team members expected to improve company-wide productivity by 12%."
+      }
+    },
+    "doyoung": {
+      "navName": "Doyoung",
+      "title": "Doyoung - Smart Manual AI",
+      "subtitle": "Field expert who perfectly learned 10,000+ manual pages with RAG technology",
+      "pageTitle": "Doyoung - Smart Manual AI | KINFRI",
+      "pageDescription": "Experience KINFRI's AI employee Doyoung finding accurate solutions instantly from vast manuals using RAG technology in real work simulation.",
+      "scenarioTitle": "📚 Scenario: 3 AM Emergency Situation",
+      "timeRange": "03:15 AM",
+      "situationLabel": "Situation:",
+      "situationText": "Unknown error occurred on production line CNC machine",
+      "problemLabel": "Problem:",
+      "problemText": "Need to find solution from complex 10,000+ manual pages",
+      "roleLabel": "Doyoung's Role:",
+      "roleText": "Provide accurate solution guide instantly with RAG technology",
+      "ragTitle": "🧠 What is RAG (Retrieval Augmented Generation) Technology?",
+      "ragStep1Title": "1. Retrieval",
+      "ragStep1Desc": "Search relevant information from vast database",
+      "ragStep2Title": "2. Augmented",
+      "ragStep2Desc": "Connect retrieved information to AI model",
+      "ragStep3Title": "3. Generation",
+      "ragStep3Desc": "Generate answers based on accurate information",
+      "ragBenefit": "Core Advantage: Prevent hallucination + Real-time accurate information",
+      "startButton": "▶️ Start Doyoung Simulation",
+      "step1": {
+        "title": "🚨 Emergency Situation",
+        "machineInfo": "Production Line CNC-M200 Machine",
+        "errorCode": "Error Code: E4-7829",
+        "errorDesc": "Spindle overload detected - Immediate response required",
+        "manualDesc": "Field worker is looking for manual but...",
+        "manual1": "CNC Machine Manual: 2,847 pages",
+        "manual2": "Tool Usage Guide: 1,523 pages",
+        "manual3": "Safety Procedures: 892 pages",
+        "manual4": "CAD/CAM Software: 5,832 pages",
+        "totalPages": "Total 10,094 pages",
+        "totalPagesText": " to find the answer!"
+      },
+      "step2": {
+        "title": "Doyoung to the Rescue!",
+        "message1": "Hello! I'm Doyoung. I'll analyze the E4-7829 error for you.",
+        "message2": "Don't worry! I've already learned all manuals with RAG technology!"
+      },
+      "step3": {
+        "title": "🔍 RAG Technology Real-time Processing",
+        "searchTitle": "Stage 1: Retrieval",
+        "searchItem1": "Searching CNC machine error manual...",
+        "searchResult1": "📄 27 results found",
+        "searchItem2": "Spindle overload related documents...",
+        "searchResult2": "📄 15 results found",
+        "searchItem3": "E4-7829 error solutions...",
+        "searchResult3": "📄 8 results found",
+        "augmentTitle": "Stage 2: Augmented",
+        "augmentDesc": "🧠 Connecting retrieved information with AI model...",
+        "knowledgeSource1": "CNC Manual p.1,247",
+        "knowledgeSource2": "Safety Procedures p.89",
+        "knowledgeSource3": "Tool Guide p.334",
+        "generateTitle": "Stage 3: Generation",
+        "generateDesc": "📝 Writing solution based on accurate information..."
+      },
+      "step4": {
+        "title": "Doyoung's Perfect Solution",
+        "solutionTitle": "🎯 E4-7829 Error Solution Method",
+        "solution1Title": "Immediate Action",
+        "solution1Desc": "🛑 Activate emergency stop and wait for spindle cooling (5 minutes)",
+        "solution2Title": "Cause Check",
+        "solution2Desc": "🔧 Check tool wear - Overload due to increased cutting resistance",
+        "solution3Title": "Solution",
+        "solution3Desc": "⚙️ Replace tool + Reduce CAM program cutting speed by 15%",
+        "referenceTitle": "📚 Reference Materials",
+        "ref1": "CNC Manual p.1,247 \"Spindle Overload Response\"",
+        "ref2": "Tool Guide p.334 \"Cutting Tool Wear Diagnosis\"",
+        "ref3": "Safety Procedures p.89 \"Emergency Stop Protocol\"",
+        "noHallucination": "✅ Hallucination Prevention: Only accurate information from manuals"
+      },
+      "step5": {
+        "title": "💭 Additional Question from Field Worker",
+        "workerQuestion": "Doyoung, how do I change cutting speed in CAM program?<br>We're using SolidCAM."
+      },
+      "step6": {
+        "title": "Doyoung's Detailed Software Guide",
+        "guideTitle": "🖥️ SolidCAM Cutting Speed Change Method",
+        "swStep1Title": "Open Operations Manager",
+        "swStep1Desc": "Menu: CAMWorks → Operations → Operations Manager",
+        "swStep2Title": "Select Target Operation",
+        "swStep2Desc": "Problem cutting path → Right click → Edit Definition",
+        "swStep3Title": "Modify Speed Parameters",
+        "swStep3Desc1": "Speed/Feeds tab → Reduce Spindle Speed by 15%",
+        "swStep3Desc2": "Current: 2,000 RPM → Change: 1,700 RPM",
+        "swStep4Title": "Regenerate Program",
+        "swStep4Desc": "Generate Toolpath → Post Process → Update G-Code",
+        "softwareRefTitle": "📖 Reference Manuals",
+        "softwareRef1": "SolidCAM User Guide p.2,847 \"Operations Management\"",
+        "softwareRef2": "CAMWorks Manual p.1,205 \"Speed & Feed Optimization\"",
+        "softwareRef3": "CNC Programming Guide p.445 \"RPM Calculation Methods\""
+      },
+      "step7": {
+        "title": "🎉 Problem Solved!",
+        "successTitle": "CNC Machine Normal Operation Resumed",
+        "metric1Title": "Problem Resolution Time",
+        "metric1Value": "10 minutes",
+        "metric1Sub": "Normal resolution time: 2-4 hours",
+        "metric2Title": "Searched Manuals",
+        "metric2Value": "10,094 pages",
+        "metric2Sub": "Accurate answer in 0.3 seconds",
+        "metric3Title": "Production Loss Prevention",
+        "metric3Value": "$20,000",
+        "metric3Sub": "4-hour production shutdown cost"
+      },
+      "step8": {
+        "title": "💎 Value Provided by RAG Technology",
+        "value1Title": "Accuracy",
+        "value1Desc": "Only accurate information from manuals<br>Complete hallucination prevention",
+        "value2Title": "Speed",
+        "value2Desc": "Answer in 0.3 seconds<br>from 10,000+ pages",
+        "value3Title": "Traceability",
+        "value3Desc": "Exact source and page number<br>for every answer",
+        "value4Title": "Versatility",
+        "value4Desc": "CNC, CAD/CAM, Tools, Safety<br>All fields simultaneously",
+        "comparisonTitle": "🆚 Traditional Method vs RAG Technology",
+        "oldMethodTitle": "Traditional Manual Search",
+        "oldMethod1": "❌ Takes 2-4 hours",
+        "oldMethod2": "❌ Difficult to search multiple manuals simultaneously",
+        "oldMethod3": "❌ Possibility of human error",
+        "oldMethod4": "❌ Difficult to interpret without experience",
+        "newMethodTitle": "Doyoung RAG System",
+        "newMethod1": "✅ Complete resolution within 10 minutes",
+        "newMethod2": "✅ Utilize all manuals simultaneously",
+        "newMethod3": "✅ 100% accurate information",
+        "newMethod4": "✅ Beginner can respond at expert level"
+      },
+      "resultTitle": "🎯 Simulation Complete!",
+      "resultText1": "Doyoung provided accurate solutions instantly with RAG technology!",
+      "resultText2": "KINFRI's RAG system actually utilizes vast manuals in this way."
+    },
+    "minseo": {
+      "navName": "Minseo",
+      "pageTitle": "Minseo - Private Data Security AI | KINFRI",
+      "pageDescription": "On-premises AI that safely analyzes confidential documents without data leakage using sLLM technology",
+      "title": "Minseo - Private Data Security AI",
+      "subtitle": "Safely analyze confidential documents without data leakage using sLLM technology",
+      "scenarioTitle": "🔒 Scenario: Confidential Data Analysis Request",
+      "timeRange": "14:30 PM",
+      "situationLabel": "Situation:",
+      "situationText": "CEO requests analysis of important contracts and blueprints",
+      "problemLabel": "Problem:",
+      "problemText": "Risk of confidential data leakage when using external AI services",
+      "roleLabel": "Minseo's Role:",
+      "roleText": "Analyze while maintaining 100% security with on-premises sLLM",
+      "startButton": "Start Minseo Security AI Simulation",
+      "running": "⏳ Running security simulation...",
+      "restart": "🔄 Try Again",
+      "warningTitle": "Risks of Common AI Services",
+      "warning1": "📤 Data transmitted to external servers",
+      "warning2": "💰 Cost burden per token",
+      "warning3": "🌐 Internet connection required",
+      "warning4": "🔓 Loss of data sovereignty",
+      "sllmTitle": "🏢 What is sLLM (Small Large Language Model) Technology?",
+      "sllmStep1Title": "On-Premises Installation",
+      "sllmStep1Desc": "Installed directly on company servers, data never leaves",
+      "sllmStep2Title": "Lightweight Model",
+      "sllmStep2Desc": "Fast and efficient processing with only necessary features",
+      "sllmStep3Title": "Custom Training",
+      "sllmStep3Desc": "Specialized AI model for enterprise domain",
+      "sllmBenefitLabel": "🔑 Key Benefits:",
+      "sllmBenefitText": "Data sovereignty + Zero token cost + Unlimited usage",
+      "step1": {
+        "title": "📁 Confidential Documents for Analysis",
+        "doc1Title": "Large Project Contract",
+        "doc1Detail": "25 billion KRW scale / 42 pages",
+        "doc1Security": "🔴 Security Level: Top Secret",
+        "doc2Title": "Core Component Blueprints",
+        "doc2Detail": "Including patented technology / 187 drawings",
+        "doc2Security": "🔴 Security Level: Top Secret",
+        "doc3Title": "Employee Performance Data",
+        "doc3Detail": "Including personal information / 324 people",
+        "doc3Security": "🟡 Security Level: Confidential",
+        "riskTitle": "Risks of Using External AI Services",
+        "riskCost": "Expected token cost: ₩3.8M/month",
+        "riskData": "Data transmission: Extreme security risk",
+        "riskInternet": "Internet dependency: Business continuity risk"
+      },
+      "step2": {
+        "title": "Minseo Security AI Activated",
+        "message1": "Hello! I'm Minseo. I'll help analyze your confidential documents.",
+        "message2": "All processing happens only on internal servers, so don't worry!",
+        "status1": "On-premises environment confirmed",
+        "status2": "External internet connection blocked",
+        "status3": "Internal server GPU running"
+      },
+      "step3": {
+        "title": "🔐 sLLM Security System Check",
+        "isolationTitle": "Step 1: Data Isolation Verification",
+        "isolationLoc": "🏢 Processing Location: Internal Server (192.168.1.100)",
+        "isolationComm": "🌐 External Communication: Completely Blocked",
+        "isolationStorage": "💾 Data Storage: Local Storage Only",
+        "costTitle": "Step 2: Cost Savings Effect",
+        "costExternal": "External AI Service",
+        "costToken": "Token Cost: ₩3.8M/month",
+        "costApi": "API Call Fee: ₩1.2M/month",
+        "costTotalExt": "Total Annual Cost: ₩60M",
+        "costInternal": "Minseo sLLM",
+        "costTokenFree": "Token Cost: ₩0",
+        "costApiFree": "API Call Fee: ₩0",
+        "costTotalInt": "Total Annual Cost: ₩0",
+        "costSaving": "💡 Annual Savings: ₩60M",
+        "perfTitle": "Step 3: Performance Optimization Check",
+        "perfModel": "Model Size: 3.8GB (95% lighter than GPT-4)",
+        "perfSpeed": "Response Speed: 0.8s (3x faster than API service)",
+        "perfConcurrent": "Concurrent Processing: Unlimited (No API limits)"
+      },
+      "step4": {
+        "title": "Minseo Analyzes Confidential Documents",
+        "message1": "Now I'll safely analyze the confidential documents.",
+        "message2": "All processing happens internally, not a single second goes outside!",
+        "contractTitle": "Analyzing contract...",
+        "contractResult": "🎯 Key Findings",
+        "contract1": "Contract Amount: ₩25B (VAT excluded)",
+        "contract2": "Deadline: December 31, 2025",
+        "contract3": "Risk Clause: 0.1% daily penalty for delay",
+        "contract4": "Bonus Clause: 5% incentive for early completion",
+        "blueprintTitle": "Analyzing blueprints...",
+        "blueprintResult": "🔧 Technical Analysis",
+        "blueprint1": "Patents: 3 exclusive technologies included",
+        "blueprint2": "Manufacturing Difficulty: High (precision ±0.01mm)",
+        "blueprint3": "Expected Cost: ₩128,000 per unit",
+        "blueprint4": "Quality Risk: Caution needed in heat treatment process",
+        "hrTitle": "Analyzing HR data...",
+        "hrResult": "📊 Performance Analysis Summary",
+        "hr1": "Excellent Employees: 43 (13.3%)",
+        "hr2": "Average Performance Score: 78.2",
+        "hr3": "Turnover Risk: 12 (management needed)",
+        "hr4": "Promotion Candidates: 18 (review recommended)",
+        "securityNote1": "This information was processed only on internal servers",
+        "securityNote2": "Design information was not transmitted externally",
+        "securityNote3": "Personal information was completely protected"
+      },
+      "step5": {
+        "title": "Minseo's Comprehensive Analysis Report",
+        "reportTitle": "📋 Executive Report (Confidential)",
+        "conclusionTitle": "🎯 Key Conclusion",
+        "conclusionText": "Project Success Probability: 87%",
+        "conclusionDetail": "Contract terms favorable, technical capability sufficient. However, schedule management and key personnel retention are critical",
+        "recommendTitle": "💡 Strategic Recommendations",
+        "recommend1Title": "Schedule Management",
+        "recommend1Text": "Recommend advancing schedule by 2 months to capture early completion bonus (₩1.25B)",
+        "recommend2Title": "Personnel Management",
+        "recommend2Text": "Priority interviews and compensation improvement needed for 3 key technicians among 12 at turnover risk",
+        "recommend3Title": "Technical Response",
+        "recommend3Text": "Consider external expert collaboration for heat treatment process quality improvement",
+        "recommend4Title": "Profitability Analysis",
+        "recommend4Text": "Current cost-based net margin 23.7%, expected 28.2% upon goal achievement",
+        "securityTitle": "🔐 Security Guarantee",
+        "securityMainText": "All this analysis was processed only with internal sLLM",
+        "security1": "✅ External server transmission: 0 cases",
+        "security2": "✅ Data storage: Internal encrypted storage",
+        "security3": "✅ Processing cost: ₩0 (no token cost)",
+        "security4": "✅ Access rights: Approved employees only"
+      },
+      "step6": {
+        "title": "🎉 Security Analysis Complete!",
+        "successMessage": "Perfect analysis completed while maintaining 100% security",
+        "metric1Title": "Data Security",
+        "metric1Value": "100%",
+        "metric1Sub": "0 external leaks",
+        "metric2Title": "Processing Cost",
+        "metric2Value": "₩0",
+        "metric2Sub": "No token cost",
+        "metric3Title": "Analysis Time",
+        "metric3Value": "7 min",
+        "metric3Sub": "3x faster than external API",
+        "metric4Title": "Analysis Accuracy",
+        "metric4Value": "94.8%",
+        "metric4Sub": "Domain-specific training effect"
+      },
+      "step7": {
+        "title": "💎 Value Provided by sLLM Technology",
+        "value1Title": "Data Sovereignty",
+        "value1Text": "Complete control with all data processed internally only",
+        "value2Title": "Zero Cost",
+        "value2Text": "Unlimited usage without token-based billing",
+        "value3Title": "Custom Optimization",
+        "value3Text": "Dedicated AI model specialized for enterprise domain",
+        "value4Title": "High Performance",
+        "value4Text": "Fast response with lightweight model, unlimited concurrent processing",
+        "comparisonTitle": "🆚 External AI Service vs sLLM",
+        "externalTitle": "External AI Service",
+        "external1": "❌ Data transmission to external (security risk)",
+        "external2": "❌ Per-token billing (millions per month)",
+        "external3": "❌ Internet connection required",
+        "external4": "❌ API call limits",
+        "external5": "❌ Loss of data sovereignty",
+        "sllmTitle": "KINFRI sLLM",
+        "sllm1": "✅ On-premises processing (100% secure)",
+        "sllm2": "✅ No token cost (unlimited)",
+        "sllm3": "✅ Offline operation possible",
+        "sllm4": "✅ No call limits",
+        "sllm5": "✅ Complete data control",
+        "roiTitle": "📈 Return on Investment (ROI) Calculation",
+        "roiSaving": "Annual Cost Savings: ₩60M",
+        "roiSecurity": "Security Risk Reduction: Priceless",
+        "roiProductivity": "Productivity Improvement: 30%"
+      },
+      "resultTitle": "🎯 Security AI Simulation Complete!",
+      "resultText1": "Minseo completed confidential data analysis while maintaining 100% security!",
+      "resultText2": "KINFRI's sLLM solution actually guarantees data security in this way.",
+      "cta": {
+        "titleHtml": "Build a <strong>private data security AI</strong> like Minseo for your enterprise!",
+        "bullet1": "✅ 100% on-premises deployment",
+        "bullet2": "✅ Zero risk of external data leakage",
+        "bullet3": "✅ No token-based usage fees",
+        "bullet4": "✅ Fully customized enterprise model"
+      }
+    },
+    "common": {
+      "progressLabel": "Progress",
+      "success": "✅ Task completed successfully!",
+      "running": "⏳ Simulation running...",
+      "restart": "🔄 Try Again",
+      "consultButton": "Free Consultation",
+      "progress": {
+        "preparing": "Preparing simulation...",
+        "emergency": "Emergency situation occurred...",
+        "doyoungStart": "Doyoung to the rescue!",
+        "ragProcessing": "Processing RAG technology...",
+        "solutionGen": "Generating solution...",
+        "additionalQ": "Processing additional question...",
+        "detailedGuide": "Providing detailed guide...",
+        "resultAnalysis": "Analyzing results...",
+        "completed": "Simulation completed!",
+        "processing": "Processing..."
+      }
+    }
+  },
+  "about": {
+    "title": "AI Innovation Partner, KINFRI",
+    "description": "KINFRI leads digital transformation for manufacturing and SMEs, supporting sustainable growth through AI technology.",
+    "mission": "Our Mission: Maximize competitiveness by innovating customer businesses with AI.",
+    "vision": "Our Vision: Create a world where every SME benefits from AI.",
+    "badges": {
+      "certifiedPartner": "Certified AI Partner",
+      "customerSatisfaction": "99% Customer Satisfaction",
+      "isoCompliance": "ISO 27001 Compliant"
+    },
+    "features": {
+      "e2e": {
+        "title": "E2E Process Support",
+        "description": "One-stop support from use case discovery to development and maintenance."
+      },
+      "security": {
+        "title": "Security-Centric Design",
+        "description": "Providing on-premises AI solutions that protect sensitive corporate data."
+      },
+      "customized": {
+        "title": "Field-Customized Solutions",
+        "description": "Domain-specific AI technology optimized for manufacturing characteristics."
+      },
+      "expertTeam": {
+        "title": "Expert Team",
+        "description": "Top experts in generative AI ensure customer success."
+      }
+    },
+    "stats": {
+      "founded": "Founded",
+      "projects": "Projects Completed",
+      "satisfaction": "Customer Satisfaction",
+      "support": "Technical Support"
+    },
+    "imageAlt": "KINFRI Expert Team"
+  },
+  "credentials": {
+    "title": "Proven Expertise",
+    "aiTeam": {
+      "title": "AI R&D Team",
+      "description": "Samsung, LG Electronics Alumni<br>5+ Years AI Engineering",
+      "badges": ["MS/PhD Degrees", "AI Patent Holders"]
+    },
+    "consultingTeam": {
+      "title": "Manufacturing Consulting Team",
+      "description": "Hyundai Heavy, POSCO Alumni<br>10+ Years Manufacturing Innovation",
+      "badges": ["PMP Certified", "Six Sigma BB"]
+    },
+    "securityTeam": {
+      "title": "Data Security Team",
+      "description": "Financial Security Experts<br>15+ Years Information Security",
+      "badges": ["CISSP Certified", "ISO 27001"]
+    },
+    "certBadges": {
+      "masterDegree": "MS/PhD Degrees",
+      "aiPatent": "AI Patent Holders",
+      "pmpCert": "PMP Certified",
+      "sixSigmaBB": "Six Sigma BB",
+      "cisspCert": "CISSP Certified",
+      "iso27001": "ISO 27001"
+    }
+  },
+  "process": {
+    "title": "KINFRI AI Implementation Process (3 Steps)",
+    "step1": {
+      "title": "Field Analysis & Consulting (1 Week)",
+      "description": "• Production process analysis<br>• AI implementation area identification<br>• ROI prediction report"
+    },
+    "step2": {
+      "title": "Custom AI Solution Development (4 Weeks)",
+      "description": "• Enterprise data-based model building<br>• Legacy system integration<br>• Pilot testing and validation"
+    },
+    "step3": {
+      "title": "Operations & Maintenance (Ongoing)",
+      "description": "• 24/7 monitoring and support<br>• Performance optimization & updates<br>• Employee training & knowledge transfer"
+    }
+  },
+  "cases": {
+    "title": "Success Cases",
+    "description": "Real achievements of companies that innovated with KINFRI AI solutions",
+    "manufacturing": {
+      "category": "Manufacturing",
+      "title": "10% Defect Rate Reduction with AI",
+      "description": "20% inspection time reduction and productivity improvement with RAG-based quality management system",
+      "tech1": "RAG",
+      "tech2": "AI Vision",
+      "tech3": "Quality Control",
+      "result1Value": "10%",
+      "result1Label": "Defect Reduction",
+      "result2Value": "20%",
+      "result2Label": "Inspection Time Cut"
+    },
+    "corporate": {
+      "category": "Corporate",
+      "title": "30% Employee Productivity Increase",
+      "description": "Internal task automation and enhanced security with Private sLLM",
+      "tech1": "sLLM",
+      "tech2": "No-Code",
+      "tech3": "On-Premise",
+      "result1Value": "30%",
+      "result1Label": "Work Time Reduction",
+      "result2Value": "100%",
+      "result2Label": "Data Security"
+    },
+    "smartFactory": {
+      "category": "Smart Factory",
+      "title": "40% Control Efficiency with Voice",
+      "description": "Smart factory control automation with 95% accurate STT voice recognition",
+      "tech1": "STT",
+      "tech2": "TTS",
+      "tech3": "Voice Control",
+      "result1Value": "95%",
+      "result1Label": "Voice Recognition",
+      "result2Value": "40%",
+      "result2Label": "Control Efficiency"
+    },
+    "customerService": {
+      "category": "Customer Service",
+      "title": "17,000 Monthly Inquiries with AI Chatbot",
+      "description": "24/7 automated customer service system built with RAG-based chatbot",
+      "tech1": "RAG",
+      "tech2": "Chatbot",
+      "tech3": "24/7 Service",
+      "result1Value": "17K",
+      "result1Label": "Monthly Inquiries",
+      "result2Value": "90%",
+      "result2Label": "Customer Satisfaction"
+    },
+    "cta": {
+      "title": "Is your business ready for innovation?",
+      "description": "Plan a customized AI solution with KINFRI experts.",
+      "button": "🤖 Free AI Consultation"
+    }
+  },
+  "aiSimulation": {
+    "title": "🎬 AI Employees at Work",
+    "description": "It's a simulation, but KINFRI AI actually does this kind of work!<br>Experience the amazing capabilities of AI employees with just one click.",
+    "airi": {
+      "name": "Airi",
+      "role": "AI IT Management Expert",
+      "description": "Reliable IT employee who quietly manages company PCs overnight, solving problems and maintaining optimal condition.",
+      "capability1": "Automatic PC Optimization",
+      "capability2": "Security Monitoring",
+      "capability3": "Data Backup",
+      "stat1Value": "20%",
+      "stat1Label": "IT Cost Reduction",
+      "stat2Value": "15%",
+      "stat2Label": "Productivity Improvement",
+      "button": "🎬 Experience Airi's Real Work"
+    },
+    "gyeonu": {
+      "name": "Gyeonu",
+      "role": "AI Quotation Expert",
+      "description": "Learns 10 years of quotation data to automatically generate accurate and competitive quotes in just 10 minutes.",
+      "capability1": "Big Data Analysis",
+      "capability2": "Instant Quote Generation",
+      "capability3": "96% Accuracy",
+      "stat1Value": "90%",
+      "stat1Label": "Time Reduction",
+      "stat2Value": "3 days→10 min",
+      "stat2Label": "Quote Processing",
+      "button": "💼 Experience Gyeonu's Quotation System"
+    },
+    "jisu": {
+      "name": "Jisu",
+      "role": "AI Work Analysis Assistant",
+      "description": "Analyzes employee work activities and provides data-driven work reports to management with key insights.",
+      "capability1": "Work Pattern Analysis",
+      "capability2": "Llama 3 AI Utilization",
+      "capability3": "Custom Reports",
+      "stat1Value": "3.5 hours",
+      "stat1Label": "Report Prep Saved",
+      "stat2Value": "100%",
+      "stat2Label": "Data Accuracy",
+      "button": "📊 Experience Jisu's Work Analysis"
+    },
+    "doyoung": {
+      "name": "Doyoung",
+      "role": "AI Manual Expert",
+      "description": "Smart technical support expert who learns 10,000+ manual pages to instantly solve field problems.",
+      "capability1": "RAG Search Technology",
+      "capability2": "Hallucination Prevention",
+      "capability3": "CNC/CAD/CAM Expert",
+      "stat1Value": "95%",
+      "stat1Label": "Problem Resolution Rate",
+      "stat2Value": "4 hours→10 min",
+      "stat2Label": "Resolution Time Cut",
+      "button": "📚 Experience Doyoung's Manual AI"
+    },
+    "minseo": {
+      "name": "Minseo",
+      "role": "AI Security Data Expert",
+      "description": "Private AI expert who safely analyzes confidential data without external leakage using on-premises sLLM.",
+      "capability1": "On-Premises Processing",
+      "capability2": "Zero Token Cost",
+      "capability3": "Data Sovereignty",
+      "stat1Value": "100%",
+      "stat1Label": "Security Maintained",
+      "stat2Value": "$500K",
+      "stat2Label": "Annual Savings",
+      "button": "🔒 Experience Minseo's Security AI"
+    },
+    "cta": {
+      "title": "🎯 This is a Simulation",
+      "description": "But KINFRI's AI employees actually do this kind of work!<br>Contact us for free consultation to learn about real implementation methods.",
+      "button": "🤖 Get Real Implementation Consultation"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Start your AI innovation journey with us. Our experts will propose customized solutions for you.",
+    "methods": {
+      "phone": {
+        "title": "Phone Inquiry",
+        "number": "+82-10-4063-9062",
+        "hours": "Weekdays 9:00 - 18:00"
+      },
+      "email": {
+        "title": "Email",
+        "address": "thinkcare@naver.com",
+        "availability": "24/7 Available"
+      },
+      "address": {
+        "title": "Address",
+        "location": "Gangnam-gu, Seoul, Korea",
+        "note": "Visit by appointment"
+      }
+    },
+    "form": {
+      "company": "Company Name *",
+      "name": "Contact Person *",
+      "phone": "Phone *",
+      "email": "Email *",
+      "solution": "Solution of Interest",
+      "solutionPlaceholder": "Please select",
+      "solutionOptions": {
+        "aiAgent": "AI Agent Business Automation",
+        "rag": "RAG-based Custom Applications",
+        "sllm": "Private Data-based sLLM",
+        "chatbot": "No-Code AI Chatbot Builder",
+        "voice": "STT/TTS Voice Solutions",
+        "consulting": "AI Consulting"
+      },
+      "message": "Inquiry Details *",
+      "messagePlaceholder": "Please write detailed requirements such as project scale, implementation timeline, budget, etc.",
+      "privacyConsent": "I agree to the collection and use of personal information. *",
+      "submit": "📧 Apply for Free Consultation"
+    }
+  },
+  "footer": {
+    "brandText": "KINFRI",
+    "description": "Leading AI transformation for manufacturing/SMEs, providing intelligent solutions for sustainable growth.",
+    "solutions": {
+      "title": "Solutions",
+      "aiAgent": "AI Agent Automation",
+      "rag": "RAG Applications",
+      "sllm": "Private sLLM",
+      "nocode": "No-Code Chatbot",
+      "voice": "STT/TTS Voice Recognition"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "cases": "Success Stories",
+      "blog": "Blog",
+      "careers": "Careers"
+    },
+    "support": {
+      "title": "Support",
+      "contact": "Contact",
+      "techSupport": "Technical Support",
+      "docs": "Documentation",
+      "faq": "FAQ"
+    },
+    "contactInfo": {
+      "title": "Contact",
+      "email": "Email:",
+      "emailValue": "thinkcare@naver.com",
+      "phone": "Phone:",
+      "phoneValue": "+82-10-4063-9062",
+      "address": "Address:",
+      "addressValue": "Gangnam-gu, Seoul"
+    },
+    "copyright": "© 2025 KINFRI. All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  },
+  "aiModal": {
+    "title": "🤖 Free AI Consultation",
+    "subtitle": "Get personalized AI solution recommendations",
+    "closeButton": "×",
+    "progressText": "Consultation Progress:",
+    "inputPlaceholder": "Type your message...",
+    "sendButton": "Send",
+    "recommendationTitle": "🎯 AI Customized Recommendation Results",
+    "consultButton": "📞 Apply for Expert Consultation",
+    "restartButton": "🔄 Start New Consultation",
+    "typingIndicator": "AI is analyzing"
+  },
+  "ai_consultant": {
+    "questions": {
+      "greeting": {
+        "text": "Welcome to KINFRI AI Consultation! 😊\n\nWe'd like to ask a few questions to provide more accurate and customized consultation. Are you ready to begin?",
+        "options": ["Yes, let's start", "Wait a moment"]
+      },
+      "business_problem": {
+        "text": "What is the biggest business problem or challenge your company would like to solve?",
+        "options": [
+          "Staff shortage & work efficiency",
+          "Quality control & defect rate improvement",
+          "Customer service & support improvement",
+          "Cost reduction & productivity enhancement",
+          "Data management & utilization",
+          "Others"
+        ]
+      },
+      "company_size": {
+        "text": "What is the size of your company?",
+        "options": [
+          "Less than 10 employees (Small)",
+          "10-50 employees (SME)",
+          "50-200 employees (Mid-sized)",
+          "200+ employees (Large)"
+        ]
+      },
+      "budget_range": {
+        "text": "What is your expected budget range for AI solution implementation?",
+        "options": [
+          "Less than $50,000",
+          "$50,000 - $200,000",
+          "$200,000 - $500,000",
+          "$500,000+",
+          "Budget flexible based on effectiveness"
+        ]
+      },
+      "timeline": {
+        "text": "When would you like to implement the AI solution?",
+        "options": [
+          "Within 1 month",
+          "Within 3 months",
+          "Within 6 months",
+          "Within 1 year",
+          "Timeline is flexible"
+        ]
+      },
+      "automation_interest": {
+        "text": "Which business area are you most interested in automating or implementing AI?",
+        "options": [
+          "Production process management & monitoring",
+          "Document search & knowledge management",
+          "Customer service & inquiry handling",
+          "Internal work automation",
+          "Voice recognition & control systems",
+          "Overall smart transformation"
+        ]
+      }
+    },
+    "prompts": {
+      "recommendation_header": "Based on customer information, please recommend the most suitable AI solution from KINFRI's offerings.",
+      "customer_summary": "**Customer Information Summary:**",
+      "solution_options": "**KINFRI Solution Options:**",
+      "format_solution": "**🎯 Recommended Solution**",
+      "format_reason": "**💡 Selection Rationale**",
+      "format_effect": "**📈 Expected Benefits**",
+      "format_roi": "**💰 Expected ROI**",
+      "format_implementation": "**🚀 Implementation Plan**",
+      "format_next_step": "**📞 Next Steps**",
+      "next_step_text": "Get more detailed analysis and customized proposals through free professional consultation.",
+      "response_format": "Please respond in the following format:",
+      "effect_time": "30-50% reduction in task processing time",
+      "effect_cost": "Monthly savings of 2-5 million KRW in operational costs",
+      "effect_accuracy": "95%+ improvement in work accuracy",
+      "roi_short": "ROI recovery within 6 months, 200%+ annual ROI expected",
+      "roi_medium": "ROI recovery within 12 months, 150%+ annual ROI expected",
+      "roi_long": "Excellent ROI achievement potential, long-term competitive advantage",
+      "step1": "Phase 1: Requirements analysis & POC (2-4 weeks)",
+      "step2": "Phase 2: Custom solution development (4-8 weeks)",
+      "step3": "Phase 3: Testing & deployment (2-4 weeks)",
+      "step4": "Phase 4: Training & stabilization (2 weeks)",
+      "detailed_proposal": "We will provide detailed ROI calculations and implementation plans.",
+      "reason_template": "This can solve your main challenge of '{businessProblem}' and significantly improve efficiency in the '{interest}' area."
+    },
+    "solutions": {
+      "ai_agent": "AI Agent (Work Automation) - Production management, inventory management, facility monitoring",
+      "rag_application": "RAG Application (Document Search) - Quality management, knowledge management",
+      "private_sllm": "Private sLLM (Custom AI) - Data security, on-premises",
+      "nocode_chatbot": "No-code Chatbot Builder - Customer service, internal inquiry handling",
+      "stt_tts": "STT/TTS (Voice Recognition) - Smart factory, control systems"
+    },
+    "messages": {
+      "generation_error": "An error occurred while generating recommendations. Please apply for direct consultation.",
+      "consultation_complete": "🤖 AI Pre-consultation Completed",
+      "timestamp": "Consultation completion time:",
+      "expert_followup": "A professional consultant will provide more detailed consultation.",
+      "answer_prefix": "Answer:"
+    },
+    "labels": {
+      "main_problem": "Main Problem:",
+      "company_size": "Company Size:",
+      "budget_range": "Budget Range:",
+      "timeline": "Desired Implementation Timeline:",
+      "interest_area": "Area of Interest:",
+      "unspecified": "Unspecified"
+    }
+  },
+  "aria": {
+    "langSelect": "Select language"
+  },
+  "meta": {
+    "title": "KINFRI - AI Innovation Partner | Manufacturing & SME AI Solutions",
+    "description": "KINFRI provides customized AI solutions including AI Agent, RAG, and sLLM for manufacturing and small-to-medium enterprises. Achieve productivity improvement and cost reduction.",
+    "keywords": "KINFRI, AI solutions, manufacturing AI, SME digital transformation, AI Agent, RAG, sLLM, artificial intelligence",
+    "ogTitle": "KINFRI - AI Transformation Partner for Manufacturing & SMEs",
+    "ogDescription": "Experience KINFRI's customized AI solutions that revolutionize manufacturing productivity with AI Agent, RAG, and sLLM technologies.",
+    "ogImage": "/images/og-image-en.jpg",
+    "twitterTitle": "KINFRI - AI Innovation Partner",
+    "twitterDescription": "Achieve productivity improvement and cost reduction with customized AI solutions for manufacturing and SMEs.",
+    "canonical": "https://kinfri.online/",
+    "author": "KINFRI",
+    "robots": "index, follow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  }
+}
+

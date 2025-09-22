@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="simulation.jisu.pageTitle">지수(Jisu) AI - 업무분석 실제 업무 시뮬레이션 | 킨프리</title>
+    <meta name="description" content="" data-i18n-content="simulation.jisu.pageDescription">
+    <link rel="stylesheet" href="simulation-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="../images/favicon.png" type="image/png">
+    <style>
+        /* 지수 전용 스타일 (초록색 테마) */
+        body {
+            background: var(--sim-gradient-jisu);
+        }
+
+        .simulation-step {
+            background: var(--sim-glass);
+            border-radius: var(--radius-xl);
+            padding: var(--space-6);
+            margin: var(--space-6) 0;
+            border: 1px solid var(--sim-glass-border);
+            opacity: 0;
+            transform: translateY(20px);
+            animation: slideUp 0.6s ease-out forwards;
+        }
+
+        .step-title {
+            font-size: var(--text-xl);
+            font-weight: var(--weight-bold);
+            color: white;
+            margin-bottom: var(--space-4);
+        }
+
+        .ai-message {
+            background: rgba(22, 163, 74, 0.2);
+            border-left: 4px solid white;
+            padding: var(--space-4);
+            margin: var(--space-4) 0;
+            border-radius: var(--radius-lg);
+            font-style: italic;
+        }
+
+        .typing-effect {
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 3s steps(60, end), blink-caret 0.5s step-end infinite;
+            border-right: 2px solid white;
+        }
+
+        @keyframes typing {
+            from { max-width: 0; }
+            to { max-width: 100%; }
+        }
+
+        @keyframes blink-caret {
+            from, to { border-color: transparent; }
+            50% { border-color: #16A34A; }
+        }
+
+        .progress-bar {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: var(--radius-lg);
+            height: 30px;
+            margin: var(--space-4) 0;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .progress-fill {
+            background: linear-gradient(90deg, #16A34A, #22C55E);
+            height: 100%;
+            border-radius: var(--radius-lg);
+            transition: width 0.5s ease;
+            box-shadow: 0 0 15px rgba(22, 163, 74, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .progress-text {
+            color: white;
+            font-weight: var(--weight-medium);
+            font-size: var(--text-sm);
+        }
+
+        .data-collection {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--space-4);
+            margin: var(--space-6) 0;
+        }
+
+        .employee-card {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: var(--radius-lg);
+            padding: var(--space-4);
+            border: 1px solid rgba(22, 163, 74, 0.3);
+        }
+
+        .employee-name {
+            font-weight: var(--weight-bold);
+            color: white;
+            margin-bottom: var(--space-3);
+            font-size: var(--text-lg);
+        }
+
+        .activity-list {
+            line-height: 1.6;
+            font-size: var(--text-sm);
+        }
+
+        .report-section {
+            margin: var(--space-6) 0;
+        }
+
+        .report-title {
+            font-size: var(--text-lg);
+            font-weight: var(--weight-bold);
+            color: white;
+            margin-bottom: var(--space-4);
+            padding: var(--space-3);
+            background: rgba(22, 163, 74, 0.2);
+            border-radius: var(--radius-lg);
+        }
+
+        .recommendation {
+            background: rgba(16, 185, 129, 0.2);
+            border-left: 4px solid #10B981;
+            padding: var(--space-3);
+            margin: var(--space-2) 0;
+            border-radius: var(--radius-md);
+        }
+
+        .warning {
+            background: rgba(249, 115, 22, 0.2);
+            border-left: 4px solid #F97316;
+            padding: var(--space-3);
+            margin: var(--space-2) 0;
+            border-radius: var(--radius-md);
+        }
+
+        .productivity-chart {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--space-4);
+            margin: var(--space-4) 0;
+        }
+
+        .chart-item {
+            background: rgba(255, 255, 255, 0.95);
+            color: #333;
+            padding: var(--space-4);
+            border-radius: var(--radius-lg);
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .chart-number {
+            font-size: var(--text-3xl);
+            font-weight: var(--weight-bold);
+            color: #16A34A;
+            margin-bottom: var(--space-2);
+        }
+
+        .department-breakdown {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--space-4);
+            margin: var(--space-4) 0;
+        }
+
+        .dept-card {
+            background: var(--sim-glass);
+            border-radius: var(--radius-lg);
+            padding: var(--space-4);
+            border: 1px solid var(--sim-glass-border);
+        }
+
+        .dept-name {
+            font-weight: var(--weight-bold);
+            color: white;
+            margin-bottom: var(--space-3);
+            font-size: var(--text-lg);
+        }
+
+        .project-status {
+            margin: var(--space-4) 0;
+        }
+
+        .project-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--space-3);
+            margin: var(--space-2) 0;
+            background: var(--sim-glass);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--sim-glass-border);
+        }
+
+        .status-badge {
+            padding: var(--space-1) var(--space-3);
+            border-radius: var(--radius-lg);
+            font-size: var(--text-sm);
+            font-weight: var(--weight-medium);
+        }
+
+        .status-progress { 
+            background: #16A34A; 
+            color: white; 
+        }
+        .status-complete { 
+            background: #10B981; 
+            color: white; 
+        }
+        .status-delayed { 
+            background: #EF4444; 
+            color: white; 
+        }
+
+        .insight-box {
+            background: linear-gradient(135deg, rgba(22, 163, 74, 0.3), rgba(34, 197, 94, 0.3));
+            border: 2px solid #16A34A;
+            border-radius: var(--radius-xl);
+            padding: var(--space-6);
+            margin: var(--space-6) 0;
+        }
+
+        .insight-title {
+            font-size: var(--text-lg);
+            font-weight: var(--weight-bold);
+            color: white;
+            margin-bottom: var(--space-4);
+        }
+
+        @keyframes slideUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .data-collection,
+            .productivity-chart,
+            .department-breakdown {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- 시뮬레이션 네비게이션 -->
+    <nav class="sim-nav">
+        <div class="nav-brand">
+            <a href="../index.html">
+                <img src="../images/logo-sq-w.png" alt="킨프리" class="logo">
+                <span>KINFRI</span>
+            </a>
+        </div>
+        <div class="nav-menu">
+            <a href="airi-simulation.html" class="nav-link" data-i18n="simulation.airi.navName">아이리</a>
+            <a href="gyeonu-simulation.html" class="nav-link" data-i18n="simulation.gyeonu.navName">견우</a>
+            <a href="jisu-simulation.html" class="nav-link active" data-i18n="simulation.jisu.navName">지수</a>
+            <a href="doyoung-simulation.html" class="nav-link" data-i18n="simulation.doyoung.navName">도영</a>
+            <a href="minseo-simulation.html" class="nav-link" data-i18n="simulation.minseo.navName">민서</a>
+        </div>
+        <div class="nav-actions">
+            <select class="language-select" data-lang-select aria-label="언어 선택" data-i18n-aria-label="aria.langSelect">
+                <option value="ko">한국어</option>
+                <option value="en">English</option>
+                <option value="zh">中文</option>
+                <option value="vi">Tiếng Việt</option>
+                <option value="ja">日本語</option>
+                <option value="th">ไทย</option>
+                <option value="id">Bahasa Indonesia</option>
+            </select>
+            <a href="../index.html" class="back-link" data-i18n="nav.backHome">메인 페이지로</a>
+        </div>
+    </nav>
+
+    <!-- 시뮬레이션 컨테이너 -->
+    <div class="sim-container">
+        <!-- 헤더 -->
+        <header class="sim-header">
+            <div class="ai-character">
+                <div class="ai-avatar">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="ai-info">
+                    <h1 data-i18n="simulation.jisu.title">지수 - 업무분석 AI</h1>
+                    <p class="ai-subtitle" data-i18n="simulation.jisu.subtitle">직원들의 업무를 분석하여 대표님께 인사이트 보고서를 생성하는 분석 전문 AI</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- 시나리오 소개 -->
+        <section class="scenario-intro" id="intro">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.jisu.scenarioTitle">📊 시나리오: 월말 업무 분석 보고</h2>
+                    <span class="time-badge" data-i18n="simulation.jisu.timeRange">오후 6:00</span>
+                </div>
+                <div class="scenario-content">
+                    <p><strong data-i18n="simulation.jisu.situationLabel">상황:</strong> <span data-i18n="simulation.jisu.situationText">대표님이 직원들의 이번 달 업무 현황 분석을 요청</span></p>
+                    <p><strong data-i18n="simulation.jisu.problemLabel">문제:</strong> <span data-i18n="simulation.jisu.problemText">50명 직원의 업무 데이터를 수동으로 분석하기 어려움</span></p>
+                    <p><strong data-i18n="simulation.jisu.roleLabel">지수의 역할:</strong> <span data-i18n="simulation.jisu.roleText">모든 업무 데이터를 자동 분석하여 인사이트 도출</span></p>
+                </div>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <button class="consult-btn" id="startBtn" data-i18n="simulation.jisu.startButton">
+                        📊 업무분석 시뮬레이션 시작
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 시뮬레이션 진행 -->
+        <section class="simulation-section" id="simulation" style="display: none;">
+            <!-- 시뮬레이션 영역 -->
+            <div id="simulationArea">
+                <!-- 시뮬레이션 단계들이 여기에 동적으로 추가됩니다 -->
+            </div>
+        </section>
+
+        <!-- 시뮬레이션 결과 -->
+        <section class="simulation-result" id="result" style="display: none;">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.jisu.resultTitle">🎯 업무분석 시뮬레이션 완료!</h2>
+                </div>
+                <div class="scenario-content">
+                    <p data-i18n="simulation.jisu.resultText1">지수가 50명 직원의 업무를 자동 분석하고 인사이트 보고서를 완성했습니다!</p>
+                    <p data-i18n="simulation.jisu.resultText2">실제로 킨프리의 AI Agent는 이런 방식으로 업무 분석을 자동화합니다.</p>
+                </div>
+                
+                <div style="text-align: center; margin-top: 2rem;">
+                    <div class="action-buttons">
+                        <a href="../index.html#contact" class="consult-btn primary">
+                            <i class="fas fa-comments"></i>
+                            <span data-i18n="nav.freeConsult">무료 상담 신청</span>
+                        </a>
+                        <a href="../index.html" class="consult-btn secondary">
+                            <i class="fas fa-home"></i>
+                            <span data-i18n="nav.backHome">메인 페이지로</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="/js/i18n.js" defer></script>
+    <script>
+        // AIRI 방식: 번역 키를 사용한 시뮬레이션 데이터 구조
+        const simulationData = [
+            {
+                step: 1,
+                titleKey: "simulation.jisu.step1.title",
+                messageKey: "simulation.jisu.step1.message",
+                progressTextKey: "simulation.jisu.step1.progressText",
+                progressId: "collectionProgress",
+                progressTarget: 30,
+                marketingTitleKey: "simulation.jisu.step1.marketingTitle",
+                marketingContentKey: "simulation.jisu.step1.marketingContent",
+                devTitleKey: "simulation.jisu.step1.devTitle", 
+                devContentKey: "simulation.jisu.step1.devContent",
+                salesTitleKey: "simulation.jisu.step1.salesTitle",
+                salesContentKey: "simulation.jisu.step1.salesContent"
+            },
+            {
+                step: 2,
+                titleKey: "simulation.jisu.step2.title",
+                messageKey: "simulation.jisu.step2.message",
+                progressTextKey: "simulation.jisu.step2.progressText",
+                progressId: "analysisProgress",
+                progressTarget: 65,
+                analysisTitle: "simulation.jisu.step2.analysisTitle",
+                recommendation1Key: "simulation.jisu.step2.recommendation1",
+                recommendation2Key: "simulation.jisu.step2.recommendation2",
+                warningKey: "simulation.jisu.step2.warning"
+            },
+            {
+                step: 3,
+                titleKey: "simulation.jisu.step3.title",
+                messageKey: "simulation.jisu.step3.message",
+                progressTextKey: "simulation.jisu.step3.progressText",
+                progressId: "calculationProgress",
+                progressTarget: 85,
+                marketingProductivityKey: "simulation.jisu.step3.marketingProductivity",
+                devProductivityKey: "simulation.jisu.step3.devProductivity",
+                salesProductivityKey: "simulation.jisu.step3.salesProductivity",
+                overallAverageKey: "simulation.jisu.step3.overallAverage",
+                marketingDetailKey: "simulation.jisu.step3.marketingDetail",
+                devDetailKey: "simulation.jisu.step3.devDetail",
+                salesDetailKey: "simulation.jisu.step3.salesDetail"
+            },
+            {
+                step: 4,
+                titleKey: "simulation.jisu.step4.title",
+                messageKey: "simulation.jisu.step4.message",
+                progressTextKey: "simulation.jisu.step4.progressText",
+                progressId: "reportProgress",
+                progressTarget: 100,
+                projectTitleKey: "simulation.jisu.step4.projectTitle",
+                project1Key: "simulation.jisu.step4.project1",
+                project2Key: "simulation.jisu.step4.project2",
+                project3Key: "simulation.jisu.step4.project3",
+                project4Key: "simulation.jisu.step4.project4",
+                status1Key: "simulation.jisu.step4.status1",
+                status2Key: "simulation.jisu.step4.status2",
+                status3Key: "simulation.jisu.step4.status3",
+                status4Key: "simulation.jisu.step4.status4",
+                insightTitleKey: "simulation.jisu.step4.insightTitle",
+                insight1Key: "simulation.jisu.step4.insight1",
+                insight2Key: "simulation.jisu.step4.insight2",
+                insight3Key: "simulation.jisu.step4.insight3",
+                insight4Key: "simulation.jisu.step4.insight4"
+            }
+        ];
+
+        let isRunning = false;
+
+        // AIRI와 동일한 번역 함수
+        function getTranslation(key) {
+            if (!window.translations || !key) return key;
+            
+            const currentLang = window.currentLang || document.documentElement.getAttribute('lang') || 'ko';
+            const langTranslations = window.translations[currentLang] || window.translations.ko || {};
+            
+            return key.split('.').reduce((acc, k) => (acc && acc[k] !== undefined ? acc[k] : null), langTranslations) || key;
+        }
+
+        // AIRI 방식: 실행 시점에 번역된 HTML 생성 함수
+        function createSimulationStep(stepData) {
+            const stepDiv = document.createElement('div');
+            stepDiv.className = 'simulation-step';
+            
+            const title = getTranslation(stepData.titleKey);
+            const message = getTranslation(stepData.messageKey);
+            const progressText = getTranslation(stepData.progressTextKey);
+            
+            let content = `
+                <h3 class="step-title">${title}</h3>
+                <div class="ai-message typing-effect">
+                    👔 ${getTranslation('simulation.jisu.aiName')}: "${message}"
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 0%" id="${stepData.progressId}">
+                        <div class="progress-text">${progressText}</div>
+                    </div>
+                </div>
+            `;
+            
+            // 각 단계별 특별한 콘텐츠 추가
+            if (stepData.step === 1) {
+                const marketingTitle = getTranslation(stepData.marketingTitleKey);
+                const marketingContent = getTranslation(stepData.marketingContentKey);
+                const devTitle = getTranslation(stepData.devTitleKey);
+                const devContent = getTranslation(stepData.devContentKey);
+                const salesTitle = getTranslation(stepData.salesTitleKey);
+                const salesContent = getTranslation(stepData.salesContentKey);
+                
+                content += `
+                    <div class="data-collection">
+                        <div class="employee-card">
+                            <div class="employee-name">${marketingTitle}</div>
+                            <div class="activity-list">${marketingContent}</div>
+                        </div>
+                        <div class="employee-card">
+                            <div class="employee-name">${devTitle}</div>
+                            <div class="activity-list">${devContent}</div>
+                        </div>
+                        <div class="employee-card">
+                            <div class="employee-name">${salesTitle}</div>
+                            <div class="activity-list">${salesContent}</div>
+                        </div>
+                    </div>
+                `;
+            } else if (stepData.step === 2) {
+                const analysisTitle = getTranslation(stepData.analysisTitle);
+                const recommendation1 = getTranslation(stepData.recommendation1Key);
+                const recommendation2 = getTranslation(stepData.recommendation2Key);
+                const warning = getTranslation(stepData.warningKey);
+                
+                content += `
+                    <div class="report-section">
+                        <div class="report-title">${analysisTitle}</div>
+                        <div class="recommendation">${recommendation1}</div>
+                        <div class="recommendation">${recommendation2}</div>
+                        <div class="warning">${warning}</div>
+                    </div>
+                `;
+            } else if (stepData.step === 3) {
+                content += `
+                    <div class="productivity-chart">
+                        <div class="chart-item">
+                            <div class="chart-number">92%</div>
+                            <div>${getTranslation(stepData.marketingProductivityKey)}</div>
+                        </div>
+                        <div class="chart-item">
+                            <div class="chart-number">89%</div>
+                            <div>${getTranslation(stepData.devProductivityKey)}</div>
+                        </div>
+                        <div class="chart-item">
+                            <div class="chart-number">75%</div>
+                            <div>${getTranslation(stepData.salesProductivityKey)}</div>
+                        </div>
+                        <div class="chart-item">
+                            <div class="chart-number">85%</div>
+                            <div>${getTranslation(stepData.overallAverageKey)}</div>
+                        </div>
+                    </div>
+                    <div class="department-breakdown">
+                        <div class="dept-card">
+                            <div class="dept-name">📊 ${getTranslation(stepData.marketingTitleKey)}</div>
+                            <div>${getTranslation(stepData.marketingDetailKey)}</div>
+                        </div>
+                        <div class="dept-card">
+                            <div class="dept-name">💻 ${getTranslation(stepData.devTitleKey)}</div>
+                            <div>${getTranslation(stepData.devDetailKey)}</div>
+                        </div>
+                        <div class="dept-card">
+                            <div class="dept-name">📞 ${getTranslation(stepData.salesTitleKey)}</div>
+                            <div>${getTranslation(stepData.salesDetailKey)}</div>
+                        </div>
+                    </div>
+                `;
+            } else if (stepData.step === 4) {
+                const projectTitle = getTranslation(stepData.projectTitleKey);
+                const project1 = getTranslation(stepData.project1Key);
+                const project2 = getTranslation(stepData.project2Key);
+                const project3 = getTranslation(stepData.project3Key);
+                const project4 = getTranslation(stepData.project4Key);
+                const status1 = getTranslation(stepData.status1Key);
+                const status2 = getTranslation(stepData.status2Key);
+                const status3 = getTranslation(stepData.status3Key);
+                const status4 = getTranslation(stepData.status4Key);
+                const insightTitle = getTranslation(stepData.insightTitleKey);
+                const insight1 = getTranslation(stepData.insight1Key);
+                const insight2 = getTranslation(stepData.insight2Key);
+                const insight3 = getTranslation(stepData.insight3Key);
+                const insight4 = getTranslation(stepData.insight4Key);
+                
+                content += `
+                    <div class="report-section">
+                        <div class="report-title">${projectTitle}</div>
+                        <div class="project-status">
+                            <div class="project-item">
+                                <span>${project1}</span>
+                                <span class="status-badge status-progress">${status1}</span>
+                            </div>
+                            <div class="project-item">
+                                <span>${project2}</span>
+                                <span class="status-badge status-progress">${status2}</span>
+                            </div>
+                            <div class="project-item">
+                                <span>${project3}</span>
+                                <span class="status-badge status-complete">${status3}</span>
+                            </div>
+                            <div class="project-item">
+                                <span>${project4}</span>
+                                <span class="status-badge status-delayed">${status4}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="insight-box">
+                        <div class="insight-title">${insightTitle}</div>
+                        <div>
+                            <p>${insight1}</p>
+                            <p>${insight2}</p>
+                            <p>${insight3}</p>
+                            <p>${insight4}</p>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            stepDiv.innerHTML = content;
+            return stepDiv;
+        }
+
+        // 프로그레스 바 애니메이션 함수
+        function animateProgress(progressId, targetPercent, duration = 3000) {
+            if (!progressId) return Promise.resolve();
+            
+            return new Promise(resolve => {
+                const progressBar = document.getElementById(progressId);
+                if (!progressBar) {
+                    resolve();
+                    return;
+                }
+
+                let currentPercent = 0;
+                const increment = targetPercent / (duration / 50);
+                
+                const interval = setInterval(() => {
+                    currentPercent += increment;
+                    if (currentPercent >= targetPercent) {
+                        currentPercent = targetPercent;
+                        clearInterval(interval);
+                        setTimeout(resolve, 500);
+                    }
+                    progressBar.style.width = currentPercent + '%';
+                }, 50);
+            });
+        }
+
+        // 자동 스크롤 함수
+        function smoothScrollToElement(element, offset = -100) {
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset + offset;
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        }
+
+        // 시뮬레이션 실행 함수
+        async function runSimulation() {
+            const startBtn = document.getElementById('startBtn');
+            const simulationArea = document.getElementById('simulationArea');
+            const introSection = document.getElementById('intro');
+            const simulationSection = document.getElementById('simulation');
+            
+            if (isRunning) return;
+            
+            isRunning = true;
+            startBtn.textContent = getTranslation('simulation.jisu.running') || '⏳ 시뮬레이션 진행 중...';
+            startBtn.disabled = true;
+            
+            // 인트로 숨기고 시뮬레이션 보이기
+            introSection.style.display = 'none';
+            simulationSection.style.display = 'block';
+            
+            // 기존 내용 정리
+            simulationArea.innerHTML = '';
+            document.getElementById('result').style.display = 'none';
+            
+            // 각 단계별로 실행
+            for (const stepData of simulationData) {
+                await new Promise(resolve => setTimeout(resolve, 2000));
+                
+                const stepElement = createSimulationStep(stepData);
+                simulationArea.appendChild(stepElement);
+                
+                // 새로 추가된 단계로 자동 스크롤
+                smoothScrollToElement(stepElement);
+                
+                // 프로그레스 바 애니메이션
+                if (stepData.progressId && stepData.progressTarget) {
+                    await new Promise(resolve => setTimeout(resolve, 1500));
+                    await animateProgress(stepData.progressId, stepData.progressTarget);
+                }
+            }
+
+            // 완료 후 처리
+            await new Promise(resolve => setTimeout(resolve, 2000));
+            document.getElementById('result').style.display = 'block';
+            // 완료 메시지로 스크롤
+            smoothScrollToElement(document.getElementById('result'));
+            
+            startBtn.textContent = getTranslation('simulation.jisu.restart') || '🔄 다시 체험하기';
+            startBtn.disabled = false;
+            isRunning = false;
+            
+            // 재시작을 위해 다시 설정
+            startBtn.addEventListener('click', function() {
+                document.getElementById('intro').style.display = 'block';
+                document.getElementById('simulation').style.display = 'none';
+                document.getElementById('result').style.display = 'none';
+                startBtn.textContent = getTranslation('simulation.jisu.startButton') || '📊 업무분석 시뮬레이션 시작';
+                smoothScrollToElement(document.getElementById('intro'));
+            }, { once: true });
+        }
+
+        // AIRI와 동일한 이벤트 리스너 패턴
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('📊 지수 AI 시뮬레이션이 준비되었습니다!');
+            
+            // i18n 로드 완료 대기
+            setTimeout(() => {
+                const startBtn = document.getElementById('startBtn');
+                if (startBtn) {
+                    startBtn.removeEventListener('click', runSimulation);
+                    startBtn.addEventListener('click', runSimulation);
+                    console.log('✅ 시작 버튼 이벤트 리스너 등록 완료');
+                    
+                    // 번역 상태 확인
+                    console.log('🌍 현재 translations:', !!window.translations);
+                    if (window.translations) {
+                        console.log('📝 샘플 번역:', getTranslation('simulation.jisu.startButton'));
+                    }
+                }
+            }, 200); // AIRI와 동일한 대기 시간
+        });
+    </script>
+</body>
+</html>

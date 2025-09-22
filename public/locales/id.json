@@ -1,0 +1,1111 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "solutions": "Solusi",
+    "about": "Tentang Kami",
+    "cases": "Studi Kasus",
+    "simulation": "🎬 Simulasi AI",
+    "contact": "Kontak",
+    "backHome": "Kembali ke Beranda",
+    "freeConsult": "Daftar Konsultasi Gratis"
+  },
+  "buttons": {
+    "ctaConsult": "Dapatkan Konsultasi AI Gratis",
+    "viewSolutions": "Lihat Solusi"
+  },
+  "hero": {
+    "title": "Mitra transformasi <span class=\"highlight\">AI</span><br>tepercaya untuk bisnis UKM Anda",
+    "description": "KINFRI menghadirkan aplikasi berbasis RAG, model sLLM privat, dan otomatisasi AI Agent untuk meningkatkan produktivitas sekaligus menekan biaya operasional.",
+    "statAccuracy": "Akurasi pengenalan",
+    "statCostReduction": "Peningkatan efisiensi",
+    "statResponseTime": "Sistem operasi tanpa awak 24/7",
+    "cards": {
+      "aiAgent": "AI Agent",
+      "ragSearch": "Pencarian RAG",
+      "privateSllm": "sLLM privat"
+    },
+    "imageAlt": "Gambaran platform transformasi AI KINFRI - RAG, sLLM, AI Agent"
+  },
+  "solutions": {
+    "title": "Solusi Inovasi AI",
+    "description": "Solusi AI yang disesuaikan untuk mempercepat transformasi digital bagi bisnis manufaktur dan UKM",
+    "aeoQuickAnswers": {
+      "manufacturing": {
+        "question": "Apa solusi AI paling efektif untuk manufaktur?",
+        "answer": "<strong>Sistem manajemen kualitas berbasis RAG</strong> memberikan pengurangan cacat 10% dan waktu inspeksi 20% lebih cepat."
+      },
+      "cost": {
+        "question": "Berapa biaya implementasi AI untuk UKM?",
+        "answer": "<strong>Builder chatbot tanpa kode</strong> mengurangi biaya pengembangan 70% dan memproses 17,000+ pertanyaan bulanan."
+      },
+      "security": {
+        "question": "Apakah keamanan data AI dapat diandalkan?",
+        "answer": "<strong>sLLM on-premises</strong> menjamin 100% kedaulatan data dengan risiko kebocoran eksternal nol."
+      }
+    },
+    "aiAgent": {
+      "title": "AI Agent Otomasi Bisnis",
+      "description": "Melakukan manajemen produksi, optimasi inventori, dan pemantauan peralatan secara otonom untuk membangun sistem operasi tanpa awak 24/7.",
+      "features": {
+        "autonomous": "Desain dan eksekusi tugas otonom",
+        "realtime": "Manajemen proses produksi real-time",
+        "predictive": "Pemeliharaan peralatan prediktif"
+      },
+      "benefits": {
+        "costReduction": "Pengurangan Biaya Operasional",
+        "productivity": "Peningkatan Produktivitas"
+      }
+    },
+    "ragSolution": {
+      "title": "Aplikasi Kustom berbasis RAG",
+      "description": "Membangun sistem pencarian informasi dan respons yang akurat dan dapat diandalkan menggunakan manual dan dokumen internal perusahaan.",
+      "features": {
+        "hallucination": "Kontrol fenomena halusinasi",
+        "knowledge": "Sistem manajemen pengetahuan internal",
+        "optimization": "Optimasi pencarian dokumen real-time"
+      },
+      "benefits": {
+        "decision": "Pengambilan Keputusan Akurat",
+        "efficiency": "Efisiensi Operasional"
+      }
+    },
+    "sllmSolution": {
+      "title": "Model sLLM berbasis Data Privat",
+      "description": "Membangun model bahasa kecil yang disesuaikan dalam lingkungan on-premises sambil melindungi data perusahaan yang sensitif.",
+      "features": {
+        "security": "Keamanan tanpa khawatir kebocoran data",
+        "specialized": "Model AI khusus domain",
+        "onPremise": "Dukungan deployment on-premises"
+      },
+      "benefits": {
+        "sovereignty": "Kedaulatan Data",
+        "securityBoost": "Peningkatan Keamanan"
+      }
+    },
+    "noCodeChatbot": {
+      "title": "Builder Chatbot AI Tanpa Kode",
+      "description": "Membangun chatbot dukungan internal dan layanan pelanggan dengan antarmuka intuitif tanpa pengetahuan coding.",
+      "features": {
+        "dragDrop": "Antarmuka drag-and-drop",
+        "integration": "Integrasi berbagai model AI",
+        "realTimeLearning": "Pembelajaran dan perbaikan real-time"
+      },
+      "benefits": {
+        "developmentSpeed": "Kecepatan Pengembangan",
+        "maintenance": "Pemeliharaan Mudah"
+      }
+    },
+    "sttTtsSolution": {
+      "title": "Solusi Pengenalan Suara STT/TTS",
+      "description": "Menyediakan teknologi pengenalan suara presisi tinggi dan sintesis suara alami untuk pabrik pintar dan pusat panggilan.",
+      "features": {
+        "accuracy": "Akurasi pengenalan bahasa Indonesia 95%+",
+        "emotional": "Sintesis suara dengan ekspresi emosi",
+        "specialized": "Pembelajaran terminologi manufaktur"
+      },
+      "benefits": {
+        "controlEfficiency": "Efisiensi Kontrol",
+        "customerExperience": "Pengalaman Pelanggan"
+      }
+    }
+  },
+  "simulation": {
+    "airi": {
+      "navName": "Airi",
+      "title": "Airi - AI Manajemen IT",
+      "subtitle": "AI spesialis shift malam yang diam-diam mengelola PC perusahaan kita semalaman",
+      "pageTitle": "Airi AI - Simulasi Manajemen IT Kerja Nyata | KINFRI",
+      "pageDescription": "Rasakan pengalaman karyawan AI KINFRI bernama Airi mengelola PC perusahaan semalaman dalam simulasi kerja nyata.",
+      "scenarioTitle": "🌙 Skenario: Manajemen IT Tanpa Lembur",
+      "timeRange": "21:00 ~ 06:00",
+      "situationLabel": "Situasi:",
+      "situationText": "Waktu pemeriksaan sistem IT diperlukan setelah karyawan pulang kerja",
+      "problemLabel": "Masalah:",
+      "problemText": "Perlu lembur dan mengelola setiap PC secara manual satu per satu",
+      "roleLabel": "Peran Airi:",
+      "roleText": "Menangani semua tugas IT secara otomatis dengan sempurna",
+      "startButton": "▶️ Mulai Simulasi Kerja Airi",
+      "resultTitle": "🎯 Simulasi Selesai!",
+      "resultText1": "Kami telah mengonfirmasi tugas-tugas yang ditangani Airi semalaman!",
+      "resultText2": "AI Agent KINFRI benar-benar mengotomatisasi pekerjaan 24/7 dengan cara ini.",
+      "step1": {
+        "title": "🌙 Airi Mulai Bekerja",
+        "message": "Halo! Para karyawan sudah pulang kerja. Sekarang saya akan merawat PC semalaman.",
+        "action1": "Periksa status koneksi 12 PC dalam perusahaan",
+        "action2": "Mulai mengumpulkan log sistem dari setiap PC",
+        "action3": "Siapkan untuk menganalisis data aktivitas kerja hari ini"
+      },
+      "step2": {
+        "title": "🔍 Sedang Mendiagnosis Status PC",
+        "message": "Saya sedang memeriksa setiap PC satu per satu. Saya menemukan beberapa masalah.",
+        "action1": "PC-03: Penggunaan memori 95% (level berbahaya)",
+        "action2": "PC-07: File sementara terakumulasi 3.2GB",
+        "action3": "PC-11: 47 proses latar belakang sedang berjalan",
+        "stat1": "Pemeriksaan Selesai",
+        "stat2": "Masalah Ditemukan",
+        "stat3": "Status Normal"
+      },
+      "step3": {
+        "title": "⚠️ Analisis Masalah Terperinci",
+        "message": "Saya sedang menganalisis masalah yang ditemukan secara detail dan menyusun solusi.",
+        "action1": "Penyebab kebocoran memori PC-03: 47 tab Chrome lama",
+        "action2": "PC-07 perlu pembersihan disk: file cache dan file log",
+        "action3": "PC-11 mendeteksi 12 program startup yang tidak perlu",
+        "alert": "🚨 Mendesak: PC-03 dikonfirmasi perlambatan sistem 70%"
+      },
+      "step4": {
+        "title": "🔧 Menjalankan Penyelesaian Masalah Otomatis",
+        "message": "Sekarang saya akan menyelesaikan masalah satu per satu. Saya akan bekerja dengan hati-hati agar tidak mengganggu pekerjaan karyawan.",
+        "action1": "PC-03: Mengakhiri proses yang tidak perlu dan optimalisasi memori ✅",
+        "action2": "PC-07: Menghapus 3.2GB file sementara dengan aman selesai ✅",
+        "action3": "PC-11: Mengoptimalkan program startup dari 12 → 5 ✅"
+      },
+      "step5": {
+        "title": "💾 Menjalankan Backup Sistem",
+        "message": "Penyelesaian masalah telah selesai. Sekarang saya akan mencadangkan data penting dengan aman.",
+        "action1": "Menjalankan backup otomatis dokumen penting dari setiap PC",
+        "action2": "Membuat titik pemulihan sistem",
+        "action3": "Backup ganda file database",
+        "stat1": "Data Backup",
+        "stat2": "Titik Pemulihan",
+        "stat3": "Tingkat Keamanan"
+      },
+      "step6": {
+        "title": "🛡️ Pemeriksaan Keamanan",
+        "message": "Terakhir, saya akan memeriksa status keamanan dan melihat apakah ada tanda-tanda abnormal.",
+        "action1": "Analisis log firewall: 0 upaya akses dari luar",
+        "action2": "Pemeriksaan malware: Tidak ditemukan faktor risiko",
+        "action3": "Scan kerentanan sistem: Semua PC dikonfirmasi dalam status aman"
+      },
+      "final": {
+        "title": "📊 Laporan Penyelesaian Kerja",
+        "message": "Terima kasih telah bekerja keras semalaman! Semua PC telah siap dalam kondisi optimal.",
+        "action1": "Karyawan dapat memulai bekerja dalam lingkungan yang nyaman",
+        "action2": "Peningkatan kinerja yang diharapkan: Peningkatan rata-rata 23%",
+        "action3": "Waktu manajemen IT yang dihemat: 4 jam 30 menit",
+        "stat1": "Masalah yang Diselesaikan",
+        "stat2": "Backup Selesai",
+        "stat3": "Peningkatan Kinerja",
+        "stat4": "Waktu yang Dihemat"
+      }
+    },
+    "gyeonu": {
+      "navName": "Gyeonu",
+      "pageTitle": "Gyeonu AI - Simulasi Sistem Penawaran Nyata | KINFRI",
+      "pageDescription": "AI penawaran profesional yang membuat penawaran akurat dalam 10 menit",
+      "scenarioTitle": "💼 Skenario: Permintaan Penawaran Mendesak",
+      "timeRange": "16:30",
+      "situationLabel": "Situasi:",
+      "situationText": "Klien besar menelepon meminta penawaran sebelum besok",
+      "problemLabel": "Masalah:",
+      "problemText": "Konfigurasi produk yang kompleks dan kuantitas besar membuat perhitungan akurat menjadi sulit",
+      "roleLabel": "Peran Gyeonu:",
+      "roleText": "Memberikan penawaran akurat instan berdasarkan data 10 tahun",
+      "startButton": "💼 Mulai Simulasi Penawaran",
+      "beforeMethod": "❌ Metode Tradisional (perlu 3 hari)",
+      "before1": "📞 Menerima permintaan pelanggan",
+      "before2": "🔍 Pencarian manual penawaran lama",
+      "before3": "📊 Perhitungan manual di Excel",
+      "before4": "📝 Penulisan penawaran manual",
+      "before5": "👀 Menunggu review dan persetujuan",
+      "before6": "📧 Mengirim email",
+      "beforeTime": "Waktu yang diperlukan: 3 hari",
+      "beforeAccuracy": "Akurasi: 85%",
+      "beforeStaff": "Staf: 2 orang",
+      "running": "⏳ Simulasi sedang berjalan...",
+      "restart": "🔄 Coba Lagi",
+      "afterMethod": "✅ Metode Gyeonu AI (10 menit)",
+      "after1": "⚡ Analisis permintaan instan",
+      "after2": "🤖 Pencarian data 10 tahun otomatis",
+      "after3": "🧠 Prediksi harga AI",
+      "after4": "📄 Pembuatan penawaran otomatis",
+      "after5": "📧 Siap kirim langsung",
+      "afterTime": "Waktu yang diperlukan: 10 menit",
+      "afterAccuracy": "Akurasi: 96%",
+      "afterStaff": "Staf: 0 orang (otomatis)",
+      "step1": {
+        "title": "📧 Langkah 1: Menerima Permintaan Penawaran Pelanggan",
+        "requestTitle": "📋 Informasi Permintaan Penawaran",
+        "customer": "Pelanggan:",
+        "product": "Produk:",
+        "productDesc": "500 komponen presisi machining",
+        "material": "Material:",
+        "spec": "Spesifikasi:",
+        "surface": "Finishing Permukaan:",
+        "surfaceDesc": "Anodizing",
+        "tolerance": "Presisi:",
+        "delivery": "Pengiriman:",
+        "deliveryDesc": "Diharapkan dalam 2 minggu",
+        "aiMessage": "Menganalisis permintaan penawaran. Mohon tunggu sebentar..."
+      },
+      "step2": {
+        "title": "🔍 Langkah 2: Pencarian Data AI",
+        "aiMessage": "Mencari dan menganalisis data penawaran 10 tahun...",
+        "progressText": "Mencari data...",
+        "totalQuotes": "Total Penawaran",
+        "similarProjects": "Proyek Serupa",
+        "sameMaterial": "Material Sama",
+        "sameTolerance": "Presisi Sama"
+      },
+      "step3": {
+        "title": "🧠 Langkah 3: Analisis Harga AI",
+        "aiMessage": "Menghitung harga optimal berdasarkan data yang terkumpul...",
+        "progressText": "Menganalisis harga...",
+        "factorsTitle": "🔍 Faktor Penentu Harga Utama",
+        "factor1": "📊 Biaya Material: Menggunakan harga pasar terkini SUS304",
+        "factor2": "⚙️ Biaya Machining: Berdasarkan standar presisi ±0.02mm",
+        "factor3": "🎨 Finishing Permukaan: Biaya proses anodizing",
+        "factor4": "📦 Diskon Volume: Keuntungan produksi massal 500 unit",
+        "factor5": "🚚 Biaya Pengiriman: Berdasarkan jarak dan berat",
+        "factor6": "📅 Pengiriman: Pertimbangan jadwal 2 minggu"
+      },
+      "step4": {
+        "title": "💰 Langkah 4: Penawaran Akhir Selesai",
+        "quoteTitle": "🎯 Penawaran Prediksi AI",
+        "priceNote": "(Belum termasuk PPN, pengiriman 2 minggu)",
+        "accuracy": "Akurasi Prediksi AI: 96%",
+        "progressText": "Membuat penawaran...",
+        "accuracyLabel": "Akurasi",
+        "minuteUnit": "menit",
+        "timeLabel": "Waktu Diperlukan",
+        "autoValue": "Otomatis",
+        "methodLabel": "Metode Pemrosesan",
+        "immediateValue": "Instan",
+        "sendLabel": "Bisa Kirim"
+      },
+      "resultTitle": "🎯 Simulasi Penawaran Selesai!",
+      "resultText1": "Gyeonu menyelesaikan penawaran yang akurat dalam 10 menit!",
+      "resultText2": "Inilah cara AI Agent KINFRI mengotomatisasi proses penawaran dalam bisnis nyata."
+    },
+    "jisu": {
+      "navName": "Jisu",
+      "title": "Jisu - AI Analisis Kerja",
+      "subtitle": "AI spesialis analisis yang menganalisis pekerjaan karyawan dan menghasilkan laporan wawasan untuk manajemen",
+      "aiName": "Jisu",
+      "pageTitle": "Jisu AI - Simulasi Analisis Kerja | KINFRI",
+      "pageDescription": "Rasakan AI karyawan Jisu dari KINFRI menganalisis pekerjaan karyawan dan menghasilkan laporan wawasan dalam simulasi kerja nyata ini.",
+      "scenarioTitle": "📊 Skenario: Laporan Analisis Kerja Akhir Bulan",
+      "timeRange": "18:00",
+      "situationLabel": "Situasi:",
+      "situationText": "CEO meminta analisis status kerja karyawan bulan ini",
+      "problemLabel": "Masalah:",
+      "problemText": "Sulit menganalisis data kerja 50 karyawan secara manual",
+      "roleLabel": "Peran Jisu:",
+      "roleText": "Menganalisis semua data kerja secara otomatis untuk mendapatkan wawasan",
+      "startButton": "📊 Mulai Simulasi Analisis Kerja",
+      "running": "⏳ Simulasi sedang berlangsung...",
+      "restart": "🔄 Coba Lagi",
+      "resultTitle": "🎯 Simulasi Analisis Kerja Selesai!",
+      "resultText1": "Jisu secara otomatis menganalisis pekerjaan 50 karyawan dan menyelesaikan laporan wawasan!",
+      "resultText2": "Inilah cara AI Agent KINFRI mengotomatisasi analisis kerja dalam bisnis nyata.",
+      "step1": {
+        "title": "🌙 Memulai Pengumpulan Data Setelah Karyawan Pulang",
+        "message": "Halo, CEO! Semua karyawan sudah pulang. Saya akan menganalisis aktivitas kerja hari ini.",
+        "progressText": "Mengumpulkan data...",
+        "marketingTitle": "📊 Tim Marketing (4 orang)",
+        "marketingContent": "• Menggunakan Photoshop 5.2 jam<br>• PowerPoint 3.1 jam<br>• Memodifikasi brochure_final.psd<br>• Membuat SNS_plan.xlsx",
+        "devTitle": "💻 Tim Pengembangan (5 orang)",
+        "devContent": "• Menggunakan VS Code 7.5 jam<br>• Memodifikasi 247 file website<br>• Memperbarui bug_report.md<br>• 23 GitHub commit",
+        "salesTitle": "📞 Tim Penjualan (3 orang)",
+        "salesContent": "• Menggunakan Excel 4.3 jam<br>• Membuat 8 quotation_0918.xlsx<br>• Memperbarui customer_contacts.xlsx<br>• Mengirim 47 email"
+      },
+      "step2": {
+        "title": "🧠 Menganalisis Pola Kerja dengan Llama 3 AI",
+        "message": "Menganalisis data yang dikumpulkan dengan model Llama 3 AI. Menghitung efisiensi dan produktivitas kerja untuk setiap tim.",
+        "progressText": "AI sedang menganalisis...",
+        "analysisTitle": "🔍 Temuan Selama Analisis AI",
+        "recommendation1": "✅ Tim Marketing: 75% waktu kerja kreatif → Produktivitas tinggi dikonfirmasi",
+        "recommendation2": "✅ Tim Pengembangan: 82% waktu coding, waktu rapat berkurang → Efisiensi meningkat",
+        "warning": "⚠️ Tim Penjualan: Konsentrasi kerja menurun karena 1 anggota absen, perlu dukungan"
+      },
+      "step3": {
+        "title": "📊 Menghitung Metrik Produktivitas Departemen",
+        "message": "Mengkuantifikasi produktivitas setiap departemen dan menghitung indikator kinerja yang akurat.",
+        "progressText": "Menghitung metrik...",
+        "marketingProductivity": "Produktivitas Tim Marketing",
+        "devProductivity": "Produktivitas Tim Pengembangan",
+        "salesProductivity": "Produktivitas Tim Penjualan",
+        "overallAverage": "Rata-rata Keseluruhan",
+        "marketingDetail": "• Menyelesaikan desain brosur produk baru<br>• Menetapkan rencana konten SNS mingguan<br>• Laporan analisis pesaing sedang berlangsung<br><strong style=\"color: #16A34A;\">Produktivitas: 92%</strong>",
+        "devDetail": "• Optimisasi responsif website 90%<br>• Perbaikan bug: 10 dari 12 selesai<br>• Review rencana pengembangan fitur baru<br><strong style=\"color: #16A34A;\">Produktivitas: 89%</strong>",
+        "salesDetail": "• Konsultasi dengan 5 klien baru sedang berlangsung<br>• Mengirim 8 penawaran<br>• Manajemen klien existing<br><strong style=\"color: #F97316;\">Produktivitas: 75% (kekurangan staf)</strong>"
+      },
+      "step4": {
+        "title": "📋 Menyelesaikan Laporan Final untuk CEO",
+        "message": "Semua analisis selesai! Saya telah mengorganisir laporan wawasan agar mudah dilihat oleh CEO.",
+        "progressText": "Menghasilkan laporan...",
+        "projectTitle": "🚀 Status Kemajuan Proyek",
+        "project1": "Proyek Peluncuran Produk Baru",
+        "project2": "Pembaruan Website",
+        "project3": "Pengembangan Sistem Manajemen Pelanggan",
+        "project4": "Strategi Marketing Internasional",
+        "status1": "Sedang Berlangsung (85%)",
+        "status2": "Sedang Berlangsung (90%)",
+        "status3": "Selesai",
+        "status4": "Tertunda (Perlu Review)",
+        "insightTitle": "💡 Hasil Analisis AI dan Rekomendasi",
+        "insight1": "<strong>1. Rekomendasi Penguatan Tim Penjualan</strong> - Tenaga kerja saat ini kurang 25% dari beban kerja.",
+        "insight2": "<strong>2. Kinerja Excellent Tim Marketing</strong> - Produktivitas minggu ini meningkat 15%.",
+        "insight3": "<strong>3. Tim Pengembangan Mengurangi Lembur</strong> - Efisiensi kerja meningkat, waktu pulang rata-rata lebih cepat 1 jam.",
+        "insight4": "<strong>4. Rekomendasi Keseluruhan</strong> - Menambah anggota tim penjualan diperkirakan meningkatkan produktivitas seluruh perusahaan 12%."
+      }
+    },
+    "doyoung": {
+      "navName": "Doyoung",
+      "title": "Doyoung - AI Manual Pintar",
+      "subtitle": "Ahli lapangan yang telah mempelajari lebih dari 10.000 halaman manual dengan sempurna menggunakan teknologi RAG",
+      "pageTitle": "Doyoung - AI Manual Pintar | KINFRI",
+      "pageDescription": "Rasakan simulasi kerja nyata di mana karyawan AI KINFRI, Doyoung, menemukan solusi akurat secara instan dari manual yang sangat besar menggunakan teknologi RAG.",
+      "scenarioTitle": "📚 Skenario: Situasi Darurat di Lokasi Pukul 3 Pagi",
+      "timeRange": "03:15 WIB",
+      "situationLabel": "Situasi:",
+      "situationText": "Mesin CNC di lini produksi mengalami kesalahan yang tidak diketahui",
+      "problemLabel": "Masalah:",
+      "problemText": "Harus menemukan solusi dari lebih dari 10.000 halaman manual yang kompleks",
+      "roleLabel": "Peran Doyoung:",
+      "roleText": "Memberikan panduan solusi yang akurat secara instan dengan teknologi RAG",
+      "ragTitle": "🧠 Apa itu Teknologi RAG (Retrieval Augmented Generation)?",
+      "ragStep1Title": "1. Pencarian (Retrieval)",
+      "ragStep1Desc": "Mencari informasi yang relevan dari database besar",
+      "ragStep2Title": "2. Augmentasi (Augmented)",
+      "ragStep2Desc": "Menghubungkan informasi yang ditemukan dengan model AI",
+      "ragStep3Title": "3. Generasi (Generation)",
+      "ragStep3Desc": "Menghasilkan jawaban berdasarkan informasi yang akurat",
+      "ragBenefit": "Keunggulan Utama: Mencegah Halusinasi + Memberikan Informasi Akurat Real-time",
+      "startButton": "▶️ Mulai Simulasi Doyoung",
+      "step1": {
+        "title": "🚨 Situasi Darurat Terjadi",
+        "machineInfo": "Mesin CNC-M200 Lini Produksi",
+        "errorCode": "Kode Kesalahan: E4-7829",
+        "errorDesc": "Overload Spindle Terdeteksi - Perlu Tindakan Segera",
+        "manualDesc": "Pekerja lapangan sedang mencari manual tapi...",
+        "manual1": "Manual Mesin CNC: 2.847 halaman",
+        "manual2": "Panduan Penggunaan Alat: 1.523 halaman",
+        "manual3": "Prosedur Keselamatan: 892 halaman",
+        "manual4": "Software CAD/CAM: 5.832 halaman",
+        "totalPages": "Total 10.094 halaman",
+        "totalPagesText": " harus menemukan jawaban!"
+      },
+      "step2": {
+        "title": "Doyoung Beraksi!",
+        "message1": "Halo! Saya Doyoung. Saya akan menganalisis kesalahan E4-7829 untuk Anda.",
+        "message2": "Jangan khawatir, saya sudah mempelajari semua manual dengan teknologi RAG!"
+      },
+      "step3": {
+        "title": "🔍 Proses Pemrosesan Teknologi RAG Real-time",
+        "searchTitle": "Langkah 1: Pencarian (Retrieval)",
+        "searchItem1": "Mencari manual kesalahan mesin CNC...",
+        "searchResult1": "📄 27 hasil ditemukan",
+        "searchItem2": "Dokumen terkait overload spindle...",
+        "searchResult2": "📄 15 hasil ditemukan",
+        "searchItem3": "Solusi kesalahan E4-7829...",
+        "searchResult3": "📄 8 hasil ditemukan",
+        "augmentTitle": "Langkah 2: Augmentasi (Augmented)",
+        "augmentDesc": "🧠 Menghubungkan informasi yang ditemukan dengan model AI...",
+        "knowledgeSource1": "Manual CNC hal. 1.247",
+        "knowledgeSource2": "Prosedur Keselamatan hal. 89",
+        "knowledgeSource3": "Panduan Alat hal. 334",
+        "generateTitle": "Langkah 3: Generasi (Generation)",
+        "generateDesc": "📝 Membuat solusi berdasarkan informasi yang akurat..."
+      },
+      "step4": {
+        "title": "Solusi Sempurna dari Doyoung",
+        "solutionTitle": "🎯 Cara Mengatasi Kesalahan E4-7829",
+        "solution1Title": "Tindakan Segera",
+        "solution1Desc": "🛑 Aktifkan tombol berhenti darurat dan tunggu spindle mendingin (5 menit)",
+        "solution2Title": "Periksa Penyebab",
+        "solution2Desc": "🔧 Periksa tingkat keausan alat - Overload karena peningkatan resistensi pemotongan",
+        "solution3Title": "Solusi",
+        "solution3Desc": "⚙️ Ganti alat + Kurangi kecepatan pemotongan 15% di program CAM",
+        "referenceTitle": "📚 Referensi",
+        "ref1": "Manual CNC hal. 1.247 \"Mengatasi Overload Spindle\"",
+        "ref2": "Panduan Alat hal. 334 \"Diagnosis Keausan Alat Potong\"",
+        "ref3": "Prosedur Keselamatan hal. 89 \"Protokol Berhenti Darurat\"",
+        "noHallucination": "✅ Pencegahan Halusinasi: Hanya memberikan informasi akurat yang tertulis dalam manual"
+      },
+      "step5": {
+        "title": "💭 Pertanyaan Tambahan dari Pekerja Lapangan",
+        "workerQuestion": "Pak Doyoung, bagaimana cara mengubah kecepatan pemotongan di program CAM?<br>Saya menggunakan SolidCAM."
+      },
+      "step6": {
+        "title": "Panduan Software Terperinci dari Doyoung",
+        "guideTitle": "🖥️ Cara Mengubah Kecepatan Pemotongan di SolidCAM",
+        "swStep1Title": "Buka Operations Manager",
+        "swStep1Desc": "Menu: CAMWorks → Operations → Operations Manager",
+        "swStep2Title": "Pilih Operation yang Bermasalah",
+        "swStep2Desc": "Klik kanan jalur pemotongan bermasalah → Edit Definition",
+        "swStep3Title": "Ubah Parameter Kecepatan",
+        "swStep3Desc1": "Tab Speed/Feeds → Kurangi Spindle Speed 15%",
+        "swStep3Desc2": "Saat ini: 2.000 RPM → Ubah ke: 1.700 RPM",
+        "swStep4Title": "Regenerasi Program",
+        "swStep4Desc": "Generate Toolpath → Post Process → Update G-Code",
+        "softwareRefTitle": "📖 Manual Referensi",
+        "softwareRef1": "SolidCAM User Guide hal. 2.847 \"Operations Management\"",
+        "softwareRef2": "CAMWorks Manual hal. 1.205 \"Speed & Feed Optimization\"",
+        "softwareRef3": "CNC Programming Guide hal. 445 \"RPM Calculation Methods\""
+      },
+      "step7": {
+        "title": "🎉 Masalah Terselesaikan!",
+        "successTitle": "Mesin CNC Kembali Beroperasi Normal",
+        "metric1Title": "Waktu Penyelesaian Masalah",
+        "metric1Value": "10 menit",
+        "metric1Sub": "Waktu penyelesaian normal: 2-4 jam",
+        "metric2Title": "Manual yang Dicari",
+        "metric2Value": "10.094 halaman",
+        "metric2Sub": "Jawaban akurat dalam 0,3 detik",
+        "metric3Title": "Pencegahan Kerugian Produksi",
+        "metric3Value": "Rp 240 juta",
+        "metric3Sub": "Biaya berhenti produksi 4 jam"
+      },
+      "step8": {
+        "title": "💎 Nilai yang Diberikan Teknologi RAG",
+        "value1Title": "Akurasi",
+        "value1Desc": "Hanya memberikan informasi akurat berdasarkan manual<br>Pencegahan halusinasi total",
+        "value2Title": "Kecepatan",
+        "value2Desc": "Jawaban dari 10.000+ halaman<br>dalam 0,3 detik",
+        "value3Title": "Ketertelusuran",
+        "value3Desc": "Memberikan sumber dan nomor halaman<br>yang akurat di setiap jawaban",
+        "value4Title": "Keragaman",
+        "value4Desc": "Mendukung CNC, CAD/CAM, alat, keselamatan<br>semua bidang secara bersamaan",
+        "comparisonTitle": "🆚 Metode Tradisional vs Teknologi RAG",
+        "oldMethodTitle": "Pencarian Manual Tradisional",
+        "oldMethod1": "❌ Membutuhkan 2-4 jam",
+        "oldMethod2": "❌ Sulit mencari beberapa manual sekaligus",
+        "oldMethod3": "❌ Kemungkinan kesalahan manusia",
+        "oldMethod4": "❌ Sulit diinterpretasikan tanpa pengalaman",
+        "newMethodTitle": "Sistem RAG Doyoung",
+        "newMethod1": "✅ Penyelesaian lengkap dalam 10 menit",
+        "newMethod2": "✅ Memanfaatkan semua manual sekaligus",
+        "newMethod3": "✅ Informasi 100% akurat",
+        "newMethod4": "✅ Pemula bisa merespons di tingkat ahli"
+      },
+      "resultTitle": "🎯 Simulasi Selesai!",
+      "resultText1": "Doyoung memberikan solusi akurat secara instan dengan teknologi RAG!",
+      "resultText2": "Sistem RAG KINFRI menggunakan cara ini untuk memanfaatkan manual yang sangat besar dalam praktik nyata."
+    },
+    "minseo": {
+      "navName": "Minseo",
+      "pageTitle": "Minseo - AI Keamanan Data Pribadi | KINFRI",
+      "pageDescription": "AI on-premise yang menganalisis dokumen rahasia dengan aman tanpa risiko kebocoran data menggunakan teknologi sLLM",
+      "title": "Minseo - AI Keamanan Data Pribadi",
+      "subtitle": "Menganalisis dokumen rahasia dengan aman tanpa kebocoran data menggunakan teknologi sLLM",
+      "scenarioTitle": "🔒 Skenario: Permintaan Analisis Data Rahasia",
+      "timeRange": "14:30",
+      "situationLabel": "Situasi:",
+      "situationText": "CEO meminta analisis kontrak penting dan blueprint",
+      "problemLabel": "Masalah:",
+      "problemText": "Risiko kebocoran data rahasia saat menggunakan layanan AI eksternal",
+      "roleLabel": "Peran Minseo:",
+      "roleText": "Menganalisis sambil menjaga keamanan 100% dengan sLLM on-premise",
+      "startButton": "Mulai Simulasi AI Keamanan Minseo",
+      "running": "⏳ Simulasi keamanan sedang berjalan...",
+      "restart": "🔄 Coba Lagi",
+      "warningTitle": "Risiko Layanan AI Umum",
+      "warning1": "📤 Data dikirim ke server eksternal",
+      "warning2": "💰 Biaya per token yang membebani",
+      "warning3": "🌐 Membutuhkan koneksi internet",
+      "warning4": "🔓 Kehilangan kendali atas data",
+      "sllmTitle": "🏢 Apa itu Teknologi sLLM (Small Large Language Model)?",
+      "sllmStep1Title": "Instalasi On-Premise",
+      "sllmStep1Desc": "Dipasang langsung di server perusahaan sehingga data tidak pernah keluar",
+      "sllmStep2Title": "Model Ringan",
+      "sllmStep2Desc": "Pemrosesan cepat dan efisien dengan hanya fitur yang diperlukan",
+      "sllmStep3Title": "Pelatihan Khusus",
+      "sllmStep3Desc": "Model AI yang dioptimalkan khusus untuk domain perusahaan",
+      "sllmBenefitLabel": "🔑 Keunggulan Utama:",
+      "sllmBenefitText": "Kedaulatan data + biaya token nol + pemakaian tak terbatas",
+      "step1": {
+        "title": "📁 Dokumen Rahasia untuk Dianalisis",
+        "doc1Title": "Kontrak Proyek Besar",
+        "doc1Detail": "Nilai 25 miliar KRW / 42 halaman",
+        "doc1Security": "🔴 Level Keamanan: Sangat Rahasia",
+        "doc2Title": "Blueprint Komponen Inti",
+        "doc2Detail": "Termasuk teknologi paten / 187 gambar",
+        "doc2Security": "🔴 Level Keamanan: Sangat Rahasia",
+        "doc3Title": "Data Kinerja Karyawan",
+        "doc3Detail": "Termasuk data pribadi / 324 orang",
+        "doc3Security": "🟡 Level Keamanan: Rahasia",
+        "riskTitle": "Risiko Menggunakan Layanan AI Eksternal",
+        "riskCost": "Perkiraan biaya token: ₩3,8 juta/bulan",
+        "riskData": "Pengiriman data: risiko keamanan sangat tinggi",
+        "riskInternet": "Ketergantungan internet: risiko kontinuitas bisnis"
+      },
+      "step2": {
+        "title": "Minseo AI Keamanan Diaktifkan",
+        "message1": "Halo! Saya Minseo. Saya akan membantu menganalisis dokumen rahasia Anda.",
+        "message2": "Semua pemrosesan hanya terjadi di server internal, jadi tenang saja!",
+        "status1": "Lingkungan on-premise terverifikasi",
+        "status2": "Koneksi internet eksternal diblokir",
+        "status3": "GPU server internal aktif"
+      },
+      "step3": {
+        "title": "🔐 Pemeriksaan Sistem Keamanan sLLM",
+        "isolationTitle": "Langkah 1: Verifikasi Isolasi Data",
+        "isolationLoc": "🏢 Lokasi Pemrosesan: Server internal (192.168.1.100)",
+        "isolationComm": "🌐 Komunikasi Eksternal: Sepenuhnya diblokir",
+        "isolationStorage": "💾 Penyimpanan Data: Hanya storage lokal",
+        "costTitle": "Langkah 2: Dampak Penghematan Biaya",
+        "costExternal": "Layanan AI eksternal",
+        "costToken": "Biaya token: ₩3,8 juta/bulan",
+        "costApi": "Biaya panggilan API: ₩1,2 juta/bulan",
+        "costTotalExt": "Total biaya tahunan: ₩60 juta",
+        "costInternal": "Minseo sLLM",
+        "costTokenFree": "Biaya token: ₩0",
+        "costApiFree": "Biaya panggilan API: ₩0",
+        "costTotalInt": "Total biaya tahunan: ₩0",
+        "costSaving": "💡 Penghematan tahunan: ₩60 juta",
+        "perfTitle": "Langkah 3: Pemeriksaan Optimasi Performa",
+        "perfModel": "Ukuran model: 3,8GB (95% lebih ringan dari GPT-4)",
+        "perfSpeed": "Kecepatan respons: 0,8 detik (3x lebih cepat dari layanan API)",
+        "perfConcurrent": "Pemrosesan simultan: Tak terbatas (tanpa batas API)"
+      },
+      "step4": {
+        "title": "Minseo Menganalisis Dokumen Rahasia",
+        "message1": "Sekarang saya akan menganalisis dokumen rahasia dengan aman.",
+        "message2": "Semua pemrosesan terjadi di internal, tak sedetik pun keluar!",
+        "contractTitle": "Menganalisis kontrak...",
+        "contractResult": "🎯 Temuan Utama",
+        "contract1": "Nilai kontrak: ₩25 miliar (PPN tidak termasuk)",
+        "contract2": "Tenggat: 31 Desember 2025",
+        "contract3": "Klausul risiko: denda 0,1% per hari jika terlambat",
+        "contract4": "Klausul bonus: insentif 5% untuk penyelesaian lebih cepat",
+        "blueprintTitle": "Menganalisis blueprint...",
+        "blueprintResult": "🔧 Analisis Teknis",
+        "blueprint1": "Paten: mencakup 3 teknologi eksklusif",
+        "blueprint2": "Kesulitan manufaktur: tinggi (presisi ±0,01mm)",
+        "blueprint3": "Perkiraan biaya: ₩128.000 per unit",
+        "blueprint4": "Risiko kualitas: perlu perhatian pada proses heat treatment",
+        "hrTitle": "Menganalisis data HR...",
+        "hrResult": "📊 Ringkasan Analisis Kinerja",
+        "hr1": "Karyawan unggul: 43 orang (13,3%)",
+        "hr2": "Skor kinerja rata-rata: 78,2",
+        "hr3": "Risiko turnover: 12 orang (perlu pengelolaan)",
+        "hr4": "Kandidat promosi: 18 orang (disarankan ditinjau)",
+        "securityNote1": "Informasi ini hanya diproses di server internal",
+        "securityNote2": "Informasi desain tidak dikirim ke luar",
+        "securityNote3": "Data pribadi terlindungi sepenuhnya"
+      },
+      "step5": {
+        "title": "Laporan Analisis Komprehensif Minseo",
+        "reportTitle": "📋 Laporan Eksekutif (Rahasia)",
+        "conclusionTitle": "🎯 Kesimpulan Utama",
+        "conclusionText": "Probabilitas keberhasilan proyek: 87%",
+        "conclusionDetail": "Syarat kontrak menguntungkan dan kemampuan teknis memadai. Namun, manajemen jadwal dan retensi personel kunci sangat krusial",
+        "recommendTitle": "💡 Rekomendasi Strategis",
+        "recommend1Title": "Manajemen Jadwal",
+        "recommend1Text": "Sarankan percepat jadwal 2 bulan untuk meraih bonus penyelesaian lebih awal (₩1,25 miliar)",
+        "recommend2Title": "Manajemen SDM",
+        "recommend2Text": "Prioritaskan wawancara dan peningkatan kompensasi bagi 3 teknisi kunci dari 12 orang berisiko keluar",
+        "recommend3Title": "Respons Teknis",
+        "recommend3Text": "Pertimbangkan kolaborasi dengan ahli eksternal untuk meningkatkan kualitas proses heat treatment",
+        "recommend4Title": "Analisis Profitabilitas",
+        "recommend4Text": "Margin bersih berbasis biaya saat ini 23,7%, diperkirakan 28,2% jika target tercapai",
+        "securityTitle": "🔐 Jaminan Keamanan",
+        "securityMainText": "Seluruh analisis ini diproses hanya dengan sLLM internal",
+        "security1": "✅ Pengiriman ke server eksternal: 0 kasus",
+        "security2": "✅ Penyimpanan data: penyimpanan internal terenkripsi",
+        "security3": "✅ Biaya pemrosesan: ₩0 (tanpa biaya token)",
+        "security4": "✅ Hak akses: hanya karyawan yang disetujui"
+      },
+      "step6": {
+        "title": "🎉 Analisis Keamanan Selesai!",
+        "successMessage": "Analisis sempurna selesai sambil menjaga keamanan 100%",
+        "metric1Title": "Keamanan Data",
+        "metric1Value": "100%",
+        "metric1Sub": "0 kebocoran eksternal",
+        "metric2Title": "Biaya Pemrosesan",
+        "metric2Value": "₩0",
+        "metric2Sub": "Tanpa biaya token",
+        "metric3Title": "Waktu Analisis",
+        "metric3Value": "7 menit",
+        "metric3Sub": "3x lebih cepat daripada API eksternal",
+        "metric4Title": "Akurasi Analisis",
+        "metric4Value": "94,8%",
+        "metric4Sub": "Efek pelatihan khusus domain"
+      },
+      "step7": {
+        "title": "💎 Nilai yang Diberikan Teknologi sLLM",
+        "value1Title": "Kedaulatan Data",
+        "value1Text": "Seluruh data diproses hanya secara internal sehingga kendali penuh tetap berada di perusahaan",
+        "value2Title": "Biaya Nol",
+        "value2Text": "Pemakaian tanpa batas tanpa penagihan berbasis token",
+        "value3Title": "Optimasi Khusus",
+        "value3Text": "Model AI khusus yang dioptimalkan untuk domain perusahaan",
+        "value4Title": "Performa Tinggi",
+        "value4Text": "Model ringan dengan respons cepat, pemrosesan simultan tak terbatas",
+        "comparisonTitle": "🆚 Layanan AI Eksternal vs sLLM",
+        "externalTitle": "Layanan AI Eksternal",
+        "external1": "❌ Pengiriman data ke luar (risiko keamanan)",
+        "external2": "❌ Penagihan per token (jutaan per bulan)",
+        "external3": "❌ Membutuhkan koneksi internet",
+        "external4": "❌ Batasan panggilan API",
+        "external5": "❌ Kehilangan kedaulatan data",
+        "sllmTitle": "sLLM KINFRI",
+        "sllm1": "✅ Pemrosesan on-premise (keamanan 100%)",
+        "sllm2": "✅ Tanpa biaya token (tak terbatas)",
+        "sllm3": "✅ Dapat beroperasi offline",
+        "sllm4": "✅ Tanpa batasan panggilan",
+        "sllm5": "✅ Kontrol data sepenuhnya",
+        "roiTitle": "📈 Perhitungan Return on Investment (ROI)",
+        "roiSaving": "Penghematan biaya tahunan: ₩60 juta",
+        "roiSecurity": "Pengurangan risiko keamanan: tak ternilai",
+        "roiProductivity": "Peningkatan produktivitas: 30%"
+      },
+      "resultTitle": "🎯 Simulasi AI Keamanan Selesai!",
+      "resultText1": "Minseo menyelesaikan analisis data rahasia sambil menjaga keamanan 100%!",
+      "resultText2": "Solusi sLLM KINFRI benar-benar menjamin keamanan data dengan cara seperti ini.",
+      "cta": {
+        "titleHtml": "Bangun <strong>AI keamanan data privat</strong> seperti Minseo untuk perusahaan Anda!",
+        "bullet1": "✅ Implementasi 100% on-premise",
+        "bullet2": "✅ Risiko kebocoran data eksternal nol",
+        "bullet3": "✅ Tanpa biaya penggunaan berbasis token",
+        "bullet4": "✅ Model khusus yang disesuaikan dengan perusahaan"
+      }
+    },
+    "common": {
+      "progressLabel": "Kemajuan",
+      "success": "✅ Tugas berhasil diselesaikan!",
+      "running": "⏳ Simulasi berjalan...",
+      "restart": "🔄 Coba Lagi",
+      "consultButton": "Konsultasi Gratis",
+      "progress": {
+        "preparing": "Mempersiapkan simulasi...",
+        "emergency": "Situasi darurat terjadi...",
+        "doyoungStart": "Doyoung beraksi!",
+        "ragProcessing": "Memproses teknologi RAG...",
+        "solutionGen": "Membuat solusi...",
+        "additionalQ": "Memproses pertanyaan tambahan...",
+        "detailedGuide": "Menyediakan panduan terperinci...",
+        "resultAnalysis": "Menganalisis hasil...",
+        "completed": "Simulasi selesai!",
+        "processing": "Sedang memproses..."
+      }
+    }
+  },
+  "about": {
+    "title": "Mitra Inovasi AI, KINFRI",
+    "description": "KINFRI memimpin transformasi digital untuk perusahaan manufaktur dan UKM, mendukung pertumbuhan berkelanjutan melalui teknologi AI.",
+    "mission": "Misi kami: Merevolusi bisnis pelanggan dengan AI untuk memaksimalkan daya saing.",
+    "vision": "Visi kami: Menciptakan dunia di mana semua UKM dapat menikmati manfaat AI.",
+    "badges": {
+      "certifiedPartner": "Mitra AI Bersertifikat",
+      "customerSatisfaction": "99% Kepuasan Pelanggan",
+      "isoCompliance": "Kepatuhan ISO 27001"
+    },
+    "features": {
+      "e2e": {
+        "title": "Dukungan Proses E2E",
+        "description": "Dukungan menyeluruh dari eksplorasi use case hingga pengembangan dan pemeliharaan."
+      },
+      "security": {
+        "title": "Desain Berpusat Keamanan",
+        "description": "Menyediakan solusi AI on-premise yang melindungi data perusahaan sensitif."
+      },
+      "customized": {
+        "title": "Solusi Kustomisasi Lapangan",
+        "description": "Menyediakan teknologi AI khusus domain yang dioptimalkan untuk karakteristik manufaktur."
+      },
+      "expertTeam": {
+        "title": "Tim Ahli",
+        "description": "Ahli terbaik di bidang Generative AI menjamin kesuksesan pelanggan."
+      }
+    },
+    "stats": {
+      "founded": "Tahun Pendirian",
+      "projects": "Proyek Selesai",
+      "satisfaction": "Kepuasan Pelanggan",
+      "support": "Dukungan Teknis"
+    },
+    "imageAlt": "Tim Ahli KINFRI"
+  },
+  "credentials": {
+    "title": "Keahlian yang Terverifikasi",
+    "aiTeam": {
+      "title": "Tim R&D AI",
+      "description": "Alumni Samsung Electronics, LG Electronics<br>Pengalaman insinyur AI 5+ tahun",
+      "badges": [
+        "Gelar Master/Doktor",
+        "Pendaftaran Paten AI"
+      ]
+    },
+    "consultingTeam": {
+      "title": "Tim Konsultan Manufaktur",
+      "description": "Alumni Hyundai Heavy Industries, POSCO<br>Pengalaman inovasi manufaktur 10+ tahun",
+      "badges": [
+        "Sertifikasi PMP",
+        "Six Sigma BB"
+      ]
+    },
+    "securityTeam": {
+      "title": "Tim Keamanan Data",
+      "description": "Ahli keamanan sektor keuangan<br>Pengalaman keamanan informasi 15+ tahun",
+      "badges": [
+        "Sertifikasi CISSP",
+        "ISO 27001"
+      ]
+    },
+    "certBadges": {
+      "masterDegree": "Gelar S2/S3",
+      "aiPatent": "Pemegang Paten AI",
+      "pmpCert": "Sertifikasi PMP",
+      "sixSigmaBB": "Six Sigma BB",
+      "cisspCert": "Sertifikasi CISSP",
+      "iso27001": "ISO 27001"
+    }
+  },
+  "process": {
+    "title": "Proses Implementasi AI KINFRI (Selesai 3 Tahap)",
+    "step1": {
+      "title": "Analisis Lapangan dan Konsultasi (1 minggu)",
+      "description": "• Analisis status proses produksi saat ini<br>• Identifikasi area yang dapat menerapkan AI<br>• Penyediaan laporan prediksi ROI"
+    },
+    "step2": {
+      "title": "Pengembangan Solusi AI Kustom (4 minggu)",
+      "description": "• Membangun model berdasarkan data perusahaan<br>• Integrasi dengan sistem yang ada<br>• Uji coba pilot dan verifikasi"
+    },
+    "step3": {
+      "title": "Operasi dan Manajemen Berkelanjutan (Berkelanjutan)",
+      "description": "• Monitoring dan dukungan 24/7<br>• Optimisasi kinerja dan pembaruan<br>• Pelatihan karyawan dan transfer teknologi"
+    }
+  },
+  "cases": {
+    "title": "Kasus Sukses",
+    "description": "Pencapaian nyata perusahaan yang meraih inovasi dengan solusi AI KINFRI",
+    "manufacturing": {
+      "category": "Manufaktur",
+      "title": "Mengurangi Tingkat Cacat 10% dengan AI",
+      "description": "Mengurangi waktu inspeksi 20% dan meningkatkan efisiensi produksi dengan sistem manajemen kualitas berbasis RAG",
+      "tech1": "RAG",
+      "tech2": "AI Vision",
+      "tech3": "Manajemen Kualitas",
+      "result1Value": "10%",
+      "result1Label": "Pengurangan Cacat",
+      "result2Value": "20%",
+      "result2Label": "Pengurangan Waktu Inspeksi"
+    },
+    "corporate": {
+      "category": "Perusahaan",
+      "title": "Meningkatkan Produktivitas Karyawan 30%",
+      "description": "Otomasi pekerjaan internal dan penguatan keamanan dengan Private sLLM",
+      "tech1": "sLLM",
+      "tech2": "No-Code",
+      "tech3": "On-Premise",
+      "result1Value": "30%",
+      "result1Label": "Penghematan Waktu Kerja",
+      "result2Value": "100%",
+      "result2Label": "Keamanan Data"
+    },
+    "smartFactory": {
+      "category": "Smart Factory",
+      "title": "Meningkatkan Efisiensi Kontrol 40% dengan Suara",
+      "description": "Otomasi kontrol smart factory dengan STT yang memiliki akurasi pengenalan suara 95%",
+      "tech1": "STT",
+      "tech2": "TTS",
+      "tech3": "Kontrol Suara",
+      "result1Value": "95%",
+      "result1Label": "Akurasi Pengenalan Suara",
+      "result2Value": "40%",
+      "result2Label": "Peningkatan Efisiensi Kontrol"
+    },
+    "customerService": {
+      "category": "Layanan Pelanggan",
+      "title": "Chatbot AI Menangani 17.000 Pertanyaan/Bulan",
+      "description": "Membangun sistem layanan pelanggan otomatis 24 jam dengan chatbot berbasis RAG",
+      "tech1": "RAG",
+      "tech2": "Chatbot",
+      "tech3": "Layanan 24/7",
+      "result1Value": "17K",
+      "result1Label": "Pertanyaan Bulanan",
+      "result2Value": "90%",
+      "result2Label": "Kepuasan Pelanggan"
+    },
+    "cta": {
+      "title": "Apakah bisnis Anda siap untuk berinovasi?",
+      "description": "Rencanakan solusi AI kustom dengan ahli KINFRI.",
+      "button": "🤖 Konsultasi AI Gratis"
+    }
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "description": "Mulai perjalanan inovasi AI bisnis Anda. Ahli akan mengusulkan solusi kustom.",
+    "methods": {
+      "phone": {
+        "title": "Konsultasi Telepon",
+        "number": "+82-10-4063-9062",
+        "hours": "Hari kerja 9:00 - 18:00"
+      },
+      "email": {
+        "title": "Email",
+        "address": "thinkcare@naver.com",
+        "availability": "Penerimaan 24 jam"
+      },
+      "address": {
+        "title": "Alamat",
+        "location": "Ruang 905, 20 Teheran-ro 25-gil, Gangnam-gu, Seoul",
+        "note": "Konsultasi kunjungan dengan janji"
+      }
+    },
+    "form": {
+      "company": "Nama Perusahaan *",
+      "name": "Nama PIC *",
+      "phone": "Nomor Kontak *",
+      "email": "Email *",
+      "solution": "Solusi yang Diminati",
+      "solutionPlaceholder": "Silakan pilih",
+      "solutionOptions": {
+        "aiAgent": "Otomasi Bisnis AI Agent",
+        "rag": "Aplikasi Kustom berbasis RAG",
+        "sllm": "sLLM berbasis Data Pribadi",
+        "chatbot": "Builder Chatbot AI No-code",
+        "voice": "Solusi Suara STT/TTS",
+        "consulting": "Konsultasi AI"
+      },
+      "message": "Isi Konsultasi *",
+      "messagePlaceholder": "Silakan tulis detail tentang skala proyek, waktu implementasi, anggaran, dan persyaratan spesifik lainnya.",
+      "privacyConsent": "Setuju dengan pengumpulan dan penggunaan informasi pribadi. *",
+      "submit": "📧 Daftar Konsultasi Gratis"
+    }
+  },
+  "footer": {
+    "brandText": "KINFRI",
+    "description": "Memimpin transformasi AI untuk perusahaan manufaktur/UKM, menyediakan solusi cerdas untuk pertumbuhan berkelanjutan.",
+    "solutions": {
+      "title": "Solusi",
+      "aiAgent": "Otomasi AI Agent",
+      "rag": "Aplikasi RAG",
+      "sllm": "Private sLLM",
+      "nocode": "Chatbot No-code",
+      "voice": "Pengenalan Suara STT/TTS"
+    },
+    "company": {
+      "title": "Perusahaan",
+      "about": "Tentang Perusahaan",
+      "cases": "Kasus Sukses",
+      "blog": "Blog",
+      "careers": "Karir"
+    },
+    "support": {
+      "title": "Dukungan",
+      "contact": "Hubungi Kami",
+      "techSupport": "Dukungan Teknis",
+      "docs": "Dokumentasi",
+      "faq": "FAQ"
+    },
+    "contactInfo": {
+      "title": "Informasi Kontak",
+      "email": "Email:",
+      "emailValue": "thinkcare@naver.com",
+      "phone": "Telepon:",
+      "phoneValue": "+82-10-4063-9062",
+      "address": "Alamat:",
+      "addressValue": "Gangnam-gu, Seoul"
+    },
+    "copyright": "© 2025 KINFRI. All rights reserved.",
+    "links": {
+      "privacy": "Kebijakan Privasi",
+      "terms": "Syarat Penggunaan"
+    }
+  },
+  "aiModal": {
+    "title": "🤖 Konsultasi AI Gratis",
+    "subtitle": "Dapatkan rekomendasi solusi AI yang dipersonalisasi",
+    "closeButton": "×",
+    "progressText": "Progres Konsultasi:",
+    "inputPlaceholder": "Tulis pesan Anda...",
+    "sendButton": "Kirim",
+    "recommendationTitle": "🎯 Hasil Rekomendasi AI yang Dipersonalisasi",
+    "consultButton": "📞 Ajukan Konsultasi dengan Pakar",
+    "restartButton": "🔄 Mulai Konsultasi Baru",
+    "typingIndicator": "AI sedang menganalisis"
+  },
+  "aiSimulation": {
+    "title": "🎬 AI yang Benar-Benar Bekerja",
+    "description": "Ini hanyalah simulasi, tetapi AI KINFRI benar-benar melakukan pekerjaan seperti ini!<br>Rasakan kemampuan luar biasa karyawan AI hanya dengan satu klik.",
+    "airi": {
+      "name": "Airi",
+      "role": "Ahli Manajemen TI berbasis AI",
+      "description": "Karyawan TI andal yang menjaga PC perusahaan sepanjang malam, menyelesaikan masalah, dan mempertahankan kondisi terbaik.",
+      "capability1": "Optimasi PC otomatis",
+      "capability2": "Pemantauan keamanan",
+      "capability3": "Pencadangan data",
+      "stat1Value": "20%",
+      "stat1Label": "Pengurangan biaya TI",
+      "stat2Value": "15%",
+      "stat2Label": "Peningkatan produktivitas",
+      "button": "🎬 Coba langsung pekerjaan Airi"
+    },
+    "gyeonu": {
+      "name": "Gyeonu",
+      "role": "Ahli Penawaran AI",
+      "description": "Belajar dari data penawaran selama 10 tahun untuk menghasilkan penawaran akurat dan kompetitif hanya dalam 10 menit.",
+      "capability1": "Analisis big data",
+      "capability2": "Pembuatan penawaran instan",
+      "capability3": "Akurasi 96%",
+      "stat1Value": "90%",
+      "stat1Label": "Pengurangan waktu",
+      "stat2Value": "3 hari→10 menit",
+      "stat2Label": "Proses penawaran",
+      "button": "💼 Coba sistem penawaran Gyeonu"
+    },
+    "jisu": {
+      "name": "Jisu",
+      "role": "Asisten Analisis Kerja AI",
+      "description": "Menganalisis aktivitas kerja karyawan dan menyajikan laporan berbasis data kepada manajemen dengan temuan paling penting.",
+      "capability1": "Analisis pola kerja",
+      "capability2": "Pemanfaatan Llama 3 AI",
+      "capability3": "Laporan khusus",
+      "stat1Value": "3,5 jam",
+      "stat1Label": "Waktu persiapan laporan yang dihemat",
+      "stat2Value": "100%",
+      "stat2Label": "Akurasi data",
+      "button": "📊 Coba analisis kerja Jisu"
+    },
+    "doyoung": {
+      "name": "Doyoung",
+      "role": "Ahli Manual AI",
+      "description": "Pakar dukungan teknis pintar yang mempelajari lebih dari 10.000 halaman manual untuk menyelesaikan masalah lapangan secara instan.",
+      "capability1": "Teknologi pencarian RAG",
+      "capability2": "Pencegahan halusinasi",
+      "capability3": "Spesialis CNC/CAD/CAM",
+      "stat1Value": "95%",
+      "stat1Label": "Tingkat keberhasilan penyelesaian masalah",
+      "stat2Value": "4 jam→10 menit",
+      "stat2Label": "Waktu penyelesaian",
+      "button": "📚 Coba AI manual Doyoung"
+    },
+    "minseo": {
+      "name": "Minseo",
+      "role": "Ahli Data Keamanan AI",
+      "description": "Pakar AI privat yang menganalisis data rahasia secara aman tanpa kebocoran eksternal menggunakan sLLM on-premises.",
+      "capability1": "Pemrosesan on-premises",
+      "capability2": "Biaya token nol",
+      "capability3": "Kedaulatan data",
+      "stat1Value": "100%",
+      "stat1Label": "Keamanan terjaga",
+      "stat2Value": "₩60.000.000",
+      "stat2Label": "Penghematan tahunan",
+      "button": "🔒 Coba AI keamanan Minseo"
+    },
+    "cta": {
+      "title": "🎯 Ini hanyalah simulasi",
+      "description": "Namun karyawan AI KINFRI benar-benar melakukan pekerjaan seperti ini!<br>Daftarlah konsultasi gratis untuk mengetahui cara implementasinya.",
+      "button": "🤖 Dapatkan konsultasi implementasi nyata"
+    }
+  },
+  "ai_consultant": {
+    "questions": {
+      "greeting": {
+        "text": "Selamat datang di konsultasi AI KINFRI! 😊\n\nUntuk memberikan konsultasi yang lebih akurat dan disesuaikan, kami ingin mengajukan beberapa pertanyaan. Apakah Anda siap untuk memulai?",
+        "options": ["Ya, mari kita mulai", "Tunggu sebentar"]
+      },
+      "business_problem": {
+        "text": "Apa masalah bisnis terbesar atau tantangan yang ingin dipecahkan oleh perusahaan Anda?",
+        "options": [
+          "Kekurangan tenaga kerja & efisiensi operasional",
+          "Kontrol kualitas & perbaikan tingkat kerusakan",
+          "Peningkatan layanan & dukungan pelanggan",
+          "Pengurangan biaya & peningkatan produktivitas",
+          "Manajemen & pemanfaatan data",
+          "Lainnya"
+        ]
+      },
+      "company_size": {
+        "text": "Bagaimana ukuran perusahaan Anda?",
+        "options": [
+          "Kurang dari 10 karyawan (Kecil)",
+          "10-50 karyawan (UKM)",
+          "50-200 karyawan (Menengah)",
+          "200+ karyawan (Besar)"
+        ]
+      },
+      "budget_range": {
+        "text": "Berapa kisaran anggaran yang diharapkan untuk implementasi solusi AI?",
+        "options": [
+          "Kurang dari Rp 750 juta",
+          "Rp 750 juta - Rp 3 miliar",
+          "Rp 3 miliar - Rp 7,5 miliar",
+          "Rp 7,5 miliar+",
+          "Anggaran fleksibel berdasarkan efektivitas"
+        ]
+      },
+      "timeline": {
+        "text": "Kapan Anda ingin mengimplementasikan solusi AI?",
+        "options": [
+          "Dalam 1 bulan",
+          "Dalam 3 bulan",
+          "Dalam 6 bulan",
+          "Dalam 1 tahun",
+          "Jadwal fleksibel"
+        ]
+      },
+      "automation_interest": {
+        "text": "Area bisnis mana yang paling Anda minati untuk otomatisasi atau implementasi AI?",
+        "options": [
+          "Manajemen & monitoring proses produksi",
+          "Pencarian dokumen & manajemen pengetahuan",
+          "Konsultasi pelanggan & penanganan pertanyaan",
+          "Otomatisasi pekerjaan internal",
+          "Sistem pengenalan suara & kontrol",
+          "Transformasi cerdas menyeluruh"
+        ]
+      }
+    },
+    "prompts": {
+      "recommendation_header": "Berdasarkan informasi pelanggan, silakan rekomendasikan solusi AI yang paling sesuai dari penawaran KINFRI.",
+      "customer_summary": "**Ringkasan Informasi Pelanggan:**",
+      "solution_options": "**Pilihan Solusi KINFRI:**",
+      "format_solution": "**🎯 Solusi yang Direkomendasikan**",
+      "format_reason": "**💡 Alasan Pemilihan**",
+      "format_effect": "**📈 Efek yang Diharapkan**",
+      "format_roi": "**💰 ROI yang Diharapkan**",
+      "format_implementation": "**🚀 Rencana Implementasi**",
+      "format_next_step": "**📞 Langkah Selanjutnya**",
+      "next_step_text": "Dapatkan analisis terperinci dan proposal yang disesuaikan melalui konsultasi profesional gratis.",
+      "response_format": "Harap merespons dalam format berikut:",
+      "effect_time": "Pengurangan 30-50% waktu pemrosesan tugas",
+      "effect_cost": "Penghematan biaya operasional bulanan 200-500 juta won",
+      "effect_accuracy": "Peningkatan akurasi kerja di atas 95%",
+      "roi_short": "Pengembalian investasi dalam 6 bulan, ROI tahunan yang diharapkan di atas 200%",
+      "roi_medium": "Pengembalian investasi dalam 12 bulan, ROI tahunan yang diharapkan di atas 150%",
+      "roi_long": "Potensi ROI yang sangat baik, keunggulan kompetitif jangka panjang",
+      "step1": "Tahap 1: Analisis kebutuhan & POC (2-4 minggu)",
+      "step2": "Tahap 2: Pengembangan solusi kustom (4-8 minggu)",
+      "step3": "Tahap 3: Pengujian & penerapan (2-4 minggu)",
+      "step4": "Tahap 4: Pelatihan & stabilisasi (2 minggu)",
+      "detailed_proposal": "Kami akan menyediakan perhitungan ROI terperinci dan rencana implementasi.",
+      "reason_template": "Ini dapat menyelesaikan tantangan utama perusahaan Anda '{businessProblem}' dan secara signifikan meningkatkan efisiensi di area '{interest}'."
+    },
+    "solutions": {
+      "ai_agent": "AI Agent (Otomatisasi Kerja) - Manajemen produksi, manajemen inventori, monitoring fasilitas",
+      "rag_application": "Aplikasi RAG (Pencarian Dokumen) - Manajemen kualitas, manajemen pengetahuan",
+      "private_sllm": "sLLM Pribadi (AI Kustom) - Keamanan data, on-premises",
+      "nocode_chatbot": "Builder Chatbot No-code - Layanan pelanggan, penanganan pertanyaan internal",
+      "stt_tts": "STT/TTS (Pengenalan Suara) - Smart factory, sistem kontrol"
+    },
+    "messages": {
+      "generation_error": "Terjadi kesalahan saat menghasilkan rekomendasi. Silakan ajukan konsultasi langsung.",
+      "consultation_complete": "🤖 Konsultasi Pra-AI Selesai",
+      "timestamp": "Waktu penyelesaian konsultasi:",
+      "expert_followup": "Konsultan profesional akan memberikan konsultasi yang lebih terperinci.",
+      "answer_prefix": "Jawaban:"
+    },
+    "labels": {
+      "main_problem": "Masalah Utama:",
+      "company_size": "Ukuran Perusahaan:",
+      "budget_range": "Kisaran Anggaran:",
+      "timeline": "Timeline Implementasi yang Diinginkan:",
+      "interest_area": "Area Minat:",
+      "unspecified": "Tidak Ditentukan"
+    }
+  },
+  "aria": {
+    "langSelect": "Pilih bahasa"
+  },
+  "meta": {
+    "title": "KINFRI - Solusi AI untuk Manufaktur & UKM",
+    "description": "KINFRI menyediakan solusi AI yang dapat disesuaikan termasuk AI Agent, RAG, sLLM untuk manufaktur dan UKM. Tingkatkan produktivitas dan kurangi biaya operasional.",
+    "keywords": "KINFRI, solusi AI, AI manufaktur, transformasi digital UKM, AI Agent, RAG, sLLM, kecerdasan buatan",
+    "ogTitle": "KINFRI - Mitra Transformasi AI untuk Manufaktur & UKM",
+    "ogDescription": "Rasakan solusi AI yang disesuaikan dari KINFRI yang merevolusi produktivitas manufaktur melalui teknologi AI Agent, RAG, dan sLLM."
+  }
+}

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>利用規約 - KINFRI</title>
+    <meta name="description" content="キンフリ(KINFRI)のサービス利用規約をご確認ください。AIソリューションサービス利用に関する権利と義務をご案内します。">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+KR:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon-apple.png">
+    
+    <style>
+        .legal-document {
+            background-color: var(--bg-primary);
+            padding: var(--space-20) 0;
+            min-height: calc(100vh - 80px);
+        }
+        
+        .legal-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 var(--space-6);
+        }
+        
+        .legal-header {
+            text-align: center;
+            margin-bottom: var(--space-12);
+            padding-bottom: var(--space-8);
+            border-bottom: 2px solid var(--neutral-200);
+        }
+        
+        .legal-title {
+            font-family: var(--font-heading);
+            font-size: var(--text-4xl);
+            font-weight: var(--weight-bold);
+            color: var(--text-primary);
+            margin-bottom: var(--space-4);
+        }
+        
+        .legal-updated {
+            color: var(--text-secondary);
+            font-size: var(--text-base);
+        }
+        
+        .legal-content {
+            line-height: 1.7;
+            color: var(--text-primary);
+        }
+        
+        .legal-section {
+            margin-bottom: var(--space-10);
+        }
+        
+        .legal-section h2 {
+            font-family: var(--font-heading);
+            font-size: var(--text-2xl);
+            font-weight: var(--weight-semibold);
+            color: var(--primary-blue);
+            margin-bottom: var(--space-6);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--neutral-200);
+        }
+        
+        .legal-section h3 {
+            font-size: var(--text-xl);
+            font-weight: var(--weight-medium);
+            color: var(--text-primary);
+            margin: var(--space-6) 0 var(--space-4) 0;
+        }
+        
+        .legal-section p {
+            margin-bottom: var(--space-4);
+            font-size: var(--text-base);
+        }
+        
+        .legal-section ul, .legal-section ol {
+            margin: var(--space-4) 0;
+            padding-left: var(--space-6);
+        }
+        
+        .legal-section li {
+            margin-bottom: var(--space-2);
+            font-size: var(--text-base);
+        }
+        
+        .legal-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: var(--space-6) 0;
+            background-color: var(--bg-primary);
+            border: 1px solid var(--neutral-200);
+        }
+        
+        .legal-table th,
+        .legal-table td {
+            padding: var(--space-4);
+            text-align: left;
+            border-bottom: 1px solid var(--neutral-200);
+            font-size: var(--text-sm);
+        }
+        
+        .legal-table th {
+            background-color: var(--bg-tertiary);
+            font-weight: var(--weight-semibold);
+            color: var(--text-primary);
+        }
+        
+        .contact-info {
+            background-color: var(--bg-secondary);
+            padding: var(--space-6);
+            border-radius: var(--radius-lg);
+            margin: var(--space-8) 0;
+        }
+        
+        .contact-info h3 {
+            color: var(--primary-blue);
+            margin-bottom: var(--space-4);
+        }
+        
+        .contact-details {
+            display: grid;
+            gap: var(--space-3);
+        }
+        
+        .contact-item {
+            display: flex;
+            gap: var(--space-3);
+        }
+        
+        .contact-label {
+            font-weight: var(--weight-medium);
+            min-width: 100px;
+            color: var(--text-secondary);
+        }
+        
+        .contact-value {
+            color: var(--text-primary);
+        }
+        
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            color: var(--primary-blue);
+            text-decoration: none;
+            font-weight: var(--weight-medium);
+            margin-bottom: var(--space-8);
+            transition: var(--transition-fast);
+        }
+        
+        .back-link:hover {
+            color: var(--primary-blue-dark);
+        }
+        
+        .back-link::before {
+            content: "←";
+            font-size: var(--text-lg);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="/" class="brand-link">
+                        <img src="/images/logo.png" alt="KINFRI Logo" class="brand-logo">
+                    </a>
+                </div>
+                
+                <div class="navbar-content">
+                    <div class="navbar-menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="/" class="nav-link">ホーム</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/#about" class="nav-link">会社概要</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/#solutions" class="nav-link">ソリューション</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/#contact" class="nav-link">お問い合わせ</a>
+                            </li>
+                        </ul>
+                        
+                        <div class="navbar-actions">
+                            <select class="language-select" id="languageSelect">
+                                <option value="ko">한국어</option>
+                                <option value="en">English</option>
+                                <option value="zh">中文</option>
+                                <option value="vi">Tiếng Việt</option>
+                                <option value="ja" selected>日本語</option>
+                                <option value="th">ไทย</option>
+                                <option value="id">Bahasa Indonesia</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="legal-document">
+            <div class="legal-container">
+                <a href="/" class="back-link">ホームに戻る</a>
+                
+                <div class="legal-header">
+                    <h1 class="legal-title">利用規約</h1>
+                    <p class="legal-updated">最終更新日：2024年12月21日</p>
+                </div>
+
+                <div class="legal-content">
+                    <div class="legal-section">
+                        <h2>第1条（規約の承認および適用）</h2>
+                        <p>本利用規約（以下「本規約」）は、KINFRI（キンフリ）（以下「当社」）が提供するAIソリューションサービス（以下「本サービス」）の利用に関して、当社と利用者との間の権利義務関係を定めることを目的とし、利用者と当社との間のサービス利用に関するすべての関係に適用されます。</p>
+                        <p>利用者が本サービスを利用するにあたり、本規約に同意したものとみなします。</p>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>第2条（定義）</h2>
+                        <p>本規約において使用する用語の定義は、以下のとおりとします。</p>
+                        <ul>
+                            <li><strong>「サービス」</strong>：当社が提供するAI Agent、RAG アプリケーション、sLLM、ノーコードチャットボット、STT/TTS等のAIソリューションサービスおよび関連サービス</li>
+                            <li><strong>「利用者」</strong>：本規約に同意の上、本サービスを利用する個人または法人</li>
+                            <li><strong>「アカウント」</strong>：本サービス利用のために当社に登録された利用者の情報</li>
+                            <li><strong>「コンテンツ」</strong>：文章、画像、映像、音声、データベース、プログラム等の情報</li>
+                            <li><strong>「知的財産権」</strong>：著作権、特許権、商標権、意匠権、その他の知的財産権</li>
+                        </ul>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>第3条（サービス利用）</h2>
+                        <p>利用者は、本規約および関連法令を遵守し、以下の事項を守って本サービスを利用するものとします。</p>
+                        <ul>
+                            <li>本サービスを適切な用途および方法で利用すること</li>
+                            <li>当社または第三者の権利を侵害しないこと</li>
+                            <li>公序良俗に反する行為を行わないこと</li>
+                            <li>法令に違反する行為を行わないこと</li>
+                            <li>当社の承諾なしに本サービスを商業目的で利用しないこと</li>
+                        </ul>
+                    </div>
+                    <div class="legal-section">
+                        <h2>第4条（アカウント登録および管理）</h2>
+                        <p>本サービスの利用にアカウント登録が必要な場合、利用者は正確な情報を提供し、登録を行うものとします。</p>
+                        <p>利用者は、アカウント情報の管理について以下の責任を負います。</p>
+                        <ul>
+                            <li>アカウント情報を適切に管理し、第三者に使用させないこと</li>
+                            <li>登録情報に変更があった場合、速やかに更新すること</li>
+                            <li>アカウントの不正使用を発見した場合、直ちに当社に報告すること</li>
+                        </ul>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>第5条（知的財産権）</h2>
+                        <p>本サービスに関するすべての知的財産権は当社または正当な権利者に帰属します。</p>
+                        <p>利用者は、本サービスを利用することによって、当社または第三者の知的財産権についていかなる権利も取得するものではありません。</p>
+                        <p>利用者が本サービス上に投稿または入力したコンテンツに関する知的財産権は、利用者に帰属します。ただし、利用者は当社に対し、本サービスの提供に必要な範囲で当該コンテンツを使用することを許諾するものとします。</p>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>第6条（利用者の責任）</h2>
+                        <p>利用者は、本サービスの利用に関して以下の責任を負います。</p>
+                        <ul>
+                            <li>本サービスの利用により生じた一切の結果に対する責任</li>
+                            <li>第三者との間で生じた紛争の解決</li>
+                            <li>法令および本規約の遵守</li>
+                            <li>本サービスの適切な利用環境の整備</li>
+                        </ul>
+                        <p>利用者が本規約に違反した場合、当社は事前の通知なくサービス利用を停止または制限することができます。</p>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>第7条（サービスの制限）</h2>
+                        <p>当社は、以下の場合には事前の通知なくサービスの全部または一部を制限または停止することができます。</p>
+                        <ul>
+                            <li>システムの定期メンテナンス時</li>
+                            <li>システム障害またはネットワーク障害が発生した場合</li>
+                            <li>天災地変等の不可抗力により運営が困難な場合</li>
+                            <li>その他、当社がサービス提供の継続が困難と判断した場合</li>
+                        </ul>
+                        <p>前項の事由によりサービスが制限または停止された場合、当社は利用者に生じた損害について一切の責任を負いません。</p>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>第8条（料金および支払い）</h2>
+                        <p>本サービスの利用料金は、当社ウェブサイト上に掲載する料金表に従います。</p>
+                        <p>利用者は、利用料金を当社が指定する方法により支払うものとします。</p>
+                        <p>一度支払われた利用料金は、当社の責に帰すべき事由がある場合を除き、返金いたしません。</p>
+                        <p>利用者が利用料金の支払いを怠った場合、当社は事前の通知なくサービス利用を停止することができます。</p>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>第9条（サービスの終了）</h2>
+                        <p>当社は、以下の場合にはサービスの提供を終了することができます。</p>
+                        <ul>
+                            <li>当社の経営方針の変更</li>
+                            <li>技術的または経済的理由によりサービス継続が困難な場合</li>
+                            <li>その他、当社がサービス提供の継続が適切でないと判断した場合</li>
+                        </ul>
+                        <p>前項によりサービスを終了する場合、当社は30日前までに利用者に通知するものとします。</p>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>第10条（免責事項）</h2>
+                        <p>当社は、以下の事項について一切の責任を負いません。</p>
+                        <ul>
+                            <li>本サービスの利用により利用者に生じた直接的または間接的な損害</li>
+                            <li>本サービスの中断、遅延、変更、または利用不能</li>
+                            <li>本サービスを通じて提供される情報の正確性、完全性、有用性</li>
+                            <li>利用者が本サービスを通じて取得した情報等による損害</li>
+                            <li>利用者間または利用者と第三者との間で生じた紛争</li>
+                        </ul>
+                        <p>ただし、当社の故意または重大な過失による場合は除きます。</p>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>第11条（責任の制限）</h2>
+                        <p>当社が利用者に対して責任を負う場合、その責任の範囲は、利用者に現実に生じた直接的かつ通常の損害に限られるものとし、その損害額は利用者が当社に支払った過去12ヶ月間の利用料金の総額を上限とします。</p>
+                        <p>当社は、データの滅失、利益の逸失、事業の中断等の間接的損害については、その予見可能性の有無にかかわらず一切の責任を負いません。</p>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>第12条（紛争の解決）</h2>
+                        <p>本規約に関連して生じた紛争については、当事者間での誠実な協議により解決を図るものとします。</p>
+                        <p>前項の協議により解決できない場合は、東京地方裁判所を第一審の専属的合意管轄裁判所とします。</p>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>第13条（準拠法）</h2>
+                        <p>本規約の準拠法は日本国法とし、その解釈および適用は日本国法に従います。</p>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>第14条（規約の変更）</h2>
+                        <p>当社は、必要に応じて本規約を変更することができます。</p>
+                        <p>規約の変更は、変更後の規約を当社ウェブサイト上に掲載することにより効力を生じるものとします。</p>
+                        <p>変更後も継続して本サービスを利用する場合、変更後の規約に同意したものとみなします。</p>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>第15条（お問い合わせ）</h2>
+                        <p>本規約またはサービスに関するお問い合わせは、以下の連絡先までお願いいたします。</p>
+                        
+                        <div class="contact-info">
+                            <h3>お問い合わせ先</h3>
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <span class="contact-label">会社名：</span>
+                                    <span class="contact-value">KINFRI（キンフリ）</span>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-label">担当者：</span>
+                                    <span class="contact-value">李仁泰（イ・インテ）</span>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-label">電話番号：</span>
+                                    <span class="contact-value">+82-10-4063-9062</span>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-label">メールアドレス：</span>
+                                    <span class="contact-value">thinkcare@naver.com</span>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-label">会社住所：</span>
+                                    <span class="contact-value">大韓民国ソウル特別市江南区テヘラン路25街20番地905号</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="legal-section">
+                        <p><strong>本利用規約は、2024年12月21日から施行されます。</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Legal Links JavaScript -->
+    <script src="/js/legal-links.js"></script>
+    <script src="/js/i18n.js"></script>
+</body>
+</html>

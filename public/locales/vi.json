@@ -1,0 +1,1111 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "solutions": "Giải pháp",
+    "about": "Về chúng tôi",
+    "cases": "Câu chuyện thành công",
+    "simulation": "🎬 Trải nghiệm AI",
+    "contact": "Liên hệ",
+    "backHome": "Về trang chính",
+    "freeConsult": "Đăng ký tư vấn miễn phí"
+  },
+  "buttons": {
+    "ctaConsult": "Nhận tư vấn AI miễn phí",
+    "viewSolutions": "Xem các giải pháp"
+  },
+  "hero": {
+    "title": "Đối tác chuyển đổi <span class=\"highlight\">AI</span><br>đáng tin cậy cho SME",
+    "description": "KINFRI mang đến ứng dụng RAG, mô hình sLLM riêng và tự động hóa AI Agent giúp doanh nghiệp tăng năng suất và giảm chi phí vận hành cùng lúc.",
+    "statAccuracy": "Độ chính xác nhận dạng",
+    "statCostReduction": "Nâng cao hiệu quả",
+    "statResponseTime": "Hệ thống vận hành 24/7",
+    "cards": {
+      "aiAgent": "AI Agent",
+      "ragSearch": "Tìm kiếm RAG",
+      "privateSllm": "sLLM riêng tư"
+    },
+    "imageAlt": "Tổng quan nền tảng chuyển đổi AI của KINFRI - RAG, sLLM, AI Agent"
+  },
+  "solutions": {
+    "title": "Giải pháp AI đổi mới",
+    "description": "Các giải pháp AI được tùy chỉnh để tăng tốc chuyển đổi số cho doanh nghiệp sản xuất và SME",
+    "aeoQuickAnswers": {
+      "manufacturing": {
+        "question": "Giải pháp AI hiệu quả nhất cho ngành sản xuất là gì?",
+        "answer": "<strong>Hệ thống quản lý chất lượng dựa trên RAG</strong> giúp giảm 10% tỷ lệ lỗi và 20% thời gian kiểm tra."
+      },
+      "cost": {
+        "question": "Chi phí triển khai AI cho SME là bao nhiêu?",
+        "answer": "<strong>Trình tạo chatbot no-code</strong> giảm 70% chi phí phát triển và xử lý 17,000+ câu hỏi mỗi tháng."
+      },
+      "security": {
+        "question": "Bảo mật dữ liệu AI có đáng tin cậy không?",
+        "answer": "<strong>sLLM tại chỗ</strong> đảm bảo 100% chủ quyền dữ liệu không có rủi ro rò rỉ ra ngoài."
+      }
+    },
+    "aiAgent": {
+      "title": "AI Agent Tự động hóa Doanh nghiệp",
+      "description": "Thực hiện tự động quản lý sản xuất, tối ưu hóa tồn kho, giám sát thiết bị để xây dựng hệ thống vận hành 24/7 tự động.",
+      "features": {
+        "autonomous": "Thiết kế và thực thi tác vụ tự động",
+        "realtime": "Quản lý quy trình sản xuất thời gian thực",
+        "predictive": "Bảo trì thiết bị dự đoán"
+      },
+      "benefits": {
+        "costReduction": "Giảm Chi phí Vận hành",
+        "productivity": "Tăng Năng suất"
+      }
+    },
+    "ragSolution": {
+      "title": "Ứng dụng tùy chỉnh dựa trên RAG",
+      "description": "Xây dựng hệ thống truy xuất thông tin và phản hồi chính xác, đáng tin cậy sử dụng sổ tay và tài liệu nội bộ công ty.",
+      "features": {
+        "hallucination": "Kiểm soát hiện tượng ảo giác",
+        "knowledge": "Hệ thống quản lý tri thức nội bộ",
+        "optimization": "Tối ưu hóa tìm kiếm tài liệu thời gian thực"
+      },
+      "benefits": {
+        "decision": "Ra quyết định chính xác",
+        "efficiency": "Hiệu quả hoạt động"
+      }
+    },
+    "sllmSolution": {
+      "title": "Mô hình sLLM dựa trên dữ liệu riêng tư",
+      "description": "Xây dựng mô hình ngôn ngữ nhỏ tùy chỉnh trong môi trường tại chỗ đồng thời bảo vệ dữ liệu doanh nghiệp nhạy cảm.",
+      "features": {
+        "security": "Bảo mật không lo rò rỉ dữ liệu",
+        "specialized": "Mô hình AI chuyên biệt theo lĩnh vực",
+        "onPremise": "Hỗ trợ triển khai tại chỗ"
+      },
+      "benefits": {
+        "sovereignty": "Chủ quyền dữ liệu",
+        "securityBoost": "Tăng cường bảo mật"
+      }
+    },
+    "noCodeChatbot": {
+      "title": "Trình tạo Chatbot AI không cần code",
+      "description": "Xây dựng chatbot hỗ trợ nội bộ và chăm sóc khách hàng với giao diện trực quan mà không cần kiến thức lập trình.",
+      "features": {
+        "dragDrop": "Giao diện kéo thả",
+        "integration": "Tích hợp nhiều mô hình AI",
+        "realTimeLearning": "Học tập và cải tiến thời gian thực"
+      },
+      "benefits": {
+        "developmentSpeed": "Tốc độ phát triển",
+        "maintenance": "Bảo trì dễ dàng"
+      }
+    },
+    "sttTtsSolution": {
+      "title": "Giải pháp nhận dạng giọng nói STT/TTS",
+      "description": "Cung cấp công nghệ nhận dạng giọng nói độ chính xác cao và tổng hợp giọng nói tự nhiên cho nhà máy thông minh và trung tâm cuộc gọi.",
+      "features": {
+        "accuracy": "Độ chính xác nhận dạng tiếng Việt 95%+",
+        "emotional": "Tổng hợp giọng nói biểu cảm",
+        "specialized": "Học thuật ngữ chuyên ngành sản xuất"
+      },
+      "benefits": {
+        "controlEfficiency": "Hiệu quả kiểm soát",
+        "customerExperience": "Trải nghiệm khách hàng"
+      }
+    }
+  },
+  "simulation": {
+    "airi": {
+      "navName": "Airi",
+      "title": "Airi - AI Quản lý IT",
+      "subtitle": "AI chuyên trực đêm âm thầm quản lý các PC công ty suốt đêm",
+      "pageTitle": "Airi AI - Mô phỏng Quản lý IT Thực tế | KINFRI",
+      "pageDescription": "Trải nghiệm nhân viên AI Airi của KINFRI quản lý PC công ty suốt đêm trong mô phỏng công việc thực tế.",
+      "scenarioTitle": "🌙 Kịch bản: Quản lý IT không cần làm thêm giờ",
+      "timeRange": "9 giờ tối ~ 6 giờ sáng",
+      "situationLabel": "Tình huống:",
+      "situationText": "Thời gian cần kiểm tra hệ thống IT sau khi nhân viên tan làm",
+      "problemLabel": "Vấn đề:",
+      "problemText": "Cần làm thêm giờ và quản lý từng PC một cách thủ công",
+      "roleLabel": "Vai trò của Airi:",
+      "roleText": "Tự động xử lý hoàn hảo tất cả công việc IT",
+      "startButton": "▶️ Bắt đầu mô phỏng công việc Airi",
+      "resultTitle": "🎯 Hoàn thành mô phỏng!",
+      "resultText1": "Chúng tôi đã xác nhận các công việc Airi đã xử lý suốt đêm!",
+      "resultText2": "AI Agent của KINFRI thực sự tự động hóa công việc 24/7 theo cách này.",
+      "step1": {
+        "title": "🌙 Airi bắt đầu làm việc",
+        "message": "Xin chào! Các nhân viên đã tan làm. Bây giờ tôi sẽ chăm sóc các PC suốt đêm.",
+        "action1": "Kiểm tra trạng thái kết nối 12 PC trong công ty",
+        "action2": "Bắt đầu thu thập nhật ký hệ thống từ mỗi PC",
+        "action3": "Chuẩn bị phân tích dữ liệu hoạt động công việc hôm nay"
+      },
+      "step2": {
+        "title": "🔍 Đang chẩn đoán trạng thái PC",
+        "message": "Tôi đang kiểm tra từng PC một. Tôi đã phát hiện một số vấn đề.",
+        "action1": "PC-03: Sử dụng bộ nhớ 95% (mức độ nguy hiểm)",
+        "action2": "PC-07: Tích tụ 3.2GB tệp tạm thời",
+        "action3": "PC-11: 47 tiến trình chạy nền đang hoạt động",
+        "stat1": "Hoàn thành kiểm tra",
+        "stat2": "Phát hiện vấn đề",
+        "stat3": "Trạng thái bình thường"
+      },
+      "step3": {
+        "title": "⚠️ Phân tích chi tiết vấn đề",
+        "message": "Tôi đang phân tích chi tiết các vấn đề đã phát hiện và thiết lập giải pháp.",
+        "action1": "Nguyên nhân rò rỉ bộ nhớ PC-03: 47 tab Chrome cũ",
+        "action2": "PC-07 cần dọn dẹp đĩa: tệp cache và tệp log",
+        "action3": "PC-11 phát hiện 12 chương trình khởi động không cần thiết",
+        "alert": "🚨 Khẩn cấp: PC-03 xác nhận chậm lại hệ thống 70%"
+      },
+      "step4": {
+        "title": "🔧 Thực hiện giải quyết vấn đề tự động",
+        "message": "Bây giờ tôi sẽ giải quyết từng vấn đề một. Tôi sẽ làm việc cẩn thận để không cản trở công việc của nhân viên.",
+        "action1": "PC-03: Kết thúc tiến trình không cần thiết và tối ưu hóa bộ nhớ ✅",
+        "action2": "PC-07: Xóa an toàn 3.2GB tệp tạm thời hoàn thành ✅",
+        "action3": "PC-11: Tối ưu hóa chương trình khởi động từ 12 → 5 ✅"
+      },
+      "step5": {
+        "title": "💾 Thực hiện sao lưu hệ thống",
+        "message": "Giải quyết vấn đề đã hoàn thành. Bây giờ tôi sẽ sao lưu an toàn dữ liệu quan trọng.",
+        "action1": "Thực hiện sao lưu tự động tài liệu quan trọng từ mỗi PC",
+        "action2": "Tạo điểm khôi phục hệ thống",
+        "action3": "Sao lưu kép tệp cơ sở dữ liệu",
+        "stat1": "Dữ liệu sao lưu",
+        "stat2": "Điểm khôi phục",
+        "stat3": "Mức độ an toàn"
+      },
+      "step6": {
+        "title": "🛡️ Kiểm tra bảo mật",
+        "message": "Cuối cùng, tôi sẽ kiểm tra trạng thái bảo mật và xem có dấu hiệu bất thường nào không.",
+        "action1": "Phân tích nhật ký tường lửa: 0 lần thử truy cập từ bên ngoài",
+        "action2": "Quét phần mềm độc hại: Không tìm thấy yếu tố rủi ro",
+        "action3": "Quét lỗ hổng hệ thống: Tất cả PC xác nhận trạng thái an toàn"
+      },
+      "final": {
+        "title": "📊 Báo cáo hoàn thành công việc",
+        "message": "Cảm ơn bạn đã làm việc chăm chỉ suốt đêm! Tất cả PC đã sẵn sàng ở trạng thái tối ưu.",
+        "action1": "Nhân viên có thể bắt đầu làm việc trong môi trường thoải mái",
+        "action2": "Cải thiện hiệu suất dự kiến: Cải thiện trung bình 23%",
+        "action3": "Thời gian quản lý IT tiết kiệm: 4 giờ 30 phút",
+        "stat1": "Vấn đề đã giải quyết",
+        "stat2": "Hoàn thành sao lưu",
+        "stat3": "Cải thiện hiệu suất",
+        "stat4": "Thời gian tiết kiệm"
+      }
+    },
+    "gyeonu": {
+      "navName": "Gyeonu",
+      "pageTitle": "Gyeonu AI - Mô phỏng hệ thống báo giá thực tế | KINFRI",
+      "pageDescription": "AI báo giá chuyên nghiệp tạo báo giá chính xác trong 10 phút",
+      "scenarioTitle": "💼 Kịch bản: Yêu cầu báo giá khẩn cấp",
+      "timeRange": "4:30 chiều",
+      "situationLabel": "Tình huống:",
+      "situationText": "Khách hàng lớn gọi yêu cầu báo giá trước ngày mai",
+      "problemLabel": "Vấn đề:",
+      "problemText": "Cấu hình sản phẩm phức tạp và số lượng lớn khiến việc tính toán chính xác trở nên khó khăn",
+      "roleLabel": "Vai trò của Gyeonu:",
+      "roleText": "Cung cấp báo giá chính xác ngay lập tức dựa trên dữ liệu 10 năm",
+      "startButton": "💼 Bắt đầu mô phỏng báo giá",
+      "beforeMethod": "❌ Phương pháp truyền thống (cần 3 ngày)",
+      "before1": "📞 Tiếp nhận yêu cầu khách hàng",
+      "before2": "🔍 Tìm kiếm thủ công báo giá cũ",
+      "before3": "📊 Tính toán thủ công trên Excel",
+      "before4": "📝 Viết báo giá thủ công",
+      "before5": "👀 Chờ xem xét và phê duyệt",
+      "before6": "📧 Gửi email",
+      "beforeTime": "Thời gian cần: 3 ngày",
+      "beforeAccuracy": "Độ chính xác: 85%",
+      "beforeStaff": "Nhân lực: 2 người",
+      "running": "⏳ Đang mô phỏng...",
+      "restart": "🔄 Thử lại",
+      "afterMethod": "✅ Phương pháp Gyeonu AI (10 phút)",
+      "after1": "⚡ Phân tích yêu cầu ngay lập tức",
+      "after2": "🤖 Tự động tìm kiếm dữ liệu 10 năm",
+      "after3": "🧠 Dự đoán giá AI",
+      "after4": "📄 Tự động tạo báo giá",
+      "after5": "📧 Sẵn sàng gửi ngay",
+      "afterTime": "Thời gian cần: 10 phút",
+      "afterAccuracy": "Độ chính xác: 96%",
+      "afterStaff": "Nhân lực: 0 người (tự động)",
+      "step1": {
+        "title": "📧 Bước 1: Nhận yêu cầu báo giá khách hàng",
+        "requestTitle": "📋 Thông tin yêu cầu báo giá",
+        "customer": "Khách hàng:",
+        "product": "Sản phẩm:",
+        "productDesc": "500 chi tiết gia công chính밀",
+        "material": "Vật liệu:",
+        "spec": "Thông số:",
+        "surface": "Xử lý bề mặt:",
+        "surfaceDesc": "Anod hóa",
+        "tolerance": "Độ chính xác:",
+        "delivery": "Giao hàng:",
+        "deliveryDesc": "Mong muốn trong vòng 2 tuần",
+        "aiMessage": "Đang phân tích yêu cầu báo giá. Vui lòng đợi một chút..."
+      },
+      "step2": {
+        "title": "🔍 Bước 2: Tìm kiếm dữ liệu AI",
+        "aiMessage": "Đang tìm kiếm và phân tích dữ liệu báo giá 10 năm...",
+        "progressText": "Đang tìm kiếm dữ liệu...",
+        "totalQuotes": "Tổng báo giá",
+        "similarProjects": "Dự án tương tự",
+        "sameMaterial": "Cùng vật liệu",
+        "sameTolerance": "Cùng độ chính xác"
+      },
+      "step3": {
+        "title": "🧠 Bước 3: Phân tích giá AI",
+        "aiMessage": "Tính toán giá tối ưu dựa trên dữ liệu đã thu thập...",
+        "progressText": "Đang phân tích giá...",
+        "factorsTitle": "🔍 Các yếu tố định giá chính",
+        "factor1": "📊 Chi phí vật liệu: Áp dụng giá thị trường hiện tại SUS304",
+        "factor2": "⚙️ Chi phí gia công: Dựa trên tiêu chuẩn độ chính xác ±0.02mm",
+        "factor3": "🎨 Xử lý bề mặt: Chi phí quy trình anod hóa",
+        "factor4": "📦 Giảm giá theo số lượng: Ưu đãi sản xuất hàng loạt cho 500 đơn vị",
+        "factor5": "🚚 Chi phí vận chuyển: Dựa trên khoảng cách và trọng lượng",
+        "factor6": "📅 Giao hàng: Xem xét lịch trình 2 tuần"
+      },
+      "step4": {
+        "title": "💰 Bước 4: Hoàn thành báo giá cuối cùng",
+        "quoteTitle": "🎯 Báo giá dự đoán AI",
+        "priceNote": "(Chưa bao gồm VAT, giao hàng 2 tuần)",
+        "accuracy": "Độ chính xác dự đoán AI: 96%",
+        "progressText": "Đang tạo báo giá...",
+        "accuracyLabel": "Độ chính xác",
+        "minuteUnit": "phút",
+        "timeLabel": "Thời gian cần",
+        "autoValue": "Tự động",
+        "methodLabel": "Phương pháp xử lý",
+        "immediateValue": "Ngay lập tức",
+        "sendLabel": "Có thể gửi"
+      },
+      "resultTitle": "🎯 Hoàn thành mô phỏng báo giá!",
+      "resultText1": "Gyeonu đã hoàn thành báo giá chính xác trong 10 phút!",
+      "resultText2": "Đây là cách AI Agent của KINFRI tự động hóa quy trình báo giá trong kinh doanh thực tế."
+    },
+    "jisu": {
+      "navName": "Jisu",
+      "title": "Jisu - AI Phân tích Công việc",
+      "subtitle": "AI chuyên gia phân tích công việc nhân viên và tạo báo cáo thông tin chi tiết cho ban quản lý",
+      "aiName": "Jisu",
+      "pageTitle": "Jisu AI - Mô phỏng Phân tích Công việc | KINFRI",
+      "pageDescription": "Trải nghiệm AI nhân viên Jisu của KINFRI phân tích công việc nhân viên và tạo báo cáo thông tin chi tiết trong mô phỏng công việc thực tế này.",
+      "scenarioTitle": "📊 Kịch bản: Báo cáo Phân tích Công việc Cuối tháng",
+      "timeRange": "6:00 Chiều",
+      "situationLabel": "Tình huống:",
+      "situationText": "CEO yêu cầu phân tích tình trạng công việc của nhân viên trong tháng này",
+      "problemLabel": "Vấn đề:",
+      "problemText": "Khó khăn trong việc phân tích thủ công dữ liệu công việc của 50 nhân viên",
+      "roleLabel": "Vai trò của Jisu:",
+      "roleText": "Tự động phân tích tất cả dữ liệu công việc để đưa ra những hiểu biết sâu sắc",
+      "startButton": "📊 Bắt đầu Mô phỏng Phân tích Công việc",
+      "running": "⏳ Mô phỏng đang tiến hành...",
+      "restart": "🔄 Thử lại",
+      "resultTitle": "🎯 Hoàn thành Mô phỏng Phân tích Công việc!",
+      "resultText1": "Jisu đã tự động phân tích công việc của 50 nhân viên và hoàn thành báo cáo thông tin chi tiết!",
+      "resultText2": "Đây là cách AI Agent của KINFRI tự động hóa phân tích công việc trong kinh doanh thực tế.",
+      "step1": {
+        "title": "🌙 Bắt đầu Thu thập Dữ liệu Sau khi Nhân viên Tan làm",
+        "message": "Xin chào, CEO! Tất cả nhân viên đã tan làm. Tôi sẽ phân tích các hoạt động công việc hôm nay.",
+        "progressText": "Đang thu thập dữ liệu...",
+        "marketingTitle": "📊 Đội Marketing (4 người)",
+        "marketingContent": "• Sử dụng Photoshop 5.2 giờ<br>• PowerPoint 3.1 giờ<br>• Chỉnh sửa brochure_final.psd<br>• Tạo SNS_plan.xlsx",
+        "devTitle": "💻 Đội Phát triển (5 người)",
+        "devContent": "• Sử dụng VS Code 7.5 giờ<br>• Chỉnh sửa 247 file website<br>• Cập nhật bug_report.md<br>• 23 commit GitHub",
+        "salesTitle": "📞 Đội Bán hàng (3 người)",
+        "salesContent": "• Sử dụng Excel 4.3 giờ<br>• Tạo 8 quotation_0918.xlsx<br>• Cập nhật customer_contacts.xlsx<br>• Gửi 47 email"
+      },
+      "step2": {
+        "title": "🧠 Phân tích Mô hình Công việc với Llama 3 AI",
+        "message": "Phân tích dữ liệu thu thập được bằng mô hình Llama 3 AI. Đang tính toán hiệu quả và năng suất công việc cho từng đội.",
+        "progressText": "AI đang phân tích...",
+        "analysisTitle": "🔍 Phát hiện trong Quá trình Phân tích AI",
+        "recommendation1": "✅ Đội Marketing: 75% thời gian công việc sáng tạo → Xác nhận năng suất cao",
+        "recommendation2": "✅ Đội Phát triển: 82% thời gian coding, giảm thời gian họp → Cải thiện hiệu quả",
+        "warning": "⚠️ Đội Bán hàng: Sự tập trung công việc giảm do 1 thành viên vắng mặt, cần hỗ trợ"
+      },
+      "step3": {
+        "title": "📊 Tính toán Chỉ số Năng suất theo Phòng ban",
+        "message": "Định lượng năng suất của từng phòng ban và tính toán các chỉ số hiệu suất chính xác.",
+        "progressText": "Đang tính toán chỉ số...",
+        "marketingProductivity": "Năng suất Đội Marketing",
+        "devProductivity": "Năng suất Đội Phát triển",
+        "salesProductivity": "Năng suất Đội Bán hàng",
+        "overallAverage": "Trung bình Tổng thể",
+        "marketingDetail": "• Hoàn thành thiết kế brochure sản phẩm mới<br>• Thiết lập kế hoạch nội dung SNS hàng tuần<br>• Báo cáo phân tích đối thủ đang tiến hành<br><strong style=\"color: #16A34A;\">Năng suất: 92%</strong>",
+        "devDetail": "• Tối ưu hóa responsive website 90%<br>• Sửa lỗi: hoàn thành 10 trong 12<br>• Đánh giá kế hoạch phát triển tính năng mới<br><strong style=\"color: #16A34A;\">Năng suất: 89%</strong>",
+        "salesDetail": "• Tư vấn với 5 khách hàng mới đang tiến hành<br>• Gửi 8 báo giá<br>• Quản lý khách hàng hiện tại<br><strong style=\"color: #F97316;\">Năng suất: 75% (thiếu nhân sự)</strong>"
+      },
+      "step4": {
+        "title": "📋 Hoàn thành Báo cáo Cuối cùng cho CEO",
+        "message": "Tất cả phân tích đã hoàn thành! Tôi đã tổ chức báo cáo thông tin chi tiết để CEO dễ xem.",
+        "progressText": "Đang tạo báo cáo...",
+        "projectTitle": "🚀 Tình trạng Tiến độ Dự án",
+        "project1": "Dự án Ra mắt Sản phẩm Mới",
+        "project2": "Làm mới Website",
+        "project3": "Phát triển Hệ thống Quản lý Khách hàng",
+        "project4": "Chiến lược Marketing Quốc tế",
+        "status1": "Đang tiến hành (85%)",
+        "status2": "Đang tiến hành (90%)",
+        "status3": "Hoàn thành",
+        "status4": "Trì hoãn (Cần đánh giá)",
+        "insightTitle": "💡 Kết quả Phân tích AI và Khuyến nghị",
+        "insight1": "<strong>1. Khuyến nghị Tăng cường Đội Bán hàng</strong> - Lực lượng lao động hiện tại thiếu 25% so với khối lượng công việc.",
+        "insight2": "<strong>2. Hiệu suất Xuất sắc của Đội Marketing</strong> - Năng suất tuần này cải thiện 15%.",
+        "insight3": "<strong>3. Đội Phát triển Giảm Làm thêm giờ</strong> - Hiệu quả công việc cải thiện, thời gian tan làm trung bình sớm hơn 1 giờ.",
+        "insight4": "<strong>4. Khuyến nghị Tổng thể</strong> - Bổ sung thành viên đội bán hàng dự kiến cải thiện năng suất toàn công ty 12%."
+      }
+    },
+    "doyoung": {
+      "navName": "Doyoung",
+      "title": "Doyoung - AI Hướng dẫn Thông minh",
+      "subtitle": "Chuyên gia hiện trường làm chủ hoàn hảo 10.000+ trang hướng dẫn với công nghệ RAG",
+      "pageTitle": "Doyoung - AI Hướng dẫn Thông minh | KINFRI",
+      "pageDescription": "Trải nghiệm mô phỏng công việc thực tế về cách AI nhân viên Doyoung của KINFRI sử dụng công nghệ RAG để tìm giải pháp chính xác ngay lập tức từ khối lượng hướng dẫn khổng lồ.",
+      "scenarioTitle": "📚 Tình huống: Sự cố khẩn cấp lúc 3 giờ sáng",
+      "timeRange": "03:15 AM",
+      "situationLabel": "Tình huống:",
+      "situationText": "Máy CNC trên dây chuyền sản xuất gặp lỗi không xác định",
+      "problemLabel": "Vấn đề:",
+      "problemText": "Cần tìm giải pháp từ hướng dẫn phức tạp 10.000+ trang",
+      "roleLabel": "Vai trò của Doyoung:",
+      "roleText": "Sử dụng công nghệ RAG để cung cấp hướng dẫn giải quyết chính xác ngay lập tức",
+      "ragTitle": "🧠 Công nghệ RAG (Retrieval Augmented Generation) là gì?",
+      "ragStep1Title": "1. Truy xuất (Retrieval)",
+      "ragStep1Desc": "Tìm kiếm thông tin liên quan từ cơ sở dữ liệu khổng lồ",
+      "ragStep2Title": "2. Tăng cường (Augmented)",
+      "ragStep2Desc": "Kết nối thông tin truy xuất được với mô hình AI",
+      "ragStep3Title": "3. Sinh tạo (Generation)",
+      "ragStep3Desc": "Tạo ra câu trả lời dựa trên thông tin chính xác",
+      "ragBenefit": "Ưu điểm cốt lõi: Ngăn chặn hiện tượng ảo giác + Cung cấp thông tin chính xác theo thời gian thực",
+      "startButton": "▶️ Bắt đầu mô phỏng Doyoung",
+      "step1": {
+        "title": "🚨 Sự cố khẩn cấp xảy ra",
+        "machineInfo": "Máy CNC-M200 trên dây chuyền sản xuất",
+        "errorCode": "Mã lỗi: E4-7829",
+        "errorDesc": "Phát hiện quá tải trục chính - Cần phản ứng ngay lập tức",
+        "manualDesc": "📋 Nhân viên hiện trường đang tìm kiếm hướng dẫn, nhưng...",
+        "manual1": "Hướng dẫn máy CNC: 2.847 trang",
+        "manual2": "Hướng dẫn sử dụng công cụ: 1.523 trang",
+        "manual3": "Sổ tay quy trình an toàn: 892 trang",
+        "manual4": "Phần mềm CAD/CAM: 5.832 trang",
+        "totalPages": "Tổng cộng 10.094 trang",
+        "totalPagesText": " cần tìm câu trả lời!"
+      },
+      "step2": {
+        "title": "Doyoung xuất kích!",
+        "message1": "Xin chào! Tôi là Doyoung. Tôi sẽ phân tích lỗi E4-7829 cho bạn.",
+        "message2": "Đừng lo lắng! Tôi đã học tất cả hướng dẫn thông qua công nghệ RAG!"
+      },
+      "step3": {
+        "title": "🔍 Quá trình xử lý công nghệ RAG theo thời gian thực",
+        "searchTitle": "Giai đoạn 1: Truy xuất (Retrieval)",
+        "searchItem1": "Tìm kiếm hướng dẫn lỗi máy CNC...",
+        "searchResult1": "📄 Tìm thấy 27 kết quả",
+        "searchItem2": "Tài liệu liên quan đến quá tải trục chính...",
+        "searchResult2": "📄 Tìm thấy 15 kết quả",
+        "searchItem3": "Giải pháp lỗi E4-7829...",
+        "searchResult3": "📄 Tìm thấy 8 kết quả",
+        "augmentTitle": "Giai đoạn 2: Tăng cường (Augmented)",
+        "augmentDesc": "🧠 Đang kết nối thông tin truy xuất được với mô hình AI...",
+        "knowledgeSource1": "Sổ tay CNC trang 1.247",
+        "knowledgeSource2": "Quy trình an toàn trang 89",
+        "knowledgeSource3": "Hướng dẫn công cụ trang 334",
+        "generateTitle": "Giai đoạn 3: Sinh tạo (Generation)",
+        "generateDesc": "📝 Đang viết giải pháp dựa trên thông tin chính xác..."
+      },
+      "step4": {
+        "title": "Giải pháp hoàn hảo của Doyoung",
+        "solutionTitle": "🎯 Phương pháp giải quyết lỗi E4-7829",
+        "solution1Title": "Biện pháp ngay lập tức",
+        "solution1Desc": "🛑 Kích hoạt nút dừng khẩn cấp và chờ trục chính nguội (5 phút)",
+        "solution2Title": "Xác nhận nguyên nhân",
+        "solution2Desc": "🔧 Kiểm tra độ mòn công cụ - Quá tải do tăng lực cắt",
+        "solution3Title": "Giải pháp",
+        "solution3Desc": "⚙️ Thay thế công cụ + Giảm tốc độ cắt chương trình CAM 15%",
+        "referenceTitle": "📚 Tài liệu tham khảo",
+        "ref1": "Hướng dẫn CNC tr.1.247 \"Phương pháp ứng phó quá tải trục chính\"",
+        "ref2": "Hướng dẫn công cụ tr.334 \"Chẩn đoán mòn công cụ cắt\"",
+        "ref3": "Sổ tay quy trình an toàn tr.89 \"Giao thức dừng khẩn cấp\"",
+        "noHallucination": "✅ Ngăn chặn ảo giác: Chỉ cung cấp thông tin chính xác và rõ ràng từ hướng dẫn"
+      },
+      "step5": {
+        "title": "💭 Câu hỏi bổ sung từ nhân viên hiện trường",
+        "workerQuestion": "Doyoung, làm thế nào để thay đổi tốc độ cắt trong chương trình CAM?<br>Chúng tôi đang sử dụng SolidCAM."
+      },
+      "step6": {
+        "title": "Hướng dẫn phần mềm chi tiết của Doyoung",
+        "guideTitle": "🖥️ Phương pháp thay đổi tốc độ cắt SolidCAM",
+        "swStep1Title": "Mở Operations Manager",
+        "swStep1Desc": "Menu: CAMWorks → Operations → Operations Manager",
+        "swStep2Title": "Chọn Operation tương ứng",
+        "swStep2Desc": "Đường dẫn cắt có vấn đề → Nhấp chuột phải → Edit Definition",
+        "swStep3Title": "Sửa đổi thông số tốc độ",
+        "swStep3Desc1": "Tab Speed/Feeds → Giảm Spindle Speed 15%",
+        "swStep3Desc2": "Hiện tại: 2.000 RPM → Thay đổi: 1.700 RPM",
+        "swStep4Title": "Tạo lại chương trình",
+        "swStep4Desc": "Generate Toolpath → Post Process → Cập nhật G-Code",
+        "softwareRefTitle": "📖 Hướng dẫn tham khảo",
+        "softwareRef1": "Hướng dẫn người dùng SolidCAM tr.2.847 \"Operations Management\"",
+        "softwareRef2": "Hướng dẫn CAMWorks tr.1.205 \"Speed & Feed Optimization\"",
+        "softwareRef3": "Hướng dẫn lập trình CNC tr.445 \"Phương pháp tính RPM\""
+      },
+      "step7": {
+        "title": "🎉 Hoàn thành giải quyết vấn đề!",
+        "successTitle": "Máy CNC hoạt động trở lại bình thường",
+        "metric1Title": "Thời gian giải quyết vấn đề",
+        "metric1Value": "10 phút",
+        "metric1Sub": "Thời gian giải quyết thông thường: 2-4 giờ",
+        "metric2Title": "Hướng dẫn tìm kiếm",
+        "metric2Value": "10.094 trang",
+        "metric2Sub": "Câu trả lời chính xác trong 0,3 giây",
+        "metric3Title": "Ngăn chặn tổn thất sản xuất",
+        "metric3Value": "₩240 triệu",
+        "metric3Sub": "Chi phí gián đoạn sản xuất 4 giờ"
+      },
+      "step8": {
+        "title": "💎 Giá trị mà công nghệ RAG mang lại",
+        "value1Title": "Độ chính xác",
+        "value1Desc": "Chỉ cung cấp thông tin chính xác dựa trên hướng dẫn<br>Ngăn chặn hoàn toàn hiện tượng ảo giác",
+        "value2Title": "Tốc độ",
+        "value2Desc": "Trả lời trong 0,3 giây<br>từ 10.000+ trang",
+        "value3Title": "Khả năng truy vết",
+        "value3Desc": "Tất cả câu trả lời đều có<br>nguồn và số trang chính xác",
+        "value4Title": "Tính đa dạng",
+        "value4Desc": "Hỗ trợ đồng thời tất cả các lĩnh vực<br>CNC, CAD/CAM, công cụ, an toàn",
+        "comparisonTitle": "🆚 Phương pháp truyền thống vs Công nghệ RAG",
+        "oldMethodTitle": "Tìm kiếm sổ tay truyền thống",
+        "oldMethod1": "❌ Mất 2-4 giờ",
+        "oldMethod2": "❌ Khó tìm kiếm nhiều sổ tay cùng lúc",
+        "oldMethod3": "❌ Có khả năng lỗi con người",
+        "oldMethod4": "❌ Khó giải thích khi thiếu kinh nghiệm",
+        "newMethodTitle": "Hệ thống RAG Doyoung",
+        "newMethod1": "✅ Giải quyết hoàn toàn trong 10 phút",
+        "newMethod2": "✅ Sử dụng tất cả sổ tay cùng lúc",
+        "newMethod3": "✅ Thông tin chính xác 100%",
+        "newMethod4": "✅ Người mới cũng phản ứng ở cấp độ chuyên gia"
+      },
+      "resultTitle": "🎯 Hoàn thành mô phỏng!",
+      "resultText1": "Doyoung đã cung cấp giải pháp chính xác ngay lập tức thông qua công nghệ RAG!",
+      "resultText2": "Trên thực tế, hệ thống RAG của KINFRI hoạt động theo cách này để tận dụng hướng dẫn khổng lồ."
+    },
+    "minseo": {
+      "navName": "Minseo",
+      "pageTitle": "Minseo - AI Bảo mật Dữ liệu Riêng tư | KINFRI",
+      "pageDescription": "AI nội bộ phân tích tài liệu mật một cách an toàn mà không rò rỉ dữ liệu bằng công nghệ sLLM",
+      "title": "Minseo - AI Bảo mật Dữ liệu Riêng tư",
+      "subtitle": "Phân tích tài liệu mật một cách an toàn mà không lo rò rỉ dữ liệu bằng công nghệ sLLM",
+      "scenarioTitle": "🔒 Kịch bản: Yêu cầu Phân tích Dữ liệu Mật",
+      "timeRange": "14:30 PM",
+      "situationLabel": "Tình huống:",
+      "situationText": "Giám đốc yêu cầu phân tích hợp đồng và bản thiết kế quan trọng",
+      "problemLabel": "Vấn đề:",
+      "problemText": "Rủi ro rò rỉ dữ liệu mật khi sử dụng dịch vụ AI bên ngoài",
+      "roleLabel": "Vai trò của Minseo:",
+      "roleText": "Phân tích trong khi duy trì bảo mật 100% với sLLM nội bộ",
+      "startButton": "Bắt đầu Mô phỏng AI Bảo mật Minseo",
+      "running": "⏳ Đang chạy mô phỏng bảo mật...",
+      "restart": "🔄 Thử lại",
+      "warningTitle": "Rủi ro của Dịch vụ AI Thông thường",
+      "warning1": "📤 Dữ liệu được truyền đến máy chủ bên ngoài",
+      "warning2": "💰 Chi phí theo token",
+      "warning3": "🌐 Cần kết nối Internet",
+      "warning4": "🔓 Mất chủ quyền dữ liệu",
+      "sllmTitle": "🏢 Công nghệ sLLM (Mô hình Ngôn ngữ Lớn Nhỏ gọn) là gì?",
+      "sllmStep1Title": "Cài đặt Nội bộ",
+      "sllmStep1Desc": "Cài đặt trực tiếp trên máy chủ công ty, dữ liệu không bao giờ rời đi",
+      "sllmStep2Title": "Mô hình Nhẹ",
+      "sllmStep2Desc": "Xử lý nhanh và hiệu quả với chỉ các tính năng cần thiết",
+      "sllmStep3Title": "Đào tạo Tùy chỉnh",
+      "sllmStep3Desc": "Mô hình AI chuyên biệt cho lĩnh vực doanh nghiệp",
+      "sllmBenefitLabel": "🔑 Lợi ích Chính:",
+      "sllmBenefitText": "Chủ quyền dữ liệu + Chi phí token bằng không + Sử dụng không giới hạn",
+      "step1": {
+        "title": "📁 Tài liệu Mật để Phân tích",
+        "doc1Title": "Hợp đồng Dự án Lớn",
+        "doc1Detail": "Quy mô 25 tỷ KRW / 42 trang",
+        "doc1Security": "🔴 Cấp Bảo mật: Tối mật",
+        "doc2Title": "Bản thiết kế Linh kiện Cốt lõi",
+        "doc2Detail": "Bao gồm công nghệ đã cấp bằng sáng chế / 187 bản vẽ",
+        "doc2Security": "🔴 Cấp Bảo mật: Tối mật",
+        "doc3Title": "Dữ liệu Hiệu suất Nhân viên",
+        "doc3Detail": "Bao gồm thông tin cá nhân / 324 người",
+        "doc3Security": "🟡 Cấp Bảo mật: Mật",
+        "riskTitle": "Rủi ro khi Sử dụng Dịch vụ AI Bên ngoài",
+        "riskCost": "Chi phí token dự kiến: 3,8 triệu KRW/tháng",
+        "riskData": "Truyền dữ liệu: Rủi ro bảo mật cực cao",
+        "riskInternet": "Phụ thuộc Internet: Rủi ro liên tục kinh doanh"
+      },
+      "step2": {
+        "title": "AI Bảo mật Minseo Đã Kích hoạt",
+        "message1": "Xin chào! Tôi là Minseo. Tôi sẽ giúp phân tích tài liệu mật của bạn.",
+        "message2": "Tất cả xử lý chỉ diễn ra trên máy chủ nội bộ, đừng lo lắng!",
+        "status1": "Môi trường nội bộ đã xác nhận",
+        "status2": "Kết nối Internet bên ngoài bị chặn",
+        "status3": "GPU máy chủ nội bộ đang chạy"
+      },
+      "step3": {
+        "title": "🔐 Kiểm tra Hệ thống Bảo mật sLLM",
+        "isolationTitle": "Bước 1: Xác minh Cách ly Dữ liệu",
+        "isolationLoc": "🏢 Vị trí Xử lý: Máy chủ Nội bộ (192.168.1.100)",
+        "isolationComm": "🌐 Giao tiếp Bên ngoài: Hoàn toàn Bị chặn",
+        "isolationStorage": "💾 Lưu trữ Dữ liệu: Chỉ Lưu trữ Cục bộ",
+        "costTitle": "Bước 2: Hiệu quả Tiết kiệm Chi phí",
+        "costExternal": "Dịch vụ AI Bên ngoài",
+        "costToken": "Chi phí Token: 3,8 triệu KRW/tháng",
+        "costApi": "Phí Gọi API: 1,2 triệu KRW/tháng",
+        "costTotalExt": "Tổng Chi phí Hàng năm: 60 triệu KRW",
+        "costInternal": "Minseo sLLM",
+        "costTokenFree": "Chi phí Token: 0 KRW",
+        "costApiFree": "Phí Gọi API: 0 KRW",
+        "costTotalInt": "Tổng Chi phí Hàng năm: 0 KRW",
+        "costSaving": "💡 Tiết kiệm Hàng năm: 60 triệu KRW",
+        "perfTitle": "Bước 3: Kiểm tra Tối ưu hóa Hiệu suất",
+        "perfModel": "Kích thước Mô hình: 3,8GB (nhẹ hơn 95% so với GPT-4)",
+        "perfSpeed": "Tốc độ Phản hồi: 0,8 giây (nhanh gấp 3 lần dịch vụ API)",
+        "perfConcurrent": "Xử lý Đồng thời: Không giới hạn (Không giới hạn API)"
+      },
+      "step4": {
+        "title": "Minseo Phân tích Tài liệu Mật",
+        "message1": "Bây giờ tôi sẽ phân tích tài liệu mật một cách an toàn.",
+        "message2": "Tất cả xử lý diễn ra nội bộ, không một giây nào ra bên ngoài!",
+        "contractTitle": "Đang phân tích hợp đồng...",
+        "contractResult": "🎯 Phát hiện Chính",
+        "contract1": "Giá trị Hợp đồng: 25 tỷ KRW (chưa bao gồm VAT)",
+        "contract2": "Thời hạn: 31/12/2025",
+        "contract3": "Điều khoản Rủi ro: Phạt 0,1% mỗi ngày trễ",
+        "contract4": "Điều khoản Thưởng: Thưởng 5% hoàn thành sớm",
+        "blueprintTitle": "Đang phân tích bản thiết kế...",
+        "blueprintResult": "🔧 Phân tích Kỹ thuật",
+        "blueprint1": "Bằng sáng chế: 3 công nghệ độc quyền",
+        "blueprint2": "Độ khó Sản xuất: Cao (độ chính xác ±0,01mm)",
+        "blueprint3": "Chi phí Dự kiến: 128.000 KRW mỗi đơn vị",
+        "blueprint4": "Rủi ro Chất lượng: Cần thận trọng trong quá trình xử lý nhiệt",
+        "hrTitle": "Đang phân tích dữ liệu nhân sự...",
+        "hrResult": "📊 Tóm tắt Phân tích Hiệu suất",
+        "hr1": "Nhân viên Xuất sắc: 43 người (13,3%)",
+        "hr2": "Điểm Hiệu suất Trung bình: 78,2",
+        "hr3": "Rủi ro Nghỉ việc: 12 người (cần quản lý)",
+        "hr4": "Ứng viên Thăng tiến: 18 người (khuyến nghị xem xét)",
+        "securityNote1": "Thông tin này chỉ được xử lý trên máy chủ nội bộ",
+        "securityNote2": "Thông tin thiết kế không được truyền ra ngoài",
+        "securityNote3": "Thông tin cá nhân được bảo vệ hoàn toàn"
+      },
+      "step5": {
+        "title": "Báo cáo Phân tích Tổng hợp của Minseo",
+        "reportTitle": "📋 Báo cáo Ban Điều hành (Mật)",
+        "conclusionTitle": "🎯 Kết luận Chính",
+        "conclusionText": "Xác suất Thành công Dự án: 87%",
+        "conclusionDetail": "Điều khoản hợp đồng thuận lợi, năng lực kỹ thuật đầy đủ. Tuy nhiên, quản lý lịch trình và giữ nhân sự chủ chốt là quan trọng",
+        "recommendTitle": "💡 Khuyến nghị Chiến lược",
+        "recommend1Title": "Quản lý Lịch trình",
+        "recommend1Text": "Khuyến nghị tiến độ sớm 2 tháng để nhận thưởng hoàn thành sớm (1,25 tỷ KRW)",
+        "recommend2Title": "Quản lý Nhân sự",
+        "recommend2Text": "Cần phỏng vấn ưu tiên và cải thiện đãi ngộ cho 3 kỹ thuật viên chủ chốt trong số 12 người có rủi ro nghỉ việc",
+        "recommend3Title": "Đối phó Kỹ thuật",
+        "recommend3Text": "Xem xét hợp tác chuyên gia bên ngoài để cải thiện chất lượng quy trình xử lý nhiệt",
+        "recommend4Title": "Phân tích Lợi nhuận",
+        "recommend4Text": "Tỷ suất lợi nhuận ròng dựa trên chi phí hiện tại 23,7%, dự kiến 28,2% khi đạt mục tiêu",
+        "securityTitle": "🔐 Đảm bảo Bảo mật",
+        "securityMainText": "Tất cả phân tích này chỉ được xử lý với sLLM nội bộ",
+        "security1": "✅ Truyền máy chủ bên ngoài: 0 trường hợp",
+        "security2": "✅ Lưu trữ dữ liệu: Lưu trữ mã hóa nội bộ",
+        "security3": "✅ Chi phí xử lý: 0 KRW (không chi phí token)",
+        "security4": "✅ Quyền truy cập: Chỉ nhân viên được phê duyệt"
+      },
+      "step6": {
+        "title": "🎉 Phân tích Bảo mật Hoàn tất!",
+        "successMessage": "Phân tích hoàn hảo được hoàn thành trong khi duy trì bảo mật 100%",
+        "metric1Title": "Bảo mật Dữ liệu",
+        "metric1Value": "100%",
+        "metric1Sub": "0 rò rỉ bên ngoài",
+        "metric2Title": "Chi phí Xử lý",
+        "metric2Value": "0 KRW",
+        "metric2Sub": "Không chi phí token",
+        "metric3Title": "Thời gian Phân tích",
+        "metric3Value": "7 phút",
+        "metric3Sub": "Nhanh gấp 3 lần API bên ngoài",
+        "metric4Title": "Độ chính xác Phân tích",
+        "metric4Value": "94,8%",
+        "metric4Sub": "Hiệu quả đào tạo theo lĩnh vực"
+      },
+      "step7": {
+        "title": "💎 Giá trị được Cung cấp bởi Công nghệ sLLM",
+        "value1Title": "Chủ quyền Dữ liệu",
+        "value1Text": "Kiểm soát hoàn toàn với tất cả dữ liệu chỉ xử lý nội bộ",
+        "value2Title": "Chi phí Bằng không",
+        "value2Text": "Sử dụng không giới hạn mà không tính phí theo token",
+        "value3Title": "Tối ưu hóa Tùy chỉnh",
+        "value3Text": "Mô hình AI chuyên dụng cho lĩnh vực doanh nghiệp",
+        "value4Title": "Hiệu suất Cao",
+        "value4Text": "Phản hồi nhanh với mô hình nhẹ, xử lý đồng thời không giới hạn",
+        "comparisonTitle": "🆚 Dịch vụ AI Bên ngoài vs sLLM",
+        "externalTitle": "Dịch vụ AI Bên ngoài",
+        "external1": "❌ Truyền dữ liệu ra ngoài (rủi ro bảo mật)",
+        "external2": "❌ Tính phí theo token (hàng triệu mỗi tháng)",
+        "external3": "❌ Cần kết nối Internet",
+        "external4": "❌ Giới hạn gọi API",
+        "external5": "❌ Mất chủ quyền dữ liệu",
+        "sllmTitle": "KINFRI sLLM",
+        "sllm1": "✅ Xử lý nội bộ (100% an toàn)",
+        "sllm2": "✅ Không chi phí token (không giới hạn)",
+        "sllm3": "✅ Có thể hoạt động ngoại tuyến",
+        "sllm4": "✅ Không giới hạn gọi",
+        "sllm5": "✅ Kiểm soát dữ liệu hoàn toàn",
+        "roiTitle": "📈 Tính toán Lợi tức Đầu tư (ROI)",
+        "roiSaving": "Tiết kiệm Chi phí Hàng năm: 60 triệu KRW",
+        "roiSecurity": "Giảm Rủi ro Bảo mật: Vô giá",
+        "roiProductivity": "Cải thiện Năng suất: 30%"
+      },
+      "resultTitle": "🎯 Mô phỏng AI Bảo mật Hoàn tất!",
+      "resultText1": "Minseo đã hoàn thành phân tích dữ liệu mật trong khi duy trì bảo mật 100%!",
+      "resultText2": "Giải pháp sLLM của KINFRI thực sự đảm bảo bảo mật dữ liệu theo cách này.",
+      "cta": {
+        "titleHtml": "Xây dựng <strong>AI bảo vệ dữ liệu riêng tư</strong> như Minseo cho doanh nghiệp của bạn!",
+        "bullet1": "✅ Triển khai on-premises 100%",
+        "bullet2": "✅ Không lo rủi ro rò rỉ dữ liệu ra bên ngoài",
+        "bullet3": "✅ Không phát sinh phí sử dụng theo token",
+        "bullet4": "✅ Mô hình tùy chỉnh phù hợp với doanh nghiệp"
+      }
+    },
+    "common": {
+      "progressLabel": "Tiến độ",
+      "success": "✅ Nhiệm vụ hoàn thành thành công!",
+      "running": "⏳ Mô phỏng đang chạy...",
+      "restart": "🔄 Thử lại",
+      "consultButton": "Tư vấn miễn phí",
+      "progress": {
+        "preparing": "Đang chuẩn bị mô phỏng...",
+        "emergency": "Sự cố khẩn cấp xảy ra...",
+        "doyoungStart": "Doyoung xuất kích!",
+        "ragProcessing": "Đang xử lý công nghệ RAG...",
+        "solutionGen": "Đang tạo giải pháp...",
+        "additionalQ": "Đang xử lý câu hỏi bổ sung...",
+        "detailedGuide": "Đang cung cấp hướng dẫn chi tiết...",
+        "resultAnalysis": "Đang phân tích kết quả...",
+        "completed": "Hoàn thành mô phỏng!",
+        "processing": "Đang xử lý..."
+      }
+    }
+  },
+  "about": {
+    "title": "Đối tác đổi mới AI, KINFRI",
+    "description": "KINFRI dẫn đầu chuyển đổi số cho các doanh nghiệp sản xuất và SME, hỗ trợ phát triển bền vững thông qua công nghệ AI.",
+    "mission": "Sứ mệnh của chúng tôi: Đổi mới doanh nghiệp khách hàng bằng AI để tối đa hóa khả năng cạnh tranh.",
+    "vision": "Tầm nhìn của chúng tôi: Tạo ra một thế giới mà tất cả SME đều được hưởng lợi từ AI.",
+    "badges": {
+      "certifiedPartner": "Đối tác AI được chứng nhận",
+      "customerSatisfaction": "99% Hài lòng khách hàng",
+      "isoCompliance": "Tuân thủ ISO 27001"
+    },
+    "features": {
+      "e2e": {
+        "title": "Hỗ trợ quy trình E2E",
+        "description": "Hỗ trợ toàn diện từ khám phá use case đến phát triển và bảo trì."
+      },
+      "security": {
+        "title": "Thiết kế tập trung bảo mật",
+        "description": "Cung cấp giải pháp AI on-premise bảo vệ dữ liệu doanh nghiệp nhạy cảm."
+      },
+      "customized": {
+        "title": "Giải pháp tùy chỉnh hiện trường",
+        "description": "Cung cấp công nghệ AI chuyên biệt tối ưu hóa cho đặc tính sản xuất."
+      },
+      "expertTeam": {
+        "title": "Đội ngũ chuyên gia",
+        "description": "Các chuyên gia hàng đầu trong lĩnh vực AI sinh tạo đảm bảo thành công khách hàng."
+      }
+    },
+    "stats": {
+      "founded": "Năm thành lập",
+      "projects": "Dự án hoàn thành",
+      "satisfaction": "Hài lòng khách hàng",
+      "support": "Hỗ trợ kỹ thuật"
+    },
+    "imageAlt": "Đội ngũ chuyên gia KINFRI"
+  },
+  "credentials": {
+    "title": "Chuyên môn đã được kiểm chứng",
+    "aiTeam": {
+      "title": "Nhóm R&D AI",
+      "description": "Cựu Samsung Electronics, LG Electronics<br>5+ năm kinh nghiệm kỹ sư AI",
+      "badges": [
+        "Bằng thạc sĩ/tiến sĩ",
+        "Đăng ký bằng sáng chế AI"
+      ]
+    },
+    "consultingTeam": {
+      "title": "Nhóm tư vấn sản xuất",
+      "description": "Cựu Hyundai Heavy Industries, POSCO<br>10+ năm kinh nghiệm đổi mới sản xuất",
+      "badges": [
+        "Chứng nhận PMP",
+        "Six Sigma BB"
+      ]
+    },
+    "securityTeam": {
+      "title": "Nhóm bảo mật dữ liệu",
+      "description": "Chuyên gia bảo mật ngành tài chính<br>15+ năm kinh nghiệm an ninh thông tin",
+      "badges": [
+        "Chứng nhận CISSP",
+        "ISO 27001"
+      ]
+    },
+    "certBadges": {
+      "masterDegree": "Bằng Thạc sĩ/Tiến sĩ",
+      "aiPatent": "Chủ sở hữu bằng sáng chế AI",
+      "pmpCert": "Chứng chỉ PMP",
+      "sixSigmaBB": "Six Sigma BB",
+      "cisspCert": "Chứng chỉ CISSP",
+      "iso27001": "ISO 27001"
+    }
+  },
+  "process": {
+    "title": "Quy trình triển khai AI KINFRI (Hoàn thành 3 giai đoạn)",
+    "step1": {
+      "title": "Phân tích hiện trường và tư vấn (1 tuần)",
+      "description": "• Phân tích hiện trạng quy trình sản xuất<br>• Xác định lĩnh vực có thể triển khai AI<br>• Cung cấp báo cáo dự báo ROI"
+    },
+    "step2": {
+      "title": "Phát triển giải pháp AI tùy chỉnh (4 tuần)",
+      "description": "• Xây dựng mô hình dựa trên dữ liệu doanh nghiệp<br>• Tích hợp với hệ thống hiện có<br>• Thử nghiệm pilot và xác minh"
+    },
+    "step3": {
+      "title": "Vận hành và quản lý liên tục (Liên tục)",
+      "description": "• Giám sát và hỗ trợ 24/7<br>• Tối ưu hóa hiệu suất và cập nhật<br>• Đào tạo nhân viên và chuyển giao công nghệ"
+    }
+  },
+  "cases": {
+    "title": "Lý do nên chọn chúng tôi",
+    "description": "Thành tựu thực tế của các công ty đổi mới với giải pháp AI KINFRI",
+    "manufacturing": {
+      "category": "Sản xuất",
+      "title": "Giảm tỷ lệ lỗi 10% bằng AI",
+      "description": "Giảm 20% thời gian kiểm tra và cải thiện năng suất với hệ thống quản lý chất lượng dựa trên RAG",
+      "tech1": "RAG",
+      "tech2": "AI Vision",
+      "tech3": "Quản lý chất lượng",
+      "result1Value": "10%",
+      "result1Label": "Giảm tỷ lệ lỗi",
+      "result2Value": "20%",
+      "result2Label": "Giảm thời gian kiểm tra"
+    },
+    "corporate": {
+      "category": "Doanh nghiệp",
+      "title": "Tăng năng suất nhân viên 30%",
+      "description": "Tự động hóa công việc nội bộ và tăng cường bảo mật với sLLM riêng tư",
+      "tech1": "sLLM",
+      "tech2": "No-Code",
+      "tech3": "On-Premise",
+      "result1Value": "30%",
+      "result1Label": "Tiết kiệm thời gian làm việc",
+      "result2Value": "100%",
+      "result2Label": "Bảo mật dữ liệu"
+    },
+    "smartFactory": {
+      "category": "Nhà máy thông minh",
+      "title": "Tăng hiệu quả điều khiển 40% bằng giọng nói",
+      "description": "Tự động hóa điều khiển nhà máy thông minh với STT có độ chính xác nhận dạng giọng nói 95%",
+      "tech1": "STT",
+      "tech2": "TTS",
+      "tech3": "Điều khiển giọng nói",
+      "result1Value": "95%",
+      "result1Label": "Nhận dạng giọng nói",
+      "result2Value": "40%",
+      "result2Label": "Hiệu quả điều khiển"
+    },
+    "customerService": {
+      "category": "Dịch vụ khách hàng",
+      "title": "Chatbot AI xử lý 17.000 truy vấn/tháng",
+      "description": "Hệ thống dịch vụ khách hàng tự động 24/7 được xây dựng với chatbot dựa trên RAG",
+      "tech1": "RAG",
+      "tech2": "Chatbot",
+      "tech3": "Dịch vụ 24/7",
+      "result1Value": "17K",
+      "result1Label": "Truy vấn hàng tháng",
+      "result2Value": "90%",
+      "result2Label": "Hài lòng khách hàng"
+    },
+    "cta": {
+      "title": "Doanh nghiệp của bạn đã sẵn sàng đổi mới chưa?",
+      "description": "Lên kế hoạch giải pháp AI tùy chỉnh với các chuyên gia KINFRI.",
+      "button": "🤖 Tư vấn AI miễn phí"
+    }
+  },
+  "contact": {
+    "title": "Liên hệ",
+    "description": "Bắt đầu hành trình đổi mới AI của doanh nghiệp bạn. Chuyên gia sẽ đề xuất giải pháp tùy chỉnh.",
+    "methods": {
+      "phone": {
+        "title": "Tư vấn qua điện thoại",
+        "number": "+82-10-4063-9062",
+        "hours": "Ngày làm việc 9:00 - 18:00"
+      },
+      "email": {
+        "title": "Email",
+        "address": "thinkcare@naver.com",
+        "availability": "Tiếp nhận 24 giờ"
+      },
+      "address": {
+        "title": "Địa chỉ",
+        "location": "Phòng 905, 20 Teheran-ro 25-gil, Gangnam-gu, Seoul",
+        "note": "Tư vấn thăm quan theo hẹn"
+      }
+    },
+    "form": {
+      "company": "Tên công ty *",
+      "name": "Tên người phụ trách *",
+      "phone": "Số liên lạc *",
+      "email": "Email *",
+      "solution": "Giải pháp quan tâm",
+      "solutionPlaceholder": "Vui lòng chọn",
+      "solutionOptions": {
+        "aiAgent": "Tự động hóa kinh doanh AI Agent",
+        "rag": "Ứng dụng tùy chỉnh dựa trên RAG",
+        "sllm": "sLLM dựa trên dữ liệu riêng tư",
+        "chatbot": "Trình tạo chatbot AI không cần code",
+        "voice": "Giải pháp giọng nói STT/TTS",
+        "consulting": "Tư vấn AI"
+      },
+      "message": "Nội dung tư vấn *",
+      "messagePlaceholder": "Vui lòng viết chi tiết về quy mô dự án, thời gian triển khai, ngân sách và các yêu cầu cụ thể khác.",
+      "privacyConsent": "Đồng ý thu thập và sử dụng thông tin cá nhân. *",
+      "submit": "📧 Đăng ký tư vấn miễn phí"
+    }
+  },
+  "footer": {
+    "brandText": "KINFRI",
+    "description": "Dẫn đầu chuyển đổi AI cho các doanh nghiệp sản xuất/SME,<br>cung cấp giải pháp thông minh cho phát triển bền vững.",
+    "solutions": {
+      "title": "Giải pháp",
+      "aiAgent": "Tự động hóa AI Agent",
+      "rag": "Ứng dụng RAG",
+      "sllm": "sLLM riêng tư",
+      "nocode": "Chatbot không cần code",
+      "voice": "Nhận dạng giọng nói STT/TTS"
+    },
+    "company": {
+      "title": "Công ty",
+      "about": "Giới thiệu công ty",
+      "cases": "Lý do nên chọn chúng tôi",
+      "blog": "Blog",
+      "careers": "Tuyển dụng"
+    },
+    "support": {
+      "title": "Hỗ trợ",
+      "contact": "Liên hệ",
+      "techSupport": "Hỗ trợ kỹ thuật",
+      "docs": "Tài liệu",
+      "faq": "FAQ"
+    },
+    "contactInfo": {
+      "title": "Thông tin liên hệ",
+      "email": "Email:",
+      "emailValue": "thinkcare@naver.com",
+      "phone": "Điện thoại:",
+      "phoneValue": "+82-10-4063-9062",
+      "address": "Địa chỉ:",
+      "addressValue": "Gangnam-gu, Seoul"
+    },
+    "copyright": "© 2025 KINFRI. All rights reserved.",
+    "links": {
+      "privacy": "Chính sách bảo mật",
+      "terms": "Điều khoản sử dụng"
+    }
+  },
+  "aiModal": {
+    "title": "🤖 Tư vấn AI miễn phí",
+    "subtitle": "Nhận đề xuất giải pháp AI phù hợp với bạn",
+    "closeButton": "×",
+    "progressText": "Tiến độ tư vấn:",
+    "inputPlaceholder": "Nhập tin nhắn của bạn...",
+    "sendButton": "Gửi",
+    "recommendationTitle": "🎯 Kết quả đề xuất AI tùy chỉnh",
+    "consultButton": "📞 Đăng ký tư vấn chuyên môn",
+    "restartButton": "🔄 Tư vấn lại",
+    "typingIndicator": "AI đang phân tích"
+  },
+  "aiSimulation": {
+    "title": "🎬 Cảnh làm việc thực tế của nhân viên AI",
+    "description": "Mặc dù là mô phỏng, nhưng KINFRI AI thực sự có thể làm được những việc này! Trải nghiệm khả năng tuyệt vời của nhân viên AI chỉ với một cú nhấp chuột.",
+    "airi": {
+      "name": "Airi",
+      "role": "Chuyên gia quản lý AI IT",
+      "description": "Nhân viên IT đáng tin cậy, thầm lặng chăm sóc PC công ty suốt đêm, giải quyết vấn đề và duy trì trạng thái tối ưu.",
+      "capability1": "Tối ưu hóa PC tự động",
+      "capability2": "Giám sát bảo mật",
+      "capability3": "Sao lưu dữ liệu",
+      "stat1Value": "20%",
+      "stat1Label": "Giảm chi phí IT",
+      "stat2Value": "15%",
+      "stat2Label": "Tăng năng suất",
+      "button": "🎬 Trải nghiệm công việc thực tế của Airi"
+    },
+    "gyeonu": {
+      "name": "Gyeonu",
+      "role": "Chuyên gia báo giá AI",
+      "description": "Học dữ liệu báo giá 10 năm, tự động tạo báo giá chính xác và cạnh tranh trong 10 phút.",
+      "capability1": "Phân tích dữ liệu lớn",
+      "capability2": "Tạo báo giá tức thì",
+      "capability3": "Độ chính xác 96%",
+      "stat1Value": "90%",
+      "stat1Label": "Rút ngắn thời gian",
+      "stat2Value": "3 ngày→10 phút",
+      "stat2Label": "Xử lý báo giá",
+      "button": "💼 Trải nghiệm hệ thống báo giá Gyeonu"
+    },
+    "jisu": {
+      "name": "Jisu",
+      "role": "Trợ lý phân tích kinh doanh AI",
+      "description": "Phân tích hoạt động kinh doanh của nhân viên, trích xuất chính xác những thông tin cốt lõi, cung cấp báo cáo kinh doanh dựa trên dữ liệu cho sếp.",
+      "capability1": "Phân tích mô hình kinh doanh",
+      "capability2": "Sử dụng Llama 3 AI",
+      "capability3": "Báo cáo tùy chỉnh",
+      "stat1Value": "3.5 giờ",
+      "stat1Label": "Tiết kiệm chuẩn bị báo cáo",
+      "stat2Value": "100%",
+      "stat2Label": "Độ chính xác dữ liệu",
+      "button": "📊 Trải nghiệm phân tích kinh doanh Jisu"
+    },
+    "doyoung": {
+      "name": "Doyoung",
+      "role": "Chuyên gia sổ tay AI",
+      "description": "Học 10.000+ trang sổ tay, chuyên gia hỗ trợ kỹ thuật thông minh giải quyết ngay lập tức các vấn đề hiện trường.",
+      "capability1": "Công nghệ tìm kiếm RAG",
+      "capability2": "Ngăn chặn ảo giác",
+      "capability3": "Chuyên môn CNC/CAD/CAM",
+      "stat1Value": "95%",
+      "stat1Label": "Tỷ lệ giải quyết thành công",
+      "stat2Value": "4 giờ→10 phút",
+      "stat2Label": "Rút ngắn thời gian giải quyết",
+      "button": "📚 Trải nghiệm AI sổ tay Doyoung"
+    },
+    "minseo": {
+      "name": "Minseo",
+      "role": "Chuyên gia dữ liệu bảo mật AI",
+      "description": "Chuyên gia AI riêng tư sử dụng sLLM tại chỗ để phân tích an toàn dữ liệu bí mật mà không có rủi ro rò rỉ ra ngoài.",
+      "capability1": "Xử lý tại chỗ",
+      "capability2": "Chi phí Token bằng không",
+      "capability3": "Bảo vệ chủ quyền dữ liệu",
+      "stat1Value": "100%",
+      "stat1Label": "Duy trì bảo mật",
+      "stat2Value": "₩60 triệu",
+      "stat2Label": "Tiết kiệm hàng năm",
+      "button": "🔒 Trải nghiệm AI bảo mật Minseo"
+    },
+    "cta": {
+      "title": "🎯 Đây chỉ là mô phỏng",
+      "description": "Nhưng các nhân viên AI của KINFRI thật sự làm được những công việc như thế này!<br>Hãy đăng ký tư vấn miễn phí để tìm hiểu cách triển khai thực tế.",
+      "button": "🤖 Nhận tư vấn triển khai thực tế"
+    }
+  },
+  "ai_consultant": {
+    "questions": {
+      "greeting": {
+        "text": "Chào mừng bạn đến với tư vấn AI của KINFRI! 😊\n\nĐể cung cấp cho bạn lời tư vấn tùy chỉnh chính xác hơn, chúng tôi muốn hỏi một vài câu hỏi. Bạn có sẵn sàng bắt đầu không?",
+        "options": ["Có, hãy bắt đầu", "Chờ một chút"]
+      },
+      "business_problem": {
+        "text": "Vấn đề kinh doanh lớn nhất hoặc thách thức mà công ty bạn muốn giải quyết là gì?",
+        "options": [
+          "Thiếu nhân lực và hiệu quả vận hành",
+          "Kiểm soát chất lượng và cải thiện tỷ lệ lỗi",
+          "Cải thiện dịch vụ và hỗ trợ khách hàng",
+          "Giảm chi phí và nâng cao năng suất",
+          "Quản lý và sử dụng dữ liệu",
+          "Khác"
+        ]
+      },
+      "company_size": {
+        "text": "Quy mô công ty của bạn như thế nào?",
+        "options": [
+          "Dưới 10 nhân viên (Nhỏ)",
+          "10-50 nhân viên (Vừa và nhỏ)",
+          "50-200 nhân viên (Trung bình)",
+          "Trên 200 nhân viên (Lớn)"
+        ]
+      },
+      "budget_range": {
+        "text": "Phạm vi ngân sách dự kiến của bạn cho việc triển khai giải pháp AI là bao nhiêu?",
+        "options": [
+          "Dưới 1,2 tỷ VND",
+          "1,2 - 4,8 tỷ VND",
+          "4,8 - 12 tỷ VND",
+          "Trên 12 tỷ VND",
+          "Ngân sách có thể điều chỉnh dựa trên hiệu quả"
+        ]
+      },
+      "timeline": {
+        "text": "Bạn hy vọng triển khai giải pháp AI khi nào?",
+        "options": [
+          "Trong vòng 1 tháng",
+          "Trong vòng 3 tháng",
+          "Trong vòng 6 tháng",
+          "Trong vòng 1 năm",
+          "Thời gian có thể linh hoạt"
+        ]
+      },
+      "automation_interest": {
+        "text": "Bạn quan tâm nhất đến việc tự động hóa hoặc triển khai AI trong lĩnh vực kinh doanh nào?",
+        "options": [
+          "Quản lý và giám sát quy trình sản xuất",
+          "Tìm kiếm tài liệu và quản lý tri thức",
+          "Tư vấn khách hàng và xử lý yêu cầu",
+          "Tự động hóa quy trình công việc nội bộ",
+          "Hệ thống nhận dạng và điều khiển giọng nói",
+          "Chuyển đổi thông minh toàn diện"
+        ]
+      }
+    },
+    "prompts": {
+      "recommendation_header": "Dựa trên thông tin khách hàng, vui lòng đề xuất giải pháp AI phù hợp nhất từ các dịch vụ của KINFRI.",
+      "customer_summary": "**Tóm tắt thông tin khách hàng:**",
+      "solution_options": "**Các tùy chọn giải pháp KINFRI:**",
+      "format_solution": "**🎯 Giải pháp được đề xuất**",
+      "format_reason": "**💡 Lý do lựa chọn**",
+      "format_effect": "**📈 Hiệu quả dự kiến**",
+      "format_roi": "**💰 Lợi tức đầu tư dự kiến**",
+      "format_implementation": "**🚀 Kế hoạch triển khai**",
+      "format_next_step": "**📞 Bước tiếp theo**",
+      "next_step_text": "Nhận phân tích chi tiết và đề xuất tùy chỉnh thông qua tư vấn chuyên nghiệp miễn phí.",
+      "response_format": "Vui lòng phản hồi theo định dạng sau:",
+      "effect_time": "Giảm 30-50% thời gian xử lý công việc",
+      "effect_cost": "Tiết kiệm 200-500 triệu won chi phí vận hành hàng tháng",
+      "effect_accuracy": "Cải thiện độ chính xác công việc trên 95%",
+      "roi_short": "Thu hồi đầu tư trong 6 tháng, ROI hàng năm dự kiến trên 200%",
+      "roi_medium": "Thu hồi đầu tư trong 12 tháng, ROI hàng năm dự kiến trên 150%",
+      "roi_long": "Tiềm năng ROI xuất sắc, lợi thế cạnh tranh dài hạn",
+      "step1": "Giai đoạn 1: Phân tích yêu cầu & POC (2-4 tuần)",
+      "step2": "Giai đoạn 2: Phát triển giải pháp tùy chỉnh (4-8 tuần)",
+      "step3": "Giai đoạn 3: Kiểm thử & triển khai (2-4 tuần)",
+      "step4": "Giai đoạn 4: Đào tạo & ổn định hóa (2 tuần)",
+      "detailed_proposal": "Chúng tôi sẽ cung cấp tính toán ROI chi tiết và kế hoạch triển khai.",
+      "reason_template": "Điều này có thể giải quyết thách thức chính của quý công ty '{businessProblem}' và cải thiện đáng kể hiệu quả trong lĩnh vực '{interest}'."
+    },
+    "solutions": {
+      "ai_agent": "AI Agent (Tự động hóa công việc) - Quản lý sản xuất, quản lý kho, giám sát thiết bị",
+      "rag_application": "Ứng dụng RAG (Tìm kiếm tài liệu) - Quản lý chất lượng, quản lý tri thức",
+      "private_sllm": "sLLM riêng tư (AI tùy chỉnh) - Bảo mật dữ liệu, tại chỗ",
+      "nocode_chatbot": "Trình tạo Chatbot không cần code - Dịch vụ khách hàng, xử lý yêu cầu nội bộ",
+      "stt_tts": "STT/TTS (Nhận dạng giọng nói) - Nhà máy thông minh, hệ thống điều khiển"
+    },
+    "messages": {
+      "generation_error": "Đã xảy ra lỗi khi tạo đề xuất. Vui lòng đăng ký tư vấn trực tiếp.",
+      "consultation_complete": "🤖 Hoàn thành tư vấn trước AI",
+      "timestamp": "Thời gian hoàn thành tư vấn:",
+      "expert_followup": "Các tư vấn viên chuyên nghiệp sẽ cung cấp tư vấn chi tiết hơn.",
+      "answer_prefix": "Câu trả lời:"
+    },
+    "labels": {
+      "main_problem": "Vấn đề chính:",
+      "company_size": "Quy mô công ty:",
+      "budget_range": "Phạm vi ngân sách:",
+      "timeline": "Thời gian triển khai mong muốn:",
+      "interest_area": "Lĩnh vực quan tâm:",
+      "unspecified": "Chưa xác định"
+    }
+  },
+  "aria": {
+    "langSelect": "Chọn ngôn ngữ"
+  },
+  "meta": {
+    "title": "KINFRI - Giải pháp AI cho Sản xuất & Doanh nghiệp vừa và nhỏ",
+    "description": "KINFRI cung cấp các giải pháp AI tùy chỉnh bao gồm AI Agent, RAG, sLLM cho các doanh nghiệp sản xuất và SME. Nâng cao năng suất và giảm chi phí vận hành.",
+    "keywords": "KINFRI, giải pháp AI, AI sản xuất, chuyển đổi số SME, AI Agent, RAG, sLLM, trí tuệ nhân tạo",
+    "ogTitle": "KINFRI - Đối tác chuyển đổi AI cho Sản xuất & SME",
+    "ogDescription": "Trải nghiệm các giải pháp AI tùy chỉnh của KINFRI giúp cách mạng hóa năng suất sản xuất thông qua công nghệ AI Agent, RAG và sLLM."
+  }
+}

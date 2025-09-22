@@ -1,0 +1,36 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.kinfri.online/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Allow important pages
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /assets/
+
+# Block unnecessary files
+Disallow: /*.json
+Disallow: /*.config
+Disallow: /firebase.json
+Disallow: /.firebaserc
+
+# Popular search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /

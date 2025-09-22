@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>服务条款 - KINFRI</title>
+    <meta name="description" content="KINFRI服务条款 - 为制造业和中小企业提供AI Agent、RAG、sLLM等专业AI解决方案的法律条款">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+KR:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon-apple.png">
+    
+    <style>
+        .legal-document {
+            background-color: var(--bg-primary);
+            padding: var(--space-20) 0;
+            min-height: calc(100vh - 80px);
+        }
+        
+        .legal-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 var(--space-6);
+        }
+        
+        .legal-header {
+            text-align: center;
+            margin-bottom: var(--space-12);
+            padding-bottom: var(--space-8);
+            border-bottom: 2px solid var(--neutral-200);
+        }
+        
+        .legal-title {
+            font-family: var(--font-heading);
+            font-size: var(--text-4xl);
+            font-weight: var(--weight-bold);
+            color: var(--text-primary);
+            margin-bottom: var(--space-4);
+        }
+        
+        .legal-updated {
+            color: var(--text-secondary);
+            font-size: var(--text-base);
+        }
+        
+        .legal-content {
+            line-height: 1.7;
+            color: var(--text-primary);
+        }
+        
+        .legal-section {
+            margin-bottom: var(--space-10);
+        }
+        
+        .legal-section h2 {
+            font-family: var(--font-heading);
+            font-size: var(--text-2xl);
+            font-weight: var(--weight-semibold);
+            color: var(--primary-blue);
+            margin-bottom: var(--space-6);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--neutral-200);
+        }
+        
+        .legal-section h3 {
+            font-size: var(--text-xl);
+            font-weight: var(--weight-medium);
+            color: var(--text-primary);
+            margin: var(--space-6) 0 var(--space-4) 0;
+        }
+        
+        .legal-section p {
+            margin-bottom: var(--space-4);
+            font-size: var(--text-base);
+        }
+        
+        .legal-section ul, .legal-section ol {
+            margin: var(--space-4) 0;
+            padding-left: var(--space-6);
+        }
+        
+        .legal-section li {
+            margin-bottom: var(--space-2);
+            font-size: var(--text-base);
+        }
+        
+        .legal-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: var(--space-6) 0;
+            background-color: var(--bg-primary);
+            border: 1px solid var(--neutral-200);
+        }
+        
+        .legal-table th,
+        .legal-table td {
+            padding: var(--space-4);
+            text-align: left;
+            border-bottom: 1px solid var(--neutral-200);
+            font-size: var(--text-sm);
+        }
+        
+        .legal-table th {
+            background-color: var(--bg-tertiary);
+            font-weight: var(--weight-semibold);
+            color: var(--text-primary);
+        }
+        
+        .contact-info {
+            background-color: var(--bg-secondary);
+            padding: var(--space-6);
+            border-radius: var(--radius-lg);
+            margin: var(--space-8) 0;
+        }
+        
+        .contact-info h3 {
+            color: var(--primary-blue);
+            margin-bottom: var(--space-4);
+        }
+        
+        .contact-details {
+            display: grid;
+            gap: var(--space-3);
+        }
+        
+        .contact-item {
+            display: flex;
+            gap: var(--space-3);
+        }
+        
+        .contact-label {
+            font-weight: var(--weight-medium);
+            min-width: 100px;
+            color: var(--text-secondary);
+        }
+        
+        .contact-value {
+            color: var(--text-primary);
+        }
+        
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            color: var(--primary-blue);
+            text-decoration: none;
+            font-weight: var(--weight-medium);
+            margin-bottom: var(--space-8);
+            transition: var(--transition-fast);
+        }
+        
+        .back-link:hover {
+            color: var(--primary-blue-dark);
+        }
+        
+        .back-link::before {
+            content: "←";
+            font-size: var(--text-lg);
+        }
+        
+        .highlight-box {
+            background-color: var(--bg-tertiary);
+            border-left: 4px solid var(--primary-blue);
+            padding: var(--space-4);
+            margin: var(--space-6) 0;
+            border-radius: 0 var(--radius-md) var(--radius-md) 0;
+        }
+        
+        .highlight-box p {
+            margin-bottom: 0;
+            font-weight: var(--weight-medium);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="/" class="brand-link">
+                        <img src="/images/logo.png" alt="KINFRI Logo" class="brand-logo">
+                    </a>
+                </div>
+                
+                <div class="navbar-content">
+                    <div class="navbar-menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="/" class="nav-link">首页</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/#about" class="nav-link">关于我们</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/#solutions" class="nav-link">解决方案</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/#contact" class="nav-link">联系我们</a>
+                            </li>
+                        </ul>
+                        
+                        <div class="navbar-actions">
+                            <select class="language-select" id="languageSelect">
+                                <option value="ko">한국어</option>
+                                <option value="en">English</option>
+                                <option value="zh" selected>中文</option>
+                                <option value="vi">Tiếng Việt</option>
+                                <option value="ja">日本語</option>
+                                <option value="th">ไทย</option>
+                                <option value="id">Bahasa Indonesia</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="legal-document">
+            <div class="legal-container">
+                <a href="/" class="back-link">返回首页</a>
+                
+                <div class="legal-header">
+                    <h1 class="legal-title">服务条款</h1>
+                    <p class="legal-updated">最后更新日期：2025年9月21日</p>
+                </div>
+
+                <div class="legal-content">
+                    <div class="legal-section">
+                        <h2>1. 服务条款的接受</h2>
+                        <p>欢迎使用KINFRI（以下简称"我们"、"公司"或"KINFRI"）提供的AI解决方案服务。通过访问或使用我们的网站（kinfri.online）和相关服务，您（以下简称"用户"或"您"）同意遵守并受本服务条款（以下简称"条款"）的约束。</p>
+                        <p>如果您不同意本条款的任何部分，请立即停止使用我们的服务。我们保留随时修改本条款的权利，修改后的条款将在网站上公布后立即生效。</p>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>2. 服务描述</h2>
+                        <p>KINFRI为制造业和中小企业提供以下AI解决方案服务：</p>
+                        
+                        <h3>AI解决方案服务</h3>
+                        <ul>
+                            <li><strong>AI Agent业务自动化</strong>：智能业务流程自动化解决方案</li>
+                            <li><strong>RAG定制应用开发</strong>：基于检索增强生成的企业级应用</li>
+                            <li><strong>企业级sLLM模型</strong>：基于私有数据的小型语言模型构建</li>
+                            <li><strong>无代码AI聊天机器人</strong>：易于使用的聊天机器人构建平台</li>
+                            <li><strong>STT/TTS语音技术</strong>：语音识别和语音合成解决方案</li>
+                        </ul>
+                        
+                        <h3>咨询服务</h3>
+                        <ul>
+                            <li>AI用例发掘及战略制定</li>
+                            <li>AI导入咨询及技术支持</li>
+                            <li>系统集成及维护保养</li>
+                        </ul>
+                        
+                        <p>具体服务内容可能会根据技术发展和市场需求进行调整，我们将及时更新相关信息。</p>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>3. 服务使用合同的成立</h2>
+                        <p>服务使用合同通过以下程序成立：</p>
+                        <ol>
+                            <li>用户申请使用服务</li>
+                            <li>公司同意使用</li>
+                            <li>签订单独合同书（必要时）</li>
+                        </ol>
+                        <p>公司在以下情况下可以不予同意：</p>
+                        <ul>
+                            <li>非实名或使用他人名义的情况</li>
+                            <li>填写虚假信息或未填写公司要求内容的情况</li>
+                            <li>因用户归责事由难以同意使用的情况</li>
+                        </ul>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>4. 用户的义务</h2>
+                        <p>用户不得进行以下行为：</p>
+                        <ol>
+                            <li>在申请或变更时登记虚假内容</li>
+                            <li>发送或发布公司提供服务规定信息以外的信息（计算机程序等）</li>
+                            <li>侵犯公司及其他第三方的著作权等知识产权</li>
+                            <li>损害公司及其他第三方名誉或妨碍业务的行为</li>
+                            <li>向公司公开或发布猥亵或暴力信息、图像、声音等违反公序良俗的信息</li>
+                            <li>未经公司事先同意，将通过服务获得的信息复制、传输、出版、发行、广播等用于营利目的或让第三方使用的行为</li>
+                            <li>其他违反相关法令的行为</li>
+                        </ol>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>5. 公司的义务</h2>
+                        <p>公司不从事法令和本条款禁止或违反公序良俗的行为，为持续稳定地提供服务尽最大努力。</p>
+                        <p>公司建立保护个人信息（包括信用信息）的安全系统，使用户能够安全使用服务。</p>
+                        <p>公司认为用户就服务使用提出的意见或投诉正当时，将迅速处理。</p>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>6. 数据保护与安全</h2>
+                        <p>根据《中华人民共和国网络安全法》、《数据安全法》和《个人信息保护法》的要求：</p>
+                        
+                        <h3>数据本地化</h3>
+                        <ul>
+                            <li>用户的重要数据将在中华人民共和国境内存储和处理</li>
+                            <li>涉及跨境数据传输时将严格遵守相关法律法规</li>
+                            <li>采用符合国家标准的数据加密和安全防护措施</li>
+                        </ul>
+                        
+                        <h3>企业数据保护</h3>
+                        <ul>
+                            <li>本地部署(On-premise)解决方案</li>
+                            <li>私有云环境数据处理</li>
+                            <li>端到端数据加密</li>
+                            <li>严格的数据访问控制</li>
+                        </ul>
+                        
+                        <div class="highlight-box">
+                            <p>详细的隐私保护措施请参阅我们的《隐私政策》。</p>
+                        </div>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>7. 服务使用费及支付</h2>
+                        <p>公司提供的服务基本为有偿服务。但部分服务可免费提供。</p>
+                        
+                        <h3>1. 使用费</h3>
+                        <ul>
+                            <li>服务使用费在单独合同书或报价书中明示。</li>
+                            <li>使用费根据服务种类、期间、规模等差别适用。</li>
+                        </ul>
+                        
+                        <h3>2. 支付方法</h3>
+                        <ul>
+                            <li>银行转账</li>
+                            <li>公司规定的其他方法</li>
+                        </ul>
+                        
+                        <h3>3. 退款政策</h3>
+                        <ul>
+                            <li>服务提供前：全额退款</li>
+                            <li>服务提供后：根据单独合同书条件</li>
+                        </ul>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>8. 知识产权</h2>
+                        <p>公司提供的服务、所需软件、图像、标记、标志、设计、服务名称、信息及商标等相关知识产权和其他权利归公司所有。</p>
+                        <p>除公司明确批准外，用户不得对前项信息进行变更、出租、出借、销售、发行、制作、转让、再许可、设定担保权、商业利用行为，不得允许第三方进行此类行为。</p>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>9. 服务的中断</h2>
+                        <p>公司在以下情况下可以中断服务提供：</p>
+                        <ol>
+                            <li>服务设备的维修检查、更换及故障、通信中断等情况</li>
+                            <li>电信业务法规定的基础电信业务者中止电信服务时</li>
+                            <li>国家紧急状态、停电、服务设备故障或服务使用拥挤等正常服务使用受阻时</li>
+                            <li>因其他重大事由，公司认为继续提供服务不当时</li>
+                        </ol>
+                        <p>公司根据前项规定限制或中断服务使用时，应将事由及限制期间等告知用户。</p>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>10. 责任限制</h2>
+                        <p>因天灾地变或不可抗力导致无法提供服务时，公司免除服务提供责任。</p>
+                        <p>公司对因用户归责事由导致的服务使用障碍不承担责任。</p>
+                        <p>公司对用户通过服务使用期待获得的收益损失不承担责任，对通过服务获得的其他资料造成的损害不承担责任。</p>
+                        
+                        <div class="highlight-box">
+                            <p>在法律允许的最大范围内，我们的总责任限额不超过用户在争议发生前12个月内支付给我们的服务费用总额。</p>
+                        </div>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>11. 争议解决</h2>
+                        <p>因服务使用发生争议需要提起诉讼时，以公司总部所在地管辖法院为管辖法院。</p>
+                        <p>公司与用户之间提起的诉讼适用中华人民共和国法律。</p>
+                        
+                        <h3>争议解决方式</h3>
+                        <p>因本服务条款引起的争议，双方应首先通过友好协商解决。协商不成的，任何一方均可向中国国际经济贸易仲裁委员会申请仲裁，仲裁地为北京市。</p>
+                        
+                        <div class="contact-info">
+                            <h3>咨询及争议解决负责人</h3>
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <span class="contact-label">负责人：</span>
+                                    <span class="contact-value">李仁泰（최현우）</span>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-label">联系方式：</span>
+                                    <span class="contact-value">+82-10-4063-9062</span>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-label">邮箱：</span>
+                                    <span class="contact-value">thinkcare@naver.com</span>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-label">地址：</span>
+                                    <span class="contact-value">大韩民国首尔特别市江南区德黑兰路25街20号905室</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="legal-section">
+                        <h2>12. 其他</h2>
+                        <p>本条款未规定的事项和本条款的解释，依照相关法令或商惯例。</p>
+                        <p>本条款并非记载公司与用户间成立的服务使用合同的全部内容，公司可根据需要制定特定服务的单独使用条款或政策（以下称"个别条款等"）。</p>
+                        
+                        <div class="highlight-box">
+                            <p><strong>附则：</strong>本条款自2025年9月21日起施行。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="/js/i18n.js" defer></script>
+    <script>
+        // 간단한 언어 선택 기능
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageSelect = document.getElementById('languageSelect');
+            if (languageSelect) {
+                languageSelect.addEventListener('change', function() {
+                    // 다국어 기능은 향후 구현
+                    console.log('语言变更:', this.value);
+                });
+            }
+        });
+    </script>
+</body>
+</html>

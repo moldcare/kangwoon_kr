@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="simulation.gyeonu.pageTitle">견우(Gyeonu) AI - 견적 시스템 실제 업무 시뮬레이션 | 킨프리</title>
+    <meta name="description" content="" data-i18n="simulation.gyeonu.pageDescription">
+    <link rel="stylesheet" href="simulation-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="../images/favicon.png" type="image/png">
+    <style>
+        /* 견우 전용 스타일 (주황색 테마) */
+        body {
+            background: var(--sim-gradient-gyeonu);
+        }
+
+        .split-view {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-6);
+            margin: var(--space-6) 0;
+        }
+
+        .before-panel, .after-panel {
+            background: var(--sim-glass);
+            border-radius: var(--radius-xl);
+            padding: var(--space-6);
+            border: 1px solid var(--sim-glass-border);
+        }
+
+        .panel-title {
+            font-size: var(--text-lg);
+            font-weight: var(--weight-bold);
+            margin-bottom: var(--space-4);
+            text-align: center;
+            padding: var(--space-3);
+            border-radius: var(--radius-lg);
+        }
+
+        .before-panel .panel-title {
+            background: rgba(239, 68, 68, 0.2);
+            border: 1px solid #EF4444;
+        }
+
+        .after-panel .panel-title {
+            background: rgba(16, 185, 129, 0.2);
+            border: 1px solid #10B981;
+        }
+
+        .simulation-step {
+            background: var(--sim-glass);
+            border-radius: var(--radius-xl);
+            padding: var(--space-6);
+            margin: var(--space-6) 0;
+            border: 1px solid var(--sim-glass-border);
+            opacity: 0;
+            transform: translateY(20px);
+            animation: slideUp 0.6s ease-out forwards;
+        }
+
+        .step-title {
+            font-size: var(--text-xl);
+            font-weight: var(--weight-bold);
+            color: var(--text-lg);
+            margin-bottom: var(--space-4);
+        }
+
+        .customer-request {
+            background: rgba(234, 88, 12, 0.2);
+            border: 1px solid var(--secondary-orange);
+            border-radius: var(--radius-lg);
+            padding: var(--space-4);
+            margin: var(--space-4) 0;
+        }
+
+        .ai-thinking {
+            background: rgba(245, 158, 11, 0.2);
+            border-left: 4px solid #F59E0B;
+            padding: var(--space-4);
+            margin: var(--space-4) 0;
+            border-radius: var(--radius-lg);
+            font-style: italic;
+        }
+
+        .typing-effect {
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 2s steps(50, end), blink-caret 0.5s step-end infinite;
+            border-right: 2px solid var(--secondary-orange);
+        }
+
+        @keyframes typing {
+            from { max-width: 0; }
+            to { max-width: 100%; }
+        }
+
+        @keyframes blink-caret {
+            from, to { border-color: transparent; }
+            50% { border-color: var(--secondary-orange); }
+        }
+
+        .progress-container {
+            margin: var(--space-6) 0;
+        }
+
+        .progress-bar {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: var(--radius-lg);
+            height: 30px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .progress-fill {
+            background: linear-gradient(90deg, var(--secondary-orange), #F59E0B);
+            height: 100%;
+            border-radius: var(--radius-lg);
+            transition: width 0.5s ease;
+            box-shadow: 0 0 15px rgba(234, 88, 12, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .progress-text {
+            color: white;
+            font-weight: var(--weight-medium);
+            font-size: var(--text-sm);
+        }
+
+        .data-analysis {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: var(--space-4);
+            margin: var(--space-4) 0;
+        }
+
+        .data-card {
+            background: rgba(0, 0, 0, 0.3);
+            padding: var(--space-4);
+            border-radius: var(--radius-lg);
+            text-align: center;
+        }
+
+        .data-number {
+            font-size: var(--text-2xl);
+            font-weight: var(--weight-bold);
+            color: var(--secondary-orange);
+        }
+
+        .quote-result {
+            background: linear-gradient(135deg, rgba(234, 88, 12, 0.3), rgba(245, 158, 11, 0.3));
+            border: 2px solid var(--secondary-orange);
+            border-radius: var(--radius-xl);
+            padding: var(--space-8);
+            text-align: center;
+            margin: var(--space-6) 0;
+        }
+
+        .quote-price {
+            font-size: 3rem;
+            font-weight: var(--weight-bold);
+            color: var(--text-lg);
+            margin: var(--space-4) 0;
+            text-shadow: 0 0 20px rgba(234, 88, 12, 0.5);
+        }
+
+        .quote-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: var(--space-4);
+            margin: var(--space-6) 0;
+        }
+
+        .detail-item {
+            background: rgba(0, 0, 0, 0.3);
+            padding: var(--space-3);
+            border-radius: var(--radius-lg);
+            text-align: center;
+        }
+
+        .detail-value {
+            font-weight: var(--weight-bold);
+            color: var(--secondary-orange);
+            font-size: var(--text-lg);
+        }
+
+        @keyframes slideUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .split-view {
+                grid-template-columns: 1fr;
+            }
+            
+            .quote-price {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- 시뮬레이션 네비게이션 -->
+    <nav class="sim-nav">
+        <div class="nav-brand">
+            <a href="../index.html">
+                <img src="../images/logo-sq-w.png" alt="킨프리" class="logo">
+                <span>KINFRI</span>
+            </a>
+        </div>
+        <div class="nav-menu">
+            <a href="airi-simulation.html" class="nav-link" data-i18n="simulation.airi.navName">아이리</a>
+            <a href="gyeonu-simulation.html" class="nav-link active" data-i18n="simulation.gyeonu.navName">견우</a>
+            <a href="jisu-simulation.html" class="nav-link" data-i18n="simulation.jisu.navName">지수</a>
+            <a href="doyoung-simulation.html" class="nav-link" data-i18n="simulation.doyoung.navName">도영</a>
+            <a href="minseo-simulation.html" class="nav-link" data-i18n="simulation.minseo.navName">민서</a>
+        </div>
+        <div class="nav-actions">
+            <select class="language-select" data-lang-select aria-label="언어 선택" data-i18n-aria-label="aria.langSelect">
+                <option value="ko">한국어</option>
+                <option value="en">English</option>
+                <option value="zh">中文</option>
+                <option value="vi">Tiếng Việt</option>
+                <option value="ja">日本語</option>
+                <option value="th">ไทย</option>
+                <option value="id">Bahasa Indonesia</option>
+            </select>
+            <a href="../index.html" class="back-link" data-i18n="nav.backHome">메인 페이지로</a>
+        </div>
+    </nav>
+
+    <!-- 시뮬레이션 컨테이너 -->
+    <div class="sim-container">
+        <!-- 헤더 -->
+        <header class="sim-header">
+            <div class="ai-character">
+                <div class="ai-avatar">
+                    <i class="fas fa-calculator"></i>
+                </div>
+                <div class="ai-info">
+                    <h1 data-i18n="simulation.gyeonu.pageTitle">견우 - 견적 시스템 AI</h1>
+                    <p class="ai-subtitle" data-i18n="simulation.gyeonu.pageDescription">10분 만에 정확한 견적서를 만드는 견적 전문 AI</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- 시나리오 소개 -->
+        <section class="scenario-intro" id="intro">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.gyeonu.scenarioTitle">💼 시나리오: 급한 견적 요청</h2>
+                    <span class="time-badge" data-i18n="simulation.gyeonu.timeRange">오후 4:30</span>
+                </div>
+                <div class="scenario-content">
+                    <p><strong data-i18n="simulation.gyeonu.situationLabel">상황:</strong> <span data-i18n="simulation.gyeonu.situationText">대형 고객사에서 내일까지 견적서가 필요하다고 연락</span></p>
+                    <p><strong data-i18n="simulation.gyeonu.problemLabel">문제:</strong> <span data-i18n="simulation.gyeonu.problemText">복잡한 제품 구성과 수량으로 정확한 계산이 어려움</span></p>
+                    <p><strong data-i18n="simulation.gyeonu.roleLabel">견우의 역할:</strong> <span data-i18n="simulation.gyeonu.roleText">10년치 데이터를 바탕으로 즉시 정확한 견적 제공</span></p>
+                </div>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <button class="consult-btn" id="startBtn" data-i18n="simulation.gyeonu.startButton">
+                        💼 견적 시뮬레이션 시작
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 시뮬레이션 진행 -->
+        <section class="simulation-section" id="simulation" style="display: none;">
+            <!-- 비교 뷰 -->
+            <div class="split-view" id="comparisonView" style="display: none;">
+                <div class="before-panel">
+                    <div class="panel-title" data-i18n="simulation.gyeonu.beforeMethod">❌ 기존 방식 (3일 소요)</div>
+                    <ul style="line-height: 2;">
+                        <li data-i18n="simulation.gyeonu.before1">📞 고객 요청 접수</li>
+                        <li data-i18n="simulation.gyeonu.before2">🔍 과거 견적서 수동 검색</li>
+                        <li data-i18n="simulation.gyeonu.before3">📊 엑셀에서 수동 계산</li>
+                        <li data-i18n="simulation.gyeonu.before4">📝 견적서 수동 작성</li>
+                        <li data-i18n="simulation.gyeonu.before5">👀 검토 및 승인 대기</li>
+                        <li data-i18n="simulation.gyeonu.before6">📧 이메일 전송</li>
+                    </ul>
+                    <div style="margin-top: 1rem; padding: 1rem; background: rgba(239, 68, 68, 0.2); border-radius: 10px;">
+                        <strong data-i18n="simulation.gyeonu.beforeTime">소요시간: 3일</strong><br>
+                        <span data-i18n="simulation.gyeonu.beforeAccuracy">정확도: 85%</span><br>
+                        <span data-i18n="simulation.gyeonu.beforeStaff">인력: 2명</span>
+                    </div>
+                </div>
+                
+                <div class="after-panel">
+                    <div class="panel-title" data-i18n="simulation.gyeonu.afterMethod">✅ 견우 AI 방식 (10분 소요)</div>
+                    <ul style="line-height: 2;">
+                        <li data-i18n="simulation.gyeonu.after1">⚡ 즉시 요청 분석</li>
+                        <li data-i18n="simulation.gyeonu.after2">🤖 10년 데이터 자동 검색</li>
+                        <li data-i18n="simulation.gyeonu.after3">🧠 AI 가격 예측</li>
+                        <li data-i18n="simulation.gyeonu.after4">📄 견적서 자동 생성</li>
+                        <li data-i18n="simulation.gyeonu.after5">📧 즉시 전송 가능</li>
+                    </ul>
+                    <div style="margin-top: 1rem; padding: 1rem; background: rgba(16, 185, 129, 0.2); border-radius: 10px;">
+                        <strong data-i18n="simulation.gyeonu.afterTime">소요시간: 10분</strong><br>
+                        <span data-i18n="simulation.gyeonu.afterAccuracy">정확도: 96%</span><br>
+                        <span data-i18n="simulation.gyeonu.afterStaff">인력: 0명 (자동)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 시뮬레이션 영역 -->
+            <div id="simulationArea">
+                <!-- 시뮬레이션 단계들이 여기에 동적으로 추가됩니다 -->
+            </div>
+        </section>
+
+        <!-- 시뮬레이션 결과 -->
+        <section class="simulation-result" id="result" style="display: none;">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.gyeonu.resultTitle">🎯 견적 시뮬레이션 완료!</h2>
+                </div>
+                <div class="scenario-content">
+                    <p data-i18n="simulation.gyeonu.resultText1">견우가 10분 만에 정확한 견적서를 완성했습니다!</p>
+                    <p data-i18n="simulation.gyeonu.resultText2">실제로 킨프리의 AI Agent는 이런 방식으로 견적 업무를 자동화합니다.</p>
+                </div>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <div class="action-buttons">
+                        <a href="../index.html#contact" class="consult-btn primary">
+                            <i class="fas fa-comments"></i>
+                            <span data-i18n="nav.freeConsult">무료 상담 신청</span>
+                        </a>
+                        <a href="../index.html" class="consult-btn secondary">
+                            <i class="fas fa-home"></i>
+                            <span data-i18n="nav.backHome">메인 페이지로</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="/js/i18n.js" defer></script>
+    <script>
+        // 다국어 지원을 위한 견우 시뮬레이션 데이터
+        const simulationSteps = [
+            {
+                step: 1,
+                titleKey: "simulation.gyeonu.step1.title",
+                requestTitleKey: "simulation.gyeonu.step1.requestTitle",
+                customerKey: "simulation.gyeonu.step1.customer",
+                productKey: "simulation.gyeonu.step1.product",
+                productDescKey: "simulation.gyeonu.step1.productDesc",
+                materialKey: "simulation.gyeonu.step1.material",
+                specKey: "simulation.gyeonu.step1.spec",
+                surfaceKey: "simulation.gyeonu.step1.surface",
+                surfaceDescKey: "simulation.gyeonu.step1.surfaceDesc",
+                toleranceKey: "simulation.gyeonu.step1.tolerance",
+                deliveryKey: "simulation.gyeonu.step1.delivery",
+                deliveryDescKey: "simulation.gyeonu.step1.deliveryDesc",
+                aiMessageKey: "simulation.gyeonu.step1.aiMessage"
+            },
+            {
+                step: 2,
+                titleKey: "simulation.gyeonu.step2.title",
+                aiMessageKey: "simulation.gyeonu.step2.aiMessage",
+                progressTextKey: "simulation.gyeonu.step2.progressText",
+                totalQuotesKey: "simulation.gyeonu.step2.totalQuotes",
+                similarProjectsKey: "simulation.gyeonu.step2.similarProjects",
+                sameMaterialKey: "simulation.gyeonu.step2.sameMaterial",
+                sameToleranceKey: "simulation.gyeonu.step2.sameTolerance",
+                progressId: "searchProgress",
+                progressTarget: 45
+            }
+        ];
+
+        const finalSteps = [
+            {
+                step: 3,
+                titleKey: "simulation.gyeonu.step3.title",
+                aiMessageKey: "simulation.gyeonu.step3.aiMessage",
+                progressTextKey: "simulation.gyeonu.step3.progressText",
+                factorsTitleKey: "simulation.gyeonu.step3.factorsTitle",
+                factor1Key: "simulation.gyeonu.step3.factor1",
+                factor2Key: "simulation.gyeonu.step3.factor2",
+                factor3Key: "simulation.gyeonu.step3.factor3",
+                factor4Key: "simulation.gyeonu.step3.factor4",
+                factor5Key: "simulation.gyeonu.step3.factor5",
+                factor6Key: "simulation.gyeonu.step3.factor6",
+                progressId: "analysisProgress",
+                progressTarget: 80
+            },
+            {
+                step: 4,
+                titleKey: "simulation.gyeonu.step4.title",
+                quoteTitleKey: "simulation.gyeonu.step4.quoteTitle",
+                priceNoteKey: "simulation.gyeonu.step4.priceNote",
+                accuracyKey: "simulation.gyeonu.step4.accuracy",
+                progressTextKey: "simulation.gyeonu.step4.progressText",
+                accuracyLabelKey: "simulation.gyeonu.step4.accuracyLabel",
+                minuteUnitKey: "simulation.gyeonu.step4.minuteUnit",
+                timeLabelKey: "simulation.gyeonu.step4.timeLabel",
+                autoValueKey: "simulation.gyeonu.step4.autoValue",
+                methodLabelKey: "simulation.gyeonu.step4.methodLabel",
+                immediateValueKey: "simulation.gyeonu.step4.immediateValue",
+                sendLabelKey: "simulation.gyeonu.step4.sendLabel",
+                progressId: "finalProgress",
+                progressTarget: 100
+            }
+        ];
+
+        let isRunning = false;
+
+        // 전역 번역 함수 (airi와 동일한 방식)
+        function getTranslation(key) {
+            if (!window.translations || !key) return key;
+            
+            // 현재 언어로 번역 시도
+            const currentLang = window.currentLang || document.documentElement.getAttribute('lang') || 'ko';
+            const langTranslations = window.translations[currentLang] || window.translations.ko || {};
+            
+            return key.split('.').reduce((acc, k) => (acc && acc[k] !== undefined ? acc[k] : null), langTranslations) || key;
+        }
+
+        // 견우 시뮬레이션 단계별 HTML 생성 함수
+        function createGyeonuStep(stepData) {
+            if (stepData.step === 1) {
+                return `
+                    <div class="customer-request">
+                        <h4>${getTranslation(stepData.requestTitleKey)}</h4>
+                        <p><strong>${getTranslation(stepData.customerKey)}</strong> (주)테크솔루션</p>
+                        <p><strong>${getTranslation(stepData.productKey)}</strong> ${getTranslation(stepData.productDescKey)}</p>
+                        <p><strong>${getTranslation(stepData.materialKey)}</strong> 스테인리스 스틸 SUS304</p>
+                        <p><strong>${getTranslation(stepData.specKey)}</strong> 100mm × 50mm × 15mm</p>
+                        <p><strong>${getTranslation(stepData.surfaceKey)}</strong> ${getTranslation(stepData.surfaceDescKey)}</p>
+                        <p><strong>${getTranslation(stepData.toleranceKey)}</strong> ±0.02mm</p>
+                        <p><strong>${getTranslation(stepData.deliveryKey)}</strong> ${getTranslation(stepData.deliveryDescKey)}</p>
+                    </div>
+                    <div class="ai-thinking">
+                        🤖 ${getTranslation(stepData.aiMessageKey)}
+                    </div>
+                `;
+            }
+            else if (stepData.step === 2) {
+                return `
+                    <div class="ai-thinking">
+                        🤖 ${getTranslation(stepData.aiMessageKey)}
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%" id="searchProgress">
+                                <div class="progress-text">${getTranslation(stepData.progressTextKey)}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="data-analysis">
+                        <div class="data-card">
+                            <div class="data-number">2,847</div>
+                            <div>${getTranslation(stepData.totalQuotesKey)}</div>
+                        </div>
+                        <div class="data-card">
+                            <div class="data-number">247</div>
+                            <div>${getTranslation(stepData.similarProjectsKey)}</div>
+                        </div>
+                        <div class="data-card">
+                            <div class="data-number">89</div>
+                            <div>${getTranslation(stepData.sameMaterialKey)}</div>
+                        </div>
+                        <div class="data-card">
+                            <div class="data-number">34</div>
+                            <div>${getTranslation(stepData.sameToleranceKey)}</div>
+                        </div>
+                    </div>
+                `;
+            }
+            else if (stepData.step === 3) {
+                return `
+                    <div class="ai-thinking">
+                        🤖 ${getTranslation(stepData.aiMessageKey)}
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%" id="analysisProgress">
+                                <div class="progress-text">${getTranslation(stepData.progressTextKey)}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <h4>${getTranslation(stepData.factorsTitleKey)}</h4>
+                    <ul style="margin: 1rem 0; line-height: 2;">
+                        <li>${getTranslation(stepData.factor1Key)}</li>
+                        <li>${getTranslation(stepData.factor2Key)}</li>
+                        <li>${getTranslation(stepData.factor3Key)}</li>
+                        <li>${getTranslation(stepData.factor4Key)}</li>
+                        <li>${getTranslation(stepData.factor5Key)}</li>
+                        <li>${getTranslation(stepData.factor6Key)}</li>
+                    </ul>
+                `;
+            }
+            else if (stepData.step === 4) {
+                return `
+                    <div class="quote-result">
+                        <h3>${getTranslation(stepData.quoteTitleKey)}</h3>
+                        <div class="quote-price">₩4,750,000</div>
+                        <p>${getTranslation(stepData.priceNoteKey)}</p>
+                        <div style="margin-top: 1rem;">
+                            <small>${getTranslation(stepData.accuracyKey)}</small>
+                        </div>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%" id="finalProgress">
+                                <div class="progress-text">${getTranslation(stepData.progressTextKey)}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quote-details">
+                        <div class="detail-item">
+                            <div class="detail-value">96%</div>
+                            <div>${getTranslation(stepData.accuracyLabelKey)}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-value">10${getTranslation(stepData.minuteUnitKey)}</div>
+                            <div>${getTranslation(stepData.timeLabelKey)}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-value">${getTranslation(stepData.autoValueKey)}</div>
+                            <div>${getTranslation(stepData.methodLabelKey)}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-value">${getTranslation(stepData.immediateValueKey)}</div>
+                            <div>${getTranslation(stepData.sendLabelKey)}</div>
+                        </div>
+                    </div>
+                `;
+            }
+            return '';
+        }
+
+        // 시뮬레이션 단계 생성 함수
+        function createSimulationStep(stepData) {
+            const stepDiv = document.createElement('div');
+            stepDiv.className = 'simulation-step';
+            
+            const title = getTranslation(stepData.titleKey);
+            const content = createGyeonuStep(stepData);
+            
+            stepDiv.innerHTML = `
+                <h3 class="step-title">${title}</h3>
+                ${content}
+            `;
+            return stepDiv;
+        }
+
+        // 프로그레스 바 애니메이션 함수
+        function animateProgress(progressId, targetPercent, duration = 3000) {
+            if (!progressId) return Promise.resolve();
+            
+            return new Promise(resolve => {
+                const progressBar = document.getElementById(progressId);
+                if (!progressBar) {
+                    resolve();
+                    return;
+                }
+
+                let currentPercent = 0;
+                const increment = targetPercent / (duration / 50);
+                
+                const interval = setInterval(() => {
+                    currentPercent += increment;
+                    if (currentPercent >= targetPercent) {
+                        currentPercent = targetPercent;
+                        clearInterval(interval);
+                        setTimeout(resolve, 500);
+                    }
+                    progressBar.style.width = currentPercent + '%';
+                }, 50);
+            });
+        }
+
+        // 자동 스크롤 함수
+        function smoothScrollToElement(element, offset = -100) {
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset + offset;
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        }
+
+        // 시뮬레이션 실행 함수
+        async function runSimulation() {
+            const startBtn = document.getElementById('startBtn');
+            const comparisonView = document.getElementById('comparisonView');
+            const simulationArea = document.getElementById('simulationArea');
+            const introSection = document.getElementById('intro');
+            const simulationSection = document.getElementById('simulation');
+            
+            if (isRunning) return;
+            
+            isRunning = true;
+            startBtn.textContent = getTranslation('simulation.gyeonu.running') || '⏳ 시뮬레이션 진행 중...';
+            startBtn.disabled = true;
+            
+            // 인트로 숨기고 시뮬레이션 보이기
+            introSection.style.display = 'none';
+            simulationSection.style.display = 'block';
+            
+            // 기존 내용 정리
+            simulationArea.innerHTML = '';
+            document.getElementById('result').style.display = 'none';
+            
+            // 비교 뷰 표시
+            comparisonView.style.display = 'grid';
+            // 비교 뷰로 스크롤
+            smoothScrollToElement(comparisonView);
+            await new Promise(resolve => setTimeout(resolve, 3000));
+            
+            // 시뮬레이션 단계 실행 - 새로운 데이터 구조 사용
+            const allSteps = [...simulationSteps, ...finalSteps];
+            
+            // 각 단계별로 실행
+            for (const stepData of allSteps) {
+                await new Promise(resolve => setTimeout(resolve, 1500));
+                
+                const stepElement = createSimulationStep(stepData);
+                simulationArea.appendChild(stepElement);
+                
+                // 새로 추가된 단계로 자동 스크롤
+                smoothScrollToElement(stepElement);
+                
+                // 프로그레스 바 애니메이션
+                if (stepData.progressId && stepData.progressTarget) {
+                    await new Promise(resolve => setTimeout(resolve, 1000));
+                    await animateProgress(stepData.progressId, stepData.progressTarget);
+                }
+            }
+
+            // 완료 후 처리
+            await new Promise(resolve => setTimeout(resolve, 2000));
+            document.getElementById('result').style.display = 'block';
+            // 완료 메시지로 스크롤
+            smoothScrollToElement(document.getElementById('result'));
+            
+            startBtn.textContent = getTranslation('simulation.gyeonu.restart') || '🔄 다시 체험하기';
+            startBtn.disabled = false;
+            isRunning = false;
+            
+            // 재시작을 위해 다시 설정
+            startBtn.addEventListener('click', function() {
+                document.getElementById('intro').style.display = 'block';
+                document.getElementById('simulation').style.display = 'none';
+                document.getElementById('result').style.display = 'none';
+                startBtn.textContent = getTranslation('simulation.gyeonu.startButton') || '💼 견적 시뮬레이션 시작';
+                smoothScrollToElement(document.getElementById('intro'));
+            }, { once: true });
+        }
+
+        // 상담 신청 함수
+        function requestConsultation() {
+            if (typeof window.openConsultationModal === 'function') {
+                window.openConsultationModal();
+            } else {
+                alert('견우 구현 상담 신청이 접수되었습니다.\n킨프리 담당자가 24시간 내에 연락드리겠습니다!');
+            }
+        }
+
+        // 이벤트 리스너 - 페이지 완전 로드 후 설정
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('💼 견우 AI 시뮬레이션이 준비되었습니다!');
+            
+            // 약간의 지연 후 이벤트 리스너 등록 (i18n 로드 완료 대기)
+            setTimeout(() => {
+                const startBtn = document.getElementById('startBtn');
+                if (startBtn) {
+                    // 기존 이벤트 리스너 제거 후 재등록
+                    startBtn.removeEventListener('click', runSimulation);
+                    startBtn.addEventListener('click', runSimulation);
+                    console.log('✅ 시작 버튼 이벤트 리스너 등록 완료');
+                    
+                    // 번역 상태 확인
+                    console.log('🌍 현재 translations:', !!window.translations);
+                    console.log('🔧 i18n 객체:', !!window.i18n);
+                    if (window.i18n && window.i18n.t) {
+                        console.log('📝 샘플 번역:', getTranslation('simulation.gyeonu.startButton'));
+                    } else {
+                        console.warn('⚠️ i18n 시스템이 아직 로드되지 않았습니다');
+                    }
+                } else {
+                    console.error('❌ 시작 버튼을 찾을 수 없습니다!');
+                }
+            }, 200); // airi보다 조금 더 길게 대기
+        });
+    </script>
+</body>
+</html>

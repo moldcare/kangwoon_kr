@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="simulation.doyoung.pageTitle">도영 - 스마트 매뉴얼 AI | 킨프리</title>
+    <meta name="description" content="킨프리의 AI 직원 도영이 RAG 기술로 방대한 매뉴얼에서 즉시 정확한 해결책을 찾는 실제 업무 시뮬레이션을 체험해보세요." data-i18n-content="simulation.doyoung.pageDescription">
+    <link rel="stylesheet" href="simulation-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* 도영 전용 스타일 (보라색 테마) */
+        body {
+            background: var(--sim-gradient-doyoung);
+        }
+    </style>
+    <link rel="icon" href="../images/favicon.png" type="image/png">
+</head>
+<body>
+    
+    <!-- 시뮬레이션 네비게이션 -->
+    <nav class="sim-nav">
+        <div class="nav-brand">
+            <a href="../index.html">
+                <img src="../images/logo-sq-w.png" alt="킨프리" class="logo">
+                <span>KINFRI</span>
+            </a>
+        </div>
+        <div class="nav-menu">
+            <a href="airi-simulation.html" class="nav-link" data-i18n="simulation.airi.navName">아이리</a>
+            <a href="gyeonu-simulation.html" class="nav-link" data-i18n="simulation.gyeonu.navName">견우</a>
+            <a href="jisu-simulation.html" class="nav-link" data-i18n="simulation.jisu.navName">지수</a>
+            <a href="doyoung-simulation.html" class="nav-link active" data-i18n="simulation.doyoung.navName">도영</a>
+            <a href="minseo-simulation.html" class="nav-link" data-i18n="simulation.minseo.navName">민서</a>
+        </div>
+        <div class="nav-actions">
+            <select class="language-select" data-lang-select aria-label="언어 선택" data-i18n-aria-label="aria.langSelect">
+                <option value="ko">한국어</option>
+                <option value="en">English</option>
+                <option value="zh">中文</option>
+                <option value="vi">Tiếng Việt</option>
+                <option value="ja">日本語</option>
+                <option value="th">ไทย</option>
+                <option value="id">Bahasa Indonesia</option>
+            </select>
+            <a href="../index.html" class="back-link" data-i18n="nav.backHome">메인 페이지로</a>
+        </div>
+    </nav>
+
+    <!-- 시뮬레이션 컨테이너 -->
+    <div class="sim-container">
+        <!-- 헤더 -->
+        <header class="sim-header">
+            <div class="ai-character">
+                <div class="ai-avatar">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <div class="ai-info">
+                    <h1 data-i18n="simulation.doyoung.title">도영 - 스마트 매뉴얼 AI</h1>
+                    <p class="ai-subtitle" data-i18n="simulation.doyoung.subtitle">RAG 기술로 10,000+ 페이지 매뉴얼을 완벽 학습한 현장 전문가</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- 시나리오 소개 -->
+        <section class="scenario-intro" id="intro">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.doyoung.scenarioTitle">📚 시나리오: 새벽 3시 현장 긴급상황</h2>
+                    <span class="time-badge" data-i18n="simulation.doyoung.timeRange">03:15 AM</span>
+                </div>
+                <div class="scenario-content">
+                    <p><strong data-i18n="simulation.doyoung.situationLabel">상황:</strong> <span data-i18n="simulation.doyoung.situationText">생산라인 CNC 머신에서 알 수 없는 오류 발생</span></p>
+                    <p><strong data-i18n="simulation.doyoung.problemLabel">문제:</strong> <span data-i18n="simulation.doyoung.problemText">복잡한 매뉴얼 10,000+ 페이지에서 해결책을 찾아야 함</span></p>
+                    <p><strong data-i18n="simulation.doyoung.roleLabel">도영의 역할:</strong> <span data-i18n="simulation.doyoung.roleText">RAG 기술로 즉시 정확한 해결 가이드 제공</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- RAG 기술 설명 -->
+        <section class="rag-explanation" id="rag-tech">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.doyoung.ragTitle">🧠 RAG (검색 증강 생성) 기술이란?</h2>
+                </div>
+                <div class="rag-process">
+                    <div class="rag-step">
+                        <div class="step-icon">🔍</div>
+                        <div class="step-content">
+                            <h3 data-i18n="simulation.doyoung.ragStep1Title">1. 검색 (Retrieval)</h3>
+                            <p data-i18n="simulation.doyoung.ragStep1Desc">방대한 데이터베이스에서 관련 정보 검색</p>
+                        </div>
+                    </div>
+                    <div class="rag-arrow">→</div>
+                    <div class="rag-step">
+                        <div class="step-icon">🔗</div>
+                        <div class="step-content">
+                            <h3 data-i18n="simulation.doyoung.ragStep2Title">2. 증강 (Augmented)</h3>
+                            <p data-i18n="simulation.doyoung.ragStep2Desc">검색된 정보를 AI 모델에 연결</p>
+                        </div>
+                    </div>
+                    <div class="rag-arrow">→</div>
+                    <div class="rag-step">
+                        <div class="step-icon">💬</div>
+                        <div class="step-content">
+                            <h3 data-i18n="simulation.doyoung.ragStep3Title">3. 생성 (Generation)</h3>
+                            <p data-i18n="simulation.doyoung.ragStep3Desc">정확한 정보 기반 답변 생성</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rag-benefit">
+                    <p><strong data-i18n="simulation.doyoung.ragBenefit">핵심 장점: 할루시네이션(환각) 방지 + 실시간 정확한 정보 제공</strong></p>
+                </div>
+            </div>
+        </section>
+        <!-- 시뮬레이션 시작 -->
+        <section class="simulation-start" id="start-simulation">
+            <div class="content-card">
+                <div class="simulation-controls">
+                    <button class="start-btn" onclick="startSimulation()">
+                        <i class="fas fa-play"></i>
+                        <span data-i18n="simulation.doyoung.startButton">도영이 시뮬레이션 시작</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 현장 상황 -->
+        <section class="simulation-step hidden" id="step1">
+            <div class="content-card alert-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.doyoung.step1.title">🚨 긴급상황 발생</h2>
+                    <span class="time-badge" data-i18n="simulation.doyoung.timeRange">03:15 AM</span>
+                </div>
+                <div class="alert-content">
+                    <div class="machine-status">
+                        <div class="machine-icon">🏭</div>
+                        <div class="machine-info">
+                            <h3 data-i18n="simulation.doyoung.step1.machineInfo">생산라인 CNC-M200 머신</h3>
+                            <p class="error-msg">❌ <span data-i18n="simulation.doyoung.step1.errorCode">오류 코드: E4-7829</span></p>
+                            <p class="error-desc" data-i18n="simulation.doyoung.step1.errorDesc">"스핀들 오버로드 감지 - 즉시 대응 필요"</p>
+                        </div>
+                    </div>
+                    <div class="situation-desc">
+                        <p data-i18n="simulation.doyoung.step1.manualDesc">📋 현장 작업자가 매뉴얼을 찾고 있지만...</p>
+                        <ul>
+                            <li data-i18n="simulation.doyoung.step1.manual1">CNC 머신 매뉴얼: 2,847페이지</li>
+                            <li data-i18n="simulation.doyoung.step1.manual2">공구 사용 가이드: 1,523페이지</li>
+                            <li data-i18n="simulation.doyoung.step1.manual3">안전 절차서: 892페이지</li>
+                            <li data-i18n="simulation.doyoung.step1.manual4">CAD/CAM 소프트웨어: 5,832페이지</li>
+                        </ul>
+                        <p class="total-pages"><strong data-i18n="simulation.doyoung.step1.totalPages">총 10,094페이지</strong><span data-i18n="simulation.doyoung.step1.totalPagesText">에서 답을 찾아야 합니다!</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 도영 등장 -->
+        <section class="simulation-step hidden" id="step2">
+            <div class="content-card doyoung-card">
+                <div class="card-header">
+                    <div class="ai-speaking">
+                        <div class="ai-avatar-small">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h2 data-i18n="simulation.doyoung.step2.title">도영이 출동!</h2>
+                    </div>
+                    <span class="time-badge">03:16 AM</span>
+                </div>
+                <div class="ai-response">
+                    <div class="speech-bubble">
+                        <p data-i18n="simulation.doyoung.step2.message1">"안녕하세요! 저는 도영입니다. E4-7829 오류를 분석해드릴게요."</p>
+                        <p data-i18n="simulation.doyoung.step2.message2">"RAG 기술로 모든 매뉴얼을 이미 학습했으니 걱정하지 마세요!"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RAG 처리 과정 -->
+        <section class="simulation-step hidden" id="step3">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.doyoung.step3.title">🔍 RAG 기술 실시간 처리 과정</h2>
+                    <span class="time-badge">03:16 AM</span>
+                </div>
+                <div class="rag-process-live">
+                    <!-- 검색 단계 -->
+                    <div class="process-step" id="search-step">
+                        <div class="step-header">
+                            <div class="step-icon">🔍</div>
+                            <h3 data-i18n="simulation.doyoung.step3.searchTitle">1단계: 검색 (Retrieval)</h3>
+                            <div class="loading-spinner hidden" id="search-loader"></div>
+                            <div class="check-icon hidden" id="search-check">✅</div>
+                        </div>
+                        <div class="step-details">
+                            <div class="search-progress">
+                                <div class="search-item">
+                                    <span data-i18n="simulation.doyoung.step3.searchItem1">CNC 머신 오류 매뉴얼 검색...</span>
+                                    <span class="search-result hidden" id="result1" data-i18n="simulation.doyoung.step3.searchResult1">📄 27건 발견</span>
+                                </div>
+                                <div class="search-item">
+                                    <span data-i18n="simulation.doyoung.step3.searchItem2">스핀들 오버로드 관련 문서...</span>
+                                    <span class="search-result hidden" id="result2" data-i18n="simulation.doyoung.step3.searchResult2">📄 15건 발견</span>
+                                </div>
+                                <div class="search-item">
+                                    <span data-i18n="simulation.doyoung.step3.searchItem3">E4-7829 오류 해결책...</span>
+                                    <span class="search-result hidden" id="result3" data-i18n="simulation.doyoung.step3.searchResult3">📄 8건 발견</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 증강 단계 -->
+                    <div class="process-step" id="augment-step">
+                        <div class="step-header">
+                            <div class="step-icon">🔗</div>
+                            <h3 data-i18n="simulation.doyoung.step3.augmentTitle">2단계: 증강 (Augmented)</h3>
+                            <div class="loading-spinner hidden" id="augment-loader"></div>
+                            <div class="check-icon hidden" id="augment-check">✅</div>
+                        </div>
+                        <div class="step-details">
+                            <div class="augment-process">
+                                <p data-i18n="simulation.doyoung.step3.augmentDesc">🧠 검색된 정보를 AI 모델과 연결 중...</p>
+                                <div class="knowledge-fusion">
+                                    <div class="knowledge-source" data-i18n="simulation.doyoung.step3.knowledgeSource1">CNC 매뉴얼 p.1,247</div>
+                                    <div class="knowledge-source" data-i18n="simulation.doyoung.step3.knowledgeSource2">안전 절차서 p.89</div>
+                                    <div class="knowledge-source" data-i18n="simulation.doyoung.step3.knowledgeSource3">공구 가이드 p.334</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 생성 단계 -->
+                    <div class="process-step" id="generate-step">
+                        <div class="step-header">
+                            <div class="step-icon">💬</div>
+                            <h3 data-i18n="simulation.doyoung.step3.generateTitle">3단계: 생성 (Generation)</h3>
+                            <div class="loading-spinner hidden" id="generate-loader"></div>
+                            <div class="check-icon hidden" id="generate-check">✅</div>
+                        </div>
+                        <div class="step-details">
+                            <p data-i18n="simulation.doyoung.step3.generateDesc">📝 정확한 정보를 바탕으로 해결책 작성 중...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 도영의 완벽한 해결책 -->
+        <section class="simulation-step hidden" id="step4">
+            <div class="content-card solution-card">
+                <div class="card-header">
+                    <div class="ai-speaking">
+                        <div class="ai-avatar-small">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h2 data-i18n="simulation.doyoung.step4.title">도영의 완벽한 해결책</h2>
+                    </div>
+                    <span class="time-badge">03:17 AM</span>
+                </div>
+                <div class="solution-content">
+                    <div class="speech-bubble solution">
+                        <h3 data-i18n="simulation.doyoung.step4.solutionTitle">🎯 E4-7829 오류 해결 방법</h3>
+                        <div class="solution-steps">
+                            <div class="solution-step">
+                                <div class="step-num">1</div>
+                                <div class="step-content">
+                                    <h4 data-i18n="simulation.doyoung.step4.solution1Title">즉시 조치</h4>
+                                    <p data-i18n="simulation.doyoung.step4.solution1Desc">🛑 긴급정지 버튼 활성화 후 스핀들 냉각 대기 (5분)</p>
+                                </div>
+                            </div>
+                            <div class="solution-step">
+                                <div class="step-num">2</div>
+                                <div class="step-content">
+                                    <h4 data-i18n="simulation.doyoung.step4.solution2Title">원인 확인</h4>
+                                    <p data-i18n="simulation.doyoung.step4.solution2Desc">🔧 공구 마모도 점검 - 절삭 저항 증가로 인한 오버로드</p>
+                                </div>
+                            </div>
+                            <div class="solution-step">
+                                <div class="step-num">3</div>
+                                <div class="step-content">
+                                    <h4 data-i18n="simulation.doyoung.step4.solution3Title">해결책</h4>
+                                    <p data-i18n="simulation.doyoung.step4.solution3Desc">⚙️ 공구 교체 + CAM 프로그램 절삭 속도 15% 감소</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reference-info">
+                            <h4 data-i18n="simulation.doyoung.step4.referenceTitle">📚 참고 자료</h4>
+                            <ul>
+                                <li data-i18n="simulation.doyoung.step4.ref1">CNC 매뉴얼 p.1,247 "스핀들 오버로드 대응법"</li>
+                                <li data-i18n="simulation.doyoung.step4.ref2">공구 가이드 p.334 "절삭공구 마모 진단"</li>
+                                <li data-i18n="simulation.doyoung.step4.ref3">안전 절차서 p.89 "긴급정지 프로토콜"</li>
+                            </ul>
+                        </div>
+                        <div class="no-hallucination">
+                            <p data-i18n="simulation.doyoung.step4.noHallucination"><strong>✅ 할루시네이션 방지:</strong> 매뉴얼에 명시된 정확한 정보만 제공</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 추가 질문 시뮬레이션 -->
+        <section class="simulation-step hidden" id="step5">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.doyoung.step5.title">💭 현장 작업자의 추가 질문</h2>
+                    <span class="time-badge">03:18 AM</span>
+                </div>
+                <div class="question-scenario">
+                    <div class="worker-question">
+                        <div class="worker-icon">👷‍♂️</div>
+                        <div class="question-bubble">
+                            <span data-i18n-html="simulation.doyoung.step5.workerQuestion">"도영씨, CAM 프로그램에서 절삭 속도를 어떻게 변경하죠?<br>SolidCAM을 사용하고 있어요."</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 도영의 상세 가이드 -->
+        <section class="simulation-step hidden" id="step6">
+            <div class="content-card detailed-guide-card">
+                <div class="card-header">
+                    <div class="ai-speaking">
+                        <div class="ai-avatar-small">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h2 data-i18n="simulation.doyoung.step6.title">도영의 상세 소프트웨어 가이드</h2>
+                    </div>
+                    <span class="time-badge">03:19 AM</span>
+                </div>
+                <div class="detailed-solution">
+                    <div class="speech-bubble detailed">
+                        <h3 data-i18n="simulation.doyoung.step6.guideTitle">🖥️ SolidCAM 절삭 속도 변경 방법</h3>
+                        <div class="software-steps">
+                            <div class="sw-step">
+                                <div class="step-icon">1️⃣</div>
+                                <div class="step-detail">
+                                    <h4 data-i18n="simulation.doyoung.step6.swStep1Title">Operations Manager 열기</h4>
+                                    <p data-i18n="simulation.doyoung.step6.swStep1Desc">메뉴: <code>CAMWorks → Operations → Operations Manager</code></p>
+                                </div>
+                            </div>
+                            <div class="sw-step">
+                                <div class="step-icon">2️⃣</div>
+                                <div class="step-detail">
+                                    <h4 data-i18n="simulation.doyoung.step6.swStep2Title">해당 Operation 선택</h4>
+                                    <p data-i18n="simulation.doyoung.step6.swStep2Desc">문제된 절삭 경로 → 우클릭 → <code>Edit Definition</code></p>
+                                </div>
+                            </div>
+                            <div class="sw-step">
+                                <div class="step-icon">3️⃣</div>
+                                <div class="step-detail">
+                                    <h4 data-i18n="simulation.doyoung.step6.swStep3Title">속도 파라미터 수정</h4>
+                                    <p data-i18n="simulation.doyoung.step6.swStep3Desc1"><code>Speed/Feeds</code> 탭 → <code>Spindle Speed</code> 15% 감소</p>
+                                    <p data-i18n="simulation.doyoung.step6.swStep3Desc2"><strong>현재:</strong> 2,000 RPM → <strong>변경:</strong> 1,700 RPM</p>
+                                </div>
+                            </div>
+                            <div class="sw-step">
+                                <div class="step-icon">4️⃣</div>
+                                <div class="step-detail">
+                                    <h4 data-i18n="simulation.doyoung.step6.swStep4Title">프로그램 재생성</h4>
+                                    <p data-i18n="simulation.doyoung.step6.swStep4Desc"><code>Generate Toolpath</code> → <code>Post Process</code> → G-Code 업데이트</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="software-reference">
+                            <h4 data-i18n="simulation.doyoung.step6.softwareRefTitle">📖 참고 매뉴얼</h4>
+                            <ul>
+                                <li data-i18n="simulation.doyoung.step6.softwareRef1">SolidCAM User Guide p.2,847 "Operations Management"</li>
+                                <li data-i18n="simulation.doyoung.step6.softwareRef2">CAMWorks Manual p.1,205 "Speed & Feed Optimization"</li>
+                                <li data-i18n="simulation.doyoung.step6.softwareRef3">CNC Programming Guide p.445 "RPM Calculation Methods"</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 시뮬레이션 결과 -->
+        <section class="simulation-step hidden" id="step7">
+            <div class="content-card results-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.doyoung.step7.title">🎉 문제 해결 완료!</h2>
+                    <span class="time-badge">03:25 AM</span>
+                </div>
+                <div class="results-content">
+                    <div class="success-message">
+                        <div class="success-icon">✅</div>
+                        <h3 data-i18n="simulation.doyoung.step7.successTitle">CNC 머신 정상 가동 재개</h3>
+                    </div>
+                    <div class="results-metrics">
+                        <div class="metric-item">
+                            <div class="metric-icon">⏱️</div>
+                            <div class="metric-info">
+                                <h4 data-i18n="simulation.doyoung.step7.metric1Title">문제 해결 시간</h4>
+                                <p class="metric-value" data-i18n="simulation.doyoung.step7.metric1Value">10분</p>
+                                <p class="metric-sub" data-i18n="simulation.doyoung.step7.metric1Sub">일반적 해결 시간: 2-4시간</p>
+                            </div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-icon">📚</div>
+                            <div class="metric-info">
+                                <h4 data-i18n="simulation.doyoung.step7.metric2Title">검색된 매뉴얼</h4>
+                                <p class="metric-value" data-i18n="simulation.doyoung.step7.metric2Value">10,094페이지</p>
+                                <p class="metric-sub" data-i18n="simulation.doyoung.step7.metric2Sub">0.3초 만에 정확한 답변</p>
+                            </div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-icon">💰</div>
+                            <div class="metric-info">
+                                <h4 data-i18n="simulation.doyoung.step7.metric3Title">생산 손실 방지</h4>
+                                <p class="metric-value" data-i18n="simulation.doyoung.step7.metric3Value">₩2,400만원</p>
+                                <p class="metric-sub" data-i18n="simulation.doyoung.step7.metric3Sub">4시간 생산중단 비용</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RAG 기술의 가치 -->
+        <section class="simulation-step hidden" id="step8">
+            <div class="content-card value-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.doyoung.step8.title">💎 RAG 기술이 제공하는 가치</h2>
+                </div>
+                <div class="value-content">
+                    <div class="value-grid">
+                        <div class="value-item">
+                            <div class="value-icon">🎯</div>
+                            <h3 data-i18n="simulation.doyoung.step8.value1Title">정확성</h3>
+                            <p data-i18n-html="simulation.doyoung.step8.value1Desc">매뉴얼 기반 정확한 정보만 제공<br>할루시네이션 완전 차단</p>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">⚡</div>
+                            <h3 data-i18n="simulation.doyoung.step8.value2Title">신속성</h3>
+                            <p data-i18n-html="simulation.doyoung.step8.value2Desc">10,000+ 페이지에서<br>0.3초 만에 답변</p>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">🔗</div>
+                            <h3 data-i18n="simulation.doyoung.step8.value3Title">추적성</h3>
+                            <p data-i18n-html="simulation.doyoung.step8.value3Desc">모든 답변에 정확한<br>출처와 페이지 번호 제공</p>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">🎭</div>
+                            <h3 data-i18n="simulation.doyoung.step8.value4Title">다양성</h3>
+                            <p data-i18n-html="simulation.doyoung.step8.value4Desc">CNC, CAD/CAM, 공구, 안전<br>모든 분야 동시 지원</p>
+                        </div>
+                    </div>
+                    
+                    <div class="rag-comparison">
+                        <h3 data-i18n="simulation.doyoung.step8.comparisonTitle">🆚 기존 방식 vs RAG 기술</h3>
+                        <div class="comparison-grid">
+                            <div class="comparison-item old">
+                                <h4 data-i18n="simulation.doyoung.step8.oldMethodTitle">기존 매뉴얼 검색</h4>
+                                <ul>
+                                    <li data-i18n="simulation.doyoung.step8.oldMethod1">❌ 2-4시간 소요</li>
+                                    <li data-i18n="simulation.doyoung.step8.oldMethod2">❌ 여러 매뉴얼 병행 검색 어려움</li>
+                                    <li data-i18n="simulation.doyoung.step8.oldMethod3">❌ 인적 오류 가능성</li>
+                                    <li data-i18n="simulation.doyoung.step8.oldMethod4">❌ 경험 부족시 해석 어려움</li>
+                                </ul>
+                            </div>
+                            <div class="comparison-item new">
+                                <h4 data-i18n="simulation.doyoung.step8.newMethodTitle">도영 RAG 시스템</h4>
+                                <ul>
+                                    <li data-i18n="simulation.doyoung.step8.newMethod1">✅ 10분 내 완전 해결</li>
+                                    <li data-i18n="simulation.doyoung.step8.newMethod2">✅ 모든 매뉴얼 동시 활용</li>
+                                    <li data-i18n="simulation.doyoung.step8.newMethod3">✅ 100% 정확한 정보</li>
+                                    <li data-i18n="simulation.doyoung.step8.newMethod4">✅ 초보자도 전문가 수준 대응</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 액션 버튼 -->
+        <section class="simulation-step hidden" id="final-actions">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.doyoung.resultTitle">🎯 시뮬레이션 완료!</h2>
+                </div>
+                <div class="action-content">
+                    <div class="action-description">
+                        <p data-i18n="simulation.doyoung.resultText1">도영이 RAG 기술로 즉시 정확한 해결책을 제공했습니다!</p>
+                        <p data-i18n="simulation.doyoung.resultText2">실제로 킨프리의 RAG 시스템은 이런 방식으로 방대한 매뉴얼을 활용합니다.</p>
+                    </div>
+                    <div class="action-buttons">
+                        <a href="../index.html#contact" class="consult-btn primary">
+                            <i class="fas fa-comments"></i>
+                            <span data-i18n="nav.freeConsult">무료 상담 신청</span>
+                        </a>
+                        <a href="../index.html" class="consult-btn secondary">
+                            <i class="fas fa-home"></i>
+                            <span data-i18n="nav.backHome">메인 페이지로</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 진행 표시기 -->
+        <div class="progress-indicator">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressBar"></div>
+            </div>
+            <div class="progress-text" id="progressText" data-i18n="simulation.common.progress.preparing">시뮬레이션 준비 중...</div>
+        </div>
+    </div>
+    <!-- JavaScript -->
+    <script src="/js/i18n.js" defer></script>
+    <script>
+        let currentStep = 0;
+        const totalSteps = 8;
+        let isSimulationRunning = false;
+
+        // 전역 번역 함수 (AIRI와 동일한 방식)
+        function getTranslation(key) {
+            if (!window.translations || !key) return key;
+            
+            // 현재 언어로 번역 시도
+            const currentLang = window.currentLang || document.documentElement.getAttribute('lang') || 'ko';
+            const langTranslations = window.translations[currentLang] || window.translations.ko || {};
+            
+            return key.split('.').reduce((acc, k) => (acc && acc[k] !== undefined ? acc[k] : null), langTranslations) || key;
+        }
+
+        // 자동 스크롤 함수
+        function smoothScrollToElement(element, offset = -100) {
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset + offset;
+            
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        }
+
+        // 프로그레스 바 업데이트
+        function updateProgress(step) {
+            const progressBar = document.getElementById('progressBar');
+            const progressText = document.getElementById('progressText');
+            const percentage = Math.round((step / totalSteps) * 100);
+            
+            progressBar.style.width = percentage + '%';
+            
+            // 번역된 메시지 사용
+            const messageKeys = [
+                "simulation.common.progress.preparing",
+                "simulation.common.progress.emergency", 
+                "simulation.common.progress.doyoungStart",
+                "simulation.common.progress.ragProcessing",
+                "simulation.common.progress.solutionGen",
+                "simulation.common.progress.additionalQ",
+                "simulation.common.progress.detailedGuide",
+                "simulation.common.progress.resultAnalysis",
+                "simulation.common.progress.completed"
+            ];
+            
+            const defaultMessages = [
+                "시뮬레이션 준비 중...",
+                "긴급상황 발생...",
+                "도영이 출동!",
+                "RAG 기술 처리 중...",
+                "해결책 생성 중...",
+                "추가 질문 처리...",
+                "상세 가이드 제공...",
+                "결과 분석 중...",
+                "시뮬레이션 완료!"
+            ];
+            
+            const messageKey = messageKeys[step];
+            const message = messageKey ? getTranslation(messageKey) : (defaultMessages[step] || getTranslation("simulation.common.progress.processing"));
+            
+            progressText.textContent = message;
+        }
+
+        // 시뮬레이션 시작
+        function startSimulation() {
+            if (isSimulationRunning) return;
+            
+            isSimulationRunning = true;
+            const startBtn = document.querySelector('.start-btn');
+            startBtn.disabled = true;
+            
+            const runningText = getTranslation("simulation.common.running") || "시뮬레이션 실행 중...";
+            startBtn.innerHTML = `<i class="fas fa-spinner fa-spin"></i> ${runningText}`;
+            
+            // 첫 번째 단계
+            setTimeout(() => showStep(1), 1000);
+        }
+
+        // 단계별 표시
+        function showStep(stepNumber) {
+            currentStep = stepNumber;
+            updateProgress(stepNumber);
+            
+            const stepElement = document.getElementById(`step${stepNumber}`);
+            if (stepElement) {
+                stepElement.classList.remove('hidden');
+                smoothScrollToElement(stepElement);
+                
+                // 특별한 애니메이션이 필요한 단계들
+                if (stepNumber === 3) {
+                    startRAGProcess();
+                } else if (stepNumber < totalSteps) {
+                    const nextDelay = getStepDelay(stepNumber);
+                    setTimeout(() => showStep(stepNumber + 1), nextDelay);
+                } else {
+                    // 마지막 단계
+                    setTimeout(() => {
+                        updateProgress(totalSteps);
+                        document.getElementById('final-actions').classList.remove('hidden');
+                        smoothScrollToElement(document.getElementById('final-actions'));
+                    }, 3000);
+                }
+            }
+        }
+
+        // 단계별 지연 시간
+        function getStepDelay(step) {
+            const delays = {
+                1: 3000,  // 상황 파악
+                2: 2000,  // 도영 등장
+                3: 8000,  // RAG 처리 (별도 애니메이션)
+                4: 4000,  // 해결책
+                5: 3000,  // 추가 질문
+                6: 5000,  // 상세 가이드
+                7: 4000,  // 결과
+                8: 3000   // 가치 설명
+            };
+            return delays[step] || 3000;
+        }
+
+        // RAG 처리 과정 애니메이션
+        function startRAGProcess() {
+            // 검색 단계
+            setTimeout(() => {
+                document.getElementById('search-loader').classList.remove('hidden');
+                animateSearchResults();
+            }, 1000);
+        }
+
+        function animateSearchResults() {
+            const results = ['result1', 'result2', 'result3'];
+            results.forEach((id, index) => {
+                setTimeout(() => {
+                    document.getElementById(id).classList.remove('hidden');
+                }, (index + 1) * 800);
+            });
+
+            // 검색 완료
+            setTimeout(() => {
+                document.getElementById('search-loader').classList.add('hidden');
+                document.getElementById('search-check').classList.remove('hidden');
+                startAugmentProcess();
+            }, 3000);
+        }
+
+        function startAugmentProcess() {
+            // 증강 단계
+            setTimeout(() => {
+                document.getElementById('augment-loader').classList.remove('hidden');
+            }, 500);
+
+            setTimeout(() => {
+                document.getElementById('augment-loader').classList.add('hidden');
+                document.getElementById('augment-check').classList.remove('hidden');
+                startGenerateProcess();
+            }, 2000);
+        }
+
+        function startGenerateProcess() {
+            // 생성 단계
+            setTimeout(() => {
+                document.getElementById('generate-loader').classList.remove('hidden');
+            }, 500);
+
+            setTimeout(() => {
+                document.getElementById('generate-loader').classList.add('hidden');
+                document.getElementById('generate-check').classList.remove('hidden');
+                
+                // 다음 단계로
+                setTimeout(() => showStep(4), 1000);
+            }, 2000);
+        }
+
+        // 초기화 - AIRI 방식 적용
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🎯 [도영] 스마트 매뉴얼 AI 시뮬레이션이 준비되었습니다!');
+            
+            updateProgress(0);
+            
+            // i18n 로드 완료 대기
+            setTimeout(() => {
+                const startBtn = document.querySelector('.start-btn');
+                if (startBtn) {
+                    startBtn.removeEventListener('click', startSimulation);
+                    startBtn.addEventListener('click', startSimulation);
+                    console.log('✅ 시작 버튼 이벤트 리스너 등록 완료');
+                    
+                    // 번역 상태 확인
+                    console.log('🌍 현재 translations:', !!window.translations);
+                    if (window.translations) {
+                        console.log('📝 샘플 번역:', getTranslation('simulation.doyoung.startButton'));
+                    }
+                }
+            }, 200); // AIRI와 동일한 대기 시간
+        });
+    </script>
+
+</body>
+</html>

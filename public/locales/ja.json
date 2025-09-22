@@ -1,0 +1,1111 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "solutions": "ソリューション",
+    "about": "会社案内",
+    "cases": "導入事例",
+    "simulation": "🎬 AI シミュレーション",
+    "contact": "お問い合わせ",
+    "backHome": "メイントップへ",
+    "freeConsult": "無料相談申込"
+  },
+  "buttons": {
+    "ctaConsult": "無料AI相談を申し込む",
+    "viewSolutions": "ソリューションを見る"
+  },
+  "hero": {
+    "title": "中小企業の<span class=\"highlight\">AI変革</span>を<br>リードするパートナー",
+    "description": "KINFRIはRAGアプリケーション、プライベートsLLMモデル、AIエージェント自動化を提供し、生産性向上とコスト削減を同時に実現します。",
+    "statAccuracy": "認識精度",
+    "statCostReduction": "業務効率化",
+    "statResponseTime": "無人運用システム",
+    "cards": {
+      "aiAgent": "AIエージェント",
+      "ragSearch": "RAG検索",
+      "privateSllm": "プライベートsLLM"
+    },
+    "imageAlt": "KINFRIのAI変革プラットフォーム概要 - RAG・sLLM・AI Agent"
+  },
+  "solutions": {
+    "title": "AI革新ソリューション",
+    "description": "製造業・中小企業のデジタル変革を加速するカスタマイズAIソリューション",
+    "aeoQuickAnswers": {
+      "manufacturing": {
+        "question": "製造業に最も効果的なAIソリューションは？",
+        "answer": "<strong>RAGベース品質管理システム</strong>が不良率10%減少と検査時間20%短縮効果をもたらします。"
+      },
+      "cost": {
+        "question": "中小企業のAI導入コストは？",
+        "answer": "<strong>ノーコードチャットボットビルダー</strong>で開発費用70%削減し、月17,000件の問い合わせ自動処理が可能です。"
+      },
+      "security": {
+        "question": "AIデータセキュリティは安全ですか？",
+        "answer": "<strong>オンプレミスsLLM</strong>で100%データ主権を保証し、外部流出リスクは一切ありません。"
+      }
+    },
+    "aiAgent": {
+      "title": "AIエージェント ビジネス自動化",
+      "description": "生産管理、在庫最適化、設備監視を自律的に実行し、24/7無人運用システムを構築します。",
+      "features": {
+        "autonomous": "自律的タスク設計・実行",
+        "realtime": "リアルタイム生産工程管理",
+        "predictive": "予測的設備保守"
+      },
+      "benefits": {
+        "costReduction": "運営費削減",
+        "productivity": "生産性向上"
+      }
+    },
+    "ragSolution": {
+      "title": "RAGベース カスタムアプリケーション",
+      "description": "企業内部のマニュアルや文書を活用し、正確で信頼性の高い情報検索・回答システムを構築します。",
+      "features": {
+        "hallucination": "ハルシネーション現象の制御",
+        "knowledge": "社内ナレッジ管理システム",
+        "optimization": "リアルタイム文書検索最適化"
+      },
+      "benefits": {
+        "decision": "正確な意思決定",
+        "efficiency": "業務効率性"
+      }
+    },
+    "sllmSolution": {
+      "title": "プライベートデータベース sLLMモデル",
+      "description": "機密性の高い企業データを保護しながら、オンプレミス環境でカスタマイズされた小型言語モデルを構築します。",
+      "features": {
+        "security": "データ流出の心配がないセキュリティ",
+        "specialized": "ドメイン特化AIモデル",
+        "onPremise": "オンプレミス構築サポート"
+      },
+      "benefits": {
+        "sovereignty": "データ主権",
+        "securityBoost": "セキュリティ強化"
+      }
+    },
+    "noCodeChatbot": {
+      "title": "ノーコード AIチャットボットビルダー",
+      "description": "コーディング知識がなくても直感的なインターフェースで社内サポートや顧客対応チャットボットを構築できます。",
+      "features": {
+        "dragDrop": "ドラッグアンドドロップインターフェース",
+        "integration": "複数のAIモデル連携",
+        "realTimeLearning": "リアルタイム学習・改善"
+      },
+      "benefits": {
+        "developmentSpeed": "開発スピード",
+        "maintenance": "メンテナンス簡素化"
+      }
+    },
+    "sttTtsSolution": {
+      "title": "STT/TTS 音声認識ソリューション",
+      "description": "スマートファクトリーとコールセンター向けの高精度音声認識と自然な音声合成技術を提供します。",
+      "features": {
+        "accuracy": "95%以上の日本語認識精度",
+        "emotional": "感情表現音声合成",
+        "specialized": "製造業専門用語学習"
+      },
+      "benefits": {
+        "controlEfficiency": "制御効率性",
+        "customerExperience": "顧客体験"
+      }
+    }
+  },
+  "simulation": {
+    "airi": {
+      "navName": "アイリ",
+      "title": "アイリ - IT管理AI",
+      "subtitle": "一晩中静かに弊社のPCを管理する夜勤専担AI",
+      "pageTitle": "アイリ AI - IT管理実業務シミュレーション | KINFRI",
+      "pageDescription": "KINFRIのAI従業員アイリが一晩中会社のPCを管理する実業務シミュレーションを体験してください。",
+      "scenarioTitle": "🌙 シナリオ：残業のないIT管理",
+      "timeRange": "夜9時 〜 朝6時",
+      "situationLabel": "状況：",
+      "situationText": "従業員退社後のITシステムチェックが必要な時間",
+      "problemLabel": "問題：",
+      "problemText": "残業をしながら手動でPCを一台ずつ管理する必要がある",
+      "roleLabel": "アイリの役割：",
+      "roleText": "すべてのIT業務を自動で完璧に処理",
+      "startButton": "▶️ アイリ業務シミュレーション開始",
+      "resultTitle": "🎯 シミュレーション完了！",
+      "resultText1": "アイリが一晩中処理した業務を確認しました！",
+      "resultText2": "実際にKINFRIのAI Agentはこのような方式で24時間業務を自動化します。",
+      "step1": {
+        "title": "🌙 アイリ業務開始",
+        "message": "こんにちは！従業員の皆さんが退社されましたね。これから私が一晩中PCを見守ります。",
+        "action1": "社内12台PC接続状態確認",
+        "action2": "各PCシステムログ収集開始",
+        "action3": "本日の業務活動データ分析準備"
+      },
+      "step2": {
+        "title": "🔍 PC状態診断中",
+        "message": "各PCを一台ずつ点検しています。いくつかの問題を発見しました。",
+        "action1": "PC-03：メモリ使用率95%（危険レベル）",
+        "action2": "PC-07：一時ファイル3.2GB蓄積",
+        "action3": "PC-11：バックグラウンドプロセス47個実行中",
+        "stat1": "点検完了",
+        "stat2": "問題発見",
+        "stat3": "正常状態"
+      },
+      "step3": {
+        "title": "⚠️ 問題詳細分析",
+        "message": "発見された問題を詳細に分析し、解決方案を策定しています。",
+        "action1": "PC-03メモリリーク原因：古いChromeタブ47個",
+        "action2": "PC-07ディスククリーニング必要：キャッシュファイルとログファイル",
+        "action3": "PC-11不要なスタートアッププログラム12個検出",
+        "alert": "🚨 緊急：PC-03でシステム速度低下70%確認"
+      },
+      "step4": {
+        "title": "🔧 自動問題解決実行",
+        "message": "これから問題を一つずつ解決します。従業員の皆さんの業務に支障がないよう注意深く作業します。",
+        "action1": "PC-03：不要なプロセス終了およびメモリ最適化 ✅",
+        "action2": "PC-07：3.2GB一時ファイル安全削除完了 ✅",
+        "action3": "PC-11：スタートアッププログラム12個 → 5個に最適化 ✅"
+      },
+      "step5": {
+        "title": "💾 システムバックアップ実行",
+        "message": "問題解決が完了しました。これから重要なデータを安全にバックアップします。",
+        "action1": "各PC重要文書自動バックアップ実行",
+        "action2": "システム復元ポイント作成",
+        "action3": "データベースファイル二重バックアップ",
+        "stat1": "バックアップデータ",
+        "stat2": "復元ポイント",
+        "stat3": "安全度"
+      },
+      "step6": {
+        "title": "🛡️ セキュリティ点検",
+        "message": "最後にセキュリティ状態を点検し、異常な兆候があるか確認します。",
+        "action1": "ファイアウォールログ分析：外部アクセス試行0件",
+        "action2": "マルウェア検査：危険要素は発見されませんでした",
+        "action3": "システム脆弱性スキャン：すべてのPC安全状態確認"
+      },
+      "final": {
+        "title": "📊 業務完了報告",
+        "message": "一晩中お疲れ様でした！すべてのPCが最適な状態で準備されました。",
+        "action1": "従業員の皆さんが快適な環境で業務を開始できます",
+        "action2": "予想性能向上：平均23%改善",
+        "action3": "節約されたIT管理時間：4時間30分",
+        "stat1": "処理した問題",
+        "stat2": "バックアップ完了",
+        "stat3": "性能改善",
+        "stat4": "節約時間"
+      }
+    },
+    "gyeonu": {
+      "navName": "ギョヌ",
+      "pageTitle": "ギョヌAI - 見積システム実務シミュレーション | KINFRI",
+      "pageDescription": "10分で正確な見積書を作成するプロフェッショナル見積AI",
+      "scenarioTitle": "💼 シナリオ：緊急見積依頼",
+      "timeRange": "午後4:30",
+      "situationLabel": "状況：",
+      "situationText": "大手顧客から明日までの見積が必要と連絡",
+      "problemLabel": "問題：",
+      "problemText": "複雑な製品構成と数量により正確な計算が困難",
+      "roleLabel": "ギョヌの役割：",
+      "roleText": "10年分のデータを基に即座に正確な見積を提供",
+      "startButton": "💼 見積シミュレーション開始",
+      "beforeMethod": "❌ 従来方式（3日必要）",
+      "before1": "📞 顧客依頼受付",
+      "before2": "🔍 過去見積の手動検索",
+      "before3": "📊 Excelで手動計算",
+      "before4": "📝 見積書手動作成",
+      "before5": "👀 レビューと承認待ち",
+      "before6": "📧 メール送信",
+      "beforeTime": "所要時間：3日",
+      "beforeAccuracy": "精度：85%",
+      "beforeStaff": "人員：2名",
+      "running": "⏳ シミュレーション実行中...",
+      "restart": "🔄 再体験",
+      "afterMethod": "✅ ギョヌAI方式（10分）",
+      "after1": "⚡ 即座に依頼分析",
+      "after2": "🤖 10年データ自動検索",
+      "after3": "🧠 AI価格予測",
+      "after4": "📄 見積書自動生成",
+      "after5": "📧 即座に送信可能",
+      "afterTime": "所要時間：10分",
+      "afterAccuracy": "精度：96%",
+      "afterStaff": "人員：0名（自動）",
+      "step1": {
+        "title": "📧 ステップ1：顧客見積依頼受付",
+        "requestTitle": "📋 見積依頼情報",
+        "customer": "顧客：",
+        "product": "製品：",
+        "productDesc": "精密加工部品500個",
+        "material": "材料：",
+        "spec": "仕様：",
+        "surface": "表面処理：",
+        "surfaceDesc": "陽極酸化処理",
+        "tolerance": "精度：",
+        "delivery": "納期：",
+        "deliveryDesc": "2週間以内希望",
+        "aiMessage": "見積依頼を分析しています。少々お待ちください..."
+      },
+      "step2": {
+        "title": "🔍 ステップ2：AIデータ検索",
+        "aiMessage": "過去10年間の見積データを検索・分析しています...",
+        "progressText": "データ検索中...",
+        "totalQuotes": "総見積書",
+        "similarProjects": "類似プロジェクト",
+        "sameMaterial": "同一材料",
+        "sameTolerance": "同一精度"
+      },
+      "step3": {
+        "title": "🧠 ステップ3：AI価格分析",
+        "aiMessage": "収集されたデータを基に最適価格を計算しています...",
+        "progressText": "価格分析中...",
+        "factorsTitle": "🔍 主要価格決定要素",
+        "factor1": "📊 材料費：SUS304現在市価反映",
+        "factor2": "⚙️ 加工費：精度±0.02mm基準",
+        "factor3": "🎨 表面処理：陽極酸化処理コスト",
+        "factor4": "📦 数量割引：500個大量生産メリット",
+        "factor5": "🚚 運送費：距離と重量基準",
+        "factor6": "📅 納期：2週間スケジュール反映"
+      },
+      "step4": {
+        "title": "💰 ステップ4：最終見積完成",
+        "quoteTitle": "🎯 AI予測見積書",
+        "priceNote": "（消費税別途、納期2週間）",
+        "accuracy": "AI予測精度：96%",
+        "progressText": "見積書生成中...",
+        "accuracyLabel": "精度",
+        "minuteUnit": "分",
+        "timeLabel": "所要時間",
+        "autoValue": "自動",
+        "methodLabel": "処理方式",
+        "immediateValue": "即座",
+        "sendLabel": "送信可能"
+      },
+      "resultTitle": "🎯 見積シミュレーション完了！",
+      "resultText1": "ギョヌが10分で正確な見積書を完成させました！",
+      "resultText2": "実際にKINFRIのAIエージェントはこの方式で見積業務を自動化します。"
+    },
+    "jisu": {
+      "navName": "ジス",
+      "title": "ジス - 業務分析AI",
+      "subtitle": "従業員の業務を分析し、経営陣向けの洞察レポートを生成する分析専門AI",
+      "aiName": "ジス",
+      "pageTitle": "ジス AI - 業務分析シミュレーション | KINFRI",
+      "pageDescription": "KINFRIのAI従業員ジスが従業員の業務を分析し、洞察レポートを生成する実際の業務シミュレーションを体験してください。",
+      "scenarioTitle": "📊 シナリオ：月末業務分析レポート",
+      "timeRange": "午後6:00",
+      "situationLabel": "状況：",
+      "situationText": "CEOが今月の従業員業務状況の分析を要求",
+      "problemLabel": "問題：",
+      "problemText": "50名の従業員の業務データを手動で分析するのは困難",
+      "roleLabel": "ジスの役割：",
+      "roleText": "すべての業務データを自動分析して洞察を導出",
+      "startButton": "📊 業務分析シミュレーション開始",
+      "running": "⏳ シミュレーション実行中...",
+      "restart": "🔄 再体験",
+      "resultTitle": "🎯 業務分析シミュレーション完了！",
+      "resultText1": "ジスが50名従業員の業務を自動分析し、洞察レポートを完成させました！",
+      "resultText2": "実際にKINFRIのAIエージェントはこの方式で業務分析を自動化します。",
+      "step1": {
+        "title": "🌙 従業員退社後のデータ収集開始",
+        "message": "こんにちは、CEO！全ての従業員が退社しました。今日の業務活動を分析いたします。",
+        "progressText": "データ収集中...",
+        "marketingTitle": "📊 マーケティングチーム (4名)",
+        "marketingContent": "• Photoshop 5.2時間使用<br>• PowerPoint 3.1時間<br>• brochure_final.psd 修正<br>• SNS_plan.xlsx 作成",
+        "devTitle": "💻 開発チーム (5名)",
+        "devContent": "• VS Code 7.5時間使用<br>• ウェブサイトファイル247個修正<br>• bug_report.md 更新<br>• GitHub コミット23回",
+        "salesTitle": "📞 営業チーム (3名)",
+        "salesContent": "• Excel 4.3時間使用<br>• quotation_0918.xlsx 8個作成<br>• customer_contacts.xlsx 更新<br>• メール47件送信"
+      },
+      "step2": {
+        "title": "🧠 Llama 3 AIで業務パターン分析",
+        "message": "収集したデータをLlama 3 AIモデルで分析しています。各チームの業務効率性と生産性を計算中です。",
+        "progressText": "AI分析中...",
+        "analysisTitle": "🔍 AI分析中の発見事項",
+        "recommendation1": "✅ マーケティングチーム：75%創造的業務時間 → 高い生産性確認",
+        "recommendation2": "✅ 開発チーム：82%コーディング時間、会議時間減少 → 効率性向上",
+        "warning": "⚠️ 営業チーム：1名欠席により業務集中度低下、サポートが必要"
+      },
+      "step3": {
+        "title": "📊 部門別生産性指標計算",
+        "message": "各部門の生産性を数値化し、正確な成果指標を計算しました。",
+        "progressText": "指標計算中...",
+        "marketingProductivity": "マーケティングチーム生産性",
+        "devProductivity": "開発チーム生産性",
+        "salesProductivity": "営業チーム生産性",
+        "overallAverage": "全体平均",
+        "marketingDetail": "• 新製品パンフレットデザイン完了<br>• 週間SNSコンテンツ計画設立<br>• 競合分析レポート作成中<br><strong style=\"color: #16A34A;\">生産性：92%</strong>",
+        "devDetail": "• ウェブサイトレスポンシブ最適化90%<br>• バグ修正：12件中10件完了<br>• 新機能開発計画レビュー<br><strong style=\"color: #16A34A;\">生産性：89%</strong>",
+        "salesDetail": "• 新規顧客5社とのコンサルティング進行中<br>• 見積書8件送信<br>• 既存顧客管理<br><strong style=\"color: #F97316;\">生産性：75%（人員不足）</strong>"
+      },
+      "step4": {
+        "title": "📋 CEO向け最終レポート完成",
+        "message": "すべての分析が完了しました！CEOがご覧いただきやすいよう洞察レポートを整理いたしました。",
+        "progressText": "レポート生成中...",
+        "projectTitle": "🚀 プロジェクト進捗状況",
+        "project1": "新製品発売プロジェクト",
+        "project2": "ウェブサイトリニューアル",
+        "project3": "顧客管理システム構築",
+        "project4": "海外マーケティング戦略",
+        "status1": "進行中 (85%)",
+        "status2": "進行中 (90%)",
+        "status3": "完了",
+        "status4": "遅延 (検討必要)",
+        "insightTitle": "💡 AI分析結果と提案事項",
+        "insight1": "<strong>1. 営業チーム強化推奨</strong> - 現在の人員は業務量に対し25%不足しています。",
+        "insight2": "<strong>2. マーケティングチーム優秀成果</strong> - 今週の生産性が15%向上しました。",
+        "insight3": "<strong>3. 開発チーム残業減少</strong> - 業務効率化により平均退社時間が1時間早まりました。",
+        "insight4": "<strong>4. 全体的推奨事項</strong> - 営業チーム増員時、全社生産性12%追加向上が期待されます。"
+      }
+    },
+    "doyoung": {
+      "navName": "ドヨン",
+      "title": "ドヨン - スマートマニュアルAI",
+      "subtitle": "RAG技術で10,000+ページのマニュアルを完璧に習得した現場専門家",
+      "pageTitle": "ドヨン - スマートマニュアルAI | KINFRI",
+      "pageDescription": "KINFRIのAI社員ドヨンがRAG技術を活用して膨大なマニュアルから瞬時に正確な解決策を見つける実際の業務シミュレーションを体験してください。",
+      "scenarioTitle": "📚 シナリオ：深夜3時の現場緊急事態",
+      "timeRange": "03:15 AM",
+      "situationLabel": "状況：",
+      "situationText": "生産ラインのCNC機械で未知のエラーが発生",
+      "problemLabel": "問題：",
+      "problemText": "複雑な10,000+ページのマニュアルから解決策を見つける必要がある",
+      "roleLabel": "ドヨンの役割：",
+      "roleText": "RAG技術を活用して瞬時に正確な解決ガイドを提供",
+      "ragTitle": "🧠 RAG（検索拡張生成）技術とは？",
+      "ragStep1Title": "1. 検索（Retrieval）",
+      "ragStep1Desc": "膨大なデータベースから関連情報を検索",
+      "ragStep2Title": "2. 拡張（Augmented）",
+      "ragStep2Desc": "検索された情報をAIモデルに接続",
+      "ragStep3Title": "3. 生成（Generation）",
+      "ragStep3Desc": "正確な情報に基づいて回答を生成",
+      "ragBenefit": "核心優位性：幻覚現象の防止 + リアルタイム正確情報提供",
+      "startButton": "▶️ ドヨンシミュレーション開始",
+      "step1": {
+        "title": "🚨 緊急事態発生",
+        "machineInfo": "生産ラインCNC-M200機械",
+        "errorCode": "エラーコード：E4-7829",
+        "errorDesc": "主軸過負荷検出 - 即座の対応が必要",
+        "manualDesc": "📋 現場作業員がマニュアルを探していますが...",
+        "manual1": "CNC機械マニュアル：2,847ページ",
+        "manual2": "工具使用ガイド：1,523ページ",
+        "manual3": "安全手順書：892ページ",
+        "manual4": "CAD/CAMソフトウェア：5,832ページ",
+        "totalPages": "合計10,094ページ",
+        "totalPagesText": "から答えを見つけなければなりません！"
+      },
+      "step2": {
+        "title": "ドヨン出動！",
+        "message1": "こんにちは！ドヨンです。E4-7829エラーを分析いたします。",
+        "message2": "ご心配なく！RAG技術ですべてのマニュアルを学習済みです！"
+      },
+      "step3": {
+        "title": "🔍 RAG技術リアルタイム処理過程",
+        "searchTitle": "第1段階：検索（Retrieval）",
+        "searchItem1": "CNC機械エラーマニュアルを検索中...",
+        "searchResult1": "📄 27件発見",
+        "searchItem2": "主軸過負荷関連文書...",
+        "searchResult2": "📄 15件発見",
+        "searchItem3": "E4-7829エラー解決策...",
+        "searchResult3": "📄 8件発見",
+        "augmentTitle": "第2段階：拡張（Augmented）",
+        "augmentDesc": "🧠 検索された情報をAIモデルに接続中...",
+        "knowledgeSource1": "CNCマニュアル p.1,247",
+        "knowledgeSource2": "安全手順書 p.89",
+        "knowledgeSource3": "工具ガイド p.334",
+        "generateTitle": "第3段階：生成（Generation）",
+        "generateDesc": "📝 正確な情報に基づいて解決策を作成中..."
+      },
+      "step4": {
+        "title": "ドヨンの完璧な解決策",
+        "solutionTitle": "🎯 E4-7829エラー解決方法",
+        "solution1Title": "即座の措置",
+        "solution1Desc": "🛑 緊急停止ボタンを押して主軸の冷却を待つ（5分間）",
+        "solution2Title": "原因確認",
+        "solution2Desc": "🔧 工具の摩耗度を確認 - 切削抵抗増加による過負荷",
+        "solution3Title": "解決策",
+        "solution3Desc": "⚙️ 工具交換 + CAMプログラム切削速度15%減少",
+        "referenceTitle": "📚 参考資料",
+        "ref1": "CNCマニュアル p.1,247 「主軸過負荷対応法」",
+        "ref2": "工具ガイド p.334 「切削工具摩耗診断」",
+        "ref3": "安全手順書 p.89 「緊急停止プロトコル」",
+        "noHallucination": "✅ 幻覚防止：マニュアルに明記された正確な情報のみ提供"
+      },
+      "step5": {
+        "title": "💭 現場作業員からの追加質問",
+        "workerQuestion": "ドヨン、CAMプログラムで切削速度を変更するにはどうすればいいですか？<br>私たちはSolidCAMを使用しています。"
+      },
+      "step6": {
+        "title": "ドヨンの詳細ソフトウェアガイド",
+        "guideTitle": "🖥️ SolidCAM切削速度変更方法",
+        "swStep1Title": "Operations Managerを開く",
+        "swStep1Desc": "メニュー：CAMWorks → Operations → Operations Manager",
+        "swStep2Title": "該当Operationを選択",
+        "swStep2Desc": "問題のある切削パス → 右クリック → Edit Definition",
+        "swStep3Title": "速度パラメータを修正",
+        "swStep3Desc1": "Speed/Feedsタブ → Spindle Speedを15%減少",
+        "swStep3Desc2": "現在：2,000 RPM → 変更：1,700 RPM",
+        "swStep4Title": "プログラムを再生成",
+        "swStep4Desc": "Generate Toolpath → Post Process → G-Code更新",
+        "softwareRefTitle": "📖 参考マニュアル",
+        "softwareRef1": "SolidCAMユーザーガイド p.2,847 「Operations Management」",
+        "softwareRef2": "CAMWorksマニュアル p.1,205 「Speed & Feed Optimization」",
+        "softwareRef3": "CNCプログラミングガイド p.445 「RPM計算方法」"
+      },
+      "step7": {
+        "title": "🎉 問題解決完了！",
+        "successTitle": "CNC機械が正常運転に復旧",
+        "metric1Title": "問題解決時間",
+        "metric1Value": "10分",
+        "metric1Sub": "一般的な解決時間：2-4時間",
+        "metric2Title": "検索したマニュアル",
+        "metric2Value": "10,094ページ",
+        "metric2Sub": "0.3秒以内に正確な回答",
+        "metric3Title": "生産損失防止",
+        "metric3Value": "￥240万",
+        "metric3Sub": "4時間生産中断コスト"
+      },
+      "step8": {
+        "title": "💎 RAG技術が提供する価値",
+        "value1Title": "正確性",
+        "value1Desc": "マニュアルに基づいた正確な情報のみ提供<br>幻覚現象を完全に遮断",
+        "value2Title": "迅速性",
+        "value2Desc": "10,000+ページから<br>0.3秒以内に回答",
+        "value3Title": "追跡可能性",
+        "value3Desc": "すべての回答に正確な<br>出典とページ番号を提供",
+        "value4Title": "多様性",
+        "value4Desc": "CNC、CAD/CAM、工具、安全<br>すべての領域を同時サポート",
+        "comparisonTitle": "🆚 従来方式 vs RAG技術",
+        "oldMethodTitle": "従来のマニュアル検索",
+        "oldMethod1": "❌ 2〜4時間かかる",
+        "oldMethod2": "❌ 複数のマニュアル同時検索が困難",
+        "oldMethod3": "❌ 人的エラーの可能性",
+        "oldMethod4": "❌ 経験不足時は解釈が困難",
+        "newMethodTitle": "ドヨンRAGシステム",
+        "newMethod1": "✅ 10分以内に完全解決",
+        "newMethod2": "✅ すべてのマニュアルを同時活用",
+        "newMethod3": "✅ 100％正確な情報",
+        "newMethod4": "✅ 初心者でも専門家レベルで対応"
+      },
+      "resultTitle": "🎯 シミュレーション完了！",
+      "resultText1": "ドヨンはRAG技術により瞬時に正確な解決策を提供しました！",
+      "resultText2": "実際にKINFRIのRAGシステムはこのような方式で膨大なマニュアルを活用します。"
+    },
+    "minseo": {
+      "navName": "ミンソ",
+      "pageTitle": "ミンソ - プライベートデータセキュリティAI | KINFRI",
+      "pageDescription": "sLLM技術でデータ漏洩の心配なく機密文書を安全に分析するオンプレミスAI",
+      "title": "ミンソ - プライベートデータセキュリティAI",
+      "subtitle": "sLLM技術でデータ漏洩を防ぎながら機密文書を安全に分析",
+      "scenarioTitle": "🔒 シナリオ：機密データ分析の依頼",
+      "timeRange": "14:30",
+      "situationLabel": "状況：",
+      "situationText": "社長から重要な契約書と設計図の分析を依頼される",
+      "problemLabel": "課題：",
+      "problemText": "外部AIサービスを使うと機密データ流出のリスクがある",
+      "roleLabel": "ミンソの役割：",
+      "roleText": "オンプレミスsLLMで100%セキュリティを維持したまま分析",
+      "startButton": "ミンソ セキュリティAIシミュレーションを開始",
+      "running": "⏳ セキュリティシミュレーションを実行中...",
+      "restart": "🔄 もう一度体験",
+      "warningTitle": "一般的なAIサービスのリスク",
+      "warning1": "📤 データが外部サーバーへ送信される",
+      "warning2": "💰 トークン課金でコストが増大",
+      "warning3": "🌐 インターネット接続が必須",
+      "warning4": "🔓 データ主権を失う",
+      "sllmTitle": "🏢 sLLM（Small Large Language Model）技術とは？",
+      "sllmStep1Title": "オンプレミス導入",
+      "sllmStep1Desc": "社内サーバーに直接導入し、データが外部に出ない",
+      "sllmStep2Title": "軽量モデル",
+      "sllmStep2Desc": "必要な機能だけに絞り高速かつ効率的に処理",
+      "sllmStep3Title": "カスタム学習",
+      "sllmStep3Desc": "企業ドメインに特化した専用AIモデル",
+      "sllmBenefitLabel": "🔑 主要なメリット：",
+      "sllmBenefitText": "データ主権の確保 + トークン費用ゼロ + 無制限利用",
+      "step1": {
+        "title": "📁 分析対象の機密文書",
+        "doc1Title": "大型プロジェクト契約書",
+        "doc1Detail": "規模：250億ウォン / 42ページ",
+        "doc1Security": "🔴 セキュリティレベル：極秘",
+        "doc2Title": "中核部品の設計図",
+        "doc2Detail": "特許技術を含む / 図面187枚",
+        "doc2Security": "🔴 セキュリティレベル：極秘",
+        "doc3Title": "社員パフォーマンスデータ",
+        "doc3Detail": "個人情報を含む / 324名",
+        "doc3Security": "🟡 セキュリティレベル：社外秘",
+        "riskTitle": "外部AIサービスを利用する際のリスク",
+        "riskCost": "想定トークン費用：月額₩380万",
+        "riskData": "データ送信：セキュリティリスクが最大化",
+        "riskInternet": "インターネット依存：事業継続性の危機"
+      },
+      "step2": {
+        "title": "ミンソ セキュリティAIが起動",
+        "message1": "こんにちは、ミンソです。機密文書の分析をお手伝いします。",
+        "message2": "処理はすべて社内サーバーで完結するので安心してください！",
+        "status1": "オンプレミス環境を確認",
+        "status2": "外部インターネット接続を遮断",
+        "status3": "社内サーバーGPU稼働中"
+      },
+      "step3": {
+        "title": "🔐 sLLMセキュリティシステム診断",
+        "isolationTitle": "ステップ1：データ隔離の確認",
+        "isolationLoc": "🏢 処理場所：社内サーバー（192.168.1.100）",
+        "isolationComm": "🌐 外部通信：完全遮断",
+        "isolationStorage": "💾 データ保存：ローカルストレージのみ",
+        "costTitle": "ステップ2：コスト削減効果",
+        "costExternal": "外部AIサービス",
+        "costToken": "トークン費用：月額₩380万",
+        "costApi": "APIコール料：月額₩120万",
+        "costTotalExt": "年間総コスト：₩6,000万",
+        "costInternal": "ミンソ sLLM",
+        "costTokenFree": "トークン費用：₩0",
+        "costApiFree": "APIコール料：₩0",
+        "costTotalInt": "年間総コスト：₩0",
+        "costSaving": "💡 年間削減額：₩6,000万",
+        "perfTitle": "ステップ3：パフォーマンス最適化の確認",
+        "perfModel": "モデルサイズ：3.8GB（GPT-4比95%軽量化）",
+        "perfSpeed": "応答速度：0.8秒（APIサービスの3倍の速さ）",
+        "perfConcurrent": "同時処理：無制限（API制限なし）"
+      },
+      "step4": {
+        "title": "ミンソが機密文書を分析",
+        "message1": "これから機密文書を安全に分析します。",
+        "message2": "すべての処理は社内で行われ、一瞬たりとも外部に出ません！",
+        "contractTitle": "契約書を分析中...",
+        "contractResult": "🎯 主要な発見",
+        "contract1": "契約金額：₩250億（VAT別）",
+        "contract2": "納期：2025年12月31日",
+        "contract3": "リスク条項：遅延時は日次0.1%の違約金",
+        "contract4": "ボーナス条項：早期完了で5%インセンティブ",
+        "blueprintTitle": "設計図を分析中...",
+        "blueprintResult": "🔧 技術分析",
+        "blueprint1": "特許：独占技術を3件含む",
+        "blueprint2": "製造難易度：高（精度±0.01mm）",
+        "blueprint3": "想定原価：1ユニット₩128,000",
+        "blueprint4": "品質リスク：熱処理工程で注意が必要",
+        "hrTitle": "人事データを分析中...",
+        "hrResult": "📊 パフォーマンス分析サマリー",
+        "hr1": "優秀社員：43名（13.3%）",
+        "hr2": "平均評価スコア：78.2",
+        "hr3": "離職リスク：12名（要対応）",
+        "hr4": "昇進候補：18名（検討推奨）",
+        "securityNote1": "この情報は社内サーバーだけで処理されました",
+        "securityNote2": "設計情報は外部に送信されていません",
+        "securityNote3": "個人情報は完全に保護されています"
+      },
+      "step5": {
+        "title": "ミンソの総合分析レポート",
+        "reportTitle": "📋 経営層向けレポート（機密）",
+        "conclusionTitle": "🎯 主要結論",
+        "conclusionText": "プロジェクト成功確率：87%",
+        "conclusionDetail": "契約条件は有利で技術力も十分。だがスケジュール管理とキーパーソンの確保が重要",
+        "recommendTitle": "💡 戦略的提言",
+        "recommend1Title": "スケジュール管理",
+        "recommend1Text": "早期完了ボーナス（₩12.5億）獲得のため、スケジュールを2か月前倒し推奨",
+        "recommend2Title": "人材マネジメント",
+        "recommend2Text": "離職リスク12名のうち中核技術者3名を優先面談し処遇改善を実施",
+        "recommend3Title": "技術対応",
+        "recommend3Text": "熱処理工程の品質向上に向けて外部専門家との連携を検討",
+        "recommend4Title": "収益性分析",
+        "recommend4Text": "現行コストベースの純利益率は23.7%、目標達成時は28.2%を想定",
+        "securityTitle": "🔐 セキュリティ保証",
+        "securityMainText": "一連の分析はすべて社内sLLMのみで処理しました",
+        "security1": "✅ 外部サーバーへの送信：0件",
+        "security2": "✅ データ保管：社内暗号化ストレージ",
+        "security3": "✅ 処理コスト：₩0（トークン費用なし）",
+        "security4": "✅ アクセス権限：承認された社員のみ"
+      },
+      "step6": {
+        "title": "🎉 セキュリティ分析が完了!",
+        "successMessage": "100%セキュリティを維持したまま完璧に分析を完了",
+        "metric1Title": "データセキュリティ",
+        "metric1Value": "100%",
+        "metric1Sub": "外部流出0件",
+        "metric2Title": "処理コスト",
+        "metric2Value": "₩0",
+        "metric2Sub": "トークン費用なし",
+        "metric3Title": "分析時間",
+        "metric3Value": "7分",
+        "metric3Sub": "外部API比で3倍の速さ",
+        "metric4Title": "分析精度",
+        "metric4Value": "94.8%",
+        "metric4Sub": "ドメイン特化学習の効果"
+      },
+      "step7": {
+        "title": "💎 sLLM技術が提供する価値",
+        "value1Title": "データ主権",
+        "value1Text": "すべてのデータを社内のみで処理し完全なコントロールを確保",
+        "value2Title": "コストゼロ",
+        "value2Text": "トークン課金なしで無制限に利用可能",
+        "value3Title": "最適化されたカスタマイズ",
+        "value3Text": "企業ドメインに特化した専用AIモデル",
+        "value4Title": "高性能",
+        "value4Text": "軽量化による高速レスポンス、同時処理は無制限",
+        "comparisonTitle": "🆚 外部AIサービス vs sLLM",
+        "externalTitle": "外部AIサービス",
+        "external1": "❌ データが外部送信される（セキュリティリスク）",
+        "external2": "❌ トークン課金（毎月数百万円規模）",
+        "external3": "❌ インターネット接続が不可欠",
+        "external4": "❌ APIコール制限あり",
+        "external5": "❌ データ主権を喪失",
+        "sllmTitle": "KINFRI sLLM",
+        "sllm1": "✅ オンプレミス処理（100%セキュア）",
+        "sllm2": "✅ トークン費用なし（無制限）",
+        "sllm3": "✅ オフライン稼働が可能",
+        "sllm4": "✅ コール制限なし",
+        "sllm5": "✅ データを完全にコントロール",
+        "roiTitle": "📈 投資対効果（ROI）の算出",
+        "roiSaving": "年間コスト削減額：₩6,000万",
+        "roiSecurity": "セキュリティリスク削減：プライスレス",
+        "roiProductivity": "生産性向上：30%"
+      },
+      "resultTitle": "🎯 セキュリティAIシミュレーション完了!",
+      "resultText1": "ミンソは100%セキュリティを維持しながら機密データ分析を完了しました!",
+      "resultText2": "KINFRIのsLLMソリューションはこのようにデータセキュリティを保証します。",
+      "cta": {
+        "titleHtml": "ミンソのような<strong>プライベートデータセキュリティAI</strong>を貴社にも導入しましょう！",
+        "bullet1": "✅ 100%オンプレミス導入",
+        "bullet2": "✅ データ外部流出リスクゼロ",
+        "bullet3": "✅ トークン課金の心配なし",
+        "bullet4": "✅ 企業ニーズに合わせた専用モデル"
+      }
+    },
+    "common": {
+      "progressLabel": "進行率",
+      "success": "✅ 作業が正常に完了しました！",
+      "running": "⏳ シミュレーション実行中...",
+      "restart": "🔄 再体験",
+      "consultButton": "無料相談",
+      "progress": {
+        "preparing": "シミュレーション準備中...",
+        "emergency": "緊急事態発生...",
+        "doyoungStart": "ドヨン出動！",
+        "ragProcessing": "RAG技術処理中...",
+        "solutionGen": "解決策生成中...",
+        "additionalQ": "追加質問処理中...",
+        "detailedGuide": "詳細ガイド提供中...",
+        "resultAnalysis": "結果分析中...",
+        "completed": "シミュレーション完了！",
+        "processing": "処理中..."
+      }
+    }
+  },
+  "about": {
+    "title": "AIイノベーションのパートナー、KINFRI",
+    "description": "KINFRIは製造業及び中小企業のデジタルトランスフォーメーションを先導し、AI技術を通じて持続可能な成長を支援いたします。",
+    "mission": "私たちのミッション：AIによりお客様のビジネスを革新し、競争力を最大化いたします。",
+    "vision": "私たちのビジョン：全ての中小企業がAIの恩恵を享受する世界を創造いたします。",
+    "badges": {
+      "certifiedPartner": "AI認定パートナー",
+      "customerSatisfaction": "99% 顧客満足度",
+      "isoCompliance": "ISO 27001準拠"
+    },
+    "features": {
+      "e2e": {
+        "title": "E2Eプロセス支援",
+        "description": "ユースケース発掘から開発、保守まで全工程をワンストップで支援いたします。"
+      },
+      "security": {
+        "title": "セキュリティ中心設計",
+        "description": "機密企業データを保護するオンプレミスAIソリューションを提供いたします。"
+      },
+      "customized": {
+        "title": "現場カスタマイズソリューション",
+        "description": "製造業特性に最適化されたドメイン特化AI技術を提供いたします。"
+      },
+      "expertTeam": {
+        "title": "専門家チーム",
+        "description": "生成AI分野最高の専門家がお客様の成功を保証いたします。"
+      }
+    },
+    "stats": {
+      "founded": "設立年度",
+      "projects": "プロジェクト完了",
+      "satisfaction": "顧客満足度",
+      "support": "技術支援"
+    },
+    "imageAlt": "KINFRI専門家チーム"
+  },
+  "credentials": {
+    "title": "検証された専門性",
+    "aiTeam": {
+      "title": "AI研究開発チーム",
+      "description": "サムスン電子、LG電子出身<br>5年+ AIエンジニア経歴",
+      "badges": [
+        "修博士学位",
+        "AI特許登録"
+      ]
+    },
+    "consultingTeam": {
+      "title": "製造業コンサルティングチーム",
+      "description": "現代重工業、ポスコ出身<br>10年+ 製造革新経歴",
+      "badges": [
+        "PMP認定",
+        "シックスシグマBB"
+      ]
+    },
+    "securityTeam": {
+      "title": "データセキュリティチーム",
+      "description": "金融界セキュリティ専門家<br>15年+ 情報セキュリティ経歴",
+      "badges": [
+        "CISSP認定",
+        "ISO 27001"
+      ]
+    },
+    "certBadges": {
+      "masterDegree": "修士/博士号",
+      "aiPatent": "AI特許保有者",
+      "pmpCert": "PMP認定",
+      "sixSigmaBB": "シックスシグマBB",
+      "cisspCert": "CISSP認定",
+      "iso27001": "ISO 27001"
+    }
+  },
+  "process": {
+    "title": "KINFRI AI導入プロセス（3段階完了）",
+    "step1": {
+      "title": "現場分析及びコンサルティング（1週間）",
+      "description": "• 生産工程現況分析<br>• AI導入可能領域識別<br>• ROI予測レポート提供"
+    },
+    "step2": {
+      "title": "カスタマイズAIソリューション開発（4週間）",
+      "description": "• 企業データ基盤モデル構築<br>• 既存システムとの連携<br>• パイロットテスト及び検証"
+    },
+    "step3": {
+      "title": "運営及び持続管理（継続）",
+      "description": "• 24/7モニタリング及び支援<br>• パフォーマンス最適化及びアップデート<br>• 従業員教育及び技術移転"
+    }
+  },
+  "cases": {
+    "title": "成功事例",
+    "description": "KINFRI AIソリューションで革新を達成した企業の実際成果",
+    "manufacturing": {
+      "category": "製造業",
+      "title": "AIで不良率10%減少",
+      "description": "RAGベース品質管理システムで検査時間20%短縮及び生産効率性向上",
+      "tech1": "RAG",
+      "tech2": "AIビジョン",
+      "tech3": "品質管理",
+      "result1Value": "10%",
+      "result1Label": "不良率減少",
+      "result2Value": "20%",
+      "result2Label": "検査時間短縮"
+    },
+    "corporate": {
+      "category": "一般企業",
+      "title": "従業員生産性30%向上",
+      "description": "プライベートsLLMで社内業務自動化及びセキュリティ強化",
+      "tech1": "sLLM",
+      "tech2": "ノーコード",
+      "tech3": "オンプレミス",
+      "result1Value": "30%",
+      "result1Label": "業務時間節約",
+      "result2Value": "100%",
+      "result2Label": "データセキュリティ"
+    },
+    "smartFactory": {
+      "category": "スマートファクトリー",
+      "title": "音声で制御効率40%向上",
+      "description": "95%音声認識精度のSTTスマートファクトリー制御自動化",
+      "tech1": "STT",
+      "tech2": "TTS",
+      "tech3": "音声制御",
+      "result1Value": "95%",
+      "result1Label": "音声認識精度",
+      "result2Value": "40%",
+      "result2Label": "制御効率向上"
+    },
+    "customerService": {
+      "category": "カスタマーサービス",
+      "title": "AIチャットボットで月17,000件お問い合わせ処理",
+      "description": "RAGベース顧客対応チャットボットで24時間自動お問い合わせ処理システムを構築",
+      "tech1": "RAG",
+      "tech2": "チャットボット",
+      "tech3": "24/7サービス",
+      "result1Value": "17K",
+      "result1Label": "月間お問い合わせ処理",
+      "result2Value": "90%",
+      "result2Label": "顧客満足度"
+    },
+    "cta": {
+      "title": "貴社も革新の準備はお済みですか？",
+      "description": "KINFRI専門家と共にカスタマイズAIソリューションを企画してみませんか。",
+      "button": "🤖 AI無料相談"
+    }
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "description": "貴社のAI革新の旅を共に始めましょう。専門家がカスタマイズソリューションをご提案いたします。",
+    "methods": {
+      "phone": {
+        "title": "電話お問い合わせ",
+        "number": "+82-10-4063-9062",
+        "hours": "平日 9:00 - 18:00"
+      },
+      "email": {
+        "title": "Eメール",
+        "address": "thinkcare@naver.com",
+        "availability": "24時間受付可能"
+      },
+      "address": {
+        "title": "住所",
+        "location": "ソウル特別市江南区テヘラン路25ギル20、905号",
+        "note": "訪問相談予約制"
+      }
+    },
+    "form": {
+      "company": "会社名 *",
+      "name": "担当者名 *",
+      "phone": "連絡先 *",
+      "email": "Eメール *",
+      "solution": "関心ソリューション",
+      "solutionPlaceholder": "選択してください",
+      "solutionOptions": {
+        "aiAgent": "AI Agentビジネス自動化",
+        "rag": "RAGベースカスタマイズアプリケーション",
+        "sllm": "Private Data基盤sLLM",
+        "chatbot": "ノーコードAIチャットボットビルダー",
+        "voice": "STT/TTS音声ソリューション",
+        "consulting": "AIコンサルティング"
+      },
+      "message": "お問い合わせ内容 *",
+      "messagePlaceholder": "プロジェクト規模、導入時期、予算など詳細な要求事項をご記入ください。",
+      "privacyConsent": "個人情報収集及び利用に同意いたします。*",
+      "submit": "📧 無料相談申込み"
+    }
+  },
+  "footer": {
+    "brandText": "KINFRI",
+    "description": "製造/中小企業のAI転換を先導し、持続可能な成長のための知能型ソリューションを提供いたします。",
+    "solutions": {
+      "title": "ソリューション",
+      "aiAgent": "AI Agent自動化",
+      "rag": "RAGアプリケーション",
+      "sllm": "プライベートsLLM",
+      "nocode": "ノーコードチャットボット",
+      "voice": "STT/TTS音声認識"
+    },
+    "company": {
+      "title": "会社",
+      "about": "会社紹介",
+      "cases": "成功事例",
+      "blog": "ブログ",
+      "careers": "採用"
+    },
+    "support": {
+      "title": "支援",
+      "contact": "お問い合わせ",
+      "techSupport": "技術支援",
+      "docs": "ドキュメント",
+      "faq": "FAQ"
+    },
+    "contactInfo": {
+      "title": "連絡先",
+      "email": "Eメール：",
+      "emailValue": "thinkcare@naver.com",
+      "phone": "電話：",
+      "phoneValue": "+82-10-4063-9062",
+      "address": "住所：",
+      "addressValue": "ソウル特別市江南区"
+    },
+    "copyright": "© 2025 KINFRI. All rights reserved.",
+    "links": {
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約"
+    }
+  },
+  "aiModal": {
+    "title": "🤖 AI 無料相談",
+    "subtitle": "カスタマイズされたAIソリューションの推奨を受けてください",
+    "closeButton": "×",
+    "progressText": "相談進行率：",
+    "inputPlaceholder": "メッセージを入力してください...",
+    "sendButton": "送信",
+    "recommendationTitle": "🎯 AIカスタム推奨結果",
+    "consultButton": "📞 専門相談申込",
+    "restartButton": "🔄 再相談",
+    "typingIndicator": "AIが分析中です"
+  },
+  "aiSimulation": {
+    "title": "🎬 AI社員の実際の働く姿",
+    "description": "シミュレーションですが、KINFRI AIは実際にこのような仕事をします！<br>ワンクリックでAI社員の驚くべき能力を直接体験してください。",
+    "airi": {
+      "name": "愛理 (Airi)",
+      "role": "AI IT管理専門家",
+      "description": "夜通し静かに会社のPCを見守り、問題を解決し、最適な状態で管理する頼もしいIT社員です。",
+      "capability1": "自動PC最適化",
+      "capability2": "セキュリティ監視",
+      "capability3": "データバックアップ",
+      "stat1Value": "20%",
+      "stat1Label": "ITコスト削減",
+      "stat2Value": "15%",
+      "stat2Label": "生産性向上",
+      "button": "🎬 愛理の実際業務を体験"
+    },
+    "gyeonu": {
+      "name": "見雨 (Gyeonu)",
+      "role": "AI見積専門家",
+      "description": "10年分の見積データを学習し、10分で正確で競争力のある見積書を自動生成します。",
+      "capability1": "ビッグデータ分析",
+      "capability2": "即時見積生成",
+      "capability3": "96%精度",
+      "stat1Value": "90%",
+      "stat1Label": "時間短縮",
+      "stat2Value": "3日→10分",
+      "stat2Label": "見積処理",
+      "button": "💼 見雨見積システムを体験"
+    },
+    "jisu": {
+      "name": "智秀 (Jisu)",
+      "role": "AI業務分析アシスタント",
+      "description": "社員の業務活動を分析し、核心だけを的確に抽出して社長様にデータベースの業務報告書を提供します。",
+      "capability1": "業務パターン分析",
+      "capability2": "Llama 3 AI活用",
+      "capability3": "カスタム報告書",
+      "stat1Value": "3.5時間",
+      "stat1Label": "報告準備節約",
+      "stat2Value": "100%",
+      "stat2Label": "データ精度",
+      "button": "📊 智秀業務分析を体験"
+    },
+    "doyoung": {
+      "name": "道英 (Do-Young)",
+      "role": "AIマニュアル専門家",
+      "description": "10,000+ページのマニュアルをすべて学習し、現場の問題を即座に解決するスマートな技術支援専門家です。",
+      "capability1": "RAG検索技術",
+      "capability2": "ハルシネーション防止",
+      "capability3": "CNC/CAD/CAM専門",
+      "stat1Value": "95%",
+      "stat1Label": "問題解決成功率",
+      "stat2Value": "4時間→10分",
+      "stat2Label": "解決時間短縮",
+      "button": "📚 道英マニュアルAIを体験"
+    },
+    "minseo": {
+      "name": "敏瑞 (Min-Seo)",
+      "role": "AIセキュリティデータ専門家",
+      "description": "オンプレミスsLLMで機密データを外部流出リスクなしに安全に分析するプライベートAI専門家です。",
+      "capability1": "オンプレミス処理",
+      "capability2": "トークンコストゼロ",
+      "capability3": "データ主権確保",
+      "stat1Value": "100%",
+      "stat1Label": "セキュリティ維持",
+      "stat2Value": "₩6,000万円",
+      "stat2Label": "年間節約",
+      "button": "🔒 敏瑞セキュリティAIを体験"
+    },
+    "cta": {
+      "title": "🎯 これはシミュレーションです",
+      "description": "ですが、KINFRI の AI 社員は実際にこのような業務をこなしています！<br>無料相談で、具体的な導入方法をご確認ください。",
+      "button": "🤖 実装について無料相談する"
+    }
+  },
+  "ai_consultant": {
+    "questions": {
+      "greeting": {
+        "text": "KINFRI AI相談へようこそ！😊\n\nより正確なカスタマイズ相談を提供するため、いくつかご質問させていただきます。準備はよろしいですか？",
+        "options": ["はい、始めましょう", "少々お待ちください"]
+      },
+      "business_problem": {
+        "text": "現在、貴社で最も大きなビジネス課題や解決したい問題は何ですか？",
+        "options": [
+          "人材不足と業務効率",
+          "品質管理と不良率改善",
+          "顧客対応とサービス改善",
+          "コスト削減と生産性向上",
+          "データ管理と活用",
+          "その他"
+        ]
+      },
+      "company_size": {
+        "text": "貴社の規模はいかがですか？",
+        "options": [
+          "10名未満（小規模）",
+          "10-50名（中小企業）",
+          "50-200名（中堅企業）",
+          "200名以上（大企業）"
+        ]
+      },
+      "budget_range": {
+        "text": "AIソリューション導入のご予算範囲はいかがですか？",
+        "options": [
+          "500万円未満",
+          "500万円 - 2,000万円",
+          "2,000万円 - 5,000万円",
+          "5,000万円以上",
+          "効果に応じて予算は調整可能"
+        ]
+      },
+      "timeline": {
+        "text": "いつまでにAIソリューションの導入をお考えですか？",
+        "options": [
+          "1ヶ月以内",
+          "3ヶ月以内",
+          "6ヶ月以内",
+          "1年以内",
+          "時期は柔軟に調整可能"
+        ]
+      },
+      "automation_interest": {
+        "text": "どの業務領域の自動化やAI導入に最もご関心がありますか？",
+        "options": [
+          "生産工程管理・監視",
+          "文書検索・ナレッジ管理",
+          "顧客相談・お問い合わせ対応",
+          "内部業務自動化",
+          "音声認識・制御システム",
+          "全体的なスマート化"
+        ]
+      }
+    },
+    "prompts": {
+      "recommendation_header": "お客様の情報に基づき、KINFRIのAIソリューションの中から最適なものをお勧めください。",
+      "customer_summary": "**お客様情報要約：**",
+      "solution_options": "**KINFRI ソリューション選択肢：**",
+      "format_solution": "**🎯 推奨ソリューション**",
+      "format_reason": "**💡 選択理由**",
+      "format_effect": "**📈 期待効果**",
+      "format_roi": "**💰 期待投資対効果**",
+      "format_implementation": "**🚀 導入方案**",
+      "format_next_step": "**📞 次のステップ**",
+      "next_step_text": "無料専門相談を通じて、より詳細な分析とカスタマイズ提案をお受けください。",
+      "response_format": "以下の形式でご回答ください：",
+      "effect_time": "業務処理時間30-50%短縮",
+      "effect_cost": "月間運営費200-500万ウォン削減",
+      "effect_accuracy": "業務精度95%以上向上",
+      "roi_short": "6ヶ月以内に投資回収、年間ROI200%以上を期待",
+      "roi_medium": "12ヶ月以内に投資回収、年間ROI150%以上を期待",
+      "roi_long": "優秀な投資対効果実現可能、長期的競争力確保",
+      "step1": "第1段階：要件分析及びPOC実施（2-4週間）",
+      "step2": "第2段階：カスタムソリューション開発（4-8週間）",
+      "step3": "第3段階：テスト及び展開（2-4週間）",
+      "step4": "第4段階：教育及び安定化（2週間）",
+      "detailed_proposal": "具体的なROI計算と実装計画をご提供いたします。",
+      "reason_template": "これにより貴社の主要課題である'{businessProblem}'を解決し、'{interest}'領域の効率性を大幅に改善できます。"
+    },
+    "solutions": {
+      "ai_agent": "AIエージェント（業務自動化）- 生産管理、在庫管理、設備監視",
+      "rag_application": "RAGアプリケーション（文書検索）- 品質管理、ナレッジ管理",
+      "private_sllm": "プライベートsLLM（カスタムAI）- データセキュリティ、オンプレミス",
+      "nocode_chatbot": "ノーコードチャットボットビルダー - 顧客対応、内部問い合わせ処理",
+      "stt_tts": "STT/TTS（音声認識）- スマートファクトリー、制御システム"
+    },
+    "messages": {
+      "generation_error": "推奨生成中にエラーが発生しました。直接相談をお申し込みください。",
+      "consultation_complete": "🤖 AI事前相談完了",
+      "timestamp": "相談完了時間：",
+      "expert_followup": "専門相談員がより詳細な相談を提供いたします。",
+      "answer_prefix": "回答："
+    },
+    "labels": {
+      "main_problem": "主要問題：",
+      "company_size": "会社規模：",
+      "budget_range": "予算範囲：",
+      "timeline": "導入希望時期：",
+      "interest_area": "関心領域：",
+      "unspecified": "未指定"
+    }
+  },
+  "aria": {
+    "langSelect": "言語を選択"
+  },
+  "meta": {
+    "title": "KINFRI（キンフリ）- 製造業・中小企業向けAIソリューション",
+    "description": "KINFRIは製造業と中小企業向けにAIエージェント、RAG、sLLMなどのカスタマイズAIソリューションを提供し、生産性向上とコスト削減を実現します。",
+    "keywords": "KINFRI, キンフリ, AIソリューション, 製造業AI, 中小企業DX, AIエージェント, RAG, sLLM, 人工知能",
+    "ogTitle": "KINFRI - 製造業・中小企業のAI変革パートナー",
+    "ogDescription": "AIエージェント、RAG、sLLM技術で製造業の生産性を革新するKINFRIのカスタマイズAIソリューションを体験してください。"
+  }
+}

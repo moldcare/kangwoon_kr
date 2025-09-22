@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>นโยบายความเป็นส่วนตัว - KINFRI</title>
+    <meta name="description" content="นโยบายความเป็นส่วนตัวของ KINFRI - โซลูชัน AI เชิงเฉพาะทาง เช่น AI Agent, RAG, sLLM สำหรับอุตสาหกรรมการผลิตและธุรกิจขนาดกลางและขนาดย่อม">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+Thai:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon-apple.png">
+    
+    <style>
+        .legal-document {
+            background-color: var(--bg-primary);
+            padding: var(--space-20) 0;
+            min-height: calc(100vh - 80px);
+        }
+        
+        .legal-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 var(--space-6);
+        }
+        
+        .legal-header {
+            text-align: center;
+            margin-bottom: var(--space-12);
+            padding-bottom: var(--space-8);
+            border-bottom: 2px solid var(--neutral-200);
+        }
+        
+        .legal-title {
+            font-family: var(--font-heading);
+            font-size: var(--text-4xl);
+            font-weight: var(--weight-bold);
+            color: var(--text-primary);
+            margin-bottom: var(--space-4);
+        }
+        
+        .legal-subtitle {
+            font-size: var(--text-lg);
+            color: var(--text-secondary);
+            margin-bottom: var(--space-6);
+        }
+        
+        .legal-date {
+            background-color: var(--bg-secondary);
+            color: var(--primary-blue);
+            padding: var(--space-2) var(--space-4);
+            border-radius: var(--radius-full);
+            font-size: var(--text-sm);
+            font-weight: var(--weight-medium);
+        }
+        
+        .legal-section {
+            margin-bottom: var(--space-10);
+        }
+        
+        .legal-section h2 {
+            font-family: var(--font-heading);
+            font-size: var(--text-2xl);
+            font-weight: var(--weight-semibold);
+            color: var(--text-primary);
+            margin-bottom: var(--space-6);
+            padding-bottom: var(--space-3);
+            border-bottom: 2px solid var(--primary-blue);
+        }
+        
+        .legal-section h3 {
+            font-size: var(--text-xl);
+            font-weight: var(--weight-semibold);
+            color: var(--text-primary);
+            margin: var(--space-6) 0 var(--space-4) 0;
+        }
+        
+        .legal-section p {
+            font-size: var(--text-base);
+            line-height: var(--leading-relaxed);
+            color: var(--text-secondary);
+            margin-bottom: var(--space-4);
+        }
+        
+        .legal-section strong {
+            color: var(--text-primary);
+            font-weight: var(--weight-semibold);
+        }
+        
+        .legal-section ul, .legal-section ol {
+            margin: var(--space-4) 0;
+            padding-left: var(--space-6);
+        }
+        
+        .legal-section li {
+            margin-bottom: var(--space-2);
+            font-size: var(--text-base);
+        }
+        
+        .legal-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: var(--space-6) 0;
+            background-color: var(--bg-primary);
+            border: 1px solid var(--neutral-200);
+        }
+        
+        .legal-table th,
+        .legal-table td {
+            padding: var(--space-4);
+            text-align: left;
+            border-bottom: 1px solid var(--neutral-200);
+            font-size: var(--text-sm);
+        }
+        
+        .legal-table th {
+            background-color: var(--bg-tertiary);
+            font-weight: var(--weight-semibold);
+            color: var(--text-primary);
+        }
+        
+        .contact-info {
+            background-color: var(--bg-secondary);
+            padding: var(--space-6);
+            border-radius: var(--radius-lg);
+            margin: var(--space-8) 0;
+        }
+        
+        .contact-info h3 {
+            color: var(--primary-blue);
+            margin-bottom: var(--space-4);
+        }
+        
+        .contact-details {
+            display: grid;
+            gap: var(--space-3);
+        }
+        
+        .contact-item {
+            display: flex;
+            gap: var(--space-3);
+        }
+        
+        .contact-label {
+            font-weight: var(--weight-medium);
+            min-width: 100px;
+            color: var(--text-secondary);
+        }
+        
+        .contact-value {
+            color: var(--text-primary);
+        }
+        
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            color: var(--primary-blue);
+            text-decoration: none;
+            font-weight: var(--weight-medium);
+            margin-bottom: var(--space-8);
+            transition: var(--transition-fast);
+        }
+        
+        .back-link:hover {
+            color: var(--primary-blue-dark);
+        }
+        
+        .back-link::before {
+            content: "←";
+            font-size: var(--text-lg);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="/" class="brand-link">
+                        <img src="/images/logo.png" alt="KINFRI Logo" class="brand-logo">
+                    </a>
+                </div>
+                
+                <div class="navbar-content">
+                    <div class="navbar-menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="/" class="nav-link">หน้าหลัก</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/#about" class="nav-link">เกี่ยวกับบริษัท</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/#solutions" class="nav-link">โซลูชัน</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/#contact" class="nav-link">ติดต่อเรา</a>
+                            </li>
+                        </ul>
+                        
+                        <div class="navbar-actions">
+                            <select class="language-select" id="languageSelect">
+                                <option value="ko">한국어</option>
+                                <option value="en">English</option>
+                                <option value="zh">中文</option>
+                                <option value="vi">Tiếng Việt</option>
+                                <option value="ja">日本語</option>
+                                <option value="th" selected>ไทย</option>
+                                <option value="id">Bahasa Indonesia</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="legal-document">
+            <div class="legal-container">
+                <a href="/" class="back-link">กลับสู่หน้าหลัก</a>
+                
+                <div class="legal-header">
+                    <h1 class="legal-title">นโยบายความเป็นส่วนตัว</h1>
+                    <p class="legal-subtitle">KINFRI - ผู้เชี่ยวชาญโซลูชัน AI สำหรับอุตสาหกรรมการผลิต</p>
+                    <span class="legal-date">อัปเดตล่าสุด: 21 กันยายน 2025</span>
+                </div>
+
+                <div class="legal-section">
+                    <h2>1. ข้อมูลทั่วไป</h2>
+                    <p>KINFRI ("เรา", "บริษัท", หรือ "KINFRI") ให้ความสำคัญกับการปกป้องความเป็นส่วนตัวและข้อมูลส่วนบุคคลของท่าน นโยบายความเป็นส่วนตัวฉบับนี้อธิบายวิธีการที่เราเก็บรวบรวม ใช้ เปิดเผย และปกป้องข้อมูลส่วนบุคคลของท่านเมื่อท่านใช้เว็บไซต์และบริการ AI ของเรา</p>
+                    
+                    <p>นโยบายนี้จัดทำขึ้นเพื่อให้สอดคล้องกับ <strong>พระราชบัญญัติคุ้มครองข้อมูลส่วนบุคคล พ.ศ. 2562 (PDPA)</strong> และกฎหมายที่เกี่ยวข้องอื่นๆ ในประเทศไทย</p>
+                </div>
+
+                <div class="legal-section">
+                    <h2>2. ข้อมูลส่วนบุคคลที่เราเก็บรวบรวม</h2>
+                    <p>เราอาจเก็บรวบรวมข้อมูลส่วนบุคคลประเภทต่างๆ ดังต่อไปนี้:</p>
+                    
+                    <ul>
+                        <li><strong>ข้อมูลการติดต่อ:</strong> ชื่อ นามสกุล ที่อยู่อีเมล หมายเลขโทรศัพท์ ที่อยู่ที่ทำงาน</li>
+                        <li><strong>ข้อมูลบริษัท:</strong> ชื่อบริษัท ตำแหน่งงาน ข้อมูลธุรกิจ ขนาดองค์กร</li>
+                        <li><strong>ข้อมูลทางเทคนิค:</strong> ที่อยู่ IP ประเภทเบราว์เซอร์ ระบบปฏิบัติการ ข้อมูลการใช้งานเว็บไซต์</li>
+                        <li><strong>ข้อมูลการสื่อสาร:</strong> ประวัติการสนทนา ข้อความสอบถาม เนื้อหาที่ท่านส่งมาให้เรา</li>
+                        <li><strong>ข้อมูลการใช้บริการ:</strong> ข้อมูลการใช้งานโซลูชัน AI ประวัติการเข้าถึงระบบ ล็อกการทำงาน</li>
+                    </ul>
+                </div>
+
+                <div class="legal-section">
+                    <h2>3. วัตถุประสงค์ในการประมวลผลข้อมูลส่วนบุคคล</h2>
+                    <p>เราประมวลผลข้อมูลส่วนบุคคลของท่านเพื่อวัตถุประสงค์ดังต่อไปนี้:</p>
+                    
+                    <ul>
+                        <li><strong>การให้บริการ:</strong> จัดหาและปรับปรุงโซลูชัน AI Agent, RAG, sLLM, และบริการอื่นๆ</li>
+                        <li><strong>การสื่อสาร:</strong> ตอบกลับคำถาม ให้การสนับสนุนทางเทคนิค และแจ้งข้อมูลการอัปเดต</li>
+                        <li><strong>การปรับปรุงบริการ:</strong> วิเคราะห์การใช้งานเพื่อพัฒนาและปรับปรุงบริการของเรา</li>
+                        <li><strong>การรักษาความปลอดภัย:</strong> ปกป้องระบบและข้อมูลจากการเข้าถึงโดยไม่ได้รับอนุญาต</li>
+                        <li><strong>การปฏิบัติตามกฎหมาย:</strong> ปฏิบัติตามข้อกำหนดทางกฎหมายและระเบียบข้อบังคับ</li>
+                        <li><strong>การตลาด:</strong> ส่งข้อมูลผลิตภัณฑ์และบริการที่เกี่ยวข้อง (หากท่านให้ความยินยอม)</li>
+                    </ul>
+                </div>
+
+                <div class="legal-section">
+                    <h2>4. ฐานกฎหมายในการประมวลผล</h2>
+                    <p>เราประมวลผลข้อมูลส่วนบุคคลของท่านโดยอาศัยฐานกฎหมายดังต่อไปนี้:</p>
+                    
+                    <ul>
+                        <li><strong>ความยินยอม:</strong> เมื่อท่านให้ความยินยอมในการประมวลผลข้อมูลส่วนบุคคล</li>
+                        <li><strong>การปฏิบัติตามสัญญา:</strong> เพื่อการปฏิบัติตามสัญญาที่ท่านเป็นคู่สัญญา</li>
+                        <li><strong>ประโยชน์อันชอบธรรม:</strong> เพื่อประโยชน์อันชอบธรรมในการดำเนินธุรกิจ</li>
+                        <li><strong>การปฏิบัติตามกฎหมาย:</strong> เพื่อปฏิบัติตามพันธะทางกฎหมาย</li>
+                    </ul>
+                </div>
+
+                <div class="legal-section">
+                    <h2>5. การเปิดเผยข้อมูลส่วนบุคคล</h2>
+                    <p>เราอาจเปิดเผยข้อมูลส่วนบุคคลของท่านในกรณีดังต่อไปนี้:</p>
+                    
+                    <ul>
+                        <li><strong>ผู้ให้บริการ:</strong> บุคคลที่สามที่ให้บริการสนับสนุนการดำเนินงานของเรา เช่น การโฮสติ้ง การวิเคราะห์ข้อมูล</li>
+                        <li><strong>คู่ค้าทางธุรกิจ:</strong> เมื่อได้รับความยินยอมจากท่านเพื่อจุดประสงค์ทางธุรกิจที่เฉพาะเจาะจง</li>
+                        <li><strong>หน่วยงานกำกับดูแล:</strong> เมื่อกฎหมายกำหนดให้ต้องเปิดเผย</li>
+                        <li><strong>การโอนธุรกิจ:</strong> ในกรณีการควบรวมกิจการ การซื้อขาย หรือการโอนสินทรัพย์</li>
+                    </ul>
+                    
+                    <p><strong>หมายเหตุสำคัญ:</strong> เราจะไม่ขายหรือเช่าข้อมูลส่วนบุคคลของท่านให้กับบุคคลที่สามเพื่อวัตถุประสงค์ทางการตลาดของพวกเขา</p>
+                </div>
+
+                <div class="legal-section">
+                    <h2>6. การรักษาความปลอดภัยของข้อมูล</h2>
+                    <p>เราใช้มาตรการรักษาความปลอดภัยทางเทคนิคและองค์กรที่เหมาะสมเพื่อปกป้องข้อมูลส่วนบุคคลของท่าน ประกอบด้วย:</p>
+                    
+                    <ul>
+                        <li><strong>การเข้ารหัส:</strong> ข้อมูลที่ส่งและเก็บจะถูกเข้ารหัสด้วยมาตรฐาน SSL/TLS</li>
+                        <li><strong>การควบคุมการเข้าถึง:</strong> จำกัดการเข้าถึงข้อมูลเฉพาะพนักงานที่ได้รับอนุญาต</li>
+                        <li><strong>การสำรองข้อมูล:</strong> สำรองข้อมูลอย่างสม่ำเสมอและจัดเก็บในสถานที่ปลอดภัย</li>
+                        <li><strong>การตรวจสอบความปลอดภัย:</strong> ตรวจสอบและทดสอบระบบความปลอดภัยเป็นประจำ</li>
+                        <li><strong>การฝึกอบรมพนักงาน:</strong> ฝึกอบรมพนักงานเกี่ยวกับการคุ้มครองข้อมูลส่วนบุคคล</li>
+                    </ul>
+                </div>
+
+                <div class="legal-section">
+                    <h2>7. ระยะเวลาการเก็บรักษาข้อมูล</h2>
+                    <p>เราจะเก็บรักษาข้อมูลส่วนบุคคลของท่านเฉพาะระยะเวลาที่จำเป็นเพื่อวัตถุประสงค์ที่กำหนดไว้ หรือตามที่กฎหมายกำหนด:</p>
+                    
+                    <div class="legal-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>ประเภทข้อมูล</th>
+                                    <th>ระยะเวลาการเก็บรักษา</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>ข้อมูลบัญชีผู้ใช้</td>
+                                    <td>ตลอดระยะเวลาที่บัญชียังคงใช้งานอยู่ บวก 3 ปี</td>
+                                </tr>
+                                <tr>
+                                    <td>ประวัติการติดต่อ</td>
+                                    <td>5 ปี นับจากการติดต่อครั้งสุดท้าย</td>
+                                </tr>
+                                <tr>
+                                    <td>ข้อมูลการใช้งานเว็บไซต์</td>
+                                    <td>2 ปี นับจากการเก็บรวบรวม</td>
+                                </tr>
+                                <tr>
+                                    <td>ข้อมูลการเงิน</td>
+                                    <td>5 ปี ตามข้อกำหนดทางบัญชีและภาษี</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <p>เมื่อครบกำหนดระยะเวลาดังกล่าว เราจะลบหรือทำลายข้อมูลส่วนบุคคลของท่านอย่างปลอดภัย</p>
+                </div>
+
+                <div class="legal-section">
+                    <h2>8. สิทธิของเจ้าของข้อมูลส่วนบุคคล</h2>
+                    <p>ตามพระราชบัญญัติคุ้มครองข้อมูลส่วนบุคคล ท่านมีสิทธิดังต่อไปนี้:</p>
+                    
+                    <ul>
+                        <li><strong>สิทธิในการเข้าถึง:</strong> ขอข้อมูลส่วนบุคคลที่เราเก็บรวบรวมเกี่ยวกับท่าน</li>
+                        <li><strong>สิทธิในการแก้ไข:</strong> ขอแก้ไขข้อมูลส่วนบุคคลที่ไม่ถูกต้องหรือไม่สมบูรณ์</li>
+                        <li><strong>สิทธิในการลบ:</strong> ขอลบข้อมูลส่วนบุคคลในกรณีที่กฎหมายกำหนด</li>
+                        <li><strong>สิทธิในการระงับ:</strong> ขอระงับการประมวลผลข้อมูลส่วนบุคคลชั่วคราว</li>
+                        <li><strong>สิทธิในการคัดค้าน:</strong> คัดค้านการประมวลผลข้อมูลส่วนบุคคล</li>
+                        <li><strong>สิทธิในการพกพา:</strong> ขอรับข้อมูลส่วนบุคคลในรูปแบบที่อ่านได้ด้วยเครื่อง</li>
+                        <li><strong>สิทธิในการถอนความยินยอม:</strong> ถอนความยินยอมได้ตลอดเวลา</li>
+                    </ul>
+                    
+                    <p>หากท่านต้องการใช้สิทธิใดๆ ข้างต้น กรุณาติดต่อเราผ่านช่องทางที่ระบุไว้ในส่วน "ติดต่อเรา" เราจะดำเนินการภายใน <strong>30 วัน</strong> นับจากวันที่ได้รับคำขอของท่าน</p>
+                </div>
+
+                <div class="legal-section">
+                    <h2>9. การโอนข้อมูลข้ามประเทศ</h2>
+                    <p>ข้อมูลส่วนบุคคลของท่านอาจถูกโอนไปยังประเทศอื่นเพื่อการประมวลผลและจัดเก็บ เราจะดำเนินการดังต่อไปนี้เพื่อให้การคุ้มครองข้อมูลของท่าน:</p>
+                    
+                    <ul>
+                        <li>โอนข้อมูลไปยังประเทศที่มีระดับการคุ้มครองข้อมูลส่วนบุคคลที่เพียงพอ</li>
+                        <li>ใช้มาตรการคุ้มครองเพิ่มเติม เช่น Standard Contractual Clauses</li>
+                        <li>ขอความยินยอมจากท่านก่อนการโอนข้อมูล (หากจำเป็น)</li>
+                        <li>ปฏิบัติตามข้อกำหนดของ PDPA และกฎหมายที่เกี่ยวข้อง</li>
+                    </ul>
+                </div>
+
+                <div class="legal-section">
+                    <h2>10. การใช้คุกกี้และเทคโนโลยีการติดตาม</h2>
+                    <p>เว็บไซต์ของเราใช้คุกกี้และเทคโนโลยีการติดตามที่คล้ายกันเพื่อ:</p>
+                    
+                    <ul>
+                        <li>รักษาการเข้าสู่ระบบและการตั้งค่าของท่าน</li>
+                        <li>วิเคราะห์การใช้งานเว็บไซต์และปรับปรุงประสบการณ์ผู้ใช้</li>
+                        <li>แสดงเนื้อหาที่เกี่ยวข้องและมีประโยชน์</li>
+                        <li>ป้องกันการฉ้อโกงและเสริมสร้างความปลอดภัย</li>
+                    </ul>
+                    
+                    <p>ท่านสามารถจัดการการตั้งค่าคุกกี้ผ่านเบราว์เซอร์ของท่าน อย่างไรก็ตาม การปิดใช้งานคุกกี้อาจส่งผลต่อการทำงานของบางฟีเจอร์บนเว็บไซต์</p>
+                </div>
+
+                <div class="legal-section">
+                    <h2>11. การแก้ไขนโยบายความเป็นส่วนตัว</h2>
+                    <p>เราอาจแก้ไขนโยบายความเป็นส่วนตัวนี้เป็นครั้งคราวเพื่อให้สอดคล้องกับการเปลี่ยนแปลงทางกฎหมายหรือการดำเนินธุรกิจ การแก้ไขใดๆ จะมีผลบังคับใช้ทันทีที่เผยแพร่บนเว็บไซต์นี้</p>
+                    
+                    <p>หากมีการเปลี่ยนแปลงที่สำคัญ เราจะแจ้งให้ท่านทราบผ่านอีเมลหรือประกาศบนเว็บไซต์ก่อนที่การเปลี่ยนแปลงจะมีผลบังคับใช้</p>
+                </div>
+
+                <div class="legal-section">
+                    <h2>12. ติดต่อเรา</h2>
+                    <p>หากท่านมีคำถามหรือข้อกังวลเกี่ยวกับนโยบายความเป็นส่วนตัวนี้ หรือต้องการใช้สิทธิของท่าน กรุณาติดต่อเราผ่าน:</p>
+                    
+                    <div class="contact-info">
+                        <h3>ข้อมูลติดต่อ KINFRI</h3>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <span class="contact-label">ผู้รับผิดชอบ:</span>
+                                <span class="contact-value">อี อิน เต (CHOI HYUN WOO)</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">อีเมล:</span>
+                                <span class="contact-value">thinkcare@naver.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">โทรศัพท์:</span>
+                                <span class="contact-value">+82-10-4063-9062</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">ที่อยู่:</span>
+                                <span class="contact-value">905, 20, Teheran-ro 25-gil, Gangnam-gu, Seoul, Republic of Korea</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">เวลาทำการ:</span>
+                                <span class="contact-value">วันจันทร์-ศุกร์ 09:00-18:00 (KST)</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <p>เราจะตอบกลับคำขอของท่านภายใน <strong>30 วัน</strong> นับจากวันที่ได้รับคำขอ</p>
+                    
+                    <p><strong>การสื่อสารในภาษาไทย:</strong> นโยบายนี้จัดทำขึ้นในภาษาไทยเพื่อความเข้าใจที่ชัดเจน หากมีข้อสงสัยหรือต้องการคำชี้แจงเพิ่มเติม กรุณาติดต่อเราผ่านช่องทางที่ระบุไว้ข้างต้น</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Legal Links JS -->
+    <script src="/js/legal-links.js"></script>
+    
+    <!-- i18n JS -->
+    <script src="/js/i18n.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // 언어 선택기 이벤트 리스너
+            const languageSelect = document.getElementById('languageSelect');
+            if (languageSelect) {
+                languageSelect.addEventListener('change', function() {
+                    console.log('언어 변경:', this.value);
+                });
+            }
+        });
+    </script>
+</body>
+</html>

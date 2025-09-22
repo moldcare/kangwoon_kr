@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="simulation.airi.pageTitle">아이리(Airi) AI - IT 관리 실제 업무 시뮬레이션 | 킨프리</title>
+    <meta name="description" content="킨프리의 AI 직원 아이리가 밤새 회사 PC를 관리하는 실제 업무 시뮬레이션을 체험해보세요." data-i18n-content="simulation.airi.pageDescription">
+    <link rel="stylesheet" href="simulation-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="../images/favicon.png" type="image/png">
+    <style>
+        /* 아이리 전용 스타일 (파란색 테마) */
+        body {
+            background: var(--sim-gradient-airi);
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+            margin-top: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, #3B82F6, #1E40AF);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+            opacity: 0;
+            transform: translateX(-50px);
+            transition: all 0.6s ease;
+        }
+
+        .timeline-item.active {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.5rem;
+            top: 1rem;
+            width: 12px;
+            height: 12px;
+            background: #3B82F6;
+            border-radius: 50%;
+            border: 2px solid #1E40AF;
+            box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+        }
+
+        .timeline-content {
+            background: var(--sim-glass);
+            backdrop-filter: blur(10px);
+            border-radius: var(--radius-xl);
+            padding: var(--space-6);
+            border: 1px solid var(--sim-glass-border);
+            margin-left: 1rem;
+        }
+
+        .time-stamp {
+            color: #3B82F6;
+            font-weight: var(--weight-bold);
+            font-size: var(--text-lg);
+            margin-bottom: var(--space-2);
+        }
+
+        .timeline-title {
+            font-size: var(--text-xl);
+            font-weight: var(--weight-bold);
+            margin-bottom: var(--space-3);
+        }
+
+        .ai-message {
+            background: rgba(59, 130, 246, 0.2);
+            border-left: 4px solid #3B82F6;
+            padding: var(--space-4);
+            margin: var(--space-4) 0;
+            border-radius: var(--radius-lg);
+        }
+
+        .actions-list {
+            list-style: none;
+            margin: var(--space-4) 0;
+        }
+
+        .actions-list li {
+            padding: var(--space-2) 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .actions-list li:last-child {
+            border-bottom: none;
+        }
+
+        .alert-message {
+            background: rgba(239, 68, 68, 0.2);
+            border: 1px solid #EF4444;
+            border-radius: var(--radius-lg);
+            padding: var(--space-4);
+            margin: var(--space-4) 0;
+            animation: pulse-red 2s infinite;
+        }
+
+        @keyframes pulse-red {
+            0%, 100% { box-shadow: 0 0 5px rgba(239, 68, 68, 0.5); }
+            50% { box-shadow: 0 0 20px rgba(239, 68, 68, 0.8); }
+        }
+
+        .success-message {
+            background: linear-gradient(45deg, #10B981, #059669);
+            border-radius: var(--radius-lg);
+            padding: var(--space-4);
+            margin: var(--space-4) 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: var(--space-3);
+            margin: var(--space-4) 0;
+        }
+
+        .stat-item {
+            background: rgba(0, 0, 0, 0.3);
+            padding: var(--space-3);
+            border-radius: var(--radius-md);
+            text-align: center;
+        }
+
+        .stat-value {
+            font-weight: var(--weight-bold);
+            color: #3B82F6;
+            display: block;
+        }
+
+        .progress-bar {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: var(--radius-lg);
+            height: 8px;
+            margin: var(--space-4) 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            background: linear-gradient(90deg, #3B82F6, #1E40AF);
+            height: 100%;
+            border-radius: var(--radius-lg);
+            transition: width 0.5s ease;
+            box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- 시뮬레이션 네비게이션 -->
+    <nav class="sim-nav">
+        <div class="nav-brand">
+            <a href="../index.html">
+                <img src="../images/logo-sq-w.png" alt="킨프리" class="logo">
+                <span>KINFRI</span>
+            </a>
+        </div>
+        <div class="nav-menu">
+            <a href="airi-simulation.html" class="nav-link active" data-i18n="simulation.airi.navName">아이리</a>
+            <a href="gyeonu-simulation.html" class="nav-link" data-i18n="simulation.gyeonu.navName">견우</a>
+            <a href="jisu-simulation.html" class="nav-link" data-i18n="simulation.jisu.navName">지수</a>
+            <a href="doyoung-simulation.html" class="nav-link" data-i18n="simulation.doyoung.navName">도영</a>
+            <a href="minseo-simulation.html" class="nav-link" data-i18n="simulation.minseo.navName">민서</a>
+        </div>
+        <div class="nav-actions">
+            <select class="language-select" data-lang-select aria-label="언어 선택" data-i18n-aria-label="aria.langSelect">
+                <option value="ko">한국어</option>
+                <option value="en">English</option>
+                <option value="zh">中文</option>
+                <option value="vi">Tiếng Việt</option>
+                <option value="ja">日本語</option>
+                <option value="th">ไทย</option>
+                <option value="id">Bahasa Indonesia</option>
+            </select>
+            <a href="../index.html" class="back-link" data-i18n="nav.backHome">메인 페이지로</a>
+        </div>
+    </nav>
+
+    <!-- 시뮬레이션 컨테이너 -->
+    <div class="sim-container">
+        <!-- 헤더 -->
+        <header class="sim-header">
+            <div class="ai-character">
+                <div class="ai-avatar">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="ai-info">
+                    <h1 data-i18n="simulation.airi.title">아이리 - IT 관리 AI</h1>
+                    <p class="ai-subtitle" data-i18n="simulation.airi.subtitle">밤새 조용히 우리 회사 PC들을 관리하는 야근 전담 AI</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- 시나리오 소개 -->
+        <section class="scenario-intro" id="intro">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.airi.scenarioTitle">🌙 시나리오: 야근 없는 IT 관리</h2>
+                    <span class="time-badge" data-i18n="simulation.airi.timeRange">밤 9시 ~ 새벽 6시</span>
+                </div>
+                <div class="scenario-content">
+                    <p><strong data-i18n="simulation.airi.situationLabel">상황:</strong> <span data-i18n="simulation.airi.situationText">직원들이 퇴근한 후 IT 시스템 점검이 필요한 시간</span></p>
+                    <p><strong data-i18n="simulation.airi.problemLabel">문제:</strong> <span data-i18n="simulation.airi.problemText">야근하며 수동으로 PC들을 하나씩 관리해야 함</span></p>
+                    <p><strong data-i18n="simulation.airi.roleLabel">아이리의 역할:</strong> <span data-i18n="simulation.airi.roleText">자동으로 모든 IT 업무를 완벽하게 처리</span></p>
+                </div>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <button class="consult-btn" id="startBtn" data-i18n="simulation.airi.startButton">
+                        ▶️ 아이리 업무 시뮬레이션 시작
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 시뮬레이션 진행 -->
+        <section class="simulation-section" id="simulation" style="display: none;">
+            <!-- 타임라인 시뮬레이션 -->
+            <div class="timeline" id="timeline">
+                <!-- 시뮬레이션 내용이 동적으로 추가됩니다 -->
+            </div>
+        </section>
+
+        <!-- 시뮬레이션 결과 -->
+        <section class="simulation-result" id="result" style="display: none;">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.airi.resultTitle">🎯 시뮬레이션 완료!</h2>
+                </div>
+                <div class="scenario-content">
+                    <p data-i18n="simulation.airi.resultText1">아이리가 밤새 처리한 업무들을 확인했습니다!</p>
+                    <p data-i18n="simulation.airi.resultText2">실제로 킨프리의 AI Agent는 이런 방식으로 24시간 업무를 자동화합니다.</p>
+                </div>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <div class="action-buttons">
+                        <a href="../index.html#contact" class="consult-btn primary">
+                            <i class="fas fa-comments"></i>
+                            <span data-i18n="common.consultButton">무료 상담 신청</span>
+                        </a>
+                        <a href="../index.html" class="consult-btn secondary">
+                            <i class="fas fa-home"></i>
+                        <span data-i18n="nav.backHome">메인 페이지로</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="/js/i18n.js" defer></script>
+    <script>
+        // 다국어 시뮬레이션 데이터 - 번역 키 사용
+        const simulationData = [
+            {
+                time: "21:00",
+                titleKey: "simulation.airi.step1.title",
+                messageKey: "simulation.airi.step1.message",
+                actionsKeys: [
+                    "simulation.airi.step1.action1",
+                    "simulation.airi.step1.action2",
+                    "simulation.airi.step1.action3"
+                ],
+                stats: null
+            },
+            {
+                time: "21:30",
+                titleKey: "simulation.airi.step2.title",
+                messageKey: "simulation.airi.step2.message",
+                actionsKeys: [
+                    "simulation.airi.step2.action1",
+                    "simulation.airi.step2.action2",
+                    "simulation.airi.step2.action3"
+                ],
+                statsKeys: {
+                    "simulation.airi.step2.stat1": "12/12 대",
+                    "simulation.airi.step2.stat2": "3건",
+                    "simulation.airi.step2.stat3": "9대"
+                },
+                progress: 30
+            },
+            {
+                time: "22:15",
+                titleKey: "simulation.airi.step3.title",
+                messageKey: "simulation.airi.step3.message",
+                actionsKeys: [
+                    "simulation.airi.step3.action1",
+                    "simulation.airi.step3.action2",
+                    "simulation.airi.step3.action3"
+                ],
+                alertKey: "simulation.airi.step3.alert",
+                progress: 50
+            },
+            {
+                time: "23:00",
+                titleKey: "simulation.airi.step4.title",
+                messageKey: "simulation.airi.step4.message",
+                actionsKeys: [
+                    "simulation.airi.step4.action1",
+                    "simulation.airi.step4.action2",
+                    "simulation.airi.step4.action3"
+                ],
+                progress: 75,
+                success: true
+            },
+            {
+                time: "00:30",
+                titleKey: "simulation.airi.step5.title",
+                messageKey: "simulation.airi.step5.message",
+                actionsKeys: [
+                    "simulation.airi.step5.action1",
+                    "simulation.airi.step5.action2",
+                    "simulation.airi.step5.action3"
+                ],
+                statsKeys: {
+                    "simulation.airi.step5.stat1": "247GB",
+                    "simulation.airi.step5.stat2": "12개",
+                    "simulation.airi.step5.stat3": "99.9%"
+                },
+                progress: 85
+            },
+            {
+                time: "02:00",
+                titleKey: "simulation.airi.step6.title",
+                messageKey: "simulation.airi.step6.message",
+                actionsKeys: [
+                    "simulation.airi.step6.action1",
+                    "simulation.airi.step6.action2",
+                    "simulation.airi.step6.action3"
+                ],
+                progress: 95,
+                success: true
+            }
+        ];
+
+        const finalStep = {
+            time: "07:00",
+            titleKey: "simulation.airi.final.title",
+            messageKey: "simulation.airi.final.message",
+            actionsKeys: [
+                "simulation.airi.final.action1",
+                "simulation.airi.final.action2",
+                "simulation.airi.final.action3"
+            ],
+            statsKeys: {
+                "simulation.airi.final.stat1": "3건",
+                "simulation.airi.final.stat2": "12대",
+                "simulation.airi.final.stat3": "23%",
+                "simulation.airi.final.stat4": "4.5시간"
+            },
+            progress: 100,
+            final: true
+        };
+
+        let currentStep = 0;
+        let isRunning = false;
+
+        // 전역 번역 함수
+        function getTranslation(key) {
+            if (!window.translations || !key) return key;
+            
+            // 현재 언어로 번역 시도
+            const currentLang = window.currentLang || document.documentElement.getAttribute('lang') || 'ko';
+            const langTranslations = window.translations[currentLang] || window.translations.ko || {};
+            
+            return key.split('.').reduce((acc, k) => (acc && acc[k] !== undefined ? acc[k] : null), langTranslations) || key;
+        }
+
+        // 다국어 지원 타임라인 아이템 생성 함수
+        function createTimelineItem(data) {
+            const item = document.createElement('div');
+            item.className = 'timeline-item';
+            
+            const title = data.titleKey ? getTranslation(data.titleKey) : (data.title || '');
+            const message = data.messageKey ? getTranslation(data.messageKey) : (data.message || '');
+            
+            let content = `
+                <div class="timeline-content">
+                    <div class="time-stamp">${data.time}</div>
+                    <h3 class="timeline-title">${title}</h3>
+                    <div class="ai-message">${message}</div>
+            `;
+
+            // 액션 리스트 - 번역 키 사용
+            if (data.actionsKeys && data.actionsKeys.length > 0) {
+                content += '<ul class="actions-list">';
+                data.actionsKeys.forEach(actionKey => {
+                    const actionText = getTranslation(actionKey);
+                    content += `<li>• ${actionText}</li>`;
+                });
+                content += '</ul>';
+            } else if (data.actions && data.actions.length > 0) {
+                // 기존 방식 지원 (호환성)
+                content += '<ul class="actions-list">';
+                data.actions.forEach(action => {
+                    content += `<li>• ${action}</li>`;
+                });
+                content += '</ul>';
+            }
+
+            // 알럿 메시지 - 번역 키 사용
+            if (data.alertKey) {
+                const alertText = getTranslation(data.alertKey);
+                content += `<div class="alert-message">${alertText}</div>`;
+            } else if (data.alert) {
+                content += `<div class="alert-message">${data.alert}</div>`;
+            }
+
+            // 통계 - 번역 키 사용
+            if (data.statsKeys) {
+                content += '<div class="stats-grid">';
+                for (const [keyName, value] of Object.entries(data.statsKeys)) {
+                    const labelText = getTranslation(keyName);
+                    content += `
+                        <div class="stat-item">
+                            <span class="stat-value">${value}</span>
+                            <span>${labelText}</span>
+                        </div>
+                    `;
+                }
+                content += '</div>';
+            } else if (data.stats) {
+                // 기존 방식 지원 (호환성)
+                content += '<div class="stats-grid">';
+                for (const [key, value] of Object.entries(data.stats)) {
+                    content += `
+                        <div class="stat-item">
+                            <span class="stat-value">${value}</span>
+                            <span>${key}</span>
+                        </div>
+                    `;
+                }
+                content += '</div>';
+            }
+
+            if (data.progress !== undefined) {
+                const progressText = getTranslation('common.progressLabel');
+                content += `
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: ${data.progress}%"></div>
+                    </div>
+                    <div style="text-align: center; font-size: 0.9rem; opacity: 0.8;">
+                        ${progressText}: ${data.progress}%
+                    </div>
+                `;
+            }
+
+            if (data.success) {
+                const successText = getTranslation('common.success');
+                content += `<div class="success-message">${successText}</div>`;
+            }
+
+            content += '</div>';
+            item.innerHTML = content;
+            return item;
+        }
+
+        // 자동 스크롤 함수
+        function smoothScrollToElement(element, offset = -100) {
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset + offset;
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        }
+
+        // 시뮬레이션 실행 함수
+        async function runSimulation() {
+            console.log('🚀 runSimulation 함수 호출됨');
+            
+            const startBtn = document.getElementById('startBtn');
+            const timeline = document.getElementById('timeline');
+            const introSection = document.getElementById('intro');
+            const simulationSection = document.getElementById('simulation');
+            
+            console.log('📝 요소 확인:', {
+                startBtn: !!startBtn,
+                timeline: !!timeline,
+                introSection: !!introSection,
+                simulationSection: !!simulationSection
+            });
+            
+            if (isRunning) {
+                console.log('⏸️ 이미 실행 중입니다');
+                return;
+            }
+            
+            isRunning = true;
+            console.log('▶️ 시뮬레이션 시작');
+            
+            const runningText = getTranslation('common.running');
+            console.log('🔄 실행 중 텍스트:', runningText);
+            
+            startBtn.textContent = runningText;
+            startBtn.disabled = true;
+            
+            // 인트로 숨기고 시뮬레이션 보이기
+            introSection.style.display = 'none';
+            simulationSection.style.display = 'block';
+            
+            // 기존 타임라인 정리
+            timeline.innerHTML = '';
+            currentStep = 0;
+
+            // 각 단계별로 실행
+            for (const data of simulationData) {
+                await new Promise(resolve => setTimeout(resolve, 2000));
+                
+                const item = createTimelineItem(data);
+                timeline.appendChild(item);
+                
+                // 애니메이션 트리거
+                requestAnimationFrame(() => {
+                    item.classList.add('active');
+                    // 새로 추가된 항목으로 자동 스크롤
+                    smoothScrollToElement(item);
+                });
+                
+                currentStep++;
+            }
+
+            // 최종 단계
+            await new Promise(resolve => setTimeout(resolve, 2000));
+            const finalItem = createTimelineItem(finalStep);
+            timeline.appendChild(finalItem);
+            
+            requestAnimationFrame(() => {
+                finalItem.classList.add('active');
+                // 최종 단계로 자동 스크롤
+                smoothScrollToElement(finalItem);
+            });
+
+            // 완료 후 처리
+            await new Promise(resolve => setTimeout(resolve, 2000));
+            document.getElementById('result').style.display = 'block';
+            // 완료 메시지로 스크롤
+            smoothScrollToElement(document.getElementById('result'));
+            
+            const restartText = getTranslation('common.restart');
+            startBtn.textContent = restartText;
+            startBtn.disabled = false;
+            isRunning = false;
+            
+            // 재시작을 위해 다시 설정
+            startBtn.addEventListener('click', function() {
+                document.getElementById('intro').style.display = 'block';
+                document.getElementById('simulation').style.display = 'none';
+                document.getElementById('result').style.display = 'none';
+                const startText = getTranslation('simulation.airi.startButton');
+                startBtn.textContent = startText;
+                smoothScrollToElement(document.getElementById('intro'));
+            }, { once: true });
+        }
+
+        // 상담 신청 함수
+        function requestConsultation() {
+            if (typeof window.openConsultationModal === 'function') {
+                window.openConsultationModal();
+            } else {
+                alert('아이리 구현 상담 신청이 접수되었습니다.\n킨프리 담당자가 24시간 내에 연락드리겠습니다!');
+            }
+        }
+
+        // 이벤트 리스너 - 페이지 완전 로드 후 설정
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🤖 아이리 AI 시뮬레이션이 준비되었습니다!');
+            
+            // 약간의 지연 후 이벤트 리스너 등록 (i18n 로드 완료 대기)
+            setTimeout(() => {
+                const startBtn = document.getElementById('startBtn');
+                if (startBtn) {
+                    // 기존 이벤트 리스너 제거 후 재등록
+                    startBtn.removeEventListener('click', runSimulation);
+                    startBtn.addEventListener('click', runSimulation);
+                    console.log('✅ 시작 버튼 이벤트 리스너 등록 완료');
+                    
+                    // 번역 상태 확인
+                    console.log('🌍 현재 translations:', !!window.translations);
+                    if (window.translations) {
+                        console.log('📝 샘플 번역:', getTranslation('simulation.airi.startButton'));
+                    }
+                } else {
+                    console.error('❌ 시작 버튼을 찾을 수 없습니다!');
+                }
+            }, 100);
+        });
+    </script>
+</body>
+</html>

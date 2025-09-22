@@ -1,0 +1,260 @@
+/* Responsive Styles */
+
+/* Large Desktop (1280px+) */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+  
+  .hero-title {
+    font-size: var(--text-6xl);
+  }
+  
+  .section-title {
+    font-size: var(--text-5xl);
+  }
+}
+
+/* Desktop (1024px - 1279px) */
+@media (max-width: 1279px) {
+  .container {
+    padding: 0 var(--space-4);
+  }
+}
+
+/* 
+  Mobile Menu Fix - Updated: 2025-09-18
+  z-index: 1000, white background, enhanced shadow
+  Breakpoint: 768px for mobile, 1023px for tablet
+*/
+
+/* 
+  MOBILE MENU FIX - CRITICAL UPDATE
+  Complete restructure of mobile navigation
+  Updated: 2025-09-18
+*/
+
+/* Tablet and Mobile (768px and below) - MAIN MOBILE RULE */
+@media (max-width: 768px) {
+  /* Show hamburger button on mobile */
+  .navbar-toggle {
+    display: flex !important;
+  }
+  
+  /* Hide menu by default, show as dropdown when active */
+  .navbar-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-top: 1px solid var(--neutral-200);
+    border-bottom: 1px solid var(--neutral-200);
+    padding: var(--space-4);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+  }
+  
+  /* Show menu when active */
+  .navbar-menu.active {
+    display: block !important;
+  }
+  
+  /* Stack navigation vertically */
+  .navbar-nav {
+    flex-direction: column;
+    gap: var(--space-2);
+    margin-bottom: var(--space-4);
+  }
+  
+  /* Navigation actions below menu items */
+  .navbar-actions {
+    margin-top: var(--space-2);
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-3);
+  }
+
+  .navbar-content {
+    gap: var(--space-3);
+  }
+
+  .navbar-content .language-select {
+    min-width: 0;
+    width: auto;
+  }
+
+  /* Hero Section */
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+    text-align: center;
+  }
+  
+  .hero-visual {
+    order: -1;
+  }
+  
+  .hero-stats {
+    justify-content: center;
+  }
+  
+  /* About Section */
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+  }
+  
+  .about-text {
+    order: 1;
+  }
+  
+  /* Contact Section */
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+  }
+  
+  /* Footer */
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+  }
+  
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .footer-legal {
+    flex-direction: column;
+    gap: var(--space-4);
+    text-align: center;
+  }
+}
+/* Mobile Large (640px - 767px) */
+@media (max-width: 767px) {
+  /* Typography */
+  .hero-title {
+    font-size: var(--text-3xl);
+  }
+  
+  .section-title {
+    font-size: var(--text-2xl);
+  }
+  
+  .hero-description {
+    font-size: var(--text-lg);
+  }
+  
+  /* Spacing */
+  section {
+    padding: var(--space-16) 0;
+  }
+  
+  .hero {
+    padding: var(--space-16) 0;
+  }
+  
+  .section-header {
+    margin-bottom: var(--space-12);
+  }
+  
+  /* Hero Actions */
+  .hero-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero-stats {
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+  
+  /* Solutions Grid */
+  .solutions-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Cases Grid */
+  .cases-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Stats Grid */
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-2);
+  }
+}
+/* Mobile (480px - 639px) */
+@media (max-width: 639px) {
+  .container {
+    padding: 0 var(--space-3);
+  }
+  
+  /* Form */
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-form {
+    padding: var(--space-6);
+  }
+  
+  /* Footer Links */
+  .footer-links {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+  
+  /* Button Responsive */
+  .btn-large {
+    padding: var(--space-3) var(--space-6);
+    font-size: var(--text-base);
+  }
+  
+  /* Feature Items */
+  .feature-item {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--space-3);
+  }
+  
+  /* Case Results */
+  .case-results {
+    justify-content: center;
+  }
+  
+  /* Floating Cards - Hide on mobile */
+  .floating-cards {
+    display: none;
+  }
+}
+
+/* Mobile Small (320px - 479px) */
+@media (max-width: 479px) {
+  .container {
+    padding: 0 var(--space-2);
+  }
+  
+  .hero-title {
+    font-size: var(--text-2xl);
+  }
+  
+  .section-title {
+    font-size: var(--text-xl);
+  }
+}
+@media (max-width: 768px) {
+  .navbar-content .language-select[data-lang-select-hidden="true"] {
+    display: none;
+  }
+
+  .navbar-content .language-dropdown[data-lang-dropdown-ready="true"] {
+    display: block;
+    width: 100%;
+  }
+  
+}
+

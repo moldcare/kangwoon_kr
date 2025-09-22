@@ -1,0 +1,361 @@
+/* AI Simulation Section Styles */
+
+/* AI Simulation Section */
+.ai-simulation {
+    padding: var(--space-20) 0;
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.ai-simulation::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="%23cbd5e1" stroke-width="0.5" opacity="0.3"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.ai-simulation .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Simulation Grid */
+.simulation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: var(--space-8);
+    margin: var(--space-16) 0;
+}
+
+/* Simulation Card */
+.simulation-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: var(--space-8);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.simulation-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-charcoal-light), var(--secondary-gray), var(--secondary-gray-light));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.simulation-card:hover::before {
+    transform: scaleX(1);
+}
+
+.simulation-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    border-color: #e2e8f0;
+}
+
+/* Simulation Header */
+.simulation-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--space-6);
+}
+
+.ai-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--text-2xl);
+    margin-right: var(--space-4);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.ai-name {
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+    color: var(--color-gray-900);
+    margin-bottom: var(--space-1);
+}
+
+.ai-role {
+    font-size: var(--text-sm);
+    color: var(--color-gray-600);
+    font-weight: var(--font-medium);
+}
+
+/* Simulation Content */
+.simulation-content {
+    margin-bottom: var(--space-6);
+}
+
+.ai-description {
+    font-size: var(--text-base);
+    color: var(--color-gray-700);
+    line-height: 1.7;
+    margin-bottom: var(--space-6);
+}
+
+/* AI Capabilities */
+.ai-capabilities {
+    display: grid;
+    gap: var(--space-3);
+    margin-bottom: var(--space-6);
+}
+
+.capability-item {
+    display: flex;
+    align-items: center;
+    padding: var(--space-3);
+    background: var(--color-gray-50);
+    border-radius: var(--radius-md);
+    transition: all 0.2s ease;
+}
+
+.capability-item:hover {
+    background: var(--color-blue-50);
+    transform: translateX(4px);
+}
+
+.capability-icon {
+    font-size: var(--text-lg);
+    margin-right: var(--space-3);
+    width: 28px;
+    text-align: center;
+}
+
+.capability-text {
+    font-size: var(--text-sm);
+    color: var(--color-gray-700);
+    font-weight: var(--font-medium);
+}
+
+/* Simulation Stats */
+.simulation-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-4);
+    padding: var(--space-4);
+    background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--space-6);
+}
+
+.simulation-stats .stat-item {
+    text-align: center;
+}
+
+.simulation-stats .stat-number {
+    display: block;
+    font-size: var(--text-lg);
+    font-weight: var(--font-bold);
+    color: var(--color-blue-600);
+    margin-bottom: var(--space-1);
+}
+
+.simulation-stats .stat-label {
+    font-size: var(--text-xs);
+    color: var(--color-gray-600);
+    font-weight: var(--font-medium);
+}
+
+/* Simulation Action Button */
+.btn-simulation {
+    background: linear-gradient(135deg, var(--primary-charcoal) 0%, var(--primary-charcoal-light) 100%);
+    color: white;
+    border: none;
+    padding: var(--space-4) var(--space-6);
+    border-radius: var(--radius-full);
+    font-weight: var(--font-semibold);
+    font-size: var(--text-sm);
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(45, 55, 72, 0.3);
+    width: 100%;
+    text-align: center;
+}
+
+.btn-simulation:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(45, 55, 72, 0.4);
+    text-decoration: none;
+    color: white;
+}
+
+.btn-simulation:active {
+    transform: translateY(0);
+}
+
+/* Simulation CTA */
+.simulation-cta {
+    margin-top: var(--space-16);
+    text-align: center;
+    padding: var(--space-12);
+    background: white;
+    border-radius: var(--radius-2xl);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.simulation-cta::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    opacity: 0.05;
+    pointer-events: none;
+}
+
+.simulation-cta .cta-content {
+    position: relative;
+    z-index: 1;
+}
+
+.simulation-cta .cta-title {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    color: var(--color-gray-900);
+    margin-bottom: var(--space-4);
+}
+
+.simulation-cta .cta-description {
+    font-size: var(--text-base);
+    color: var(--color-gray-600);
+    line-height: 1.7;
+    margin-bottom: var(--space-8);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .simulation-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-6);
+        margin: var(--space-12) 0;
+    }
+    
+    .simulation-card {
+        padding: var(--space-6);
+    }
+    
+    .ai-avatar {
+        width: 56px;
+        height: 56px;
+        font-size: var(--text-xl);
+    }
+    
+    .ai-name {
+        font-size: var(--text-lg);
+    }
+    
+    .simulation-stats {
+        gap: var(--space-3);
+        padding: var(--space-3);
+    }
+    
+    .simulation-cta {
+        padding: var(--space-8);
+        margin-top: var(--space-12);
+    }
+    
+    .simulation-cta .cta-title {
+        font-size: var(--text-xl);
+    }
+    
+    .simulation-cta .cta-description {
+        font-size: var(--text-sm);
+    }
+}
+
+@media (max-width: 480px) {
+    .ai-simulation {
+        padding: var(--space-16) 0;
+    }
+    
+    .simulation-header {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: var(--space-4);
+    }
+    
+    .ai-avatar {
+        margin-right: 0;
+        margin-bottom: var(--space-3);
+    }
+    
+    .simulation-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .btn-simulation {
+        padding: var(--space-4);
+        font-size: var(--text-xs);
+    }
+}
+
+/* Animation Effects */
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
+
+.simulation-card:nth-child(1) .ai-avatar {
+    animation: float 3s ease-in-out infinite;
+    background: linear-gradient(135deg, var(--primary-charcoal-light) 0%, var(--primary-charcoal) 100%);
+}
+
+.simulation-card:nth-child(2) .ai-avatar {
+    animation: float 3s ease-in-out infinite 0.5s;
+    background: linear-gradient(135deg, var(--secondary-gray) 0%, var(--secondary-accent) 100%);
+}
+
+.simulation-card:nth-child(3) .ai-avatar {
+    animation: float 3s ease-in-out infinite 1s;
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+}
+    
+.capability-item {
+    background: var(--color-gray-50);
+    color: var(--color-gray-900);
+}
+
+.capability-text {
+    color: var(--color-gray-700);
+}
+
+.simulation-stats {
+    background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+}
+
+.simulation-cta {
+    background: #e2e8f0;
+}
+
+.simulation-cta .cta-title {
+    color: var(--color-gray-600);
+}
+
+.simulation-cta .cta-description {
+    color: var(--color-gray-600);
+}

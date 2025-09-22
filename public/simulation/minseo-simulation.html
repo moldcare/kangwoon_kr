@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="sLLM 기술로 데이터 유출 걱정 없이 기밀 문서를 안전하게 분석하는 온프레미스 AI" data-i18n-content="simulation.minseo.pageDescription">
+    <title data-i18n="simulation.minseo.pageTitle">민서 - 프라이빗 데이터 보안 AI | 킨프리</title>
+    <link rel="stylesheet" href="simulation-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* 민서 전용 스타일 (분홍색 테마) */
+        body {
+            background: var(--sim-gradient-minseo);
+        }
+
+        @keyframes slideUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+    <link rel="icon" href="../images/favicon.png" type="image/png">
+</head>
+<body>
+    
+    <!-- 시뮬레이션 네비게이션 -->
+    <nav class="sim-nav">
+        <div class="nav-brand">
+            <a href="../index.html">
+                <img src="../images/logo-sq-w.png" alt="킨프리" class="logo">
+                <span>KINFRI</span>
+            </a>
+        </div>
+        <div class="nav-menu">
+            <a href="airi-simulation.html" class="nav-link" data-i18n="simulation.airi.navName">아이리</a>
+            <a href="gyeonu-simulation.html" class="nav-link" data-i18n="simulation.gyeonu.navName">견우</a>
+            <a href="jisu-simulation.html" class="nav-link" data-i18n="simulation.jisu.navName">지수</a>
+            <a href="doyoung-simulation.html" class="nav-link" data-i18n="simulation.doyoung.navName">도영</a>
+            <a href="minseo-simulation.html" class="nav-link active" data-i18n="simulation.minseo.navName">민서</a>
+        </div>
+        <div class="nav-actions">
+            <select class="language-select" data-lang-select aria-label="언어 선택" data-i18n-aria-label="aria.langSelect">
+                <option value="ko">한국어</option>
+                <option value="en">English</option>
+                <option value="zh">中文</option>
+                <option value="vi">Tiếng Việt</option>
+                <option value="ja">日本語</option>
+                <option value="th">ไทย</option>
+                <option value="id">Bahasa Indonesia</option>
+            </select>
+            <a href="../index.html" class="back-link" data-i18n="nav.backHome">메인 페이지로</a>
+        </div>
+    </nav>
+
+    <!-- 시뮬레이션 컨테이너 -->
+    <div class="sim-container">
+        <!-- 헤더 -->
+        <header class="sim-header">
+            <div class="ai-character">
+                <div class="ai-avatar">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="ai-info">
+                    <h1 data-i18n="simulation.minseo.title">민서 - 프라이빗 데이터 보안 AI</h1>
+                    <p class="ai-subtitle" data-i18n="simulation.minseo.subtitle">sLLM 기술로 데이터 유출 걱정 없이 기밀 문서를 안전하게 분석</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- 시나리오 소개 -->
+        <section class="scenario-intro" id="intro">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.minseo.scenarioTitle">🔒 시나리오: 기밀 데이터 분석 요청</h2>
+                    <span class="time-badge" data-i18n="simulation.minseo.timeRange">14:30 PM</span>
+                </div>
+                <div class="scenario-content">
+                    <p>
+                        <strong data-i18n="simulation.minseo.situationLabel">상황:</strong>
+                        <span data-i18n="simulation.minseo.situationText">사장님이 중요한 계약서와 설계도 분석을 요청</span>
+                    </p>
+                    <p>
+                        <strong data-i18n="simulation.minseo.problemLabel">문제:</strong>
+                        <span data-i18n="simulation.minseo.problemText">외부 AI 서비스 사용 시 기밀 데이터 유출 위험</span>
+                    </p>
+                    <p>
+                        <strong data-i18n="simulation.minseo.roleLabel">민서의 역할:</strong>
+                        <span data-i18n="simulation.minseo.roleText">온프레미스 sLLM으로 100% 보안 유지하며 분석</span>
+                    </p>
+                </div>
+                <div class="security-warning">
+                    <div class="warning-icon">⚠️</div>
+                    <div class="warning-content">
+                        <h3 data-i18n="simulation.minseo.warningTitle">일반적인 AI 서비스의 위험</h3>
+                        <ul>
+                            <li data-i18n="simulation.minseo.warning1">📤 데이터가 외부 서버로 전송</li>
+                            <li data-i18n="simulation.minseo.warning2">💰 토큰당 과금으로 비용 부담</li>
+                            <li data-i18n="simulation.minseo.warning3">🌐 인터넷 연결 필수</li>
+                            <li data-i18n="simulation.minseo.warning4">🔓 데이터 주권 상실</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- sLLM 기술 설명 -->
+        <section class="sllm-explanation" id="sllm-tech">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.minseo.sllmTitle">🏢 sLLM (소형 거대 언어 모델) 기술이란?</h2>
+                </div>
+                <div class="sllm-process">
+                    <div class="sllm-step">
+                        <div class="step-icon">🏠</div>
+                        <div class="step-content">
+                            <h3 data-i18n="simulation.minseo.sllmStep1Title">온프레미스 설치</h3>
+                            <p data-i18n="simulation.minseo.sllmStep1Desc">회사 서버에 직접 설치하여 데이터가 외부로 나가지 않음</p>
+                        </div>
+                    </div>
+                    <div class="sllm-arrow">+</div>
+                    <div class="sllm-step">
+                        <div class="step-icon">⚡</div>
+                        <div class="step-content">
+                            <h3 data-i18n="simulation.minseo.sllmStep2Title">경량화 모델</h3>
+                            <p data-i18n="simulation.minseo.sllmStep2Desc">필요한 기능만 남겨 빠르고 효율적인 처리</p>
+                        </div>
+                    </div>
+                    <div class="sllm-arrow">+</div>
+                    <div class="sllm-step">
+                        <div class="step-icon">🎯</div>
+                        <div class="step-content">
+                            <h3 data-i18n="simulation.minseo.sllmStep3Title">맞춤형 학습</h3>
+                            <p data-i18n="simulation.minseo.sllmStep3Desc">기업 도메인에 특화된 전문 AI 모델</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sllm-benefit">
+                    <p>
+                        <strong data-i18n="simulation.minseo.sllmBenefitLabel">🔑 핵심 장점:</strong>
+                        <span data-i18n="simulation.minseo.sllmBenefitText">데이터 주권 확보 + 토큰 비용 제로 + 무제한 사용</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 시뮬레이션 시작 -->
+        <section class="simulation-start" id="start-simulation">
+            <div class="content-card">
+                <div class="simulation-controls">
+                    <button class="start-btn" onclick="startSimulation()">
+                        <i class="fas fa-play"></i>
+                        <span class="start-btn-label" data-i18n="simulation.minseo.startButton">민서 보안 AI 시뮬레이션 시작</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 기밀 문서 현황 -->
+        <section class="simulation-step hidden" id="step1">
+            <div class="content-card security-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.minseo.step1.title">📁 분석 대상 기밀 문서</h2>
+                    <span class="time-badge" data-i18n="simulation.minseo.timeRange">14:30 PM</span>
+                </div>
+                <div class="documents-grid">
+                    <div class="document-item classified">
+                        <div class="doc-icon">📄</div>
+                        <div class="doc-info">
+                            <h3 data-i18n="simulation.minseo.step1.doc1Title">대형 프로젝트 계약서</h3>
+                            <p class="doc-details" data-i18n="simulation.minseo.step1.doc1Detail">250억원 규모 / 42페이지</p>
+                            <p class="security-level" data-i18n="simulation.minseo.step1.doc1Security">🔴 보안등급: 극비</p>
+                        </div>
+                    </div>
+                    <div class="document-item classified">
+                        <div class="doc-icon">📐</div>
+                        <div class="doc-info">
+                            <h3 data-i18n="simulation.minseo.step1.doc2Title">핵심 부품 설계도</h3>
+                            <p class="doc-details" data-i18n="simulation.minseo.step1.doc2Detail">특허 기술 포함 / 187개 도면</p>
+                            <p class="security-level" data-i18n="simulation.minseo.step1.doc2Security">🔴 보안등급: 극비</p>
+                        </div>
+                    </div>
+                    <div class="document-item classified">
+                        <div class="doc-icon">👥</div>
+                        <div class="doc-info">
+                            <h3 data-i18n="simulation.minseo.step1.doc3Title">직원 성과 데이터</h3>
+                            <p class="doc-details" data-i18n="simulation.minseo.step1.doc3Detail">개인정보 포함 / 324명</p>
+                            <p class="security-level" data-i18n="simulation.minseo.step1.doc3Security">🟡 보안등급: 대외비</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="risk-warning">
+                    <div class="risk-icon">⚠️</div>
+                    <div class="risk-content">
+                        <h3 data-i18n="simulation.minseo.step1.riskTitle">외부 AI 서비스 이용 시 위험</h3>
+                        <div class="risk-items">
+                            <div class="risk-item" data-i18n="simulation.minseo.step1.riskCost">💸 예상 토큰 비용: 월 ₩380만원</div>
+                            <div class="risk-item" data-i18n="simulation.minseo.step1.riskData">📤 데이터 외부 전송: 보안 위험 극대</div>
+                            <div class="risk-item" data-i18n="simulation.minseo.step1.riskInternet">⏱️ 인터넷 의존: 업무 연속성 위험</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 민서 등장 -->
+        <section class="simulation-step hidden" id="step2">
+            <div class="content-card minseo-card">
+                <div class="card-header">
+                    <div class="ai-speaking">
+                        <div class="ai-avatar-small">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h2 data-i18n="simulation.minseo.step2.title">민서 보안 AI 활성화</h2>
+                    </div>
+                    <span class="time-badge">14:31 PM</span>
+                </div>
+                <div class="ai-response">
+                    <div class="speech-bubble">
+                        <p data-i18n="simulation.minseo.step2.message1">"안녕하세요! 민서입니다. 기밀 문서 분석을 도와드릴게요."</p>
+                        <p data-i18n="simulation.minseo.step2.message2">"모든 처리는 사내 서버에서만 이뤄지니 안심하세요!"</p>
+                    </div>
+                    <div class="security-status">
+                        <div class="status-item secure">
+                            <i class="fas fa-lock"></i>
+                            <span data-i18n="simulation.minseo.step2.status1">온프레미스 환경 확인됨</span>
+                        </div>
+                        <div class="status-item secure">
+                            <i class="fas fa-wifi-slash"></i>
+                            <span data-i18n="simulation.minseo.step2.status2">외부 인터넷 연결 차단</span>
+                        </div>
+                        <div class="status-item secure">
+                            <i class="fas fa-server"></i>
+                            <span data-i18n="simulation.minseo.step2.status3">사내 서버 GPU 가동 중</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sLLM 보안 시스템 확인 -->
+        <section class="simulation-step hidden" id="step3">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.minseo.step3.title">🔐 sLLM 보안 시스템 점검</h2>
+                    <span class="time-badge">14:32 PM</span>
+                </div>
+                <div class="security-check-process">
+                    <!-- 데이터 격리 확인 -->
+                    <div class="security-step" id="isolation-check">
+                        <div class="step-header">
+                            <div class="step-icon">🏠</div>
+                            <h3 data-i18n="simulation.minseo.step3.isolationTitle">1단계: 데이터 격리 확인</h3>
+                            <div class="loading-spinner hidden" id="isolation-loader"></div>
+                            <div class="check-icon hidden" id="isolation-check-icon">✅</div>
+                        </div>
+                        <div class="step-details">
+                            <div class="isolation-status">
+                                <div class="status-item">
+                                    <span class="status-value secure" data-i18n="simulation.minseo.step3.isolationLoc">🏢 처리 위치: 사내 서버 (192.168.1.100)</span>
+                                </div>
+                                <div class="status-item">
+                                    <span class="status-value blocked" data-i18n="simulation.minseo.step3.isolationComm">🌐 외부 통신: 완전 차단</span>
+                                </div>
+                                <div class="status-item">
+                                    <span class="status-value secure" data-i18n="simulation.minseo.step3.isolationStorage">💾 데이터 저장: 로컬 스토리지만 사용</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 비용 절감 계산 -->
+                    <div class="security-step" id="cost-check">
+                        <div class="step-header">
+                            <div class="step-icon">💰</div>
+                            <h3 data-i18n="simulation.minseo.step3.costTitle">2단계: 비용 절감 효과</h3>
+                            <div class="loading-spinner hidden" id="cost-loader"></div>
+                            <div class="check-icon hidden" id="cost-check-icon">✅</div>
+                        </div>
+                        <div class="step-details">
+                            <div class="cost-comparison">
+                                <div class="cost-item external">
+                                    <h4 data-i18n="simulation.minseo.step3.costExternal">외부 AI 서비스</h4>
+                                    <div class="cost-breakdown">
+                                        <div class="cost-line" data-i18n="simulation.minseo.step3.costToken">토큰 비용: ₩380만원/월</div>
+                                        <div class="cost-line" data-i18n="simulation.minseo.step3.costApi">API 호출료: ₩120만원/월</div>
+                                        <div class="cost-line" data-i18n="simulation.minseo.step3.costTotalExt">총 연간 비용: ₩6,000만원</div>
+                                    </div>
+                                </div>
+                                <div class="cost-arrow">VS</div>
+                                <div class="cost-item internal">
+                                    <h4 data-i18n="simulation.minseo.step3.costInternal">민서 sLLM</h4>
+                                    <div class="cost-breakdown">
+                                        <div class="cost-line" data-i18n="simulation.minseo.step3.costTokenFree">토큰 비용: ₩0원</div>
+                                        <div class="cost-line" data-i18n="simulation.minseo.step3.costApiFree">API 호출료: ₩0원</div>
+                                        <div class="cost-line" data-i18n="simulation.minseo.step3.costTotalInt">총 연간 비용: ₩0원</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="savings-highlight">
+                                <strong data-i18n="simulation.minseo.step3.costSaving">💡 연간 절약 효과: ₩6,000만원</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 성능 최적화 -->
+                    <div class="security-step" id="performance-check">
+                        <div class="step-header">
+                            <div class="step-icon">⚡</div>
+                            <h3 data-i18n="simulation.minseo.step3.perfTitle">3단계: 성능 최적화 확인</h3>
+                            <div class="loading-spinner hidden" id="performance-loader"></div>
+                            <div class="check-icon hidden" id="performance-check-icon">✅</div>
+                        </div>
+                        <div class="step-details">
+                            <div class="performance-metrics">
+                                <div class="metric-box" data-metric-key="simulation.minseo.step3.perfModel">
+                                    <div class="metric-label">모델 크기</div>
+                                    <div class="metric-value">3.8GB</div>
+                                    <div class="metric-sub">(GPT-4 대비 95% 경량화)</div>
+                                </div>
+                                <div class="metric-box" data-metric-key="simulation.minseo.step3.perfSpeed">
+                                    <div class="metric-label">응답 속도</div>
+                                    <div class="metric-value">0.8초</div>
+                                    <div class="metric-sub">(API 서비스 대비 3배 빠름)</div>
+                                </div>
+                                <div class="metric-box" data-metric-key="simulation.minseo.step3.perfConcurrent">
+                                    <div class="metric-label">동시 처리</div>
+                                    <div class="metric-value">무제한</div>
+                                    <div class="metric-sub">(API 제한 없음)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 기밀 문서 분석 과정 -->
+        <section class="simulation-step hidden" id="step4">
+            <div class="content-card analysis-card">
+                <div class="card-header">
+                    <div class="ai-speaking">
+                        <div class="ai-avatar-small">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h2 data-i18n="simulation.minseo.step4.title">민서가 기밀 문서를 분석합니다</h2>
+                    </div>
+                    <span class="time-badge">14:33 PM</span>
+                </div>
+                <div class="analysis-content">
+                    <div class="speech-bubble">
+                        <p data-i18n="simulation.minseo.step4.message1">"이제 기밀 문서들을 안전하게 분석해보겠습니다."</p>
+                        <p data-i18n="simulation.minseo.step4.message2">"모든 처리는 사내에서만 이뤄지며, 1초도 외부로 나가지 않아요!"</p>
+                    </div>
+                    <div class="document-analysis">
+                        <div class="analysis-item" id="contract-analysis">
+                            <div class="doc-header">
+                                <div class="doc-icon">📄</div>
+                                <h3 data-i18n="simulation.minseo.step4.contractTitle">계약서 분석 중...</h3>
+                                <div class="analysis-spinner hidden" id="contract-spinner"></div>
+                                <div class="analysis-complete hidden" id="contract-complete">✅</div>
+                            </div>
+                            <div class="analysis-details hidden" id="contract-details">
+                                <div class="analysis-result">
+                                    <h4 data-i18n="simulation.minseo.step4.contractResult">🎯 주요 발견사항</h4>
+                                    <ul>
+                                        <li data-i18n="simulation.minseo.step4.contract1">계약 금액: 250억원 (VAT 별도)</li>
+                                        <li data-i18n="simulation.minseo.step4.contract2">납기일: 2025년 12월 31일</li>
+                                        <li data-i18n="simulation.minseo.step4.contract3">위험 조항: 지연 시 일 0.1% 위약금</li>
+                                        <li data-i18n="simulation.minseo.step4.contract4">보너스 조항: 조기 완료 시 5% 인센티브</li>
+                                    </ul>
+                                </div>
+                                <div class="security-note">
+                                    <i class="fas fa-lock"></i>
+                                    <span data-i18n="simulation.minseo.step4.securityNote1">이 정보는 사내 서버에서만 처리되었습니다</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="analysis-item" id="blueprint-analysis">
+                            <div class="doc-header">
+                                <div class="doc-icon">📐</div>
+                                <h3 data-i18n="simulation.minseo.step4.blueprintTitle">설계도 분석 중...</h3>
+                                <div class="analysis-spinner hidden" id="blueprint-spinner"></div>
+                                <div class="analysis-complete hidden" id="blueprint-complete">✅</div>
+                            </div>
+                            <div class="analysis-details hidden" id="blueprint-details">
+                                <div class="analysis-result">
+                                    <h4 data-i18n="simulation.minseo.step4.blueprintResult">🔧 기술적 분석</h4>
+                                    <ul>
+                                        <li data-i18n="simulation.minseo.step4.blueprint1">특허 기술: 3건의 독점 기술 포함</li>
+                                        <li data-i18n="simulation.minseo.step4.blueprint2">제조 난이도: 높음 (정밀도 ±0.01mm)</li>
+                                        <li data-i18n="simulation.minseo.step4.blueprint3">예상 원가: 부품당 ₩128,000</li>
+                                        <li data-i18n="simulation.minseo.step4.blueprint4">품질 위험: 열처리 공정에서 주의 필요</li>
+                                    </ul>
+                                </div>
+                                <div class="security-note">
+                                    <i class="fas fa-lock"></i>
+                                    <span data-i18n="simulation.minseo.step4.securityNote2">설계 정보는 외부로 전송되지 않았습니다</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="analysis-item" id="hr-analysis">
+                            <div class="doc-header">
+                                <div class="doc-icon">👥</div>
+                                <h3 data-i18n="simulation.minseo.step4.hrTitle">인사 데이터 분석 중...</h3>
+                                <div class="analysis-spinner hidden" id="hr-spinner"></div>
+                                <div class="analysis-complete hidden" id="hr-complete">✅</div>
+                            </div>
+                            <div class="analysis-details hidden" id="hr-details">
+                                <div class="analysis-result">
+                                    <h4 data-i18n="simulation.minseo.step4.hrResult">📊 성과 분석 요약</h4>
+                                    <ul>
+                                        <li data-i18n="simulation.minseo.step4.hr1">우수 직원: 43명 (13.3%)</li>
+                                        <li data-i18n="simulation.minseo.step4.hr2">평균 성과 점수: 78.2점</li>
+                                        <li data-i18n="simulation.minseo.step4.hr3">이직 위험: 12명 (관리 필요)</li>
+                                        <li data-i18n="simulation.minseo.step4.hr4">승진 후보: 18명 (검토 권장)</li>
+                                    </ul>
+                                </div>
+                                <div class="security-note">
+                                    <i class="fas fa-lock"></i>
+                                    <span data-i18n="simulation.minseo.step4.securityNote3">개인정보는 완벽하게 보호되었습니다</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 종합 분석 보고서 -->
+        <section class="simulation-step hidden" id="step5">
+            <div class="content-card report-card">
+                <div class="card-header">
+                    <div class="ai-speaking">
+                        <div class="ai-avatar-small">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h2 data-i18n="simulation.minseo.step5.title">민서의 종합 분석 보고서</h2>
+                    </div>
+                    <span class="time-badge">14:35 PM</span>
+                </div>
+                <div class="report-content">
+                    <div class="speech-bubble comprehensive">
+                        <h3 data-i18n="simulation.minseo.step5.reportTitle">📋 경영진 보고서 (기밀 유지)</h3>
+                        <div class="executive-summary">
+                            <h4 data-i18n="simulation.minseo.step5.conclusionTitle">🎯 핵심 결론</h4>
+                            <div class="conclusion-box positive">
+                                <p><strong data-i18n="simulation.minseo.step5.conclusionText">프로젝트 성공 가능성: 87%</strong></p>
+                                <p data-i18n="simulation.minseo.step5.conclusionDetail">계약 조건은 유리하며, 기술적 역량 충분. 단, 일정 관리와 핵심 인력 유지가 관건</p>
+                            </div>
+                        </div>
+                        
+                        <div class="strategic-recommendations">
+                            <h4 data-i18n="simulation.minseo.step5.recommendTitle">💡 전략적 제언</h4>
+                            <div class="recommendation-grid">
+                                <div class="recommendation-item">
+                                    <div class="rec-icon">⏰</div>
+                                    <div class="rec-content">
+                                        <h5 data-i18n="simulation.minseo.step5.recommend1Title">일정 관리</h5>
+                                        <p data-i18n="simulation.minseo.step5.recommend1Text">조기 완료 보너스(12.5억원) 획득을 위해 2개월 앞당긴 일정 추진 권장</p>
+                                    </div>
+                                </div>
+                                <div class="recommendation-item">
+                                    <div class="rec-icon">👥</div>
+                                    <div class="rec-content">
+                                        <h5 data-i18n="simulation.minseo.step5.recommend2Title">인력 관리</h5>
+                                        <p data-i18n="simulation.minseo.step5.recommend2Text">이직 위험 12명 중 핵심 기술자 3명 우선 면담 및 처우 개선 필요</p>
+                                    </div>
+                                </div>
+                                <div class="recommendation-item">
+                                    <div class="rec-icon">🔧</div>
+                                    <div class="rec-content">
+                                        <h5 data-i18n="simulation.minseo.step5.recommend3Title">기술 대응</h5>
+                                        <p data-i18n="simulation.minseo.step5.recommend3Text">열처리 공정 품질 향상을 위한 외부 전문업체 협력 검토</p>
+                                    </div>
+                                </div>
+                                <div class="recommendation-item">
+                                    <div class="rec-icon">💰</div>
+                                    <div class="rec-content">
+                                        <h5 data-i18n="simulation.minseo.step5.recommend4Title">수익성 분석</h5>
+                                        <p data-i18n="simulation.minseo.step5.recommend4Text">현재 원가 기준 순이익율 23.7%, 목표 달성 시 28.2% 예상</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="security-guarantee">
+                            <div class="security-badge">
+                                <i class="fas fa-certificate"></i>
+                                <div class="badge-content">
+                                    <h4 data-i18n="simulation.minseo.step5.securityTitle">🔐 보안 보장</h4>
+                                    <p><strong data-i18n="simulation.minseo.step5.securityMainText">이 모든 분석은 사내 sLLM으로만 처리되었습니다</strong></p>
+                                    <ul class="security-features">
+                                        <li data-i18n="simulation.minseo.step5.security1">✅ 외부 서버 전송: 0건</li>
+                                        <li data-i18n="simulation.minseo.step5.security2">✅ 데이터 보관: 사내 암호화 저장소</li>
+                                        <li data-i18n="simulation.minseo.step5.security3">✅ 처리 비용: ₩0원 (토큰 비용 없음)</li>
+                                        <li data-i18n="simulation.minseo.step5.security4">✅ 접근 권한: 승인된 임직원만</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 시뮬레이션 결과 -->
+        <section class="simulation-step hidden" id="step6">
+            <div class="content-card results-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.minseo.step6.title">🎉 보안 분석 완료!</h2>
+                    <span class="time-badge">14:37 PM</span>
+                </div>
+                <div class="results-content">
+                    <div class="success-message">
+                        <div class="success-icon">🔐</div>
+                        <h3 data-i18n="simulation.minseo.step6.successMessage">100% 보안 유지하며 완벽한 분석 완료</h3>
+                    </div>
+                    <div class="results-metrics">
+                        <div class="metric-item">
+                            <div class="metric-icon">🔒</div>
+                            <div class="metric-info">
+                                <h4 data-i18n="simulation.minseo.step6.metric1Title">데이터 보안</h4>
+                                <p class="metric-value" data-i18n="simulation.minseo.step6.metric1Value">100%</p>
+                                <p class="metric-sub" data-i18n="simulation.minseo.step6.metric1Sub">외부 유출 0건</p>
+                            </div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-icon">💰</div>
+                            <div class="metric-info">
+                                <h4 data-i18n="simulation.minseo.step6.metric2Title">처리 비용</h4>
+                                <p class="metric-value" data-i18n="simulation.minseo.step6.metric2Value">₩0원</p>
+                                <p class="metric-sub" data-i18n="simulation.minseo.step6.metric2Sub">토큰 비용 없음</p>
+                            </div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-icon">⚡</div>
+                            <div class="metric-info">
+                                <h4 data-i18n="simulation.minseo.step6.metric3Title">분석 시간</h4>
+                                <p class="metric-value" data-i18n="simulation.minseo.step6.metric3Value">7분</p>
+                                <p class="metric-sub" data-i18n="simulation.minseo.step6.metric3Sub">외부 API 대비 3배 빠름</p>
+                            </div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-icon">📊</div>
+                            <div class="metric-info">
+                                <h4 data-i18n="simulation.minseo.step6.metric4Title">분석 정확도</h4>
+                                <p class="metric-value" data-i18n="simulation.minseo.step6.metric4Value">94.8%</p>
+                                <p class="metric-sub" data-i18n="simulation.minseo.step6.metric4Sub">도메인 특화 학습 효과</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sLLM 기술의 가치 -->
+        <section class="simulation-step hidden" id="step7">
+            <div class="content-card value-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.minseo.step7.title">💎 sLLM 기술이 제공하는 가치</h2>
+                </div>
+                <div class="value-content">
+                    <div class="value-grid">
+                        <div class="value-item">
+                            <div class="value-icon">🏠</div>
+                            <h3 data-i18n="simulation.minseo.step7.value1Title">데이터 주권</h3>
+                            <p data-i18n="simulation.minseo.step7.value1Text">모든 데이터가 사내에서만 처리되어 완전한 통제 가능</p>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">💰</div>
+                            <h3 data-i18n="simulation.minseo.step7.value2Title">비용 제로</h3>
+                            <p data-i18n="simulation.minseo.step7.value2Text">토큰 기반 과금 없이 무제한 사용 가능</p>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">🎯</div>
+                            <h3 data-i18n="simulation.minseo.step7.value3Title">맞춤 최적화</h3>
+                            <p data-i18n="simulation.minseo.step7.value3Text">기업 도메인에 특화된 전용 AI 모델</p>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">⚡</div>
+                            <h3 data-i18n="simulation.minseo.step7.value4Title">높은 성능</h3>
+                            <p data-i18n="simulation.minseo.step7.value4Text">경량화로 빠른 응답 동시 처리 무제한</p>
+                        </div>
+                    </div>
+                    
+                    <div class="sllm-comparison">
+                        <h3 data-i18n="simulation.minseo.step7.comparisonTitle">🆚 외부 AI 서비스 vs sLLM</h3>
+                        <div class="comparison-grid">
+                            <div class="comparison-item external-ai">
+                                <h4 data-i18n="simulation.minseo.step7.externalTitle">외부 AI 서비스</h4>
+                                <ul>
+                                    <li data-i18n="simulation.minseo.step7.external1">❌ 데이터 외부 전송 (보안 위험)</li>
+                                    <li data-i18n="simulation.minseo.step7.external2">❌ 토큰당 과금 (월 수백만원)</li>
+                                    <li data-i18n="simulation.minseo.step7.external3">❌ 인터넷 연결 필수</li>
+                                    <li data-i18n="simulation.minseo.step7.external4">❌ API 호출 제한</li>
+                                    <li data-i18n="simulation.minseo.step7.external5">❌ 데이터 주권 상실</li>
+                                </ul>
+                            </div>
+                            <div class="comparison-item sllm-solution">
+                                <h4 data-i18n="simulation.minseo.step7.sllmTitle">킨프리 sLLM</h4>
+                                <ul>
+                                    <li data-i18n="simulation.minseo.step7.sllm1">✅ 온프레미스 처리 (100% 보안)</li>
+                                    <li data-i18n="simulation.minseo.step7.sllm2">✅ 토큰 비용 없음 (무제한)</li>
+                                    <li data-i18n="simulation.minseo.step7.sllm3">✅ 오프라인 동작 가능</li>
+                                    <li data-i18n="simulation.minseo.step7.sllm4">✅ 호출 제한 없음</li>
+                                    <li data-i18n="simulation.minseo.step7.sllm5">✅ 완전한 데이터 통제권</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="roi-calculation">
+                        <h3 data-i18n="simulation.minseo.step7.roiTitle">📈 투자 수익률 (ROI) 계산</h3>
+                        <div class="roi-breakdown">
+                            <div class="roi-item" data-roi-key="simulation.minseo.step7.roiSaving">
+                                <div class="roi-label">연간 절약 비용</div>
+                                <div class="roi-value">₩6,000만원</div>
+                            </div>
+                            <div class="roi-item" data-roi-key="simulation.minseo.step7.roiSecurity">
+                                <div class="roi-label">보안 리스크 절감</div>
+                                <div class="roi-value">무가격</div>
+                            </div>
+                            <div class="roi-item" data-roi-key="simulation.minseo.step7.roiProductivity">
+                                <div class="roi-label">생산성 향상</div>
+                                <div class="roi-value">30%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 시뮬레이션 결과 -->
+        <section class="simulation-result hidden" id="result">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 data-i18n="simulation.minseo.resultTitle">🎯 보안 AI 시뮬레이션 완료!</h2>
+                </div>
+                <div class="scenario-content">
+                    <p data-i18n="simulation.minseo.resultText1">민서가 100% 보안을 유지하면서 기밀 데이터 분석을 완료했습니다!</p>
+                    <p data-i18n="simulation.minseo.resultText2">실제로 킨프리의 sLLM 솔루션은 이런 방식으로 데이터 보안을 보장합니다.</p>
+                    
+                    <div class="action-description" style="margin-top: 2rem; padding: 1rem; background: rgba(255,255,255,0.1); border-radius: 8px;">
+                        <p data-i18n-html="simulation.minseo.cta.titleHtml">민서와 같은 <strong>프라이빗 데이터 보안 AI</strong>를 귀하의 기업에 구축하세요!</p>
+                        <ul>
+                            <li data-i18n="simulation.minseo.cta.bullet1">✅ 100% 온프레미스 설치</li>
+                            <li data-i18n="simulation.minseo.cta.bullet2">✅ 데이터 외부 유출 제로</li>
+                            <li data-i18n="simulation.minseo.cta.bullet3">✅ 토큰 비용 걱정 없음</li>
+                            <li data-i18n="simulation.minseo.cta.bullet4">✅ 기업 맞춤형 특화 모델</li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <div class="action-buttons">
+                        <a href="../index.html#contact" class="consult-btn primary">
+                            <i class="fas fa-comments"></i>
+                            <span data-i18n="simulation.common.consultButton">무료 상담 신청</span>
+                        </a>
+                        <a href="../index.html" class="consult-btn secondary">
+                            <i class="fas fa-home"></i>
+                        <span data-i18n="nav.backHome">메인 페이지로</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 진행 표시기 -->
+        <div class="progress-indicator">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressBar"></div>
+            </div>
+            <div class="progress-text" id="progressText" data-i18n="simulation.common.progress.preparing">시뮬레이션 준비 중...</div>
+        </div>
+    </div>
+    <!-- JavaScript -->
+    <script src="/js/i18n.js" defer></script>
+    <script>
+        let currentStep = 0;
+        const totalSteps = 7;
+        let isSimulationRunning = false;
+        let startButtonState = 'idle';
+
+        const progressKeys = [
+            'simulation.common.progress.preparing',
+            'simulation.minseo.step1.title',
+            'simulation.minseo.step2.title',
+            'simulation.minseo.step3.title',
+            'simulation.minseo.step4.title',
+            'simulation.minseo.step5.title',
+            'simulation.minseo.step6.title',
+            'simulation.minseo.step7.title',
+            'simulation.common.progress.completed'
+        ];
+
+        function resolveTranslation(key) {
+            if (!key) return '';
+            if (window.i18n && typeof window.i18n.t === 'function') {
+                const result = window.i18n.t(key);
+                if (result !== key) {
+                    return result;
+                }
+            }
+
+            const lang = window.currentLang || document.documentElement.getAttribute('lang') || 'ko';
+            const translations = window.translations && window.translations[lang];
+            if (!translations) return key;
+
+            return key.split('.').reduce((acc, part) => (
+                acc && acc[part] !== undefined ? acc[part] : null
+            ), translations) || key;
+        }
+
+        function splitMetricText(text) {
+            if (!text) {
+                return { label: '', value: '', sub: '' };
+            }
+
+            const colonMatch = text.match(/^(.*?)[：:]\s*(.*)$/u);
+            if (!colonMatch) {
+                return { label: '', value: text, sub: '' };
+            }
+
+            const label = (colonMatch[1] || '').trim();
+            let rest = (colonMatch[2] || '').trim();
+            let sub = '';
+
+            const parenMatch = rest.match(/^(.*?)(\s*[\(（](.*)[\)）])$/u);
+            if (parenMatch) {
+                rest = (parenMatch[1] || '').trim();
+                sub = (parenMatch[3] || '').trim();
+            }
+
+            return { label, value: rest, sub };
+        }
+
+        function updateMetricBoxes() {
+            document.querySelectorAll('.metric-box[data-metric-key]').forEach(box => {
+                const key = box.getAttribute('data-metric-key');
+                const text = resolveTranslation(key);
+                const parts = splitMetricText(text);
+
+                const labelEl = box.querySelector('.metric-label');
+                const valueEl = box.querySelector('.metric-value');
+                const subEl = box.querySelector('.metric-sub');
+
+                if (labelEl) {
+                    labelEl.textContent = parts.label || text;
+                }
+
+                if (valueEl) {
+                    valueEl.textContent = parts.value || '';
+                }
+
+                if (subEl) {
+                    const subText = parts.sub ? `(${parts.sub})` : '';
+                    subEl.textContent = subText;
+                    subEl.style.display = subText ? '' : 'none';
+                }
+            });
+        }
+
+        function updateRoiItems() {
+            document.querySelectorAll('.roi-item[data-roi-key]').forEach(item => {
+                const key = item.getAttribute('data-roi-key');
+                const text = resolveTranslation(key);
+                const parts = splitMetricText(text);
+
+                const labelEl = item.querySelector('.roi-label');
+                const valueEl = item.querySelector('.roi-value');
+
+                if (labelEl) {
+                    labelEl.textContent = parts.label || text;
+                }
+
+                if (valueEl) {
+                    valueEl.textContent = parts.value || '';
+                }
+            });
+        }
+
+        function setStartButtonState(state) {
+            startButtonState = state;
+            const startBtn = document.querySelector('.start-btn');
+            if (!startBtn) return;
+
+            const icon = startBtn.querySelector('i');
+            const label = startBtn.querySelector('.start-btn-label');
+            if (!label) return;
+
+            let iconClass = 'fas fa-play';
+            let translationKey = 'simulation.minseo.startButton';
+
+            if (state === 'running') {
+                iconClass = 'fas fa-spinner fa-spin';
+                translationKey = 'simulation.minseo.running';
+            } else if (state === 'restart') {
+                iconClass = 'fas fa-redo';
+                translationKey = 'simulation.minseo.restart';
+            }
+
+            if (icon) {
+                icon.className = iconClass;
+            }
+
+            label.dataset.i18n = translationKey;
+            label.textContent = resolveTranslation(translationKey);
+        }
+
+        function refreshDynamicContent() {
+            updateMetricBoxes();
+            updateRoiItems();
+            setStartButtonState(startButtonState);
+            updateProgress(currentStep);
+        }
+
+        // 자동 스크롤 함수
+        function smoothScrollToElement(element, offset = -100) {
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset + offset;
+            
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        }
+
+        // 프로그레스 바 업데이트
+        function updateProgress(step) {
+            const progressBar = document.getElementById('progressBar');
+            const progressText = document.getElementById('progressText');
+            const displayStep = Math.min(step, totalSteps);
+            const percentage = Math.round((displayStep / totalSteps) * 100);
+
+            if (progressBar) {
+                progressBar.style.width = `${percentage}%`;
+            }
+
+            if (progressText) {
+                const index = Math.min(step, progressKeys.length - 1);
+                const key = progressKeys[index] || 'simulation.common.progress.processing';
+                progressText.dataset.i18n = key;
+                progressText.textContent = resolveTranslation(key);
+            }
+        }
+
+        // 시뮬레이션 시작
+        function startSimulation() {
+            if (isSimulationRunning) return;
+            
+            isSimulationRunning = true;
+            const startBtn = document.querySelector('.start-btn');
+            startBtn.disabled = true;
+            setStartButtonState('running');
+            
+            // 첫 번째 단계
+            setTimeout(() => showStep(1), 1000);
+        }
+
+        // 단계별 표시
+        function showStep(stepNumber) {
+            currentStep = stepNumber;
+            updateProgress(stepNumber);
+            
+            const stepElement = document.getElementById(`step${stepNumber}`);
+            if (stepElement) {
+                stepElement.classList.remove('hidden');
+                smoothScrollToElement(stepElement);
+                
+                // 특별한 애니메이션이 필요한 단계들
+                if (stepNumber === 3) {
+                    startSecurityCheck();
+                } else if (stepNumber === 4) {
+                    startDocumentAnalysis();
+                } else if (stepNumber < totalSteps) {
+                    const nextDelay = getStepDelay(stepNumber);
+                    setTimeout(() => showStep(stepNumber + 1), nextDelay);
+                } else {
+                    // 마지막 단계
+                    setTimeout(() => {
+                        currentStep = totalSteps + 1;
+                        updateProgress(totalSteps + 1);
+                        document.getElementById('result').classList.remove('hidden');
+                        smoothScrollToElement(document.getElementById('result'));
+                        enableRestart(); // 재시작 기능 활성화
+                    }, 3000);
+                }
+            }
+        }
+
+        // 단계별 지연 시간
+        function getStepDelay(step) {
+            const delays = {
+                1: 4000,  // 문서 현황
+                2: 3000,  // 민서 등장
+                3: 8000,  // 보안 시스템 점검 (별도 애니메이션)
+                4: 12000, // 문서 분석 (별도 애니메이션)
+                5: 5000,  // 종합 보고서
+                6: 4000,  // 결과
+                7: 3000   // 가치 설명
+            };
+            return delays[step] || 3000;
+        }
+
+        // 보안 시스템 점검 애니메이션
+        function startSecurityCheck() {
+            // 격리 확인
+            setTimeout(() => {
+                document.getElementById('isolation-loader').classList.remove('hidden');
+            }, 1000);
+
+            setTimeout(() => {
+                document.getElementById('isolation-loader').classList.add('hidden');
+                document.getElementById('isolation-check-icon').classList.remove('hidden');
+                startCostCheck();
+            }, 2500);
+        }
+
+        function startCostCheck() {
+            // 비용 계산
+            setTimeout(() => {
+                document.getElementById('cost-loader').classList.remove('hidden');
+            }, 500);
+
+            setTimeout(() => {
+                document.getElementById('cost-loader').classList.add('hidden');
+                document.getElementById('cost-check-icon').classList.remove('hidden');
+                startPerformanceCheck();
+            }, 2000);
+        }
+
+        function startPerformanceCheck() {
+            // 성능 확인
+            setTimeout(() => {
+                document.getElementById('performance-loader').classList.remove('hidden');
+            }, 500);
+
+            setTimeout(() => {
+                document.getElementById('performance-loader').classList.add('hidden');
+                document.getElementById('performance-check-icon').classList.remove('hidden');
+                
+                // 다음 단계로
+                setTimeout(() => showStep(4), 1000);
+            }, 2000);
+        }
+
+        // 문서 분석 애니메이션
+        function startDocumentAnalysis() {
+            const analyses = [
+                { id: 'contract', delay: 1000, duration: 3000 },
+                { id: 'blueprint', delay: 2000, duration: 3500 },
+                { id: 'hr', delay: 3000, duration: 3000 }
+            ];
+
+            analyses.forEach(analysis => {
+                setTimeout(() => {
+                    document.getElementById(`${analysis.id}-spinner`).classList.remove('hidden');
+                }, analysis.delay);
+
+                setTimeout(() => {
+                    document.getElementById(`${analysis.id}-spinner`).classList.add('hidden');
+                    document.getElementById(`${analysis.id}-complete`).classList.remove('hidden');
+                    document.getElementById(`${analysis.id}-details`).classList.remove('hidden');
+                }, analysis.delay + analysis.duration);
+            });
+
+            // 모든 분석이 끝나면 다음 단계로
+            setTimeout(() => showStep(5), 10000);
+        }
+
+        // 시뮬레이션 완료 후 재시작 로직 추가
+        function enableRestart() {
+            const startBtn = document.querySelector('.start-btn');
+            startBtn.disabled = false;
+            isSimulationRunning = false;
+            setStartButtonState('restart');
+
+            // 재시작 기능
+            startBtn.addEventListener('click', function() {
+                document.getElementById('intro').style.display = 'block';
+                document.getElementById('result').classList.add('hidden');
+                // 모든 시뮬레이션 단계 숨기기
+                for(let i = 1; i <= totalSteps; i++) {
+                    const stepElement = document.getElementById(`step${i}`);
+                    if(stepElement) stepElement.classList.add('hidden');
+                }
+                setStartButtonState('idle');
+                currentStep = 0;
+                updateProgress(0);
+                smoothScrollToElement(document.getElementById('intro'));
+            }, { once: true });
+        }
+
+        // 초기화
+        document.addEventListener('DOMContentLoaded', function() {
+            updateProgress(0);
+
+            const initializeDynamicContent = () => {
+                setStartButtonState(startButtonState);
+                updateMetricBoxes();
+                updateRoiItems();
+            };
+
+            const waitForTranslations = () => {
+                const lang = window.currentLang || document.documentElement.getAttribute('lang') || 'ko';
+                if (window.translations && window.translations[lang]) {
+                    initializeDynamicContent();
+                } else {
+                    setTimeout(waitForTranslations, 50);
+                }
+            };
+
+            waitForTranslations();
+
+            const languageObserver = new MutationObserver(mutations => {
+                mutations.forEach(mutation => {
+                    if (mutation.type === 'attributes' && mutation.attributeName === 'lang') {
+                        refreshDynamicContent();
+                    }
+                });
+            });
+
+            languageObserver.observe(document.documentElement, {
+                attributes: true,
+                attributeFilter: ['lang']
+            });
+        });
+    </script>
+
+</body>
+</html>
