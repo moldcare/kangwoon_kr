@@ -1,5 +1,5 @@
 /**
- * 킨프리 웹사이트 - 지역별 자동 언어 감지 시스템 (연동 버전)
+ * 강운 웹사이트 - 지역별 자동 언어 감지 시스템 (연동 버전)
  * i18n.js와 완벽 연동되는 버전
  */
 
@@ -12,10 +12,10 @@ class GeoLanguageDetector {
         this.defaultLanguage = 'ko';
         
         // i18n.js localStorage 키와 동일
-        this.storageKey = 'kinfri:lang';
+        this.storageKey = 'kangwoon:lang';
         
         // 지역 감지 캐시 키
-        this.geoStorageKey = 'kinfri:geo_cache';
+        this.geoStorageKey = 'kangwoon:geo_cache';
         this.geoCacheExpiry = 24 * 60 * 60 * 1000; // 24시간
         
         // 지역별 언어 매핑

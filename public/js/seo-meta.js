@@ -1,6 +1,6 @@
 /**
- * 킨프리 웹사이트 - SEO 메타 태그 다국어화 시스템
- * Dynamic SEO Meta Tags System for KINFRI Website
+ * 강운 웹사이트 - SEO 메타 태그 다국어화 시스템
+ * Dynamic SEO Meta Tags System for KANGWOON Website
  * 
  * 기능:
  * - 언어별 동적 메타 태그 생성
@@ -23,7 +23,7 @@ class SEOMetaManager {
         };
         
         // 기본 도메인 (환경에 따라 변경 가능)
-        this.baseUrl = 'https://kinfri.online';
+        this.baseUrl = 'https://kangwoon.kr';
         
         // 현재 페이지 정보
         this.currentPage = this.getCurrentPage();
@@ -149,7 +149,7 @@ class SEOMetaManager {
             'og:image': meta.ogImage || '/images/og-default.jpg',
             'og:url': `${this.baseUrl}${this.getLanguageUrl(language)}`,
             'og:type': 'website',
-            'og:site_name': 'KINFRI',
+            'og:site_name': 'KANGWOON',
             'og:locale': this.getOGLocale(language)
         };
         
@@ -171,7 +171,7 @@ class SEOMetaManager {
             'twitter:title': meta.twitterTitle || meta.ogTitle || meta.title,
             'twitter:description': meta.twitterDescription || meta.ogDescription || meta.description,
             'twitter:image': meta.ogImage || '/images/og-default.jpg',
-            'twitter:site': '@kinfri_official' // 트위터 계정이 있다면
+            'twitter:site': '@KANGWOON_official' // 트위터 계정이 있다면
         };
         
         Object.entries(twitterTags).forEach(([name, content]) => {
@@ -280,21 +280,21 @@ class SEOMetaManager {
         const structuredData = {
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "KINFRI",
-            "alternateName": "킨프리",
+            "name": "KANGWOON",
+            "alternateName": "강운",
             "url": this.baseUrl,
             "logo": `${this.baseUrl}/images/logo.png`,
             "description": meta.description,
             "sameAs": [
                 // 소셜 미디어 링크들 (실제 계정이 있다면)
-                // "https://www.linkedin.com/company/kinfri",
-                // "https://twitter.com/kinfri_official"
+                // "https://www.linkedin.com/company/KANGWOON",
+                // "https://twitter.com/KANGWOON_official"
             ],
             "contactPoint": {
                 "@type": "ContactPoint",
                 "telephone": "+82-10-4063-9062",
                 "contactType": "customer service",
-                "email": "thinkcare@naver.com",
+                "email": "kangwooncp@gmail.com",
                 "availableLanguage": Object.keys(this.supportedLanguages)
             },
             "address": {
@@ -305,7 +305,7 @@ class SEOMetaManager {
             },
             "founder": {
                 "@type": "Person",
-                "name": "KINFRI Team"
+                "name": "KANGWOON Team"
             },
             "foundingDate": "2024",
             "industry": "Artificial Intelligence",

@@ -39,7 +39,7 @@
 - `locales/ko.json`: 모든 한국어 텍스트 변경
   - 킨프리 → 강운 (27곳)
   - KINFRI → KANGWOON (1곳)
-  - 이메일: rucas@kinfri.online → rucas@kangwoon.kr
+  - 이메일: kangwooncp@gmail.com → rucas@kangwoon.kr
   - 저작권: © 2025 KINFRI → © 2025 KANGWOON
 
 - `index.html`: 메타태그 및 본문 내용 변경

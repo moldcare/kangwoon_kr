@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://www.kinfri.online/sitemap.xml
+Sitemap: https://kangwoon.kr/sitemap.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1

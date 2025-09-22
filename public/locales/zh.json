@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "助力中小企业实现<span class=\"highlight\">AI 转型</span><br>的最佳伙伴",
-    "description": "KINFRI 通过 RAG 应用、私有 sLLM 模型与 AI Agent 自动化，帮助企业同时提升生产力并显著降低运营成本。",
+    "description": "KANGWOON 通过 RAG 应用、私有 sLLM 模型与 AI Agent 自动化，帮助企业同时提升生产力并显著降低运营成本。",
     "statAccuracy": "识别准确率",
     "statCostReduction": "效率提升",
     "statResponseTime": "全天候无人运转",
@@ -24,7 +24,7 @@
       "ragSearch": "RAG 搜索",
       "privateSllm": "私有 sLLM"
     },
-    "imageAlt": "KINFRI AI 转型平台概览 - RAG、sLLM、AI Agent"
+    "imageAlt": "KANGWOON AI 转型平台概览 - RAG、sLLM、AI Agent"
   },
   "solutions": {
     "title": "AI 创新解决方案",
@@ -114,8 +114,8 @@
       "navName": "Airi",
       "title": "Airi - IT管理AI",
       "subtitle": "整夜静静管理我们公司PC的夜班专属AI",
-      "pageTitle": "艾瑞AI - IT管理真实工作模拟 | KINFRI",
-      "pageDescription": "体验KINFRI的AI员工艾瑞通宵管理公司PC的真实工作模拟。",
+      "pageTitle": "艾瑞AI - IT管理真实工作模拟 | KANGWOON",
+      "pageDescription": "体验KANGWOON的AI员工艾瑞通宵管理公司PC的真实工作模拟。",
       "scenarioTitle": "🌙 场景：无需加班的IT管理",
       "timeRange": "晚上9点 ~ 凌晨6点",
       "situationLabel": "情况：",
@@ -127,7 +127,7 @@
       "startButton": "▶️ 开始艾瑞工作模拟",
       "resultTitle": "🎯 模拟完成！",
       "resultText1": "我们已确认了艾瑞通宵处理的工作！",
-      "resultText2": "KINFRI的AI Agent实际上就是这样24小时自动化工作的。",
+      "resultText2": "KANGWOON的AI Agent实际上就是这样24小时自动化工作的。",
       "step1": {
         "title": "🌙 艾瑞工作开始",
         "message": "您好！员工们已经下班了。现在我来通宵照料PC们。",
@@ -191,7 +191,7 @@
     },
     "gyeonu": {
       "navName": "牵牛",
-      "pageTitle": "牵牛AI - 报价系统实际业务模拟 | KINFRI",
+      "pageTitle": "牵牛AI - 报价系统实际业务模拟 | KANGWOON",
       "pageDescription": "10分钟创建精确报价的专业报价AI",
       "scenarioTitle": "💼 场景：紧急报价请求",
       "timeRange": "下午4:30",
@@ -275,15 +275,15 @@
       },
       "resultTitle": "🎯 报价模拟完成！",
       "resultText1": "牵牛在10分钟内完成了精确报价！",
-      "resultText2": "这就是KINFRI的AI智能代理在实际业务中自动化报价流程的方式。"
+      "resultText2": "这就是KANGWOON的AI智能代理在实际业务中自动化报价流程的方式。"
     },
     "jisu": {
       "navName": "智秀",
       "title": "智秀 - 工作分析 AI",
       "subtitle": "分析员工工作并为管理层生成洞察报告的分析专业AI",
       "aiName": "智秀",
-      "pageTitle": "智秀 AI - 工作分析模拟 | KINFRI",
-      "pageDescription": "体验KINFRI的AI员工智秀分析员工工作并生成洞察报告的真实工作模拟。",
+      "pageTitle": "智秀 AI - 工作分析模拟 | KANGWOON",
+      "pageDescription": "体验KANGWOON的AI员工智秀分析员工工作并生成洞察报告的真实工作模拟。",
       "scenarioTitle": "📊 场景：月末工作分析报告",
       "timeRange": "下午6:00",
       "situationLabel": "情况：",
@@ -297,7 +297,7 @@
       "restart": "🔄 重新体验",
       "resultTitle": "🎯 工作分析模拟完成！",
       "resultText1": "智秀自动分析了50名员工的工作并完成了洞察报告！",
-      "resultText2": "这就是KINFRI的AI智能代理在实际业务中自动化工作分析的方式。",
+      "resultText2": "这就是KANGWOON的AI智能代理在实际业务中自动化工作分析的方式。",
       "step1": {
         "title": "🌙 员工下班后开始数据收集",
         "message": "您好，CEO！所有员工都已下班。我现在将分析今天的工作活动。",
@@ -836,7 +836,7 @@
       },
       "email": {
         "title": "电子邮件",
-        "address": "thinkcare@naver.com",
+        "address": "kangwooncp@gmail.com",
         "availability": "24小时接收"
       },
       "address": {
@@ -894,13 +894,13 @@
     "contactInfo": {
       "title": "联系方式",
       "email": "邮箱：",
-      "emailValue": "thinkcare@naver.com",
+      "emailValue": "kangwooncp@gmail.com",
       "phone": "电话：",
       "phoneValue": "+82-10-4063-9062",
       "address": "地址：",
       "addressValue": "首尔特别市江南区"
     },
-    "copyright": "© 2025 KINFRI. All rights reserved.",
+    "copyright": "© 2025 KANGWOON. All rights reserved.",
     "links": {
       "privacy": "隐私政策",
       "terms": "使用条款"
@@ -920,7 +920,7 @@
   },
   "aiSimulation": {
     "title": "🎬 AI员工实际工作场景",
-    "description": "虽然是模拟，但KINFRI AI确实能做到这些！<br>一键体验AI员工的惊人能力。",
+    "description": "虽然是模拟，但KANGWOON AI确实能做到这些！<br>一键体验AI员工的惊人能力。",
     "airi": {
       "name": "艾莉 (Airi)",
       "role": "AI IT管理专家",
@@ -988,14 +988,14 @@
     },
     "cta": {
       "title": "🎯 这只是一个模拟",
-      "description": "但 KINFRI 的 AI 员工在现实中确实能做到！<br>欢迎预约免费咨询，了解实际落地的方法。",
+      "description": "但 KANGWOON 的 AI 员工在现实中确实能做到！<br>欢迎预约免费咨询，了解实际落地的方法。",
       "button": "🤖 获取实际落地咨询"
     }
   },
   "ai_consultant": {
     "questions": {
       "greeting": {
-        "text": "欢迎来到KINFRI AI咨询！😊\n\n为了为您提供更准确的定制化咨询，我们想问几个问题。您准备好开始了吗？",
+        "text": "欢迎来到KANGWOON AI咨询！😊\n\n为了为您提供更准确的定制化咨询，我们想问几个问题。您准备好开始了吗？",
         "options": ["是的，开始吧", "等一下"]
       },
       "business_problem": {
@@ -1051,9 +1051,9 @@
       }
     },
     "prompts": {
-      "recommendation_header": "根据客户信息，请从KINFRI的解决方案中推荐最合适的AI解决方案。",
+      "recommendation_header": "根据客户信息，请从KANGWOON的解决方案中推荐最合适的AI解决方案。",
       "customer_summary": "**客户信息摘要：**",
-      "solution_options": "**KINFRI解决方案选项：**",
+      "solution_options": "**KANGWOON解决方案选项：**",
       "format_solution": "**🎯 推荐解决方案**",
       "format_reason": "**💡 选择理由**",
       "format_effect": "**📈 预期效果**",
@@ -1102,10 +1102,10 @@
     "langSelect": "选择语言"
   },
   "meta": {
-    "title": "KINFRI（金夫利）- 制造业与中小企业AI解决方案",
-    "description": "KINFRI为制造业和中小企业提供AI智能代理、RAG应用、sLLM等定制化AI解决方案，助力企业数字化转型，提升生产力，降低运营成本。",
-    "keywords": "KINFRI, 金夫利, AI解决方案, 制造业AI, 中小企业数字化转型, AI智能代理, RAG应用, sLLM, 人工智能",
-    "ogTitle": "KINFRI - 制造业与中小企业AI转型合作伙伴",
-    "ogDescription": "通过AI智能代理、RAG、sLLM技术革新制造业生产力，体验KINFRI定制化AI解决方案，实现企业智能化升级。"
+    "title": "KANGWOON（金夫利）- 制造业与中小企业AI解决方案",
+    "description": "KANGWOON为制造业和中小企业提供AI智能代理、RAG应用、sLLM等定制化AI解决方案，助力企业数字化转型，提升生产力，降低运营成本。",
+    "keywords": "KANGWOON, 金夫利, AI解决方案, 制造业AI, 中小企业数字化转型, AI智能代理, RAG应用, sLLM, 人工智能",
+    "ogTitle": "KANGWOON - 制造业与中小企业AI转型合作伙伴",
+    "ogDescription": "通过AI智能代理、RAG、sLLM技术革新制造业生产力，体验KANGWOON定制化AI解决方案，实现企业智能化升级。"
   }
 }

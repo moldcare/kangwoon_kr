@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "Mitra transformasi <span class=\"highlight\">AI</span><br>tepercaya untuk bisnis UKM Anda",
-    "description": "KINFRI menghadirkan aplikasi berbasis RAG, model sLLM privat, dan otomatisasi AI Agent untuk meningkatkan produktivitas sekaligus menekan biaya operasional.",
+    "description": "KANGWOON menghadirkan aplikasi berbasis RAG, model sLLM privat, dan otomatisasi AI Agent untuk meningkatkan produktivitas sekaligus menekan biaya operasional.",
     "statAccuracy": "Akurasi pengenalan",
     "statCostReduction": "Peningkatan efisiensi",
     "statResponseTime": "Sistem operasi tanpa awak 24/7",
@@ -24,7 +24,7 @@
       "ragSearch": "Pencarian RAG",
       "privateSllm": "sLLM privat"
     },
-    "imageAlt": "Gambaran platform transformasi AI KINFRI - RAG, sLLM, AI Agent"
+    "imageAlt": "Gambaran platform transformasi AI KANGWOON - RAG, sLLM, AI Agent"
   },
   "solutions": {
     "title": "Solusi Inovasi AI",
@@ -114,8 +114,8 @@
       "navName": "Airi",
       "title": "Airi - AI Manajemen IT",
       "subtitle": "AI spesialis shift malam yang diam-diam mengelola PC perusahaan kita semalaman",
-      "pageTitle": "Airi AI - Simulasi Manajemen IT Kerja Nyata | KINFRI",
-      "pageDescription": "Rasakan pengalaman karyawan AI KINFRI bernama Airi mengelola PC perusahaan semalaman dalam simulasi kerja nyata.",
+      "pageTitle": "Airi AI - Simulasi Manajemen IT Kerja Nyata | KANGWOON",
+      "pageDescription": "Rasakan pengalaman karyawan AI KANGWOON bernama Airi mengelola PC perusahaan semalaman dalam simulasi kerja nyata.",
       "scenarioTitle": "🌙 Skenario: Manajemen IT Tanpa Lembur",
       "timeRange": "21:00 ~ 06:00",
       "situationLabel": "Situasi:",
@@ -127,7 +127,7 @@
       "startButton": "▶️ Mulai Simulasi Kerja Airi",
       "resultTitle": "🎯 Simulasi Selesai!",
       "resultText1": "Kami telah mengonfirmasi tugas-tugas yang ditangani Airi semalaman!",
-      "resultText2": "AI Agent KINFRI benar-benar mengotomatisasi pekerjaan 24/7 dengan cara ini.",
+      "resultText2": "AI Agent KANGWOON benar-benar mengotomatisasi pekerjaan 24/7 dengan cara ini.",
       "step1": {
         "title": "🌙 Airi Mulai Bekerja",
         "message": "Halo! Para karyawan sudah pulang kerja. Sekarang saya akan merawat PC semalaman.",
@@ -191,7 +191,7 @@
     },
     "gyeonu": {
       "navName": "Gyeonu",
-      "pageTitle": "Gyeonu AI - Simulasi Sistem Penawaran Nyata | KINFRI",
+      "pageTitle": "Gyeonu AI - Simulasi Sistem Penawaran Nyata | KANGWOON",
       "pageDescription": "AI penawaran profesional yang membuat penawaran akurat dalam 10 menit",
       "scenarioTitle": "💼 Skenario: Permintaan Penawaran Mendesak",
       "timeRange": "16:30",
@@ -275,15 +275,15 @@
       },
       "resultTitle": "🎯 Simulasi Penawaran Selesai!",
       "resultText1": "Gyeonu menyelesaikan penawaran yang akurat dalam 10 menit!",
-      "resultText2": "Inilah cara AI Agent KINFRI mengotomatisasi proses penawaran dalam bisnis nyata."
+      "resultText2": "Inilah cara AI Agent KANGWOON mengotomatisasi proses penawaran dalam bisnis nyata."
     },
     "jisu": {
       "navName": "Jisu",
       "title": "Jisu - AI Analisis Kerja",
       "subtitle": "AI spesialis analisis yang menganalisis pekerjaan karyawan dan menghasilkan laporan wawasan untuk manajemen",
       "aiName": "Jisu",
-      "pageTitle": "Jisu AI - Simulasi Analisis Kerja | KINFRI",
-      "pageDescription": "Rasakan AI karyawan Jisu dari KINFRI menganalisis pekerjaan karyawan dan menghasilkan laporan wawasan dalam simulasi kerja nyata ini.",
+      "pageTitle": "Jisu AI - Simulasi Analisis Kerja | KANGWOON",
+      "pageDescription": "Rasakan AI karyawan Jisu dari KANGWOON menganalisis pekerjaan karyawan dan menghasilkan laporan wawasan dalam simulasi kerja nyata ini.",
       "scenarioTitle": "📊 Skenario: Laporan Analisis Kerja Akhir Bulan",
       "timeRange": "18:00",
       "situationLabel": "Situasi:",
@@ -297,7 +297,7 @@
       "restart": "🔄 Coba Lagi",
       "resultTitle": "🎯 Simulasi Analisis Kerja Selesai!",
       "resultText1": "Jisu secara otomatis menganalisis pekerjaan 50 karyawan dan menyelesaikan laporan wawasan!",
-      "resultText2": "Inilah cara AI Agent KINFRI mengotomatisasi analisis kerja dalam bisnis nyata.",
+      "resultText2": "Inilah cara AI Agent KANGWOON mengotomatisasi analisis kerja dalam bisnis nyata.",
       "step1": {
         "title": "🌙 Memulai Pengumpulan Data Setelah Karyawan Pulang",
         "message": "Halo, CEO! Semua karyawan sudah pulang. Saya akan menganalisis aktivitas kerja hari ini.",
@@ -354,8 +354,8 @@
       "navName": "Doyoung",
       "title": "Doyoung - AI Manual Pintar",
       "subtitle": "Ahli lapangan yang telah mempelajari lebih dari 10.000 halaman manual dengan sempurna menggunakan teknologi RAG",
-      "pageTitle": "Doyoung - AI Manual Pintar | KINFRI",
-      "pageDescription": "Rasakan simulasi kerja nyata di mana karyawan AI KINFRI, Doyoung, menemukan solusi akurat secara instan dari manual yang sangat besar menggunakan teknologi RAG.",
+      "pageTitle": "Doyoung - AI Manual Pintar | KANGWOON",
+      "pageDescription": "Rasakan simulasi kerja nyata di mana karyawan AI KANGWOON, Doyoung, menemukan solusi akurat secara instan dari manual yang sangat besar menggunakan teknologi RAG.",
       "scenarioTitle": "📚 Skenario: Situasi Darurat di Lokasi Pukul 3 Pagi",
       "timeRange": "03:15 WIB",
       "situationLabel": "Situasi:",
@@ -481,11 +481,11 @@
       },
       "resultTitle": "🎯 Simulasi Selesai!",
       "resultText1": "Doyoung memberikan solusi akurat secara instan dengan teknologi RAG!",
-      "resultText2": "Sistem RAG KINFRI menggunakan cara ini untuk memanfaatkan manual yang sangat besar dalam praktik nyata."
+      "resultText2": "Sistem RAG KANGWOON menggunakan cara ini untuk memanfaatkan manual yang sangat besar dalam praktik nyata."
     },
     "minseo": {
       "navName": "Minseo",
-      "pageTitle": "Minseo - AI Keamanan Data Pribadi | KINFRI",
+      "pageTitle": "Minseo - AI Keamanan Data Pribadi | KANGWOON",
       "pageDescription": "AI on-premise yang menganalisis dokumen rahasia dengan aman tanpa risiko kebocoran data menggunakan teknologi sLLM",
       "title": "Minseo - AI Keamanan Data Pribadi",
       "subtitle": "Menganalisis dokumen rahasia dengan aman tanpa kebocoran data menggunakan teknologi sLLM",
@@ -640,7 +640,7 @@
         "external3": "❌ Membutuhkan koneksi internet",
         "external4": "❌ Batasan panggilan API",
         "external5": "❌ Kehilangan kedaulatan data",
-        "sllmTitle": "sLLM KINFRI",
+        "sllmTitle": "sLLM KANGWOON",
         "sllm1": "✅ Pemrosesan on-premise (keamanan 100%)",
         "sllm2": "✅ Tanpa biaya token (tak terbatas)",
         "sllm3": "✅ Dapat beroperasi offline",
@@ -653,7 +653,7 @@
       },
       "resultTitle": "🎯 Simulasi AI Keamanan Selesai!",
       "resultText1": "Minseo menyelesaikan analisis data rahasia sambil menjaga keamanan 100%!",
-      "resultText2": "Solusi sLLM KINFRI benar-benar menjamin keamanan data dengan cara seperti ini.",
+      "resultText2": "Solusi sLLM KANGWOON benar-benar menjamin keamanan data dengan cara seperti ini.",
       "cta": {
         "titleHtml": "Bangun <strong>AI keamanan data privat</strong> seperti Minseo untuk perusahaan Anda!",
         "bullet1": "✅ Implementasi 100% on-premise",
@@ -683,8 +683,8 @@
     }
   },
   "about": {
-    "title": "Mitra Inovasi AI, KINFRI",
-    "description": "KINFRI memimpin transformasi digital untuk perusahaan manufaktur dan UKM, mendukung pertumbuhan berkelanjutan melalui teknologi AI.",
+    "title": "Mitra Inovasi AI, KANGWOON",
+    "description": "KANGWOON memimpin transformasi digital untuk perusahaan manufaktur dan UKM, mendukung pertumbuhan berkelanjutan melalui teknologi AI.",
     "mission": "Misi kami: Merevolusi bisnis pelanggan dengan AI untuk memaksimalkan daya saing.",
     "vision": "Visi kami: Menciptakan dunia di mana semua UKM dapat menikmati manfaat AI.",
     "badges": {
@@ -716,7 +716,7 @@
       "satisfaction": "Kepuasan Pelanggan",
       "support": "Dukungan Teknis"
     },
-    "imageAlt": "Tim Ahli KINFRI"
+    "imageAlt": "Tim Ahli KANGWOON"
   },
   "credentials": {
     "title": "Keahlian yang Terverifikasi",
@@ -754,7 +754,7 @@
     }
   },
   "process": {
-    "title": "Proses Implementasi AI KINFRI (Selesai 3 Tahap)",
+    "title": "Proses Implementasi AI KANGWOON (Selesai 3 Tahap)",
     "step1": {
       "title": "Analisis Lapangan dan Konsultasi (1 minggu)",
       "description": "• Analisis status proses produksi saat ini<br>• Identifikasi area yang dapat menerapkan AI<br>• Penyediaan laporan prediksi ROI"
@@ -770,7 +770,7 @@
   },
   "cases": {
     "title": "Kasus Sukses",
-    "description": "Pencapaian nyata perusahaan yang meraih inovasi dengan solusi AI KINFRI",
+    "description": "Pencapaian nyata perusahaan yang meraih inovasi dengan solusi AI KANGWOON",
     "manufacturing": {
       "category": "Manufaktur",
       "title": "Mengurangi Tingkat Cacat 10% dengan AI",
@@ -821,7 +821,7 @@
     },
     "cta": {
       "title": "Apakah bisnis Anda siap untuk berinovasi?",
-      "description": "Rencanakan solusi AI kustom dengan ahli KINFRI.",
+      "description": "Rencanakan solusi AI kustom dengan ahli KANGWOON.",
       "button": "🤖 Konsultasi AI Gratis"
     }
   },
@@ -836,7 +836,7 @@
       },
       "email": {
         "title": "Email",
-        "address": "thinkcare@naver.com",
+        "address": "kangwooncp@gmail.com",
         "availability": "Penerimaan 24 jam"
       },
       "address": {
@@ -867,7 +867,7 @@
     }
   },
   "footer": {
-    "brandText": "KINFRI",
+    "brandText": "KANGWOON",
     "description": "Memimpin transformasi AI untuk perusahaan manufaktur/UKM, menyediakan solusi cerdas untuk pertumbuhan berkelanjutan.",
     "solutions": {
       "title": "Solusi",
@@ -894,13 +894,13 @@
     "contactInfo": {
       "title": "Informasi Kontak",
       "email": "Email:",
-      "emailValue": "thinkcare@naver.com",
+      "emailValue": "kangwooncp@gmail.com",
       "phone": "Telepon:",
       "phoneValue": "+82-10-4063-9062",
       "address": "Alamat:",
       "addressValue": "Gangnam-gu, Seoul"
     },
-    "copyright": "© 2025 KINFRI. All rights reserved.",
+    "copyright": "© 2025 KANGWOON. All rights reserved.",
     "links": {
       "privacy": "Kebijakan Privasi",
       "terms": "Syarat Penggunaan"
@@ -920,7 +920,7 @@
   },
   "aiSimulation": {
     "title": "🎬 AI yang Benar-Benar Bekerja",
-    "description": "Ini hanyalah simulasi, tetapi AI KINFRI benar-benar melakukan pekerjaan seperti ini!<br>Rasakan kemampuan luar biasa karyawan AI hanya dengan satu klik.",
+    "description": "Ini hanyalah simulasi, tetapi AI KANGWOON benar-benar melakukan pekerjaan seperti ini!<br>Rasakan kemampuan luar biasa karyawan AI hanya dengan satu klik.",
     "airi": {
       "name": "Airi",
       "role": "Ahli Manajemen TI berbasis AI",
@@ -988,14 +988,14 @@
     },
     "cta": {
       "title": "🎯 Ini hanyalah simulasi",
-      "description": "Namun karyawan AI KINFRI benar-benar melakukan pekerjaan seperti ini!<br>Daftarlah konsultasi gratis untuk mengetahui cara implementasinya.",
+      "description": "Namun karyawan AI KANGWOON benar-benar melakukan pekerjaan seperti ini!<br>Daftarlah konsultasi gratis untuk mengetahui cara implementasinya.",
       "button": "🤖 Dapatkan konsultasi implementasi nyata"
     }
   },
   "ai_consultant": {
     "questions": {
       "greeting": {
-        "text": "Selamat datang di konsultasi AI KINFRI! 😊\n\nUntuk memberikan konsultasi yang lebih akurat dan disesuaikan, kami ingin mengajukan beberapa pertanyaan. Apakah Anda siap untuk memulai?",
+        "text": "Selamat datang di konsultasi AI KANGWOON! 😊\n\nUntuk memberikan konsultasi yang lebih akurat dan disesuaikan, kami ingin mengajukan beberapa pertanyaan. Apakah Anda siap untuk memulai?",
         "options": ["Ya, mari kita mulai", "Tunggu sebentar"]
       },
       "business_problem": {
@@ -1051,9 +1051,9 @@
       }
     },
     "prompts": {
-      "recommendation_header": "Berdasarkan informasi pelanggan, silakan rekomendasikan solusi AI yang paling sesuai dari penawaran KINFRI.",
+      "recommendation_header": "Berdasarkan informasi pelanggan, silakan rekomendasikan solusi AI yang paling sesuai dari penawaran KANGWOON.",
       "customer_summary": "**Ringkasan Informasi Pelanggan:**",
-      "solution_options": "**Pilihan Solusi KINFRI:**",
+      "solution_options": "**Pilihan Solusi KANGWOON:**",
       "format_solution": "**🎯 Solusi yang Direkomendasikan**",
       "format_reason": "**💡 Alasan Pemilihan**",
       "format_effect": "**📈 Efek yang Diharapkan**",
@@ -1102,10 +1102,10 @@
     "langSelect": "Pilih bahasa"
   },
   "meta": {
-    "title": "KINFRI - Solusi AI untuk Manufaktur & UKM",
-    "description": "KINFRI menyediakan solusi AI yang dapat disesuaikan termasuk AI Agent, RAG, sLLM untuk manufaktur dan UKM. Tingkatkan produktivitas dan kurangi biaya operasional.",
-    "keywords": "KINFRI, solusi AI, AI manufaktur, transformasi digital UKM, AI Agent, RAG, sLLM, kecerdasan buatan",
-    "ogTitle": "KINFRI - Mitra Transformasi AI untuk Manufaktur & UKM",
-    "ogDescription": "Rasakan solusi AI yang disesuaikan dari KINFRI yang merevolusi produktivitas manufaktur melalui teknologi AI Agent, RAG, dan sLLM."
+    "title": "KANGWOON - Solusi AI untuk Manufaktur & UKM",
+    "description": "KANGWOON menyediakan solusi AI yang dapat disesuaikan termasuk AI Agent, RAG, sLLM untuk manufaktur dan UKM. Tingkatkan produktivitas dan kurangi biaya operasional.",
+    "keywords": "KANGWOON, solusi AI, AI manufaktur, transformasi digital UKM, AI Agent, RAG, sLLM, kecerdasan buatan",
+    "ogTitle": "KANGWOON - Mitra Transformasi AI untuk Manufaktur & UKM",
+    "ogDescription": "Rasakan solusi AI yang disesuaikan dari KANGWOON yang merevolusi produktivitas manufaktur melalui teknologi AI Agent, RAG, dan sLLM."
   }
 }

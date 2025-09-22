@@ -1,6 +1,6 @@
 /**
  * Gemini API 연동 모듈
- * 킨프리 AI 상담 시스템용
+ * 강운 AI 상담 시스템용
  */
 
 class GeminiAPI {
@@ -87,15 +87,15 @@ class GeminiAPI {
     }
 
     /**
-     * 킨프리 AI 상담 전용 시스템 프롬프트 구축
+     * 강운 AI 상담 전용 시스템 프롬프트 구축
      * @param {string} userPrompt - 사용자 입력
      * @param {boolean} isRecommendation - 추천 생성인지 여부
      * @returns {string} - 완전한 프롬프트
      */
     buildFullPrompt(userPrompt, isRecommendation) {
-        const systemPrompt = `당신은 킨프리(KINFRI)의 AI 상담 전문가입니다.
+        const systemPrompt = `당신은 강운(KANGWOON)의 AI 상담 전문가입니다.
 
-[킨프리 회사 소개]
+[강운 회사 소개]
 - 제조/중소기업의 AI 전환을 선도하는 전문 기업
 - 생산성 향상, 비용 절감, 경쟁력 강화를 목표로 하는 AI 솔루션 제공
 - 운영비 절감, 직원 업무 가치 재창출, 데이터 보안에 특화

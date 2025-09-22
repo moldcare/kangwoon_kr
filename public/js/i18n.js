@@ -1,5 +1,5 @@
 (function () {
-  const STORAGE_KEY = 'kinfri:lang';
+  const STORAGE_KEY = 'kangwoon:lang';
   const DEFAULT_LANG = document.documentElement.getAttribute('lang') || 'ko';
   const LOCALE_BASE = '/locales';
   const selects = new Set();

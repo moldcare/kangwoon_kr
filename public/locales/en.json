@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "Your partner for <span class=\"highlight\">AI transformation</span><br>across SMB operations",
-    "description": "KINFRI delivers RAG-powered applications, private sLLM models, and AI Agent automation to boost productivity while cutting operational costs for your business.",
+    "description": "KANGWOON delivers RAG-powered applications, private sLLM models, and AI Agent automation to boost productivity while cutting operational costs for your business.",
     "statAccuracy": "Recognition Accuracy",
     "statCostReduction": "Efficiency Gains",
     "statResponseTime": "24/7 Autonomous Operations",
@@ -24,7 +24,7 @@
       "ragSearch": "RAG Search",
       "privateSllm": "Private sLLM"
     },
-    "imageAlt": "KINFRI AI transformation platform overview - RAG, sLLM, AI Agent"
+    "imageAlt": "KANGWOON AI transformation platform overview - RAG, sLLM, AI Agent"
   },
   "solutions": {
     "title": "AI Innovation Solutions",
@@ -114,8 +114,8 @@
       "navName": "Airi",
       "title": "Airi - IT Management AI",
       "subtitle": "Night shift AI specialist that quietly manages our company PCs overnight",
-      "pageTitle": "Airi AI - IT Management Real Work Simulation | KINFRI",
-      "pageDescription": "Experience KINFRI's AI employee Airi managing your company's PCs overnight in a real work simulation.",
+      "pageTitle": "Airi AI - IT Management Real Work Simulation | KANGWOON",
+      "pageDescription": "Experience KANGWOON's AI employee Airi managing your company's PCs overnight in a real work simulation.",
       "scenarioTitle": "🌙 Scenario: IT Management Without Overtime",
       "timeRange": "9 PM ~ 6 AM",
       "situationLabel": "Situation:",
@@ -127,7 +127,7 @@
       "startButton": "▶️ Start Airi Work Simulation",
       "resultTitle": "🎯 Simulation Complete!",
       "resultText1": "We've confirmed the tasks Airi handled overnight!",
-      "resultText2": "KINFRI's AI Agent actually automates work 24/7 in this way.",
+      "resultText2": "KANGWOON's AI Agent actually automates work 24/7 in this way.",
       "step1": {
         "title": "🌙 Airi Work Start",
         "message": "Hello! The employees have left work. Now I'll take care of the PCs all night.",
@@ -191,7 +191,7 @@
     },
     "gyeonu": {
       "navName": "Gyeonu",
-      "pageTitle": "Gyeonu AI - Quotation System Real Work Simulation | KINFRI",
+      "pageTitle": "Gyeonu AI - Quotation System Real Work Simulation | KANGWOON",
       "pageDescription": "Professional quotation AI that creates accurate quotes in 10 minutes",
       "scenarioTitle": "💼 Scenario: Urgent Quotation Request",
       "timeRange": "4:30 PM",
@@ -275,15 +275,15 @@
       },
       "resultTitle": "🎯 Quotation Simulation Complete!",
       "resultText1": "Gyeonu completed an accurate quotation in 10 minutes!",
-      "resultText2": "This is how KINFRI's AI Agent automates quotation processes in real business."
+      "resultText2": "This is how KANGWOON's AI Agent automates quotation processes in real business."
     },
     "jisu": {
       "navName": "Jisu",
       "title": "Jisu - Work Analysis AI",
       "subtitle": "Analysis specialist AI that analyzes employee work and generates insight reports for management",
       "aiName": "Jisu",
-      "pageTitle": "Jisu AI - Work Analysis Simulation | KINFRI",
-      "pageDescription": "Experience KINFRI's AI employee Jisu analyzing employee work and generating insight reports in this real work simulation.",
+      "pageTitle": "Jisu AI - Work Analysis Simulation | KANGWOON",
+      "pageDescription": "Experience KANGWOON's AI employee Jisu analyzing employee work and generating insight reports in this real work simulation.",
       "scenarioTitle": "📊 Scenario: Monthly Work Analysis Report",
       "timeRange": "6:00 PM",
       "situationLabel": "Situation:",
@@ -297,7 +297,7 @@
       "restart": "🔄 Try Again",
       "resultTitle": "🎯 Work Analysis Simulation Complete!",
       "resultText1": "Jisu automatically analyzed 50 employees' work and completed an insight report!",
-      "resultText2": "This is how KINFRI's AI Agent automates work analysis in real business.",
+      "resultText2": "This is how KANGWOON's AI Agent automates work analysis in real business.",
       "step1": {
         "title": "🌙 Starting Data Collection After Employee Departure",
         "message": "Hello, CEO! All employees have left for the day. I will now analyze today's work activities.",
@@ -354,8 +354,8 @@
       "navName": "Doyoung",
       "title": "Doyoung - Smart Manual AI",
       "subtitle": "Field expert who perfectly learned 10,000+ manual pages with RAG technology",
-      "pageTitle": "Doyoung - Smart Manual AI | KINFRI",
-      "pageDescription": "Experience KINFRI's AI employee Doyoung finding accurate solutions instantly from vast manuals using RAG technology in real work simulation.",
+      "pageTitle": "Doyoung - Smart Manual AI | KANGWOON",
+      "pageDescription": "Experience KANGWOON's AI employee Doyoung finding accurate solutions instantly from vast manuals using RAG technology in real work simulation.",
       "scenarioTitle": "📚 Scenario: 3 AM Emergency Situation",
       "timeRange": "03:15 AM",
       "situationLabel": "Situation:",
@@ -481,11 +481,11 @@
       },
       "resultTitle": "🎯 Simulation Complete!",
       "resultText1": "Doyoung provided accurate solutions instantly with RAG technology!",
-      "resultText2": "KINFRI's RAG system actually utilizes vast manuals in this way."
+      "resultText2": "KANGWOON's RAG system actually utilizes vast manuals in this way."
     },
     "minseo": {
       "navName": "Minseo",
-      "pageTitle": "Minseo - Private Data Security AI | KINFRI",
+      "pageTitle": "Minseo - Private Data Security AI | KANGWOON",
       "pageDescription": "On-premises AI that safely analyzes confidential documents without data leakage using sLLM technology",
       "title": "Minseo - Private Data Security AI",
       "subtitle": "Safely analyze confidential documents without data leakage using sLLM technology",
@@ -640,7 +640,7 @@
         "external3": "❌ Internet connection required",
         "external4": "❌ API call limits",
         "external5": "❌ Loss of data sovereignty",
-        "sllmTitle": "KINFRI sLLM",
+        "sllmTitle": "KANGWOON sLLM",
         "sllm1": "✅ On-premises processing (100% secure)",
         "sllm2": "✅ No token cost (unlimited)",
         "sllm3": "✅ Offline operation possible",
@@ -653,7 +653,7 @@
       },
       "resultTitle": "🎯 Security AI Simulation Complete!",
       "resultText1": "Minseo completed confidential data analysis while maintaining 100% security!",
-      "resultText2": "KINFRI's sLLM solution actually guarantees data security in this way.",
+      "resultText2": "KANGWOON's sLLM solution actually guarantees data security in this way.",
       "cta": {
         "titleHtml": "Build a <strong>private data security AI</strong> like Minseo for your enterprise!",
         "bullet1": "✅ 100% on-premises deployment",
@@ -683,8 +683,8 @@
     }
   },
   "about": {
-    "title": "AI Innovation Partner, KINFRI",
-    "description": "KINFRI leads digital transformation for manufacturing and SMEs, supporting sustainable growth through AI technology.",
+    "title": "AI Innovation Partner, KANGWOON",
+    "description": "KANGWOON leads digital transformation for manufacturing and SMEs, supporting sustainable growth through AI technology.",
     "mission": "Our Mission: Maximize competitiveness by innovating customer businesses with AI.",
     "vision": "Our Vision: Create a world where every SME benefits from AI.",
     "badges": {
@@ -716,7 +716,7 @@
       "satisfaction": "Customer Satisfaction",
       "support": "Technical Support"
     },
-    "imageAlt": "KINFRI Expert Team"
+    "imageAlt": "KANGWOON Expert Team"
   },
   "credentials": {
     "title": "Proven Expertise",
@@ -745,7 +745,7 @@
     }
   },
   "process": {
-    "title": "KINFRI AI Implementation Process (3 Steps)",
+    "title": "KANGWOON AI Implementation Process (3 Steps)",
     "step1": {
       "title": "Field Analysis & Consulting (1 Week)",
       "description": "• Production process analysis<br>• AI implementation area identification<br>• ROI prediction report"
@@ -761,7 +761,7 @@
   },
   "cases": {
     "title": "Success Cases",
-    "description": "Real achievements of companies that innovated with KINFRI AI solutions",
+    "description": "Real achievements of companies that innovated with KANGWOON AI solutions",
     "manufacturing": {
       "category": "Manufacturing",
       "title": "10% Defect Rate Reduction with AI",
@@ -812,13 +812,13 @@
     },
     "cta": {
       "title": "Is your business ready for innovation?",
-      "description": "Plan a customized AI solution with KINFRI experts.",
+      "description": "Plan a customized AI solution with KANGWOON experts.",
       "button": "🤖 Free AI Consultation"
     }
   },
   "aiSimulation": {
     "title": "🎬 AI Employees at Work",
-    "description": "It's a simulation, but KINFRI AI actually does this kind of work!<br>Experience the amazing capabilities of AI employees with just one click.",
+    "description": "It's a simulation, but KANGWOON AI actually does this kind of work!<br>Experience the amazing capabilities of AI employees with just one click.",
     "airi": {
       "name": "Airi",
       "role": "AI IT Management Expert",
@@ -886,7 +886,7 @@
     },
     "cta": {
       "title": "🎯 This is a Simulation",
-      "description": "But KINFRI's AI employees actually do this kind of work!<br>Contact us for free consultation to learn about real implementation methods.",
+      "description": "But KANGWOON's AI employees actually do this kind of work!<br>Contact us for free consultation to learn about real implementation methods.",
       "button": "🤖 Get Real Implementation Consultation"
     }
   },
@@ -901,7 +901,7 @@
       },
       "email": {
         "title": "Email",
-        "address": "thinkcare@naver.com",
+        "address": "kangwooncp@gmail.com",
         "availability": "24/7 Available"
       },
       "address": {
@@ -932,7 +932,7 @@
     }
   },
   "footer": {
-    "brandText": "KINFRI",
+    "brandText": "KANGWOON",
     "description": "Leading AI transformation for manufacturing/SMEs, providing intelligent solutions for sustainable growth.",
     "solutions": {
       "title": "Solutions",
@@ -959,13 +959,13 @@
     "contactInfo": {
       "title": "Contact",
       "email": "Email:",
-      "emailValue": "thinkcare@naver.com",
+      "emailValue": "kangwooncp@gmail.com",
       "phone": "Phone:",
       "phoneValue": "+82-10-4063-9062",
       "address": "Address:",
       "addressValue": "Gangnam-gu, Seoul"
     },
-    "copyright": "© 2025 KINFRI. All rights reserved.",
+    "copyright": "© 2025 KANGWOON. All rights reserved.",
     "links": {
       "privacy": "Privacy Policy",
       "terms": "Terms of Service"
@@ -986,7 +986,7 @@
   "ai_consultant": {
     "questions": {
       "greeting": {
-        "text": "Welcome to KINFRI AI Consultation! 😊\n\nWe'd like to ask a few questions to provide more accurate and customized consultation. Are you ready to begin?",
+        "text": "Welcome to KANGWOON AI Consultation! 😊\n\nWe'd like to ask a few questions to provide more accurate and customized consultation. Are you ready to begin?",
         "options": ["Yes, let's start", "Wait a moment"]
       },
       "business_problem": {
@@ -1042,9 +1042,9 @@
       }
     },
     "prompts": {
-      "recommendation_header": "Based on customer information, please recommend the most suitable AI solution from KINFRI's offerings.",
+      "recommendation_header": "Based on customer information, please recommend the most suitable AI solution from KANGWOON's offerings.",
       "customer_summary": "**Customer Information Summary:**",
-      "solution_options": "**KINFRI Solution Options:**",
+      "solution_options": "**KANGWOON Solution Options:**",
       "format_solution": "**🎯 Recommended Solution**",
       "format_reason": "**💡 Selection Rationale**",
       "format_effect": "**📈 Expected Benefits**",
@@ -1093,16 +1093,16 @@
     "langSelect": "Select language"
   },
   "meta": {
-    "title": "KINFRI - AI Innovation Partner | Manufacturing & SME AI Solutions",
-    "description": "KINFRI provides customized AI solutions including AI Agent, RAG, and sLLM for manufacturing and small-to-medium enterprises. Achieve productivity improvement and cost reduction.",
-    "keywords": "KINFRI, AI solutions, manufacturing AI, SME digital transformation, AI Agent, RAG, sLLM, artificial intelligence",
-    "ogTitle": "KINFRI - AI Transformation Partner for Manufacturing & SMEs",
-    "ogDescription": "Experience KINFRI's customized AI solutions that revolutionize manufacturing productivity with AI Agent, RAG, and sLLM technologies.",
+    "title": "KANGWOON - AI Innovation Partner | Manufacturing & SME AI Solutions",
+    "description": "KANGWOON provides customized AI solutions including AI Agent, RAG, and sLLM for manufacturing and small-to-medium enterprises. Achieve productivity improvement and cost reduction.",
+    "keywords": "KANGWOON, AI solutions, manufacturing AI, SME digital transformation, AI Agent, RAG, sLLM, artificial intelligence",
+    "ogTitle": "KANGWOON - AI Transformation Partner for Manufacturing & SMEs",
+    "ogDescription": "Experience KANGWOON's customized AI solutions that revolutionize manufacturing productivity with AI Agent, RAG, and sLLM technologies.",
     "ogImage": "/images/og-image-en.jpg",
-    "twitterTitle": "KINFRI - AI Innovation Partner",
+    "twitterTitle": "KANGWOON - AI Innovation Partner",
     "twitterDescription": "Achieve productivity improvement and cost reduction with customized AI solutions for manufacturing and SMEs.",
-    "canonical": "https://kinfri.online/",
-    "author": "KINFRI",
+    "canonical": "https://kangwoon.kr/",
+    "author": "KANGWOON",
     "robots": "index, follow",
     "viewport": "width=device-width, initial-scale=1.0"
   }

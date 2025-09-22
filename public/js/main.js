@@ -92,7 +92,7 @@ const Navigation = {
 // Initialize EmailJS
 const initEmailJS = () => {
   // EmailJS 초기화 (나중에 실제 PUBLIC KEY로 교체)
-  emailjs.init('1ZRQKFLsVCCgMiE9t'); // 실제 설정 후 교체 필요
+  emailjs.init('0SL1K5LB9Vi_8DbN5'); // 실제 설정 후 교체 필요
 };
 
 // Form Module
@@ -133,7 +133,7 @@ const Form = {
     };
     
     // EmailJS 전송 (실제 SERVICE_ID, TEMPLATE_ID 필요)
-    emailjs.send('service_kinfri', 'template_trsmhbc', templateParams)
+    emailjs.send('service_g34a1dh', 'template_ibpjpyj', templateParams)
       .then(() => {
         Form.showSuccessMessage();
         event.target.reset();

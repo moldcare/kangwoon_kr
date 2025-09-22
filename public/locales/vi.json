@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "Đối tác chuyển đổi <span class=\"highlight\">AI</span><br>đáng tin cậy cho SME",
-    "description": "KINFRI mang đến ứng dụng RAG, mô hình sLLM riêng và tự động hóa AI Agent giúp doanh nghiệp tăng năng suất và giảm chi phí vận hành cùng lúc.",
+    "description": "KANGWOON mang đến ứng dụng RAG, mô hình sLLM riêng và tự động hóa AI Agent giúp doanh nghiệp tăng năng suất và giảm chi phí vận hành cùng lúc.",
     "statAccuracy": "Độ chính xác nhận dạng",
     "statCostReduction": "Nâng cao hiệu quả",
     "statResponseTime": "Hệ thống vận hành 24/7",
@@ -24,7 +24,7 @@
       "ragSearch": "Tìm kiếm RAG",
       "privateSllm": "sLLM riêng tư"
     },
-    "imageAlt": "Tổng quan nền tảng chuyển đổi AI của KINFRI - RAG, sLLM, AI Agent"
+    "imageAlt": "Tổng quan nền tảng chuyển đổi AI của KANGWOON - RAG, sLLM, AI Agent"
   },
   "solutions": {
     "title": "Giải pháp AI đổi mới",
@@ -114,8 +114,8 @@
       "navName": "Airi",
       "title": "Airi - AI Quản lý IT",
       "subtitle": "AI chuyên trực đêm âm thầm quản lý các PC công ty suốt đêm",
-      "pageTitle": "Airi AI - Mô phỏng Quản lý IT Thực tế | KINFRI",
-      "pageDescription": "Trải nghiệm nhân viên AI Airi của KINFRI quản lý PC công ty suốt đêm trong mô phỏng công việc thực tế.",
+      "pageTitle": "Airi AI - Mô phỏng Quản lý IT Thực tế | KANGWOON",
+      "pageDescription": "Trải nghiệm nhân viên AI Airi của KANGWOON quản lý PC công ty suốt đêm trong mô phỏng công việc thực tế.",
       "scenarioTitle": "🌙 Kịch bản: Quản lý IT không cần làm thêm giờ",
       "timeRange": "9 giờ tối ~ 6 giờ sáng",
       "situationLabel": "Tình huống:",
@@ -127,7 +127,7 @@
       "startButton": "▶️ Bắt đầu mô phỏng công việc Airi",
       "resultTitle": "🎯 Hoàn thành mô phỏng!",
       "resultText1": "Chúng tôi đã xác nhận các công việc Airi đã xử lý suốt đêm!",
-      "resultText2": "AI Agent của KINFRI thực sự tự động hóa công việc 24/7 theo cách này.",
+      "resultText2": "AI Agent của KANGWOON thực sự tự động hóa công việc 24/7 theo cách này.",
       "step1": {
         "title": "🌙 Airi bắt đầu làm việc",
         "message": "Xin chào! Các nhân viên đã tan làm. Bây giờ tôi sẽ chăm sóc các PC suốt đêm.",
@@ -191,7 +191,7 @@
     },
     "gyeonu": {
       "navName": "Gyeonu",
-      "pageTitle": "Gyeonu AI - Mô phỏng hệ thống báo giá thực tế | KINFRI",
+      "pageTitle": "Gyeonu AI - Mô phỏng hệ thống báo giá thực tế | KANGWOON",
       "pageDescription": "AI báo giá chuyên nghiệp tạo báo giá chính xác trong 10 phút",
       "scenarioTitle": "💼 Kịch bản: Yêu cầu báo giá khẩn cấp",
       "timeRange": "4:30 chiều",
@@ -275,15 +275,15 @@
       },
       "resultTitle": "🎯 Hoàn thành mô phỏng báo giá!",
       "resultText1": "Gyeonu đã hoàn thành báo giá chính xác trong 10 phút!",
-      "resultText2": "Đây là cách AI Agent của KINFRI tự động hóa quy trình báo giá trong kinh doanh thực tế."
+      "resultText2": "Đây là cách AI Agent của KANGWOON tự động hóa quy trình báo giá trong kinh doanh thực tế."
     },
     "jisu": {
       "navName": "Jisu",
       "title": "Jisu - AI Phân tích Công việc",
       "subtitle": "AI chuyên gia phân tích công việc nhân viên và tạo báo cáo thông tin chi tiết cho ban quản lý",
       "aiName": "Jisu",
-      "pageTitle": "Jisu AI - Mô phỏng Phân tích Công việc | KINFRI",
-      "pageDescription": "Trải nghiệm AI nhân viên Jisu của KINFRI phân tích công việc nhân viên và tạo báo cáo thông tin chi tiết trong mô phỏng công việc thực tế này.",
+      "pageTitle": "Jisu AI - Mô phỏng Phân tích Công việc | KANGWOON",
+      "pageDescription": "Trải nghiệm AI nhân viên Jisu của KANGWOON phân tích công việc nhân viên và tạo báo cáo thông tin chi tiết trong mô phỏng công việc thực tế này.",
       "scenarioTitle": "📊 Kịch bản: Báo cáo Phân tích Công việc Cuối tháng",
       "timeRange": "6:00 Chiều",
       "situationLabel": "Tình huống:",
@@ -297,7 +297,7 @@
       "restart": "🔄 Thử lại",
       "resultTitle": "🎯 Hoàn thành Mô phỏng Phân tích Công việc!",
       "resultText1": "Jisu đã tự động phân tích công việc của 50 nhân viên và hoàn thành báo cáo thông tin chi tiết!",
-      "resultText2": "Đây là cách AI Agent của KINFRI tự động hóa phân tích công việc trong kinh doanh thực tế.",
+      "resultText2": "Đây là cách AI Agent của KANGWOON tự động hóa phân tích công việc trong kinh doanh thực tế.",
       "step1": {
         "title": "🌙 Bắt đầu Thu thập Dữ liệu Sau khi Nhân viên Tan làm",
         "message": "Xin chào, CEO! Tất cả nhân viên đã tan làm. Tôi sẽ phân tích các hoạt động công việc hôm nay.",
@@ -354,8 +354,8 @@
       "navName": "Doyoung",
       "title": "Doyoung - AI Hướng dẫn Thông minh",
       "subtitle": "Chuyên gia hiện trường làm chủ hoàn hảo 10.000+ trang hướng dẫn với công nghệ RAG",
-      "pageTitle": "Doyoung - AI Hướng dẫn Thông minh | KINFRI",
-      "pageDescription": "Trải nghiệm mô phỏng công việc thực tế về cách AI nhân viên Doyoung của KINFRI sử dụng công nghệ RAG để tìm giải pháp chính xác ngay lập tức từ khối lượng hướng dẫn khổng lồ.",
+      "pageTitle": "Doyoung - AI Hướng dẫn Thông minh | KANGWOON",
+      "pageDescription": "Trải nghiệm mô phỏng công việc thực tế về cách AI nhân viên Doyoung của KANGWOON sử dụng công nghệ RAG để tìm giải pháp chính xác ngay lập tức từ khối lượng hướng dẫn khổng lồ.",
       "scenarioTitle": "📚 Tình huống: Sự cố khẩn cấp lúc 3 giờ sáng",
       "timeRange": "03:15 AM",
       "situationLabel": "Tình huống:",
@@ -481,11 +481,11 @@
       },
       "resultTitle": "🎯 Hoàn thành mô phỏng!",
       "resultText1": "Doyoung đã cung cấp giải pháp chính xác ngay lập tức thông qua công nghệ RAG!",
-      "resultText2": "Trên thực tế, hệ thống RAG của KINFRI hoạt động theo cách này để tận dụng hướng dẫn khổng lồ."
+      "resultText2": "Trên thực tế, hệ thống RAG của KANGWOON hoạt động theo cách này để tận dụng hướng dẫn khổng lồ."
     },
     "minseo": {
       "navName": "Minseo",
-      "pageTitle": "Minseo - AI Bảo mật Dữ liệu Riêng tư | KINFRI",
+      "pageTitle": "Minseo - AI Bảo mật Dữ liệu Riêng tư | KANGWOON",
       "pageDescription": "AI nội bộ phân tích tài liệu mật một cách an toàn mà không rò rỉ dữ liệu bằng công nghệ sLLM",
       "title": "Minseo - AI Bảo mật Dữ liệu Riêng tư",
       "subtitle": "Phân tích tài liệu mật một cách an toàn mà không lo rò rỉ dữ liệu bằng công nghệ sLLM",
@@ -640,7 +640,7 @@
         "external3": "❌ Cần kết nối Internet",
         "external4": "❌ Giới hạn gọi API",
         "external5": "❌ Mất chủ quyền dữ liệu",
-        "sllmTitle": "KINFRI sLLM",
+        "sllmTitle": "KANGWOON sLLM",
         "sllm1": "✅ Xử lý nội bộ (100% an toàn)",
         "sllm2": "✅ Không chi phí token (không giới hạn)",
         "sllm3": "✅ Có thể hoạt động ngoại tuyến",
@@ -653,7 +653,7 @@
       },
       "resultTitle": "🎯 Mô phỏng AI Bảo mật Hoàn tất!",
       "resultText1": "Minseo đã hoàn thành phân tích dữ liệu mật trong khi duy trì bảo mật 100%!",
-      "resultText2": "Giải pháp sLLM của KINFRI thực sự đảm bảo bảo mật dữ liệu theo cách này.",
+      "resultText2": "Giải pháp sLLM của KANGWOON thực sự đảm bảo bảo mật dữ liệu theo cách này.",
       "cta": {
         "titleHtml": "Xây dựng <strong>AI bảo vệ dữ liệu riêng tư</strong> như Minseo cho doanh nghiệp của bạn!",
         "bullet1": "✅ Triển khai on-premises 100%",
@@ -683,8 +683,8 @@
     }
   },
   "about": {
-    "title": "Đối tác đổi mới AI, KINFRI",
-    "description": "KINFRI dẫn đầu chuyển đổi số cho các doanh nghiệp sản xuất và SME, hỗ trợ phát triển bền vững thông qua công nghệ AI.",
+    "title": "Đối tác đổi mới AI, KANGWOON",
+    "description": "KANGWOON dẫn đầu chuyển đổi số cho các doanh nghiệp sản xuất và SME, hỗ trợ phát triển bền vững thông qua công nghệ AI.",
     "mission": "Sứ mệnh của chúng tôi: Đổi mới doanh nghiệp khách hàng bằng AI để tối đa hóa khả năng cạnh tranh.",
     "vision": "Tầm nhìn của chúng tôi: Tạo ra một thế giới mà tất cả SME đều được hưởng lợi từ AI.",
     "badges": {
@@ -716,7 +716,7 @@
       "satisfaction": "Hài lòng khách hàng",
       "support": "Hỗ trợ kỹ thuật"
     },
-    "imageAlt": "Đội ngũ chuyên gia KINFRI"
+    "imageAlt": "Đội ngũ chuyên gia KANGWOON"
   },
   "credentials": {
     "title": "Chuyên môn đã được kiểm chứng",
@@ -754,7 +754,7 @@
     }
   },
   "process": {
-    "title": "Quy trình triển khai AI KINFRI (Hoàn thành 3 giai đoạn)",
+    "title": "Quy trình triển khai AI KANGWOON (Hoàn thành 3 giai đoạn)",
     "step1": {
       "title": "Phân tích hiện trường và tư vấn (1 tuần)",
       "description": "• Phân tích hiện trạng quy trình sản xuất<br>• Xác định lĩnh vực có thể triển khai AI<br>• Cung cấp báo cáo dự báo ROI"
@@ -770,7 +770,7 @@
   },
   "cases": {
     "title": "Lý do nên chọn chúng tôi",
-    "description": "Thành tựu thực tế của các công ty đổi mới với giải pháp AI KINFRI",
+    "description": "Thành tựu thực tế của các công ty đổi mới với giải pháp AI KANGWOON",
     "manufacturing": {
       "category": "Sản xuất",
       "title": "Giảm tỷ lệ lỗi 10% bằng AI",
@@ -821,7 +821,7 @@
     },
     "cta": {
       "title": "Doanh nghiệp của bạn đã sẵn sàng đổi mới chưa?",
-      "description": "Lên kế hoạch giải pháp AI tùy chỉnh với các chuyên gia KINFRI.",
+      "description": "Lên kế hoạch giải pháp AI tùy chỉnh với các chuyên gia KANGWOON.",
       "button": "🤖 Tư vấn AI miễn phí"
     }
   },
@@ -836,7 +836,7 @@
       },
       "email": {
         "title": "Email",
-        "address": "thinkcare@naver.com",
+        "address": "kangwooncp@gmail.com",
         "availability": "Tiếp nhận 24 giờ"
       },
       "address": {
@@ -867,7 +867,7 @@
     }
   },
   "footer": {
-    "brandText": "KINFRI",
+    "brandText": "KANGWOON",
     "description": "Dẫn đầu chuyển đổi AI cho các doanh nghiệp sản xuất/SME,<br>cung cấp giải pháp thông minh cho phát triển bền vững.",
     "solutions": {
       "title": "Giải pháp",
@@ -894,13 +894,13 @@
     "contactInfo": {
       "title": "Thông tin liên hệ",
       "email": "Email:",
-      "emailValue": "thinkcare@naver.com",
+      "emailValue": "kangwooncp@gmail.com",
       "phone": "Điện thoại:",
       "phoneValue": "+82-10-4063-9062",
       "address": "Địa chỉ:",
       "addressValue": "Gangnam-gu, Seoul"
     },
-    "copyright": "© 2025 KINFRI. All rights reserved.",
+    "copyright": "© 2025 KANGWOON. All rights reserved.",
     "links": {
       "privacy": "Chính sách bảo mật",
       "terms": "Điều khoản sử dụng"
@@ -920,7 +920,7 @@
   },
   "aiSimulation": {
     "title": "🎬 Cảnh làm việc thực tế của nhân viên AI",
-    "description": "Mặc dù là mô phỏng, nhưng KINFRI AI thực sự có thể làm được những việc này! Trải nghiệm khả năng tuyệt vời của nhân viên AI chỉ với một cú nhấp chuột.",
+    "description": "Mặc dù là mô phỏng, nhưng KANGWOON AI thực sự có thể làm được những việc này! Trải nghiệm khả năng tuyệt vời của nhân viên AI chỉ với một cú nhấp chuột.",
     "airi": {
       "name": "Airi",
       "role": "Chuyên gia quản lý AI IT",
@@ -988,14 +988,14 @@
     },
     "cta": {
       "title": "🎯 Đây chỉ là mô phỏng",
-      "description": "Nhưng các nhân viên AI của KINFRI thật sự làm được những công việc như thế này!<br>Hãy đăng ký tư vấn miễn phí để tìm hiểu cách triển khai thực tế.",
+      "description": "Nhưng các nhân viên AI của KANGWOON thật sự làm được những công việc như thế này!<br>Hãy đăng ký tư vấn miễn phí để tìm hiểu cách triển khai thực tế.",
       "button": "🤖 Nhận tư vấn triển khai thực tế"
     }
   },
   "ai_consultant": {
     "questions": {
       "greeting": {
-        "text": "Chào mừng bạn đến với tư vấn AI của KINFRI! 😊\n\nĐể cung cấp cho bạn lời tư vấn tùy chỉnh chính xác hơn, chúng tôi muốn hỏi một vài câu hỏi. Bạn có sẵn sàng bắt đầu không?",
+        "text": "Chào mừng bạn đến với tư vấn AI của KANGWOON! 😊\n\nĐể cung cấp cho bạn lời tư vấn tùy chỉnh chính xác hơn, chúng tôi muốn hỏi một vài câu hỏi. Bạn có sẵn sàng bắt đầu không?",
         "options": ["Có, hãy bắt đầu", "Chờ một chút"]
       },
       "business_problem": {
@@ -1051,9 +1051,9 @@
       }
     },
     "prompts": {
-      "recommendation_header": "Dựa trên thông tin khách hàng, vui lòng đề xuất giải pháp AI phù hợp nhất từ các dịch vụ của KINFRI.",
+      "recommendation_header": "Dựa trên thông tin khách hàng, vui lòng đề xuất giải pháp AI phù hợp nhất từ các dịch vụ của KANGWOON.",
       "customer_summary": "**Tóm tắt thông tin khách hàng:**",
-      "solution_options": "**Các tùy chọn giải pháp KINFRI:**",
+      "solution_options": "**Các tùy chọn giải pháp KANGWOON:**",
       "format_solution": "**🎯 Giải pháp được đề xuất**",
       "format_reason": "**💡 Lý do lựa chọn**",
       "format_effect": "**📈 Hiệu quả dự kiến**",
@@ -1102,10 +1102,10 @@
     "langSelect": "Chọn ngôn ngữ"
   },
   "meta": {
-    "title": "KINFRI - Giải pháp AI cho Sản xuất & Doanh nghiệp vừa và nhỏ",
-    "description": "KINFRI cung cấp các giải pháp AI tùy chỉnh bao gồm AI Agent, RAG, sLLM cho các doanh nghiệp sản xuất và SME. Nâng cao năng suất và giảm chi phí vận hành.",
-    "keywords": "KINFRI, giải pháp AI, AI sản xuất, chuyển đổi số SME, AI Agent, RAG, sLLM, trí tuệ nhân tạo",
-    "ogTitle": "KINFRI - Đối tác chuyển đổi AI cho Sản xuất & SME",
-    "ogDescription": "Trải nghiệm các giải pháp AI tùy chỉnh của KINFRI giúp cách mạng hóa năng suất sản xuất thông qua công nghệ AI Agent, RAG và sLLM."
+    "title": "KANGWOON - Giải pháp AI cho Sản xuất & Doanh nghiệp vừa và nhỏ",
+    "description": "KANGWOON cung cấp các giải pháp AI tùy chỉnh bao gồm AI Agent, RAG, sLLM cho các doanh nghiệp sản xuất và SME. Nâng cao năng suất và giảm chi phí vận hành.",
+    "keywords": "KANGWOON, giải pháp AI, AI sản xuất, chuyển đổi số SME, AI Agent, RAG, sLLM, trí tuệ nhân tạo",
+    "ogTitle": "KANGWOON - Đối tác chuyển đổi AI cho Sản xuất & SME",
+    "ogDescription": "Trải nghiệm các giải pháp AI tùy chỉnh của KANGWOON giúp cách mạng hóa năng suất sản xuất thông qua công nghệ AI Agent, RAG và sLLM."
   }
 }

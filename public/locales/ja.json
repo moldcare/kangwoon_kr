@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "中小企業の<span class=\"highlight\">AI変革</span>を<br>リードするパートナー",
-    "description": "KINFRIはRAGアプリケーション、プライベートsLLMモデル、AIエージェント自動化を提供し、生産性向上とコスト削減を同時に実現します。",
+    "description": "KANGWOONはRAGアプリケーション、プライベートsLLMモデル、AIエージェント自動化を提供し、生産性向上とコスト削減を同時に実現します。",
     "statAccuracy": "認識精度",
     "statCostReduction": "業務効率化",
     "statResponseTime": "無人運用システム",
@@ -24,7 +24,7 @@
       "ragSearch": "RAG検索",
       "privateSllm": "プライベートsLLM"
     },
-    "imageAlt": "KINFRIのAI変革プラットフォーム概要 - RAG・sLLM・AI Agent"
+    "imageAlt": "KANGWOONのAI変革プラットフォーム概要 - RAG・sLLM・AI Agent"
   },
   "solutions": {
     "title": "AI革新ソリューション",
@@ -114,8 +114,8 @@
       "navName": "アイリ",
       "title": "アイリ - IT管理AI",
       "subtitle": "一晩中静かに弊社のPCを管理する夜勤専担AI",
-      "pageTitle": "アイリ AI - IT管理実業務シミュレーション | KINFRI",
-      "pageDescription": "KINFRIのAI従業員アイリが一晩中会社のPCを管理する実業務シミュレーションを体験してください。",
+      "pageTitle": "アイリ AI - IT管理実業務シミュレーション | KANGWOON",
+      "pageDescription": "KANGWOONのAI従業員アイリが一晩中会社のPCを管理する実業務シミュレーションを体験してください。",
       "scenarioTitle": "🌙 シナリオ：残業のないIT管理",
       "timeRange": "夜9時 〜 朝6時",
       "situationLabel": "状況：",
@@ -127,7 +127,7 @@
       "startButton": "▶️ アイリ業務シミュレーション開始",
       "resultTitle": "🎯 シミュレーション完了！",
       "resultText1": "アイリが一晩中処理した業務を確認しました！",
-      "resultText2": "実際にKINFRIのAI Agentはこのような方式で24時間業務を自動化します。",
+      "resultText2": "実際にKANGWOONのAI Agentはこのような方式で24時間業務を自動化します。",
       "step1": {
         "title": "🌙 アイリ業務開始",
         "message": "こんにちは！従業員の皆さんが退社されましたね。これから私が一晩中PCを見守ります。",
@@ -191,7 +191,7 @@
     },
     "gyeonu": {
       "navName": "ギョヌ",
-      "pageTitle": "ギョヌAI - 見積システム実務シミュレーション | KINFRI",
+      "pageTitle": "ギョヌAI - 見積システム実務シミュレーション | KANGWOON",
       "pageDescription": "10分で正確な見積書を作成するプロフェッショナル見積AI",
       "scenarioTitle": "💼 シナリオ：緊急見積依頼",
       "timeRange": "午後4:30",
@@ -275,15 +275,15 @@
       },
       "resultTitle": "🎯 見積シミュレーション完了！",
       "resultText1": "ギョヌが10分で正確な見積書を完成させました！",
-      "resultText2": "実際にKINFRIのAIエージェントはこの方式で見積業務を自動化します。"
+      "resultText2": "実際にKANGWOONのAIエージェントはこの方式で見積業務を自動化します。"
     },
     "jisu": {
       "navName": "ジス",
       "title": "ジス - 業務分析AI",
       "subtitle": "従業員の業務を分析し、経営陣向けの洞察レポートを生成する分析専門AI",
       "aiName": "ジス",
-      "pageTitle": "ジス AI - 業務分析シミュレーション | KINFRI",
-      "pageDescription": "KINFRIのAI従業員ジスが従業員の業務を分析し、洞察レポートを生成する実際の業務シミュレーションを体験してください。",
+      "pageTitle": "ジス AI - 業務分析シミュレーション | KANGWOON",
+      "pageDescription": "KANGWOONのAI従業員ジスが従業員の業務を分析し、洞察レポートを生成する実際の業務シミュレーションを体験してください。",
       "scenarioTitle": "📊 シナリオ：月末業務分析レポート",
       "timeRange": "午後6:00",
       "situationLabel": "状況：",
@@ -297,7 +297,7 @@
       "restart": "🔄 再体験",
       "resultTitle": "🎯 業務分析シミュレーション完了！",
       "resultText1": "ジスが50名従業員の業務を自動分析し、洞察レポートを完成させました！",
-      "resultText2": "実際にKINFRIのAIエージェントはこの方式で業務分析を自動化します。",
+      "resultText2": "実際にKANGWOONのAIエージェントはこの方式で業務分析を自動化します。",
       "step1": {
         "title": "🌙 従業員退社後のデータ収集開始",
         "message": "こんにちは、CEO！全ての従業員が退社しました。今日の業務活動を分析いたします。",
@@ -354,8 +354,8 @@
       "navName": "ドヨン",
       "title": "ドヨン - スマートマニュアルAI",
       "subtitle": "RAG技術で10,000+ページのマニュアルを完璧に習得した現場専門家",
-      "pageTitle": "ドヨン - スマートマニュアルAI | KINFRI",
-      "pageDescription": "KINFRIのAI社員ドヨンがRAG技術を活用して膨大なマニュアルから瞬時に正確な解決策を見つける実際の業務シミュレーションを体験してください。",
+      "pageTitle": "ドヨン - スマートマニュアルAI | KANGWOON",
+      "pageDescription": "KANGWOONのAI社員ドヨンがRAG技術を活用して膨大なマニュアルから瞬時に正確な解決策を見つける実際の業務シミュレーションを体験してください。",
       "scenarioTitle": "📚 シナリオ：深夜3時の現場緊急事態",
       "timeRange": "03:15 AM",
       "situationLabel": "状況：",
@@ -481,11 +481,11 @@
       },
       "resultTitle": "🎯 シミュレーション完了！",
       "resultText1": "ドヨンはRAG技術により瞬時に正確な解決策を提供しました！",
-      "resultText2": "実際にKINFRIのRAGシステムはこのような方式で膨大なマニュアルを活用します。"
+      "resultText2": "実際にKANGWOONのRAGシステムはこのような方式で膨大なマニュアルを活用します。"
     },
     "minseo": {
       "navName": "ミンソ",
-      "pageTitle": "ミンソ - プライベートデータセキュリティAI | KINFRI",
+      "pageTitle": "ミンソ - プライベートデータセキュリティAI | KANGWOON",
       "pageDescription": "sLLM技術でデータ漏洩の心配なく機密文書を安全に分析するオンプレミスAI",
       "title": "ミンソ - プライベートデータセキュリティAI",
       "subtitle": "sLLM技術でデータ漏洩を防ぎながら機密文書を安全に分析",
@@ -640,7 +640,7 @@
         "external3": "❌ インターネット接続が不可欠",
         "external4": "❌ APIコール制限あり",
         "external5": "❌ データ主権を喪失",
-        "sllmTitle": "KINFRI sLLM",
+        "sllmTitle": "KANGWOON sLLM",
         "sllm1": "✅ オンプレミス処理（100%セキュア）",
         "sllm2": "✅ トークン費用なし（無制限）",
         "sllm3": "✅ オフライン稼働が可能",
@@ -653,7 +653,7 @@
       },
       "resultTitle": "🎯 セキュリティAIシミュレーション完了!",
       "resultText1": "ミンソは100%セキュリティを維持しながら機密データ分析を完了しました!",
-      "resultText2": "KINFRIのsLLMソリューションはこのようにデータセキュリティを保証します。",
+      "resultText2": "KANGWOONのsLLMソリューションはこのようにデータセキュリティを保証します。",
       "cta": {
         "titleHtml": "ミンソのような<strong>プライベートデータセキュリティAI</strong>を貴社にも導入しましょう！",
         "bullet1": "✅ 100%オンプレミス導入",
@@ -683,8 +683,8 @@
     }
   },
   "about": {
-    "title": "AIイノベーションのパートナー、KINFRI",
-    "description": "KINFRIは製造業及び中小企業のデジタルトランスフォーメーションを先導し、AI技術を通じて持続可能な成長を支援いたします。",
+    "title": "AIイノベーションのパートナー、KANGWOON",
+    "description": "KANGWOONは製造業及び中小企業のデジタルトランスフォーメーションを先導し、AI技術を通じて持続可能な成長を支援いたします。",
     "mission": "私たちのミッション：AIによりお客様のビジネスを革新し、競争力を最大化いたします。",
     "vision": "私たちのビジョン：全ての中小企業がAIの恩恵を享受する世界を創造いたします。",
     "badges": {
@@ -716,7 +716,7 @@
       "satisfaction": "顧客満足度",
       "support": "技術支援"
     },
-    "imageAlt": "KINFRI専門家チーム"
+    "imageAlt": "KANGWOON専門家チーム"
   },
   "credentials": {
     "title": "検証された専門性",
@@ -754,7 +754,7 @@
     }
   },
   "process": {
-    "title": "KINFRI AI導入プロセス（3段階完了）",
+    "title": "KANGWOON AI導入プロセス（3段階完了）",
     "step1": {
       "title": "現場分析及びコンサルティング（1週間）",
       "description": "• 生産工程現況分析<br>• AI導入可能領域識別<br>• ROI予測レポート提供"
@@ -770,7 +770,7 @@
   },
   "cases": {
     "title": "成功事例",
-    "description": "KINFRI AIソリューションで革新を達成した企業の実際成果",
+    "description": "KANGWOON AIソリューションで革新を達成した企業の実際成果",
     "manufacturing": {
       "category": "製造業",
       "title": "AIで不良率10%減少",
@@ -821,7 +821,7 @@
     },
     "cta": {
       "title": "貴社も革新の準備はお済みですか？",
-      "description": "KINFRI専門家と共にカスタマイズAIソリューションを企画してみませんか。",
+      "description": "KANGWOON専門家と共にカスタマイズAIソリューションを企画してみませんか。",
       "button": "🤖 AI無料相談"
     }
   },
@@ -836,7 +836,7 @@
       },
       "email": {
         "title": "Eメール",
-        "address": "thinkcare@naver.com",
+        "address": "kangwooncp@gmail.com",
         "availability": "24時間受付可能"
       },
       "address": {
@@ -867,7 +867,7 @@
     }
   },
   "footer": {
-    "brandText": "KINFRI",
+    "brandText": "KANGWOON",
     "description": "製造/中小企業のAI転換を先導し、持続可能な成長のための知能型ソリューションを提供いたします。",
     "solutions": {
       "title": "ソリューション",
@@ -894,13 +894,13 @@
     "contactInfo": {
       "title": "連絡先",
       "email": "Eメール：",
-      "emailValue": "thinkcare@naver.com",
+      "emailValue": "kangwooncp@gmail.com",
       "phone": "電話：",
       "phoneValue": "+82-10-4063-9062",
       "address": "住所：",
       "addressValue": "ソウル特別市江南区"
     },
-    "copyright": "© 2025 KINFRI. All rights reserved.",
+    "copyright": "© 2025 KANGWOON. All rights reserved.",
     "links": {
       "privacy": "プライバシーポリシー",
       "terms": "利用規約"
@@ -920,7 +920,7 @@
   },
   "aiSimulation": {
     "title": "🎬 AI社員の実際の働く姿",
-    "description": "シミュレーションですが、KINFRI AIは実際にこのような仕事をします！<br>ワンクリックでAI社員の驚くべき能力を直接体験してください。",
+    "description": "シミュレーションですが、KANGWOON AIは実際にこのような仕事をします！<br>ワンクリックでAI社員の驚くべき能力を直接体験してください。",
     "airi": {
       "name": "愛理 (Airi)",
       "role": "AI IT管理専門家",
@@ -988,14 +988,14 @@
     },
     "cta": {
       "title": "🎯 これはシミュレーションです",
-      "description": "ですが、KINFRI の AI 社員は実際にこのような業務をこなしています！<br>無料相談で、具体的な導入方法をご確認ください。",
+      "description": "ですが、KANGWOON の AI 社員は実際にこのような業務をこなしています！<br>無料相談で、具体的な導入方法をご確認ください。",
       "button": "🤖 実装について無料相談する"
     }
   },
   "ai_consultant": {
     "questions": {
       "greeting": {
-        "text": "KINFRI AI相談へようこそ！😊\n\nより正確なカスタマイズ相談を提供するため、いくつかご質問させていただきます。準備はよろしいですか？",
+        "text": "KANGWOON AI相談へようこそ！😊\n\nより正確なカスタマイズ相談を提供するため、いくつかご質問させていただきます。準備はよろしいですか？",
         "options": ["はい、始めましょう", "少々お待ちください"]
       },
       "business_problem": {
@@ -1051,9 +1051,9 @@
       }
     },
     "prompts": {
-      "recommendation_header": "お客様の情報に基づき、KINFRIのAIソリューションの中から最適なものをお勧めください。",
+      "recommendation_header": "お客様の情報に基づき、KANGWOONのAIソリューションの中から最適なものをお勧めください。",
       "customer_summary": "**お客様情報要約：**",
-      "solution_options": "**KINFRI ソリューション選択肢：**",
+      "solution_options": "**KANGWOON ソリューション選択肢：**",
       "format_solution": "**🎯 推奨ソリューション**",
       "format_reason": "**💡 選択理由**",
       "format_effect": "**📈 期待効果**",
@@ -1102,10 +1102,10 @@
     "langSelect": "言語を選択"
   },
   "meta": {
-    "title": "KINFRI（キンフリ）- 製造業・中小企業向けAIソリューション",
-    "description": "KINFRIは製造業と中小企業向けにAIエージェント、RAG、sLLMなどのカスタマイズAIソリューションを提供し、生産性向上とコスト削減を実現します。",
-    "keywords": "KINFRI, キンフリ, AIソリューション, 製造業AI, 中小企業DX, AIエージェント, RAG, sLLM, 人工知能",
-    "ogTitle": "KINFRI - 製造業・中小企業のAI変革パートナー",
-    "ogDescription": "AIエージェント、RAG、sLLM技術で製造業の生産性を革新するKINFRIのカスタマイズAIソリューションを体験してください。"
+    "title": "KANGWOON（キンフリ）- 製造業・中小企業向けAIソリューション",
+    "description": "KANGWOONは製造業と中小企業向けにAIエージェント、RAG、sLLMなどのカスタマイズAIソリューションを提供し、生産性向上とコスト削減を実現します。",
+    "keywords": "KANGWOON, キンフリ, AIソリューション, 製造業AI, 中小企業DX, AIエージェント, RAG, sLLM, 人工知能",
+    "ogTitle": "KANGWOON - 製造業・中小企業のAI変革パートナー",
+    "ogDescription": "AIエージェント、RAG、sLLM技術で製造業の生産性を革新するKANGWOONのカスタマイズAIソリューションを体験してください。"
   }
 }

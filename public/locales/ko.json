@@ -828,7 +828,7 @@
       },
       "email": {
         "title": "이메일",
-        "address": "thinkcare@naver.com",
+        "address": "kangwooncp@gmail.com",
         "availability": "24시간 접수 가능"
       },
       "address": {
@@ -886,7 +886,7 @@
     "contactInfo": {
       "title": "연락처",
       "email": "이메일:",
-      "emailValue": "thinkcare@naver.com",
+      "emailValue": "kangwooncp@gmail.com",
       "phone": "전화:",
       "phoneValue": "010-4063-9062",
       "address": "주소:",
@@ -1102,7 +1102,7 @@
     "ogImage": "/images/og-image-ko.jpg",
     "twitterTitle": "강운 - AI 혁신의 파트너",
     "twitterDescription": "제조/중소기업 맞춤형 AI 솔루션으로 생산성 향상과 비용 절감을 실현하세요.",
-    "canonical": "https://kinfri.online/",
+    "canonical": "https://kangwoon.kr/",
     "author": "강운(KANGWOON)",
     "robots": "index, follow",
     "viewport": "width=device-width, initial-scale=1.0"
